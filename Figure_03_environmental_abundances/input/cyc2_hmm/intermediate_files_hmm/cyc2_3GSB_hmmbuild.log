@@ -1,0 +1,18 @@
+hmmbuild -O cyc2_3GSB.stk -n cyc2_3GSB --cpu 4 cyc2_3GSB.hmm cyc2_comparison_collection_3GSB_aligned.faa > cyc2_3GSB_hmmbuild.log
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             cyc2_comparison_collection_3GSB_aligned.faa
+# output HMM file:                  cyc2_3GSB.hmm
+# name (the single) HMM:            cyc2_3GSB
+# processed alignment resaved to:   cyc2_3GSB.stk
+# number of worker threads:         4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     cyc2_3GSB                3   431   411     0.50  0.589 
+
+# CPU time: 0.29u 0.00s 00:00:00.28 Elapsed: 00:00:00.30

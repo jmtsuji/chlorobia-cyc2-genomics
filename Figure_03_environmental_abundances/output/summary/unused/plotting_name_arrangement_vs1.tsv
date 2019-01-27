@@ -1,0 +1,58 @@
+domain	phylum	class	order	family	genus	plotting_name	type	cyc2	dsrA	bchL
+Archaea	Halobacterota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	Methanoregula	Methanoregula (f__Methanoregulaceae)	a_genus	NA	NA	NA
+Archaea	Halobacterota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	Unresolved	Unresolved (f__Methanoregulaceae)	a_genus	NA	NA	NA
+Archaea	Halobacterota	Methanosarcinia	Methanotrichales	Methanotrichaceae	Methanothrix	Methanothrix (f__Methanotrichaceae)	a_genus	NA	NA	NA
+Bacteria	Acidobacteriota	Holophagae	Holophagales	Holophagaceae	Geothrix	Geothrix (f__Holophagaceae)	a_genus	NA	NA	NA
+Bacteria	Acidobacteriota	Holophagae	Holophagales	Holophagaceae	Unresolved	Unresolved (f__Holophagaceae)	a_genus	NA	NA	NA
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	GCA-2748065	Unresolved	Unresolved (f__GCA-2748065)	a_genus	NA	NA	NA
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Lentimicrobiaceae	UBA4417	UBA4417 (f__Lentimicrobiaceae)	a_genus	NA	NA	NA
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Lentimicrobiaceae	Unresolved	Unresolved (f__Lentimicrobiaceae)	a_genus	NA	NA	NA
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Paludibacteraceae	Paludibacter	Paludibacter (f__Paludibacteraceae)	a_genus	NA	NA	NA
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Unresolved	Unresolved	Unresolved (f__Unresolved)	a_genus	NA	NA	NA
+Bacteria	Bacteroidota	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobium	Chlorobium (f__Chlorobiaceae)	a_genus	NA	NA	NA
+Bacteria	Chloroflexota	Chloroflexia	Chloroflexales	Chloroflexaceae	Oscillochloris	Oscillochloris (f__Chloroflexaceae)	a_genus	NA	NA	NA
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfatirhabdiaceae	RAAP-1	RAAP-1 (f__Desulfatirhabdiaceae)	a_genus	NA	NA	NA
+Bacteria	Elusimicrobiota	Elusimicrobia	Elusimicrobiales	UBA9959	Unresolved	Unresolved (f__UBA9959)	a_genus	NA	NA	NA
+Bacteria	Myxococcota	Myxococcia	Myxococcales	Anaeromyxobacteraceae	Unresolved	Unresolved (f__Anaeromyxobacteraceae)	a_genus	NA	NA	NA
+Bacteria	Planctomycetota	Phycisphaerae	Phycisphaerales	SM1A02	Unresolved	Unresolved (f__SM1A02)	a_genus	NA	NA	NA
+Bacteria	Proteobacteria	Alphaproteobacteria	Azospirillales	Azospirillaceae	Unresolved	Unresolved (f__Azospirillaceae)	a_genus	NA	NA	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Rhodoferax	Rhodoferax (f__Burkholderiaceae)	a_genus	NA	NA	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Gallionellaceae	Gallionella	Gallionella (f__Gallionellaceae)	a_genus	NA	NA	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Gallionellaceae	UBA7399	UBA7399 (f__Gallionellaceae)	a_genus	NA	NA	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Rhodocyclaceae	Sulfuritalea	Sulfuritalea (f__Rhodocyclaceae)	a_genus	NA	NA	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	KS41	KS41 (f__Methylomonadaceae)	a_genus	NA	NA	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	UBA10906	UBA10906 (f__Methylomonadaceae)	a_genus	NA	NA	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Steroidobacterales	Steroidobacteraceae	Unresolved	Unresolved (f__Steroidobacteraceae)	a_genus	NA	NA	NA
+Bacteria	Verrucomicrobiota	Kiritimatiellae	RFP12	UBA1067	Unresolved	Unresolved (f__UBA1067)	a_genus	NA	NA	NA
+Bacteria	Verrucomicrobiota	Kiritimatiellae	RFP12	Unresolved	Unresolved	Unresolved (f__Unresolved)	a_genus	NA	NA	NA
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Chthoniobacterales	Chthoniobacteraceae	UBA695	UBA695 (f__Chthoniobacteraceae)	a_genus	NA	NA	NA
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	Pedosphaeraceae	Unresolved	Unresolved (f__Pedosphaeraceae)	a_genus	NA	NA	NA
+Archaea	Halobacterota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	Unresolved	L227 2014 8m Bin 9 (90.63/10.62/42.11); f__Methanoregulaceae; g__Unresolved	b_genome	NA	NA	1
+Archaea	Halobacterota	Methanosarcinia	Methanotrichales	Methanotrichaceae	Methanothrix	L227 2013 Bin 30 (99.35/0/0); f__Methanotrichaceae; g__Methanothrix	b_genome	NA	NA	1
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Lentimicrobiaceae	Unresolved	L227 enrichment S-6D Bin 3 (98.92/1.88/0); f__Lentimicrobiaceae; g__Unresolved	b_genome	NA	NA	1
+Bacteria	Bacteroidota	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobium	L227 2013 Bin 22 (98.5/2.75/0); f__Chlorobiaceae; g__Chlorobium	b_genome	NA	NA	3
+Bacteria	Bacteroidota	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobium	L227 2013 Bin 55 (97.39/0.11/0); f__Chlorobiaceae; g__Chlorobium	b_genome	NA	1	3
+Bacteria	Bacteroidota	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobium	L227 2013 Bin 56 (96.7/0.57/0); f__Chlorobiaceae; g__Chlorobium	b_genome	1	NA	3
+Bacteria	Bacteroidota	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobium	L227 2014 Bin 106 (91.14/67.16/79.37); f__Chlorobiaceae; g__Chlorobium	b_genome	NA	2	5
+Bacteria	Bacteroidota	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobium	L227 2014 Bin 92 (77.45/27.64/79.73); f__Chlorobiaceae; g__Chlorobium	b_genome	2	NA	3
+Bacteria	Bacteroidota	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobium	L227 enrichment S-6D GSB (99.45/0.27/100); f__Chlorobiaceae; g__Chlorobium	b_genome	1	1	4
+Bacteria	Bacteroidota	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobium	L304 enrichment S-6D GSB (99.45/0/0); f__Chlorobiaceae; g__Chlorobium	b_genome	1	1	3
+Bacteria	Bacteroidota	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobium	L442 2011 16.5m Bin 8 (89.08/3.32/23.08); f__Chlorobiaceae; g__Chlorobium	b_genome	NA	1	2
+Bacteria	Bacteroidota	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobium	L442 Bin 64 (90.11/0/0); f__Chlorobiaceae; g__Chlorobium	b_genome	NA	1	3
+Bacteria	Bacteroidota	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobium	L442 Bin 74 (91.76/4.12/25); f__Chlorobiaceae; g__Chlorobium	b_genome	NA	NA	3
+Bacteria	Chloroflexota	Chloroflexia	Chloroflexales	Chloroflexaceae	Oscillochloris	L442 Bin 82 (92.92/1.24/0); f__Chloroflexaceae; g__Oscillochloris	b_genome	NA	NA	1
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfatirhabdiaceae	RAAP-1	L227 2014 6m Bin 6 (93.23/0.65/0); f__Desulfatirhabdiaceae; g__RAAP-1	b_genome	NA	1	1
+Bacteria	Desulfobacterota	Syntrophia	Syntrophales	Smithellaceae	Unresolved	L227 2014 Bin 24 (93.51/0.65/0); f__Smithellaceae; g__Unresolved	b_genome	NA	1	NA
+Bacteria	Proteobacteria	Alphaproteobacteria	Azospirillales	Azospirillaceae	Unresolved	L227 2013 Bin 13 (97.14/1.32/0); f__Azospirillaceae; g__Unresolved	b_genome	NA	NA	1
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Rhodoferax	L442 Bin 2 (85.93/0/0); f__Burkholderiaceae; g__Rhodoferax	b_genome	2	NA	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Rhodoferax	L442 Bin 63 (78.47/4.12/54.17); f__Burkholderiaceae; g__Rhodoferax	b_genome	NA	1	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Gallionellaceae	Gallionella	L442 Bin 70 (93.81/0.56/0); f__Gallionellaceae; g__Gallionella	b_genome	1	NA	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Rhodocyclaceae	Sulfuritalea	L442 2011 16.5m Bin 6 (94.2/1.64/0); f__Rhodocyclaceae; g__Sulfuritalea	b_genome	NA	1	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	KS41	L227 2013 8m Bin 1 (95.74/1.61/25); f__Methylomonadaceae; g__KS41	b_genome	1	NA	1
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	KS41	L442 2011 16.5m Bin 5 (89.62/1.3/25); f__Methylomonadaceae; g__KS41	b_genome	1	NA	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	UBA10906	L227 2014 6m Bin 13 (93.71/1.1/20); f__Methylomonadaceae; g__UBA10906	b_genome	1	NA	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	UBA10906	L442 2011 16.5m Bin 7 (87.04/2.88/50); f__Methylomonadaceae; g__UBA10906	b_genome	1	NA	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	UBA10906	L442 Bin 71 (81.11/5.32/51.35); f__Methylomonadaceae; g__UBA10906	b_genome	1	NA	1
+Bacteria	Proteobacteria	Gammaproteobacteria	Steroidobacterales	Steroidobacteraceae	Unresolved	L442 Bin 75 (94.44/3.33/0); f__Steroidobacteraceae; g__Unresolved	b_genome	1	NA	NA
+Bacteria	Proteobacteria	Gammaproteobacteria	Steroidobacterales	Steroidobacteraceae	Unresolved	L442 Bin 84 (95.04/3.27/6.67); f__Steroidobacteraceae; g__Unresolved	b_genome	2	NA	NA
+Bacteria	Verrucomicrobiota	Kiritimatiellae	RFP12	Unresolved	Unresolved	L442 2014 15m Bin 9 (78.56/22.12/0); f__Unresolved; g__Unresolved	b_genome	NA	NA	1

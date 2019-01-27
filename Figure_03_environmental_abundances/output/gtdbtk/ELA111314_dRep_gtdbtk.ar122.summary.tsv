@@ -1,0 +1,4 @@
+user_genome	classification	fastani_reference	fastani_taxonomy	fastani_ani	fastani_af	closest_placement_reference	closest_placement_taxonomy	closest_placement_ani	closest_placement_af	classification_method	note	other_related_references(genome_id,species_name,ANI,AF)
+CA-L227-2013.30	d__Archaea;p__Halobacterota;c__Methanosarcinia;o__Methanotrichales;f__Methanotrichaceae;g__Methanothrix;s__	None	None	None	None	None	None	None	None	taxonomic classification fully defined by topology	None	None
+L227-2013-8m.005	d__Archaea;p__Halobacterota;c__Methanomicrobia;o__Methanomicrobiales;f__Methanoregulaceae;g__Methanoregula;s__	None	None	None	None	None	None	None	None	taxonomic classification fully defined by topology	None	None
+L227-2014-8m.009	d__Archaea;p__Halobacterota;c__Methanomicrobia;o__Methanomicrobiales;f__Methanoregulaceae;g__;s__	None	None	None	None	None	None	None	None	taxonomic classification fully defined by topology	None	None

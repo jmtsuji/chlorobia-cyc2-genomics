@@ -1,0 +1,9 @@
+Using 4 threads
+Read 3 sequences (type: Protein) from cyc2_comparison_collection_3GSB_unaligned.faa
+not more sequences (3) than cluster-size (100), turn off mBed
+Calculating pairwise ktuple-distances...
+Ktuple-distance calculation progress: 0 % (0 out of 6)Ktuple-distance calculation progress: 16 % (1 out of 6)Ktuple-distance calculation progress: 50 % (3 out of 6)Pairwise distance matrix written to cyc2_comparison_collection_3GSB_aligned_distmat.txt
+Ktuple-distance calculation progress done. CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00
+Guide-tree computation done.
+Progressive alignment progress: 50 % (1 out of 2)Progressive alignment progress: 100 % (2 out of 2)Progressive alignment progress done. CPU time: 0.18u 0.00s 00:00:00.18 Elapsed: 00:00:00
+Alignment written to cyc2_comparison_collection_3GSB_aligned.faa

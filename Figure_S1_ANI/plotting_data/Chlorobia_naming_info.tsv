@@ -1,0 +1,21 @@
+fastani_name	tree_name	plotting_name
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/C_chlorochromatii_CaD3_genome.fa	Chl_chlorochromatii_CaD3	Chl. chlorochromatii CaD3
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/C_ferrooxidans_DSM_13031_genome.fa	Chl_ferrooxidans_KoFox_DSM_13031	Chl. ferrooxidans KoFox DSM 13031
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/C_limicola_DSM_245_genome.fa	Chl_limicola_DSM_245	Chl. limicola DSM 245
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/C_luteolum_DSM_273_genome.fa	Chl_luteolum_DSM_273	Chl. luteolum DSM 273
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/C_parvum_NCIB_8327_genome.fa	Cba_parvum_NCIB_8327	Cba. parvum NCIB 8327
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/C_phaeobacteroides_BS1_genome.fa	Chl_phaeobacteroides_BS1	Chl. phaeobacteroides BS1
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/C_phaeobacteroides_DSM_266_genome.fa	Chl_phaeobacteroides_DSM_266	Chl. phaeobacteroides DSM 266
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/C_phaeoferrooxidans_genome.fa	Chl_phaeoferrooxidans_KB01	Chl. phaeoferrooxidans KB01
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/C_phaeovibrioides_DSM_265_genome.fa	Chl_phaeovibrioides_DSM_265	Chl. phaeovibrioides DSM 265
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/C_tepidum_TLS_genome.fa	Chl_tepidum_TLS	Chl. tepidum TLS
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/C_thalassium_ATCC_35110_genome.fa	Che_thalassium_ATCC_35110	Che. thalassium ATCC 35110
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/Ignavibacterium_album_JCM_16511_genome.fa	Ignavibacterium_album_JCM_16511_outgroup	Ignavibacterium album JCM 16511 (outgroup)
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/L227_2013_bin22.fa	L227_2013_bin_22	L227 2013 bin 22
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/L227_2013_bin55.fa	L227_2013_bin_55	L227 2013 bin 55
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/L227_2013_bin56.fa	L227_2013_bin_56	L227 2013 bin 56
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/L227_enr_S_6D_bin01.fa	L227_enrichment_S_6D	L227 enrichment S-6D
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/L304_enr_S_6D_bin01.fa	L304_enrichment_S_6D	L304 enrichment S-6D
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/L442_2011_2014_bin64.fa	L442_bin_64	L442 bin 64
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/P_aestuarii_DSM_271_genome_andPlasmid.fa	Ptc_aestuarii_DSM_271	Ptc. aestuarii DSM 271
+/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/14_ANI/01_input/P_phaeoclathratiforme_BU_1_genome.fa	Chl_clathratiforme_BU_1	Chl. clathratiforme BU-1

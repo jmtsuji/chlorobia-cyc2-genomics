@@ -1,0 +1,5 @@
+genome	completeness	contamination	strain_heterogeneity	taxonomy_contained	taxonomy_sister_lineage
+L304_S_6D.001.fasta	99.43	0.00	0.00	k__Bacteria;p__Chlorobi;c__Chlorobia;o__Chlorobiales;f__Chlorobiaceae;g__Pelodictyon	unresolved
+L227_S_6D.001.fasta	99.45	1.01	33.33	k__Bacteria;p__Chlorobi;c__Chlorobia;o__Chlorobiales;f__Chlorobiaceae;g__Pelodictyon	s__Pelodictyon_phaeoclathratiforme
+L227_S_6D.002.fasta	97.31	1.88	0.00	k__Bacteria;p__Bacteroidetes	c__Bacteroidia;o__Bacteroidales
+L227_S_6D.003.fasta	98.92	1.88	0.00	k__Bacteria;p__Bacteroidetes	c__Bacteroidia;o__Bacteroidales
