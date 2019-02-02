@@ -1,19 +1,16 @@
-# ABOUT IISD-ELA Chlorobia cyc2 project
+# ABOUT IISD-ELA _Chlorobia_ _cyc2_ genomics project
 Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
 
-This Zenodo repository describes the steps/code used to perform bioinformatics analysis for the paper by Tsuji and colleagues, 2019 (see [preprint here](_____)). Descriptor files in this repo are in the Markdown (`.md`) format and begin with `ABOUT`. Other files include scripts and raw data files. The information is organized as follows:
+This Zenodo repository describes the steps/code used to perform bioinformatics analysis for the paper by Tsuji and colleagues, 2019 (see [preprint here](_____)). Descriptor files in this repo are in the Markdown (`.md`) format and begin with `README`. Other files include scripts and raw data files. The information is organized as follows:
 
-## `01_assembly_and_binning`
-This folder describes the protocol used to produce assembled contigs and genome bins from the raw metagenomic datasets used for this paper. Two separate assembly/binning runs were performed, described in `ABOUT_lake_metagenomes.md` and `ABOUT_enrichment_metagenomes.md` for the lake samples and enrichment cultures, respectively.
+## `Data_analysis_pipeline`
+This folder describes the protocol used to produce assembled contigs and genome bins from the raw metagenomic datasets used for this paper. Info is also present here on how to directly download the assembled metagenomes or genome bins rather than re-running from raw reads.
 
-## Folder `02_tables_and_figures`
-This folder describes the protocol used to generate each table and figure in the main manuscript. ABOUT files exist for each.
+## Tables and figures
+A unique folder exists for most main or supplementary tables/figures in the publication, e.g., `Figure_01_cyc2_genes`. These describe the steps required to analyze the data for the figure (assuming `Data_analysis_pipeline` has been run) and to generate a raw version of the figure for downstream editing.
 
-## Folder `03_supplemental_tables_and_figures`
-This folder describes the protocol used to generate each table, figure, or file in the supplementary materials not already described above. ABOUT files exist for each.
-
-## Folder `04_extra_files`
-This folder contains helpful supporting files outside those in the supplementary information, for users interested in the nitty gritty details of how the code was executed.
+## `Other`
+Some supplementary material did not warrant having its own folder, so it is grouped in the `Other` folder exactly as it would appear in the Supplementary Information on the journal website.
 
 I hope this is a helpful resource for the scientific community, both in the critique of my work and in further development of bioinformatics. Enjoy!
 Jackson M. Tsuji
