@@ -12,7 +12,7 @@ Sequencing was performed on an Illumina HiSeq 2500 with 2x200 bp reads (see Meth
 ```
 
 ## 2. Assembly via the ATLAS pipeline
-To install ATLAS 1.0.22:
+I ran ATLAS 1.0.22 in a Docker container. Docker is required as a prerequisite.
 ```
 
 ```

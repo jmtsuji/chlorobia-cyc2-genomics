@@ -1,0 +1,8 @@
+# ABOUT Supplementary File 1
+
+This ZIP folder contains two files:
+
+1. atlas_config_lake_metagenomes.yaml -- the ATLAS config file used for the Lake 227/442 metagenomes
+
+2. atlas_config_enrichments.yaml -- the ATLAS config file used for the enrichment culture metagenomes
+
