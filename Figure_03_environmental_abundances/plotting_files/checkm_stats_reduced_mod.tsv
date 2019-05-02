@@ -513,7 +513,7 @@ L442-2014-15m.030.fasta	74.14	32.27	0	k__Bacteria;p__Proteobacteria;c__Betaprote
 L442-2014-15m.031.fasta	63.6	44.2	4.21	k__Bacteria;p__Verrucomicrobia	c__Opitutae;o__Opitutales;f__Opitutaceae
 L442-2014-15m.032.fasta	0	0	0	NA	unresolved
 L442-2014-15m.033.fasta	0	0	0	NA	unresolved
-L304_S_6D_001_1-contigs.fasta	99.45	0	0	k__Bacteria;p__Chlorobi;c__Chlorobia;o__Chlorobiales;f__Chlorobiaceae;g__Pelodictyon	unresolved
-L227_S_6D_001_1-contigs.fasta	99.45	0.27	100	k__Bacteria;p__Chlorobi;c__Chlorobia;o__Chlorobiales;f__Chlorobiaceae;g__Pelodictyon	s__Pelodictyon_phaeoclathratiforme
+L304_S_6D_001_1-contigs.fasta	99.43	0	0	k__Bacteria;p__Chlorobi;c__Chlorobia;o__Chlorobiales;f__Chlorobiaceae;g__Pelodictyon	unresolved
+L227_S_6D_001_1-contigs.fasta	99.45	1.01	33.33	k__Bacteria;p__Chlorobi;c__Chlorobia;o__Chlorobiales;f__Chlorobiaceae;g__Pelodictyon	s__Pelodictyon_phaeoclathratiforme
 L227_S_6D.002.fasta	97.31	1.88	0	k__Bacteria;p__Bacteroidetes	c__Bacteroidia;o__Bacteroidales
 L227_S_6D.003.fasta	98.92	1.88	0	k__Bacteria;p__Bacteroidetes	c__Bacteroidia;o__Bacteroidales
