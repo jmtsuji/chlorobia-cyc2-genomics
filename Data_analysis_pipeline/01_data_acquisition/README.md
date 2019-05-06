@@ -4,7 +4,7 @@ Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
 All code here is to be run in a Bash terminal of a unix system (e.g., Ubuntu 16 or 18) unless indicated otherwise.
 
-## Define where you downloaded the Zenodo repo:
+## Define where you downloaded the Github repo:
 ```
 github_repo_location="/Analysis/jmtsuji/Chlorobia_cyc2_code"
 ```
