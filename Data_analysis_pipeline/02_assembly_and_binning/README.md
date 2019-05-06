@@ -4,9 +4,9 @@ Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
 All code here is to be run in a Bash terminal of a unix system (e.g., Ubuntu 16 or 18) unless indicated otherwise. Assumes you have already run code in `01_data_acquisition`. **WARNING: ONLY run this section of the code if you really want to perform several days' worth of sequencing assembly/annotation on your server!**
 
-## Define where you downloaded the Zenodo repo:
+## Define where you downloaded the Github repo:
 ```
-zenodo_repo_location="/Analysis/jmtsuji/Chlorobia_cyc2_code"
+github_repo_location="/Analysis/jmtsuji/Chlorobia_cyc2_code"
 ```
 
 ## Depdendencies and requirements
@@ -146,7 +146,6 @@ exit
 
 ## Some final notes
 - Your assemblies and bins will look different than in the paper because the algorithms are non-determininstic. Labels will also differ. Thus, the results are not directly cross-comparable.
-- If you want the assemblies from the paper, they can be downloaded from NCBI: ___TODO___
 
 Done! Next step is bin dereplication and cleanup.
 
