@@ -74,3 +74,7 @@ L227_2014_6m_bin_15,70_0,1,NA,NA,L227-2014-6m.015.fasta,63.2449349,1061761,12299
 L227_2013_bin_48,71_0,1,NA,NA,CA-L227-2013.48.fasta,67.39397036,2288262,6426,75.64,2.03,0,k__Bacteria,p__Lentisphaerae;c__Lentisphaeria;o__Victivallales;f__Victivallaceae;g__Victivallis;s__Victivallis_vadensis
 L442_bin_82,72_0,1,NA,NA,CA-L442.82.fasta,88.65040848,4569773,7258,92.92,1.24,0,k__Bacteria;p__Chloroflexi;c__Chloroflexi;o__Chloroflexales;f__Chloroflexaceae,f__Oscillochloridaceae;g__Oscillochloris;s__Oscillochloris_trichoides
 L442_bin_92,73_0,1,NA,NA,CA-L442.92.fasta,73.50456678,2975277,7747,82.41,2.17,0,k__Bacteria,p__Verrucomicrobia
+L304_S_6D_bin_1,x1_0,1,NA,NA,L304_S_6D.001.fasta,102.146895314187,2636381,271513,99.43,0,0,k__Bacteria;p__Chlorobi;c__Chlorobia;o__Chlorobiales;f__Chlorobiaceae;g__Pelodictyon,unresolved
+L227_S_6D_bin_1,x2_0,1,NA,NA,L227_S_6D.001.fasta,97.1433554719629,2623848,306698,99.45,1.01,33.33,k__Bacteria;p__Chlorobi;c__Chlorobia;o__Chlorobiales;f__Chlorobiaceae;g__Pelodictyon,s__Pelodictyon_phaeoclathratiforme
+L227_S_6D_bin_2,x3_0,1,NA,NA,L227_S_6D.002.fasta,90.4495127979846,5999759,119957,97.31,1.88,0,k__Bacteria;p__Bacteroidetes,c__Bacteroidia;o__Bacteroidales
+L227_S_6D_bin_3,x4_0,1,NA,NA,L227_S_6D.003.fasta,92.3229626657777,5660022,403576,98.92,1.88,0,k__Bacteria;p__Bacteroidetes,c__Bacteroidia;o__Bacteroidales
