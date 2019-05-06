@@ -6,7 +6,7 @@ All code here is to be run in a Bash terminal of a unix system (e.g., Ubuntu 16 
 
 ## Define where you downloaded the Zenodo repo:
 ```
-zenodo_repo_location="/Analysis/jmtsuji/Chlorobia_cyc2_code"
+github_repo_location="/Analysis/jmtsuji/Chlorobia_cyc2_code"
 ```
 
 ## Software prerequisites
@@ -20,7 +20,7 @@ conda create -y -n sra_download -c bioconda sra-tools bbmap
 Use this environment via `conda activate sra_download` (as shown below).
 
 
-## Part A: Lake metagenomes
+## Part A: Unassembled lake metagenomes
 ### 1. Data access
 Sequencing was performed on an Illumina HiSeq 2500 with 2x200 bp reads (see Methods). Raw reads for the project can be downloaded from NCBI. The `sra_toolkit` needs to be installed, along with the BBTools suite for reformating the data. See the conda code above for this.
 
@@ -54,11 +54,11 @@ echo "[ $(date -u) ]: Downloading '${sample_ID}' from '${accession}'"
 fastq-dump --stdout --split-spot ${accession} 2>${accession}.log | reformat.sh in=stdin.fastq int=t verifypaired=t out1="${sample_ID}_R1.fastq.gz" out2="${sample_ID}_R2.fastq.gz" 2>>${accession}.log
 done
 
-# WARNING! This might not work if the R1 and R2 reads are different lengths... but I know that my data is okay.
+# WARNING! This might not work if the R1 and R2 reads are different lengths, for other datasets. The dataset used in this paper should be okay.
 ```
 
 
-## Part B: Enrichment cultures
+## Part B: Unassembled enrichment culture metagenomes
 ### 1. Data access
 Sequencing was performed on an Illumina HiSeq 2500 with 2x125 bp reads (see Methods). Raw reads for the project can be downloaded from NCBI as above.
 
@@ -92,8 +92,16 @@ echo "[ $(date -u) ]: Downloading '${sample_ID}' from '${accession}'"
 fastq-dump --stdout --split-spot ${accession} 2>${accession}.log | reformat.sh in=stdin.fastq int=t verifypaired=t out1="${sample_ID}_R1.fastq.gz" out2="${sample_ID}_R2.fastq.gz" 2>>${accession}.log
 done
 
-# WARNING! This might not work if the R1 and R2 reads are different lengths... but I know that my data is okay.
+# WARNING! This might not work if the R1 and R2 reads are different lengths, for other datasets. The dataset used in this paper should be okay.
 ```
 
-Done! Next step is assembly and binning.
+After running Parts A and B, you will be ready to run the assembly and binning pipeline. Otherwise, if you want direct access to the genome bins, see below.
 
+## Part C: *Chlorobia* genome bins on NCBI
+
+UNFINISHED
+
+## Part D: Uncurated genome bins from the sequencing project
+A number of additional genome bins were generated for this project that have not been manually curated. You'll see some stats on these in Figure 3 of the manuscript, for example. Although we did not deposit these on NCBI (we plan a future paper that will properly analyze and deposit the bins), they can be downloaded from a Zenodo repo.
+
+UNFINISHED
