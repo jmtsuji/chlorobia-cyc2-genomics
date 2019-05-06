@@ -1,48 +1,28 @@
 # ABOUT assembly and binning of lake metagenome samples
-Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
+Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
 ## How this folder works
-This folder of the project contains the code that I used to do most of the heavy-lifting of metagenomic data analysis, along with a few support files. If you follow along with the code as given in each sub-module's `README.md` file, you should be able to reproduce my results.
+This folder contains the code that I used to do most of the heavy-lifting of metagenomic data analysis, along with a few support files. If you follow along with the code as given in each sub-module's `README.md` file, you should be able to reproduce my results.
+
+The folder also contains instructions for how to download the raw metagenomic reads or genome bins from the project (see `01_data_acquisition`).
 
 ## How do I use this folder?
-Clone the whole repo onto your Linux server, change the `zenodo_repo_location` variable at the top of each submodule's `README.md` file, and then run the code as-is. Each step in the pipeline will be executed within the repo folder. Running the code here will download the metagenomes (`01_data_acquisition`), assemble/bin them (`02_assembly_and_binning`), and dereplicate them and import them for curation (`03_bin_curation`).
+To just download the raw reads: run the code in the `README.md` file in `01_data_acquisition`.
 
-## Do I want to run your code on my server?
-Probably not. The whole process requires at least ~100 GB of RAM and at least a week of compute time. The main reason for me including the code here is for readers to understand the workflow that I used, not necessarily to re-run it themselves. __In fact, I expect much of the code here to become obsolete within the next few weeks/months as ATLAS and other metagenomics pipelines continue to improve.__ So even if you want to run similar analyses to mine, I would recommend trying (ATLAS version 2)[https://github.com/metagenome-atlas/atlas] as soon as it is available rather than reproducing my workflow.
+To run the assembly/binning pipeline: clone the whole repo onto your Linux server, change the `github_repo_location` variable at the top of each submodule's `README.md` file, and then run the code as-is. Each step in the pipeline will be executed within the repo folder. Running the code end-to-end will download the metagenomes (`01_data_acquisition`), assemble/bin them (`02_assembly_and_binning`), and dereplicate them and import them for curation (`03_bin_curation`).
 
-## Requirements to run the code
+## Intended usage
+I made my assembly/binning code available so that users/readers and understand and check my code, not so that users can copy this code for their own analyses or re-run my analysis end-to-end. Some reasoning:
+
+- I expect much of this workflow to become obsolete in the coming months. Much of what the code I wrote accomplishes is already built into the latest version of the ATLAS pipeline (2.0.6; I was working with 1.0.22 for this publication). I would recommend trying (ATLAS2)[https://github.com/metagenome-atlas/atlas] rather than modifying my workflow for your data.
+- Re-running my analyses end-to-end would be interesting, but keep in mind that it will take at least ~100 GB of RAM possibly a week or more of compute time!
+
+## Requirements to run the code end to end
 - All code here is to be run in a Bash terminal of a unix system (e.g., Ubuntu 16 or 18) unless indicated otherwise
 - You'll need at least ~300 GB of storage, ~100 GB of RAM, and possibly a week or two of compute time (e.g., on 12 threads)
 - The only depedencies are `conda` (recommended is `miniconda3`) and `docker`
 - I've tried to write this documentation to be accessible to an 'early intermediate'-level Bash coder with knowledge of metagenomics
-
-## To just get the data
-You might want to skip all this and just access the data itself. I've uploaded data from several steps along the pipeline for ease of public use.
-
-### A. The raw reads
-Follow the code in the `01_data_acquisition` folder to get the raw metagenomic reads (Illumina).
-
-### B. The assembled metagenomes
-Assembled metagenomes have been deposited at ___TODO___
-
-```
-
-```
-
-### C. Curated Chlorobia bins
-Curated _Chlorobia_ bins have been deposited at ___TODO___
-
-```
-
-```
-
-### D. All the bins
-I did not upload all of the bins onto NCBI because they have not been curated and may contain contaminants. However, they are available in the (Zenodo repository at this link)[]. Download them by:
-
-```
-
-```
 
 ## Conclusions
 I hope this is helpful to you! Please see the other folders is this repo for code used to analyze the metagenomes/bins and figure generation.
