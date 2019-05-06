@@ -146,6 +146,7 @@ exit
 
 ## Some final notes
 - Your assemblies and bins will look different than in the paper because the algorithms are non-determininstic. Labels will also differ. Thus, the results are not directly cross-comparable.
+- If you just want the pre-generated genome bins used in the analyses of the manuscript, see the README.md file in `01_data_acquisition` for download instructions.
 
 Done! Next step is bin dereplication and cleanup.
 
