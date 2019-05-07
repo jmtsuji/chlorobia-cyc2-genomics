@@ -30,7 +30,7 @@ Sequencing was performed on an Illumina HiSeq 2500 with 2x200 bp reads (see Meth
 conda activate sra_download
 
 # Load the info table
-download_info_dir=${zenodo_repo_location}/Data_analysis_pipeline/01_data_acquisition
+download_info_dir=${github_repo_location}/Data_analysis_pipeline/01_data_acquisition
 cd ${download_info_dir}
 lake_metagenome_info_filename="srr_accessions_lake_metagenomes.tsv"
 
@@ -68,7 +68,7 @@ Sequencing was performed on an Illumina HiSeq 2500 with 2x125 bp reads (see Meth
 conda activate sra_download
 
 # Load the info table
-download_info_dir=${zenodo_repo_location}/Data_analysis_pipeline/01_data_acquisition
+download_info_dir=${github_repo_location}/Data_analysis_pipeline/01_data_acquisition
 cd ${download_info_dir}
 enrichment_info_filename="srr_accessions_enrichment_cultures.tsv"
 

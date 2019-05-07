@@ -20,7 +20,7 @@ github_repo_location="/Analysis/jmtsuji/Chlorobia_cyc2_code"
 docker pull jmtsuji/atlas-extensions:1.0.22-coassembly-r3
 
 # Download the Git repo and get the wrapper
-cd ${zenodo_repo_location}/Data_analysis_pipeline/02_assembly_and_binning
+cd ${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning
 wget https://github.com/jmtsuji/atlas-extensions/archive/1.0.22-coassembly-r3.tar.gz
 tar -xzf 1.0.22-coassembly-r3.tar.gz
 mv atlas-extensions-1.0.22-coassembly-r3/enter-atlas-coassembly .
@@ -28,11 +28,11 @@ rm -r atlas-extensions-1.0.22-coassembly-r3 1.0.22-coassembly-r3.tar.gz
 
 # Download the databases
 # **I recommend starting a screen/byobu/tmux session that you can pull out of after starting the download command -- will take several hours.
-atlas_database_dir="${zenodo_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/atlas_databases_1.0.22"
-output_dir="${zenodo_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/lake_metagenomes"
+atlas_database_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/atlas_databases_1.0.22"
+output_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/lake_metagenomes"
 mkdir -p ${atlas_database_dir} ${output_dir}
 
-cd ${zenodo_repo_location}/Data_analysis_pipeline/02_assembly_and_binning
+cd ${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning
 ./enter-atlas-coassembly ${atlas_database_dir} ${output_dir}
 # You now enter the ATLAS container, like a virtual machine inside of your computer. You are root -- be careful!
 
@@ -49,9 +49,9 @@ Important note: sometime in 2017 or 2018, the conda install of prokka 1.12 stopp
 ## Part A: Lake metagenomes
 Get everything ready:
 ```
-input_data_dir="${zenodo_repo_location}/Data_analysis_pipeline/01_data_acquisition/lake_metagenomes"
-atlas_database_dir="${zenodo_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/atlas_databases_1.0.22"
-output_dir="${zenodo_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/lake_metagenomes"
+input_data_dir="${github_repo_location}/Data_analysis_pipeline/01_data_acquisition/lake_metagenomes"
+atlas_database_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/atlas_databases_1.0.22"
+output_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/lake_metagenomes"
 
 # Make the output directory for the assembly
 mkdir -p ${output_dir}/tmp
@@ -83,8 +83,8 @@ exit
 
 Now perform the three coassemblies, using standard assembly data as input. **I recommend starting a screen/byobu/tmux session that you can pull out of after starting the download command -- could take several days.** A wrapper around the ATLAS pipeline, [co-assembly.sh](https://github.com/jmtsuji/atlas-extensions/blob/master/co-assembly.sh) (version `1.0.22-coassembly-r3`), is used to perform co-assembly and is runnable via Docker container. The workflow is described in the Methods section of the paper. To start the Docker container:
 ```
-atlas_database_dir="${zenodo_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/atlas_databases_1.0.22"
-output_dir="${zenodo_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/lake_metagenomes"
+atlas_database_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/atlas_databases_1.0.22"
+output_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/lake_metagenomes"
 
 cd ${output_dir}
 ./enter-atlas-coassembly ${atlas_database_dir} ${output_dir}
@@ -112,9 +112,9 @@ This feels a lot like working with the lake metagenomes above, except that only 
 
 Get everything ready:
 ```
-input_data_dir="${zenodo_repo_location}/Data_analysis_pipeline/01_data_acquisition/enrichment_metagenomes"
-atlas_database_dir="${zenodo_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/atlas_databases_1.0.22"
-output_dir="${zenodo_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/enrichment_metagenomes"
+input_data_dir="${github_repo_location}/Data_analysis_pipeline/01_data_acquisition/enrichment_metagenomes"
+atlas_database_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/atlas_databases_1.0.22"
+output_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/enrichment_metagenomes"
 
 # Make the output directory for the assembly
 mkdir -p ${output_dir}/tmp
