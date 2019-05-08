@@ -385,7 +385,7 @@ for genome_bin in ${genome_bins[@]}; do
     bin_base=${genome_bin%.fna}
     bin_base=${bin_base##*/}
 
-    prokka --outdir ${bin_base} --prefix ${bin_base} --locustag ${bin_base} --cpus ${threads} ${genome_bin}
+    prokka --outdir ${bin_base} --prefix ${bin_base} --cpus ${threads} ${genome_bin}
 
     num_tRNA=$(cut -d $'\t' -f 2 ${bin_base}/${bin_base}.tsv | grep "tRNA" | wc -l)
     printf "${bin_base}\t${num_tRNA}\n" >> ${out_dir}/tRNA_counts.tsv
