@@ -124,97 +124,290 @@ tbls_joined <- tbls_joined[,c(2,3,1,4:ncol(tbls_joined))]
 write.table(tbls_joined, file = "output/dRep_summary.csv", sep = ",", row.names = F, col.names = T, quote = F)
 quit(save = "no")
 ```
-The output table here was cleaned up to produce `Table_S1.csv`, a copy of which is included in this folder.
+The output table here was cleaned up to produce `Table_S1.csv`, a copy of which is included in the `01_dereplication` subfolder.
 
 
 ## Manual cleanup of selected bins
 All genome bins were imported into Anvi'o for subsequent manual cleanup of specific bins of interest. Bins of interest were seleted after the bin dereplication step based on taxonomy and CheckM stats (see manuscript).
 
 ### Lake metagenomes
-Genome bins were imported into anvi'o 4 using [atlas-to-anvi.sh](https://github.com/jmtsuji/atlas-extensions), version ____.
+Genome bins were imported into anvi'o 4 using [atlas-to-anvi.sh](https://github.com/jmtsuji/atlas-extensions), version 1.0.22-coassembly-r4.
 
 Create the conda environment with all dependencies installed:
 ```
-# TODO
+conda create -y -n atlas_to_anvi_r4 -c bioconda -c conda-forge -c r anvio=4 diamond bwa bbmap gffutils r r-plyr r-dplyr r-getopt
+git clone https://github.com/jmtsuji/atlas-extensions.git
+cd atlas-extensions
+git checkout 1.0.22-coassembly-r4
+cd ..
+cp atlas-extensions/parse*R atlas-extensions/atlas-to-anvi.sh ${CONDA_PREFIX}/bin
+rm -rf atlas-extensions
+```
+
+The first time you use the environment, you'll need to download the COGs:
+```
+conda activate atlas_to_anvi_r4
+anvi-setup-ncbi-cogs --just-do-it
 ```
 
 Import the bins:
 ```
 # User variables
-input_dir="${github_repo_location}/Data_analysis_pipeline/03_bin_curation/01_dereplication"
+atlas_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/lake_metagenomes"
 output_dir="${github_repo_location}/Data_analysis_pipeline/03_bin_curation/02_anvio"
+sample_IDs=(CA-L227-2013 CA-L227-2014 CA-L442)
 threads=12
 
-# TODO
+echo "[ $(date -u) ]: importing ${#sample_IDs[@]} samples into anvi'o"
+
+# Run samples in a loop:
+for sample_ID in ${sample_IDs[@]}; do
+
+    echo "[ $(date -u) ]: Importing sample '${sample}'"
+    echo "[ $(date -u) ]: atlas-to-anvi.sh ${atlas_dir} ${sample_ID} ${output_dir}/${sample_ID} ${threads} 2>&1 | tee ${output_dir}/${sample_ID}.log"
+    atlas-to-anvi.sh ${atlas_dir} ${sample_ID} ${output_dir}/${sample_ID} ${threads} 2>&1 | tee ${output_dir}/${sample_ID}.log
+
+done
+
+echo "[ $(date -u) ]: finished."
 ```
 
-You can then refine bins of interest (e.g., `___`) by running the following code and then working with the anvi'o browser interface:
+You can then refine bins of interest (e.g., `CA_L227_2013_55`) by running the following code and then working with the anvi'o browser interface:
 ```
-# TODO
+bin_dir="${output_dir}/CA_L227_2013"
+bin_name="CA_L227_2013_55"
+taxonomic_level="t_genus"
+cd ${bin_dir}
+# Make a backup copy of the DBs to keep a record of pre-refinement bins
+cp -r ${bin_dir##*/}_samples_merged ${bin_dir##*/}_samples_merged_BACKUP1_original
+cp ${bin_dir##*/}_contigs.db ${bin_dir##*/}_contigs_BACKUP1_original.db
+anvi-refine -p ${bin_dir##*/}_samples_merged/PROFILE.db -c ${bin_dir##*/}_contigs.db -C metabat2 -b ${bin_name} --taxonomic-level ${taxonomic_level} --title ${bin_name} -P 8080 --server-only
+
+# This will stream the refinement interface to port 8080 on your server. You can then access the refinement interface on your PC's web browser by going to http://[server_name OR ip_address]:8080
+# Alternatively, if running on your local machine, just remove '-P 8080 --server-only' and stream directly to your computer's web browser.
 ```
 
 Once finished, export the genome bin sequences using
 ```
-# TODO
+anvi-summarize -p ${bin_dir##*/}samples_merged/PROFILE.db -c ${bin_dir##*/}_contigs.db -C metabat2 -o ${bin_dir##*/}_summary_refined --taxonomic-level ${taxonomic_level} --init-gene-coverages 2>&1 | tee misc_logs/anvi-summarize-refined_lakes.log
+```
+
+I've included visual notes of how the bins were refined in `02_anvio/refinement_images`.
 ```
 
 ### Enrichment culture metagenomes
-Because enrichment cultures were sequenced later, they were refined using updated software. Anvi'o 5 was used with [atlas-to-anvi.sh](https://github.com/jmtsuji/atlas-extensions), version ____.
+Because enrichment cultures were sequenced later, they were refined using updated software. Anvi'o 5 was used with [atlas-to-anvi.sh](https://github.com/jmtsuji/atlas-extensions), commit 99b85ac.
 
 Create the conda environment with all dependencies installed:
 ```
-# TODO
+conda create -y -n atlas_to_anvi_99b85ac -c bioconda -c conda-forge -c r anvio=5 diamond bwa bbmap gffutils r r-plyr r-dplyr r-getopt
+git clone https://github.com/jmtsuji/atlas-extensions.git
+cd atlas-extensions
+git checkout 99b85ac
+cd ..
+cp atlas-extensions/parse*R atlas-extensions/atlas-to-anvi.sh ${CONDA_PREFIX}/bin
+rm -rf atlas-extensions
+```
+
+The first time you use the environment, you'll need to download the COGs:
+```
+conda activate atlas_to_anvi_99b85ac
+anvi-setup-ncbi-cogs --just-do-it
 ```
 
 Import the bins:
 ```
 # User variables
-input_dir="${github_repo_location}/Data_analysis_pipeline/03_bin_curation/01_dereplication"
+atlas_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/enrichment_metagenomes"
 output_dir="${github_repo_location}/Data_analysis_pipeline/03_bin_curation/02_anvio"
+sample_IDs=(L227_S_6D L304_S_6D)
 threads=12
 
-# TODO
+echo "[ $(date -u) ]: importing ${#sample_IDs[@]} samples into anvi'o"
+
+# Run samples in a loop:
+for sample_ID in ${sample_IDs[@]}; do
+    echo "[ $(date -u) ]: Importing sample '${sample}'"
+    echo "[ $(date -u) ]: Creating mapping guide file"
+
+    # Make the guide file
+    mkdir -p "${output_dir}/mapping_guides"
+    mapping_guide_filepath="${output_dir}/mapping_guides/${sample_ID}.tsv"
+    raw_read_basepath="${atlas_dir}/sequence_quality_control/${sample_ID}_QC"
+    printf "sample_name\traw_reads_filepaths\n" > ${mapping_guide_filepath}
+    printf "${sample_ID}\t${raw_read_basepath}_R1.fastq.gz,${raw_read_basepath}_R2.fastq.gz,${raw_read_basepath}_se.fastq.gz\n" >> ${mapping_guide_filepath}
+
+    echo "[ $(date -u) ]: Mapping guide file finished"
+
+    echo "[ $(date -u) ]: Importing to anvio"
+    echo "[ $(date -u) ]: atlas-to-anvi.sh normal ${atlas_dir} ${sample_ID} ${output_dir}/${sample_ID} ${threads} ${mapping_guide_filepath} 2>&1 | tee ${output_dir}/${sample_ID}.log"
+    atlas-to-anvi.sh normal ${atlas_dir} ${sample_ID} ${output_dir}/${sample_ID} ${threads} ${mapping_guide_filepath} > ${output_dir}/${sample_ID}.log 2>&1
+    echo "[ $(date -u) ]: Import finished"
+
+done
+
+echo "[ $(date -u) ]: Finished."
 ```
 
-You can then refine bins of interest (e.g., `___`) by running the following code and then working with the anvi'o browser interface:
+You can then refine bins of interest (e.g., `L227_S_6D_001`) by running the following code and then working with the anvi'o browser interface:
 ```
-# TODO
+bin_dir="${output_dir}/L227_S_6D"
+bin_name="L227_S_6D_001"
+taxonomic_level="t_family"
+cd ${bin_dir}
+# Make a backup copy of the DBs to keep a record of pre-refinement bins
+cp -r ${bin_dir##*/}_samples_merged ${bin_dir##*/}_samples_merged_BACKUP1_original
+cp ${bin_dir##*/}_contigs.db ${bin_dir##*/}_contigs_BACKUP1_original.db
+anvi-refine -p ${bin_dir##*/}_samples_merged/PROFILE.db -c ${bin_dir##*/}_contigs.db -C metabat2 -b ${bin_name} --taxonomic-level ${taxonomic_level} --title ${bin_name} -P 8080 --server-only
+
+# This will stream the refinement interface to port 8080 on your server. You can then access the refinement interface on your PC's web browser by going to http://[server_name OR ip_address]:8080
+# Alternatively, if running on your local machine, just remove '-P 8080 --server-only' and stream directly to your computer's web browser.
 ```
 
 Once finished, export the genome bin sequences using
 ```
-# TODO
+anvi-summarize -p ${bin_dir##*/}samples_merged/PROFILE.db -c ${bin_dir##*/}_contigs.db -C metabat2 -o ${bin_dir##*/}_summary_refined --taxonomic-level ${taxonomic_level} --init-gene-coverages 2>&1 | tee misc_logs/anvi-summarize-refined_enrichments.log
 ```
 
+I've included visual notes of how the bins were refined in `02_anvio/refinement_images`.
 
 ## Contig ordering via mauve
 Contigs for the manually curated genomes were ordered based on the reference genome sequence of *Chlorobium luteolum*. The re-ordering does not actually affect the downstream analyses of this paper but is good practice in some cases (e.g., for comparing gene arrangement).
 
-Installed the mauve contig mover (a bit difficult - not possible via conda):
+Installed the mauve contig mover (a bit difficult - not possible directly via conda; **note that Java and seqtk are dependencies**):
 ```
-# TODO
+work_dir="${github_repo_location}/Data_analysis_pipeline/03_bin_curation/03_contig_ordering"
+
+mkdir -p "${work_dir}"
+cd "${work_dir}"
+
+## Downloaded the mauve java app
+wget http://darlinglab.org/mauve/snapshots/2015/2015-02-13/linux-x64/mauve_linux_snapshot_2015-02-13.tar.gz
+tar -xvzf mauve_linux_snapshot_2015-02-13.tar.gz
+# This makes a folder called 'mauve_snapshot_2015-02-13'
+rm mauve_linux_snapshot_2015-02-13.tar.gz
+# Now Mauve.jar is at 'mauve_snapshot_2015-02-13/Mauve.jar'
+
+## Downloaded progressiveMauve (also 2015-02-13 snapshot) and added to PATH
+wget http://darlinglab.org/mauve/snapshots/2015/2015-02-13/linux-x64/progressiveMauve.bz2
+bunzip2 progressiveMauve.bz2
+chmod 755 progressiveMauve
+sudo mv progressiveMauve /usr/local/bin # requires sudo!
+
+# Prep for copying genomes
+mkdir -p "${work_dir}/input_genomes"
 ```
 
-Got the curated genome bins (manually -- see instructions below)
-```
-# These should be in ${github_repo_location}/Data_analysis_pipeline/03_bin_curation/02_anvio/summarize if you made them youself.
+Then, you must **manually** copy all refined genome bins into `${work_dir}/input_genomes`.
 
-# Place the genome bins into the folder ${github_repo_location}/Data_analysis_pipeline/03_bin_curation/03_curated_bins/unordered
-# You'll have to create this folder
+Download the *Chl. luteolum* reference genome
 ```
+mkdir -p "${work_dir}/reference_genome"
+cd "${work_dir}/reference_genome"
 
-Downloaded *Chl. luteolum* genome
-```
-download_dir=""${github_repo_location}/Data_analysis_pipeline/03_bin_curation/03_curated_bins/reference"
-luteolum_accession=
-
-# TODO
+luteolum_fna_URL="ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/012/485/GCF_000012485.1_ASM1248v1/GCF_000012485.1_ASM1248v1_genomic.fna.gz"
+wget -O - ${luteolum_fna_URL} | gunzip > Chl_luteolum_DSM_273_genome.fa
 ```
 
-Ordered the contigs
+Run the Mauve Contig Mover
 ```
-# TODO
+# User variables
+input_dir="${work_dir}/input_genomes"
+output_dir="${work_dir}/ordered_genomes/original"
+ref="${work_dir}/reference_genome/Chl_luteolum_DSM_273_genome.fa"
+mauve_path="${work_dir}/mauve_snapshot_2015-02-13/Mauve.jar"
+
+mkdir -p "${output_dir}" "${output_dir}../final"
+
+draft_genomes=($(find ${input_dir} -maxdepth 1 -type f -iname "*.fa" | sort -h))
+
+# Startup messages
+echo "[ $(date -u) ]: Ordering contigs for ${#draft_genomes[@]} genomes"
+
+for draft_genome in ${draft_genomes[@]}; do
+
+# Set variables
+base_name=${draft_genome%.*}
+base_name=${base_name##*/}
+output="${output_dir}/${base_name}"
+
+# Run the contig ordering
+mkdir -p ${output}
+echo "[ $(date -u) ]: Running mauve contig mover on sample '${base_name}'"
+java -Xmx1G -cp ${mauve_path} org.gel.mauve.contigs.ContigOrderer -output ${output} -ref ${ref} -draft ${draft_genome} > ${output}.log 2>&1
+
+# Reformatted the output contigs (e.g., convert to uppercase)
+ordered_filepath=$(find -mindepth 2 -maxdepth 2 "${output_dir}/${base_name}" -type f -name "${base_name}*.fas")
+seqtk seq -A -U -l 100 "${ordered_filepath}" > "${output_dir}../final/base_name.fna"
+
+done
+
+echo "[ $(date -u) ]: Done."
 ```
+
+## Final bin statistics
+Calculated CheckM stats, length stats, and so on for the final set of genome bins
+
+Installed dependencies:
+```
+conda create -n bin_stats -c bioconda bbmap checkm-genome prokka=1.13.3
+
+# Must manually finish the checkm install by running once and specifying the database dir.
+# Can use the 'checkm' folder in the ATLAS database folder from above
+checkm
+```
+Activate this with `conda activate bin_stats` before running the code below.
+
+
+```
+out_dir="${github_repo_location}/Data_analysis_pipeline/03_bin_curation/04_bin_stats"
+threads=12
+final_bin_dir="${work_dir}/ordered_genomes/final"
+
+mkdir -p ${out_dir}/rough ${out_dir}/prokka ${out_dir}/prodigal
+cd ${out_dir}/rough
+
+# Got length stats and such
+statswrapper.sh in=${final_bin_dir}/*.fna > ../statswrapper.tsv
+
+# Got checkM stats
+checkm lineage_wf --file checkm/completeness.tsv --tab_table --quiet --extension fna --threads ${threads} ${final_bin_dir} checkm 2>&1 | tee checkm_lineage_wf.log
+checkm tree_qa --tab_table --out_format 2 --file checkm/taxonomy.tsv checkm 2>&1 | tee checkm_tree_qa.log
+cp checkm/completeness ../
+
+# Annotated genomes and got tRNA counts
+cd ${out_dir}/prokka
+genome_bins=($(find ${final_bin_dir} -name "*.fna" | sort -h))
+
+printf "Bin_ID\ttRNA_count\n" > ${out_dir}/tRNA_counts.tsv
+for genome_bin in ${genome_bins[@]}; do
+
+    bin_base=${genome_bin%.fna}
+    bin_base=${bin_base##*/}
+
+    prokka --outdir ${bin_base} --prefix ${bin_base} --locustag ${bin_base} --cpus ${threads} ${genome_bin}
+
+    num_tRNA=$(cut -d $'\t' -f 2 ${bin_base}/${bin_base}.tsv | grep "tRNA" | wc -l)
+    printf "${bin_base}\t${num_tRNA}\n" >> ${out_dir}/tRNA_counts.tsv
+
+done
+
+# Predicted ORFs using prodigal at the same time, for reference (e.g., needed for Figure 2)
+cd ${out_dir}/prodigal
+for genome_bin in ${genome_bins[@]}; do
+
+    bin_base=${genome_bin%.fna}
+    bin_base=${bin_base##*/}
+
+    prodigal -i ${genome_bin} -a ${bin_base}.faa -d ${bin_base}.ffn -f gff -o ${bin_base}.gff 2>&1 | tee ${bin_base}.log
+
+done
+```
+
+The output tables were combined into the final Table 1 in the paper -- see Table 1 folder:
+- statswrapper.tsv
+- completeness.tsv
+- tRNA_counts.tsv (note that the original counts were done manually, and the above coded method was made later for simplicity)
 
 Now, the genome bins are done!
 
