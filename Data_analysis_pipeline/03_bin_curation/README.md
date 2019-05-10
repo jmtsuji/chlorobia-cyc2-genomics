@@ -124,11 +124,11 @@ tbls_joined <- tbls_joined[,c(2,3,1,4:ncol(tbls_joined))]
 write.table(tbls_joined, file = "output/dRep_summary.csv", sep = ",", row.names = F, col.names = T, quote = F)
 quit(save = "no")
 ```
-The output table here was cleaned up to produce `Table_S1.csv`, a copy of which is included in the `01_dereplication` subfolder.
+The output table here was cleaned up to produce `Table_S1.csv`, a copy of which is included in the `01_dereplication` subfolder. Note that the enrichment bins had to be added manually.
 
 
 ## Manual cleanup of selected bins
-All genome bins were imported into Anvi'o for subsequent manual cleanup of specific bins of interest. Bins of interest were seleted after the bin dereplication step based on taxonomy and CheckM stats (see manuscript).
+All genome bins (pre-dereplication) were imported into Anvi'o for subsequent manual cleanup of specific bins of interest. Bins of interest were seleted after the bin dereplication step based on taxonomy and CheckM stats (see manuscript).
 
 ### Lake metagenomes
 Genome bins were imported into anvi'o 4 using [atlas-to-anvi.sh](https://github.com/jmtsuji/atlas-extensions), version 1.0.22-coassembly-r4.
