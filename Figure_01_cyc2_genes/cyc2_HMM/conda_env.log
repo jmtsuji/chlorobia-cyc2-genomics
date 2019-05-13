@@ -1,8 +1,0 @@
-# packages in environment at /home/jmtsuji/miniconda3/envs/Chlorobi_cyc2_project:
-#
-# Name                    Version                   Build  Channel
-clustalo                  1.2.3                         0    bioconda
-hmmer                     3.1b2                         0    biocore
-libgcc-ng                 8.2.0                hdf63c60_1  
-seqtk                     1.3                  ha92aebf_0    bioconda
-zlib                      1.2.11               h7b6447c_3  
