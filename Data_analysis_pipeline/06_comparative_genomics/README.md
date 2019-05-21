@@ -298,18 +298,13 @@ Installed BackBLAST development commit `cdaddc4`
 ```
 work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/05_pathway_analysis"
 
-mdir -p ${work_dir}
+mkdir -p ${work_dir}
 cd ${work_dir}
 
 # First installed the dependencies via conda
 conda create -y -n backblast_core -c bioconda python=2.7 biopython=1.72 blast=2.6.0
 
 # Then got the script from the repo
-wget https://github.com/LeeBergstrand/BackBLAST_Reciprocal_BLAST/archive/v1.0.tar.gz
-tar -xvzf v1.0.tar.gz
-rm v1.0.tar.gz
-chmod 755 BackBLAST_Reciprocal_BLAST-1.0/BackBLAST.py
-
 git clone https://github.com/LeeBergstrand/BackBLAST_Reciprocal_BLAST.git
 cd BackBLAST_Reciprocal_BLAST
 git checkout cdaddc4
@@ -320,7 +315,6 @@ cd ..
 Run via `conda activate backblast_core`
 
 Collected input .faa files
-
 ```
 work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/05_pathway_analysis"
 source_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes"
@@ -332,13 +326,13 @@ cd ${work_dir}
 # Put the amino acid files into a common folder (must unzip)
 faa_files=($(find ${source_dir} -name "*.faa.gz" | sort -h))
 
-for faa_file in ${faa_files}; do
+for faa_file in ${faa_files[@]}; do
 
-faa_basename=${faa_file##*/}
-faa_basename=${faa_basename%.faa.gz}
+	faa_basename=${faa_file##*/}
+	faa_basename=${faa_basename%.faa.gz}
 
-echo "[ $(date -u) ]: Copying ${faa_file##*/}"
-cat ${faa_file} | gunzip -c > ${genome_dir}/${faa_basename}.faa
+	echo "[ $(date -u) ]: Copying ${faa_file##*/}"
+	cat ${faa_file} | gunzip -c > ${genome_dir}/${faa_basename}.faa
 
 done
 ```
@@ -358,6 +352,7 @@ e_value=1e-40 # maximum e-value allowable
 identity=20 # minimum percent identity of hits
 
 mkdir -p ${output_dir}/logs
+cd ${work_dir}
 printf "" > ${log_name}
 
 # Find relevant files
@@ -383,7 +378,7 @@ for query in ${query_files[@]}; do
 		subject_basename=${subject_basename%.faa}
 
 		output_filename="${output_dir}/${query_genome_basename}__to__${subject_basename}.csv"
-		output_logname="${output_dir}/logs/${output_filename%.csv}.log"
+		output_logname="${output_dir}/logs/${query_genome_basename}__to__${subject_basename}.log"
 
 		echo "[ $(date -u) ]: 'BackBLAST.py -q ${query##*/} -r ${query_genome##*/} -s ${subject##*/} -e ${e_value} -i ${identity} -o ${output_filename##*/} 2>&1 | tee ${output_logname##*/}'" | tee -a ${log_name}
 
@@ -393,6 +388,7 @@ for query in ${query_files[@]}; do
 	done
 done
 echo "[ $(date -u) ]: Finished." | tee -a ${log_name}
+rm tempQuery.faa
 ```
 
 Replaced *C. ferro* and *C. clathratiforme* with one-way BLAST due to issue with BackBLAST when BLAST'ing to self
@@ -400,23 +396,27 @@ When comparing a query to its own genome, BackBLAST currently seems to omit hits
 
 Ran one-way BLAST on both queries to themselves
 ```bash
-mkdir -p ${output_dir}/one_way
+mkdir -p ${output_dir}/unused
 
 query_file=${query_dir}/Chl_ferrooxidans_KoFox_gene_targets.faa
 ORF_file=${genome_dir}/Chl_ferrooxidans_KoFox.faa
+output_filepath="${output_dir}/Chl_ferrooxidans_KoFox__to__Chl_ferrooxidans_KoFox.csv" # same name as the current file; will replace.
 e_value=1e-40
 identity=20 # Not actually needed here, but I kept this so I would remember to set the pident threshold later
 
-blastp -query ${query_file} -subject ${ORF_file} -evalue ${e_value} -outfmt "10 qseqid sseqid pident evalue qcovhsp bitscore" > ${WORK_DIR}/backblast_results/one_way/Chl_ferrooxidans_KoFox__to__Chl_ferrooxidans_KoFox.csv
+mv ${output_filepath} ${output_dir}/unused
+blastp -query ${query_file} -subject ${ORF_file} -evalue ${e_value} -outfmt "10 qseqid sseqid pident evalue qcovhsp bitscore" > ${output_filepath}
 
 query_file=${query_dir}/Chl_clathratiforme_BU_1_gene_targets.faa
 ORF_file=${genome_dir}/Chl_clathratiforme_BU_1.faa
+output_filepath="${output_dir}/Chl_clathratiforme_BU_1__to__Chl_clathratiforme_BU_1.csv" # same name as the current file; will replace.
 e_value=1e-40
 identity=20 # Not actually needed here, but I kept this so I would remember to set the pident threshold later
 
-blastp -query ${query_file} -subject ${ORF_file} -evalue ${e_value} -outfmt "10 qseqid sseqid pident evalue qcovhsp bitscore" > ${WORK_DIR}/backblast_results/one_way/Chl_clathratiforme_BU_1__to__Chl_clathratiforme_BU_1.csv
+mv ${output_filepath} ${output_dir}/unused
+blastp -query ${query_file} -subject ${ORF_file} -evalue ${e_value} -outfmt "10 qseqid sseqid pident evalue qcovhsp bitscore" > ${output_filepath}
 ```
-The `.csv` output files here are summarized and combined with the *Chlorobi* phylogenetic tree generated above to produce Figure 2 -- see the Figure 2 folder.
+The `.csv` output files in the main folder of `03_backblast` are summarized and combined with the *Chlorobi* phylogenetic tree generated above to produce Figure 2 -- see the Figure 2 folder.
 
 ## ANI calculation for *Chlorobia* genomes
 Used for Supplementary Figure S1
