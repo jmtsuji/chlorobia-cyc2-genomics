@@ -7,7 +7,7 @@ All code here is to be run in a Bash terminal of a unix system (e.g., Ubuntu 16 
 Most of the analyses done here generate output files used to generate publication figures. The figure that each output data file is associated with is indicated.
 
 ## Define where you downloaded the Github repo:
-```
+```bash
 github_repo_location="/Analysis/jmtsuji/chlorobia-cyc2-genomics"
 ```
 
@@ -15,8 +15,8 @@ github_repo_location="/Analysis/jmtsuji/chlorobia-cyc2-genomics"
 - miniconda (miniconda3 preferred)
 
 ## Conda environment with all needed dependencies:
-```
-conda create -y -n genome_comparison -c bioconda iqtree=1.6.10 gblocks=0.91b clustalo=1.2.3 seqtk=1.3 prodigal=2.6.3
+```bash
+conda create -y -n genome_comparison -c bioconda iqtree=1.6.10 gblocks=0.91b clustalo=1.2.3 seqtk=1.3 prodigal=2.6.3 fastani=1.1
 
 # Install part of the basic sequence analysis suite
 conda activate genome_comparison
@@ -26,12 +26,12 @@ cp basic-sequence-analysis-1.2.0/basic-sequence-analysis-version basic-sequence-
 rm -rf basic-sequence-analysis-1.2.0
 conda deactivate
 ```
-Use this environment via `conda activate genome_comparison` (as shown below).
-
+Use this environment via `conda activate genome_comparison` (as shown below).  
+This is used for all analyses except for the BackBLAST core module, which has its own conda env (as shown below)
 
 ## Download *Chlorobia* genomes
 Download the *Chlorobia* genomes from this study from NCBI
-```
+```bash
 download_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes/this_study"
 info_filepath="${download_dir}/ELA_Chlorobia_links.tsv"
 mkdir -p ${download_dir}
@@ -57,13 +57,13 @@ prodigal -i ${fna_file} -a ${fna_file%.fna}.faa -c -f gff -o ${fna_file%.fna}.gf
 done
 
 # Gzip to match NCBI files
-gzip *.fna *.faa
+gzip *.fna *.faa *.gff
 ```
 The alternative would be to use the genome bins you generated yourself, if you ran the whole pipeline up to this point, at `03_bin_curation/03_contig_ordering/ordered_genomes/final`.  
 If you'd like to do that, then copy those genomes into the above `download_dir` in place of the ones from NCBI.
 
 Download the type strain *Chlorobia* genomes from NCBI
-```
+```bash
 download_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes/reference"
 info_filepath="${download_dir}/reference_Chlorobia_links.tsv"
 logfile="${download_dir}/download.log"
@@ -100,22 +100,11 @@ wget -nv -O - ${genome_url_base}/${genome_ID}_genomic.gff.gz > ${genome_name}.gf
 done
 ```
 
-# TODO - move this whole section to Figure 1 instead!!!
-## Gene neighbourhood of *Chlorobia* cyc2
-Used for Figure 1, panel B
-
-Note that the accessions of *cyc2* genes within each applicable genome are summarized in `02_cyc2_gene_neighbourhood/Chlorobia_cyc2_genome_info.tsv`
-# TODO - add accessions for the ELA genome bins!!!
-
-Pull out the neighbouring genes around the *cyc2* gene for each genome using a custom R script
-# TODO - move this whole section to Figure 1 instead!!!
-
-
 ## Phylogeny of *cyc2* genes
 Used for Figure 1, panel C
 
 Aligned collection of *cyc2* is already available from `04_HMM_development`. Copy it into this folder:
-```
+```bash
 work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/02_cyc2_phylogeny"
 Gblocks_dir="${work_dir}/01_Gblocks"
 source_filepath="${github_repo_location}/Data_analysis_pipeline/04_HMM_development/02_alignment/cyc2_seqs_all_aligned.faa"
@@ -126,13 +115,13 @@ cp ${source_filepath} ${Gblocks_dir}
 ```
 
 Masked the alignment using Gblocks `v0.91b`:
-```
+```bash
 input_filepath="cyc2_seqs_all_aligned.faa"
 Gblocks ${input_filepath} -t=p -b3=40 -b4=4 -b5=h -e=_GB01 2>&1 | tee ${input_filepath}_GB01.log
 ```
 
 Built the phylogenetic tree via IQ-TREE `v1.6.10`:
-```
+```bash
 phylogeny_dir="${work_dir}/02_phylogeny"
 input_filepath="${Gblocks_dir}/cyc2_seqs_all_aligned.faa_GB01"
 threads=10
@@ -151,7 +140,7 @@ See Figure 1 folder for the code of how this was plotted.
 Used for Figure 2
 
 Install GToTree and a helper script
-```
+```bash
 work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/03_chlorobia_phylogeny"
 GToTree_version="1.1.10"
 basic_sequence_analysis_version="1.2.2"
@@ -180,7 +169,7 @@ conda deactivate
 Can now use this conda environment by running `conda activate gtotree`
 
 Then make the genome phylogeny, using the `gtotree` conda env
-```
+```bash
 work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/03_chlorobia_phylogeny"
 source_dir="${work_dir}/../01_Chlorobia_genomes"
 genome_dir="${work_dir}/inputs"
@@ -212,7 +201,7 @@ Working in `04_subset_phylogenies`
 
 ### **cyc2**
 Subset the *Chlorobia* sequences with genomes, using the guide file in the repo
-```
+```bash
 source_filepath="${github_repo_location}/Data_analysis_pipeline/04_HMM_development/01_downloads/final/cyc2_seqs_chlorobia.faa"
 cyc2_info_filepath="${destination_dir}/cyc2_subset_info.tsv"
 destination_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/cyc2/input"
@@ -230,7 +219,7 @@ text_find_and_replace.sh cyc2_subset_info.tsv cyc2_subset.faa cyc2_subset_rename
 ```
 
 Align and clean with GBlocks
-```
+```bash
 work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/cyc2"
 alignment_dir="${work_dir}/align_and_clean"
 input_filepath="${work_dir}/input/cyc2_subset_renamed.faa"
@@ -251,7 +240,7 @@ Gblocks ${input_filepath} -t=p -b3=40 -b4=4 -b5=h -e=_GB01 2>&1 | tee ${input_fi
 ```
 
 Built the phylogenetic tree
-```
+```bash
 phylogeny_dir="${work_dir}/phylogeny"
 input_filepath="${alignment_dir}/cyc2_subset_renamed_aligned.faa_GB01"
 threads=10
@@ -264,7 +253,7 @@ iqtree -s ${input_filepath} -pre cyc2_subset_phylogeny -nt ${threads} -seed 47 -
 
 ### riboprotein
 Subset the *Chlorobia* genomes with *cyc2*
-```
+```bash
 source_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/03_chlorobia_phylogeny/inputs"
 destination_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/inputs"
 genomes_to_keep=(Chl_ferrooxidans_KoFox Chl_luteolum_DSM_273 Chl_phaeoferrooxidans_KB01 Chl_sp_N1 L227_2013_bin_56 L227_enrichment_S_6D L304_enrichment_S_6D)
@@ -279,11 +268,10 @@ echo "[ $(date -u) ]: Linking '${genome_to_keep}'"
 ln ${source_dir}/${genome_to_keep}.faa.gz .
 
 done
-
 ```
 
 Build the phylogeny, inside the `gtotree` conda env
-```
+```bash
 work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein"
 genome_dir="${work_dir}/inputs"
 output_dir="${work_dir}/phylogeny"
@@ -305,11 +293,158 @@ Now, the tree files output by these two analyses can be cross-compared -- see th
 
 ## *Chlorobia* gene pathway analysis
 Used for the Figure 2 heatmap
-# TODO
+
+Installed BackBLAST development commit `cdaddc4`
+```
+work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/05_pathway_analysis"
+
+mdir -p ${work_dir}
+cd ${work_dir}
+
+# First installed the dependencies via conda
+conda create -y -n backblast_core -c bioconda python=2.7 biopython=1.72 blast=2.6.0
+
+# Then got the script from the repo
+wget https://github.com/LeeBergstrand/BackBLAST_Reciprocal_BLAST/archive/v1.0.tar.gz
+tar -xvzf v1.0.tar.gz
+rm v1.0.tar.gz
+chmod 755 BackBLAST_Reciprocal_BLAST-1.0/BackBLAST.py
+
+git clone https://github.com/LeeBergstrand/BackBLAST_Reciprocal_BLAST.git
+cd BackBLAST_Reciprocal_BLAST
+git checkout cdaddc4
+chmod 755 BackBLAST.py
+cd ..
+# Script can now be run locally via BackBLAST_Reciprocal_BLAST/BackBLAST.py
+```
+Run via `conda activate backblast_core`
+
+Collected input .faa files
+
+```
+work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/05_pathway_analysis"
+source_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes"
+genome_dir="${work_dir}/01_genomes"
+
+mkdir -p ${genome_dir}
+cd ${work_dir}
+
+# Put the amino acid files into a common folder (must unzip)
+faa_files=($(find ${source_dir} -name "*.faa.gz" | sort -h))
+
+for faa_file in ${faa_files}; do
+
+faa_basename=${faa_file##*/}
+faa_basename=${faa_basename%.faa.gz}
+
+echo "[ $(date -u) ]: Copying ${faa_file##*/}"
+cat ${faa_file} | gunzip -c > ${genome_dir}/${faa_basename}.faa
+
+done
+```
+
+The manually determined query sequences are already available in this repo in the folder `02_queries`:
+- `Chl_ferrooxidans_KoFox_gene_targets`: query genes selected from `Chl_ferrooxidans_KoFox.faa`
+- `Chl_clathratiforme_BU_1_gene_targets.faa`: query genes selected from `Chl_clathratiforme_BU_1_gene_targets.faa`
+
+Ran the core BackBLAST module against all inputs
+```bash
+work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/05_pathway_analysis"
+genome_dir="${work_dir}/01_genomes"
+query_dir="${work_dir}/02_queries"
+output_dir="${work_dir}/03_backblast"
+log_name="${work_dir}/backblast.log"
+e_value=1e-40 # maximum e-value allowable
+identity=20 # minimum percent identity of hits
+
+mkdir -p ${output_dir}/logs
+printf "" > ${log_name}
+
+# Find relevant files
+query_files=($(find ${query_dir} -iname "*.faa" | sort -h))
+ORF_files=($(find ${genome_dir} -iname "*.faa" | sort -h))
+
+# Run BackBLAST
+echo "[ $(date -u) ]: Running BackBLAST core module" | tee -a ${log_name}
+echo "[ $(date -u) ]: Settings: e value cutoff = '${e_value}'; percent identity cutoff = ${identity}" | tee -a ${log_name}
+
+for query in ${query_files[@]}; do
+	query_basename=${query##*/}
+	query_basename=${query_basename%.faa}
+
+	# Get the name of the corresponding whole genome .faa file (HARD-CODED method based on file naming structure)
+	query_genome_basename=${query_basename%_gene_targets}
+	query_genome="${genome_dir}/${query_genome_basename}.faa"
+
+	echo "[ $(date -u) ]: Searching for '${query_basename}' among the subjects. Using '${query_genome_basename}' as the reference predicted proteome." | tee -a ${log_name}
+
+	for subject in ${ORF_files[@]}; do
+		subject_basename=${subject##*/}
+		subject_basename=${subject_basename%.faa}
+
+		output_filename="${output_dir}/${query_genome_basename}__to__${subject_basename}.csv"
+		output_logname="${output_dir}/logs/${output_filename%.csv}.log"
+
+		echo "[ $(date -u) ]: 'BackBLAST.py -q ${query##*/} -r ${query_genome##*/} -s ${subject##*/} -e ${e_value} -i ${identity} -o ${output_filename##*/} 2>&1 | tee ${output_logname##*/}'" | tee -a ${log_name}
+
+		${work_dir}/BackBLAST_Reciprocal_BLAST/BackBLAST.py -q ${query} -r ${query_genome} -s ${subject} -e ${e_value} \
+		    -i ${identity} -o ${output_filename} 2>&1 | tee ${output_logname}
+
+	done
+done
+echo "[ $(date -u) ]: Finished." | tee -a ${log_name}
+```
+
+Replaced *C. ferro* and *C. clathratiforme* with one-way BLAST due to issue with BackBLAST when BLAST'ing to self
+When comparing a query to its own genome, BackBLAST currently seems to omit hits to the original gene -- maybe because of how the graph is constructed. This means that special measures are needed to compare a genome to itself. Should be pretty rudimentary; all hits should return 100% to self. No need to do reciprocal blast if the table looks normal.
+
+Ran one-way BLAST on both queries to themselves
+```bash
+mkdir -p ${output_dir}/one_way
+
+query_file=${query_dir}/Chl_ferrooxidans_KoFox_gene_targets.faa
+ORF_file=${genome_dir}/Chl_ferrooxidans_KoFox.faa
+e_value=1e-40
+identity=20 # Not actually needed here, but I kept this so I would remember to set the pident threshold later
+
+blastp -query ${query_file} -subject ${ORF_file} -evalue ${e_value} -outfmt "10 qseqid sseqid pident evalue qcovhsp bitscore" > ${WORK_DIR}/backblast_results/one_way/Chl_ferrooxidans_KoFox__to__Chl_ferrooxidans_KoFox.csv
+
+query_file=${query_dir}/Chl_clathratiforme_BU_1_gene_targets.faa
+ORF_file=${genome_dir}/Chl_clathratiforme_BU_1.faa
+e_value=1e-40
+identity=20 # Not actually needed here, but I kept this so I would remember to set the pident threshold later
+
+blastp -query ${query_file} -subject ${ORF_file} -evalue ${e_value} -outfmt "10 qseqid sseqid pident evalue qcovhsp bitscore" > ${WORK_DIR}/backblast_results/one_way/Chl_clathratiforme_BU_1__to__Chl_clathratiforme_BU_1.csv
+```
+The `.csv` output files here are summarized and combined with the *Chlorobi* phylogenetic tree generated above to produce Figure 2 -- see the Figure 2 folder.
 
 ## ANI calculation for *Chlorobia* genomes
 Used for Supplementary Figure S1
-# TODO
+
+```bash
+work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/06_ANI"
+source_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes"
+genome_dir="${work_dir}/inputs"
+output_filename="Chlorobia_FastANI_results.txt"
+log_name="${work_dir}/fastani.log"
+threads=2
+
+mkdir -p ${genome_dir}
+cd ${work_dir}
+
+# To be easy to find for future reference, put the genome files into a common folder via hard links
+find ${source_dir} -name "*.fna.gz" | xargs -I {} ln {} ${genome_dir}
+
+# Made reference and query lists for FastANI; both are the same because I am doing an all-by-all comparison
+find ${genome_dir} -iname "*.fna.gz" > genomes.list
+
+# Ran FastANI
+fastANI --rl genomes.list --ql genomes.list -o ${output_filename} -t ${threads} 2>&1 | tee ${log_name}
+# Runs very quickly
+```
+
+The output file `Chlorobia_FastANI_results.txt` is used in Supplementary Figure S1 (see that folder for the scripting details).
+
 
 ### Done!
 This is the end of the main heavy-lifting data processing work for this paper. Figures were generated based off this dataset using code found in each figure folder.
