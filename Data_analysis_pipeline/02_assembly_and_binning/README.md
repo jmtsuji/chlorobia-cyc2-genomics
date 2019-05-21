@@ -6,7 +6,7 @@ All code here is to be run in a Bash terminal of a unix system (e.g., Ubuntu 16 
 
 ## Define where you downloaded the Github repo:
 ```
-github_repo_location="/Analysis/jmtsuji/Chlorobia_cyc2_code"
+github_repo_location="/Analysis/jmtsuji/chlorobia-cyc2-genomics"
 ```
 
 ## Depdendencies and requirements
