@@ -20,6 +20,20 @@ No special code here. As briefly described in the paper, the _cyc2_ predicted am
 ## 3. Panel 2: _Chlorobia_ _cyc2_ gene neighbour analysis
 The GFF3 files of all input bins or contig collections are available in the `04_extra_files` folder in this repo.
 
+```
+# TODO - move this whole section to Figure 1 instead!!!
+## Gene neighbourhood of *Chlorobia* cyc2
+Used for Figure 1, panel B
+
+Note that the accessions of *cyc2* genes within each applicable genome are summarized in `02_cyc2_gene_neighbourhood/Chlorobia_cyc2_genome_info.tsv`
+# TODO - add accessions for the ELA genome bins!!!
+
+Pull out the neighbouring genes around the *cyc2* gene for each genome using a custom R script
+# TODO - move this whole section to Figure 1 instead!!!
+```
+
+
+
 The following R code was used to generate the base visualization, taking the GFF3 files as input. You'll need to adjust the working directory to match whatever folder you work in. You'll also need to install all libraries loaded at the top of the script:
 ```
 
