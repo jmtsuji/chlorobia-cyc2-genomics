@@ -423,7 +423,8 @@ Used for Supplementary Figure S1
 
 ```bash
 work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/06_ANI"
-source_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes"
+source_dir="$
+{github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes"
 genome_dir="${work_dir}/inputs"
 output_filename="Chlorobia_FastANI_results.txt"
 log_name="${work_dir}/fastani.log"
