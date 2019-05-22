@@ -21,14 +21,14 @@ library(egg, warn.conflicts = FALSE)
 
 ####################################
 # User variables
-gene_naming_info_filename <- here::here("plot", "gene_naming_info.tsv")
-Chlorobia_naming_info_filename <- here::here("plot", "Chlorobia_naming_info.tsv")
+gene_naming_info_filename <- here::here("input_data", "gene_naming_info.tsv")
+Chlorobia_naming_info_filename <- here::here("input_data", "Chlorobia_naming_info.tsv")
 query_subject_filename_separator <- "__to__" # unique character string consistently separating 'queryName' and 'subjectName' in the .csv filenames output by BackBLAST
 backblast_header_names <- c("qseqid", "sseqid", "pident", "evalue", "qcovhsp", "bitscore")
-backblast_directory_path <- here::here("backblast_results")
+backblast_directory_path <- here::here("input_data", "backblast_results")
 output_table_filepath <- here::here("plot", "Figure_02_plotting_data.tsv")
 output_pdf_filepath <- here::here("plot", "Figure_02_raw.pdf")
-phylogenetic_tree_filepath <- here::here("riboprotein_tree", "Chlorobia_riboprotein_tree.treefile")
+phylogenetic_tree_filepath <- here::here("input_data", "chlorobia_riboprotein_phylogeny.treefile")
 bootstrap_cutoff <- 50
 tree_root <- "Ignavibacterium_album_JCM_16511_outgroup"
 ####################################
