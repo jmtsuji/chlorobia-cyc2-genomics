@@ -21,7 +21,6 @@ library(egg, warn.conflicts = FALSE)
 
 ####################################
 # User variables
-# setwd("/home/jmtsuji/Research_General/PhD/04b_Metagenome_resequencing_F2015/10_ATLAS_re_analysis/06_reciprocal_BLAST/vs3_cleaned_version/")
 gene_naming_info_filename <- here::here("plot", "gene_naming_info.tsv")
 Chlorobia_naming_info_filename <- here::here("plot", "Chlorobia_naming_info.tsv")
 query_subject_filename_separator <- "__to__" # unique character string consistently separating 'queryName' and 'subjectName' in the .csv filenames output by BackBLAST
