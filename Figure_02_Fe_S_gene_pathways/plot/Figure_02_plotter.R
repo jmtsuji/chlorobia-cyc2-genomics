@@ -120,14 +120,14 @@ plot_phylogenetic_tree <- function(phylogenetic_tree_filepath) {
   
   # Plot the tree
   flog.info("Generaring the tree plot")
-  tree_plot <- ggtree(phylo_tree, size = 1.5, colour = "black", ladderize = TRUE,
+  tree_plot <- ggtree(phylo_tree, size = 1, colour = "black", ladderize = TRUE,
                       branch.length = 0.1) +
     geom_treescale(x = 0.4, y = 10, linesize = 1, fontsize = 3, offset = 0.2, width = 0.2) +
     geom_tiplab(align = TRUE, linetype = "dotted",
                 size = 0, offset = 0.1) +
     geom_text2(aes(subset = (grepl(pattern = "^[0-9]+$", x = label) & !(isTip) & as.numeric(label) > bootstrap_cutoff), 
                    label = as.numeric(label)),
-               nudge_x = -0.05, nudge_y = 0.4, size = 2) +
+               nudge_x = -0.03, nudge_y = 0.4, size = 2.5) +
     scale_y_discrete(expand = c(0,0.6)) # to manually make it correspond to the heatmap in y-coordinates
   
   return(tree_plot)
@@ -160,6 +160,13 @@ plot_backblast_heatmap <- function(backblast_data, tree_plot, Chlorobia_naming_i
   backblast_data$subject_name <- plyr::mapvalues(backblast_data$subject_name, from = Chlorobia_naming_info$tree_name, 
                                                  to = Chlorobia_naming_info$plotting_name)
   
+  # If there are multiple blast hits for any subject-query combo, and keep the best hit
+  # TODO - warn the user?
+  backblast_data <- dplyr::ungroup(backblast_data) %>%
+                    dplyr::group_by(subject_name, query_name, qseqid) %>%
+                    dplyr::top_n(n = 1, wt = pident) %>%
+                    dplyr::ungroup()
+  
   # Make the plot
   backblast_heatmap <- ggplot(backblast_data, aes(y = subject_name, x = gene_name)) +
     geom_tile(aes(fill = pident)) +
@@ -172,9 +179,9 @@ plot_backblast_heatmap <- function(backblast_data, tree_plot, Chlorobia_naming_i
           axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, face = "italic"),
           axis.ticks = element_line(size = 0.5), axis.line = element_line(colour = "black", size = 0.5),
           legend.text = element_text(size = 10, colour = "black"),
-          legend.title = element_text(size = 8),
+          legend.title = element_text(size = 10, face = "bold"),
           legend.key = element_blank(), legend.key.size = unit(5, "mm")) +
-    xlab("Gene") +
+    xlab("") +
     ylab("")
   
   return(backblast_heatmap)
