@@ -19,12 +19,11 @@ library(gridExtra, warn.conflicts = FALSE)
 library(egg, warn.conflicts = FALSE)
 
 ################################
-# HARD-CODED plotting variables
-# setwd("/home/jmtsuji/Research_General/PhD/04b_Metagenome_resequencing_F2015/10_ATLAS_re_analysis/15_final_zenodo_code/Chlorobia_cyc2_code/Figure_S1_ANI/")
-fastani_data_filepath <- here::here("plotting_data", "Chlorobia_FastANI_results.txt")
-phylogenetic_tree_filepath <- here::here("plotting_data", "Chlorobia_riboprotein_tree.treefile")
-Chlorobia_naming_table_filepath <- here::here("plotting_data", "Chlorobia_naming_info.tsv")
-output_pdf_filepath <- here::here("Figure_S1_raw.pdf")
+# User variables
+fastani_data_filepath <- here::here("input_data", "Chlorobia_FastANI_results.txt")
+phylogenetic_tree_filepath <- here::here("input_data", "chlorobia_riboprotein_phylogeny.treefile")
+Chlorobia_naming_table_filepath <- here::here("input_data", "Chlorobia_naming_info.tsv")
+output_pdf_filepath <- here::here("plot", "Figure_S1_raw.pdf")
 bootstrap_cutoff <- 50
 tree_root <- "Ignavibacterium_album_JCM_16511_outgroup"
 ################################
@@ -51,14 +50,14 @@ phylo_tree <- ggtree::reroot(phylo_tree, node = tip_label_index)
 
 # Plot the tree
 flog.info("Generaring the tree plot")
-tree_plot <- ggtree(phylo_tree, size = 1.5, colour = "black", ladderize = TRUE,
+tree_plot <- ggtree(phylo_tree, size = 1, colour = "black", ladderize = TRUE,
                     branch.length = 0.1) +
-  geom_treescale(x = 0.4, y = 10, linesize = 1, fontsize = 3, offset = 0.2, width = 0.2) +
+  geom_treescale(x = 0.1, y = 5.5, linesize = 0.8, fontsize = 3, offset = 0.2, width = 0.2) +
   geom_tiplab(align = TRUE, linetype = "dotted",
               size = 0, offset = 0.1) +
   geom_text2(aes(subset = (grepl(pattern = "^[0-9]+$", x = label) & !(isTip) & as.numeric(label) > bootstrap_cutoff), 
                  label = as.numeric(label)),
-             nudge_x = -0.05, nudge_y = 0.4, size = 3) +
+             nudge_x = -0.035, nudge_y = 0.4, size = 3) +
   scale_y_discrete(expand = c(0,0.6)) # to manually make it correspond to the heatmap in y-coordinates
 
 # Change the FastANI names to match the tree names
@@ -98,7 +97,7 @@ ani_heatmap <- ggplot(ANI_data, aes(x = reference_genome, y = query_genome)) +
         axis.text = element_text(size = 10, face = "italic", colour = "black"), 
         axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1),
         axis.ticks = element_line(size = 0.5), axis.line = element_line(size = 0.5),
-        legend.text = element_text(size = 10), legend.title = element_text(size = 8),
+        legend.text = element_text(size = 10), legend.title = element_text(size = 8, face = "bold"),
         legend.key = element_rect(colour = "transparent"), legend.key.size = unit(5, "mm")) +
   xlab("") +
   ylab("") +
