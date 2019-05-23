@@ -1,5 +1,0 @@
-user_genome	classification	fastani_reference	fastani_taxonomy	fastani_ani	fastani_af	closest_placement_reference	closest_placement_taxonomy	closest_placement_ani	closest_placement_af	classification_method	note	other_related_references(genome_id,species_name,ANI,AF)
-CA-L227-2014.106	d__Bacteria;p__Bacteroidota;c__Chlorobia;o__Chlorobiales;f__Chlorobiaceae;g__Chlorobium;s__	None	None	None	None	None	None	None	None	taxonomic classification fully defined by topology	None	None
-CA-L227-2014.92	d__Bacteria;p__Bacteroidota;c__Chlorobia;o__Chlorobiales;f__Chlorobiaceae;g__Chlorobium;s__	None	None	None	None	None	None	None	None	taxonomic classification fully defined by topology	None	None
-L227_S_6D.002	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Lentimicrobiaceae;g__UBA4417;s__	None	None	None	None	None	None	None	None	taxonomic novelty determined using RED	None	None
-L227_S_6D.003	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Lentimicrobiaceae;g__;s__	None	None	None	None	None	None	None	None	taxonomic novelty determined using RED	None	None
