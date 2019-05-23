@@ -240,7 +240,9 @@ exit
 The output file `all_annotations`[random_code]`.tsv` shows the hits of the HMMs on all genomes, along with the e-value score. This is used in the code for Figure 3 and is available for download on Zenodo -- see the Figure 3 folder.  
 
 ## Relative abundance profiling using read mapping
-### First had to install (only for first use)
+(This requires you to have run ATLAS. Otherwise, the output file from this analysis is provided in the repo.)
+
+First had to install (only for first use)
 ```bash
 ## Get the git repo
 work_dir="${github_repo_location}/Data_analysis_pipeline/05_bin_analysis/04_read_mapping"
@@ -278,9 +280,58 @@ cd ${work_dir}
 calculate_bin_abundance_in_metagenome.sh ${input_dir} ${qc_link_dir} output ${threads} ${memory} 2>&1 | tee calculate_bin_abundance_in_metagenome.log
 # Started 180927 at ~2:52 AM EDT
 ```
+See the main output file, `genome_bin_mapping_stats.tsv`, pre-included in the repo.
 
-## Relative abundance profiling of raw reads via MetAnnotate
-This was done as a cross-comparison to the above code.
+Also estimate the percentage of reads that assembled via the ATLAS read mapping files  
+(This requires you to have run ATLAS. Otherwise, the output file from this analysis is provided in the repo.)
+
+```bash
+# Set variables
+atlas_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning"
+output_dir="${github_repo_location}/Data_analysis_pipeline/05_bin_analysis/04_read_mapping"
+output_filepath="${output_dir}/assembled_read_stats.tsv"
+
+# HARD-CODED locations of the ATLAS BAM files of interest for this analysis (it's tricky because of the co-assembly to do this automatically)
+bam_files=("${atlas_dir}/lake_metagenomes/coassembly/CA-L227-2013/multi_mapping/L227-2013-6m.bam"
+    "${atlas_dir}/lake_metagenomes/coassembly/CA-L227-2013/multi_mapping/L227-2013-8m.bam"
+    "${atlas_dir}/lake_metagenomes/coassembly/CA-L227-2014/multi_mapping/L227-2014-6m.bam"
+    "${atlas_dir}/lake_metagenomes/coassembly/CA-L227-2014/multi_mapping/L227-2014-8m.bam"
+    "${atlas_dir}/lake_metagenomes/coassembly/CA-L442/multi_mapping/L442-2011-16-5m.bam"
+    "${atlas_dir}/lake_metagenomes/coassembly/CA-L442/multi_mapping/L442-2014-15m.bam"
+    "${atlas_dir}/enrichment_metagenomes/L227_S_6D/sequence_alignment/L227_S_6D.bam"
+    "${atlas_dir}/enrichment_metagenomes/L304_S_6D/sequence_alignment/L304_S_6D.bam")
+
+# Initialize the output file
+mkdir -p ${output_dir}
+cd ${output_dir}
+printf "metagenome\ttotal_reads\tmapped_assembled_reads\n" > ${output_filepath}
+
+# Count the mapped reads
+for bam_file in ${bam_files[@]}; do
+
+    filename_base=${bam_file%.bam}
+    filename_base=${filename_base##*/}
+
+    echo "[ $(date -u) ]: Counting '${bam_file##*/}'"
+    printf "${filename_base}\t" >> ${output_filepath}
+
+    # Get the total reads
+    total_reads=$(samtools view -c ${bam_file} >> ${output_filepath})
+    printf "${total_reads}\t" >> ${output_filepath}
+
+    # Get the mapped reads
+    mapped_reads=$(samtools view -c -F 4 ${bam_file} >> ${output_filepath})
+    printf "${mapped_reads}\n" >> ${output_filepath}
+
+done
+echo "[ $(date -u) ]: Done."
+```
+See output file, `assembled_read_stats.tsv`, in the repo folder.
+
+These output files are used in Figure 3 -- see the Figure 3 folder for details.
+
+## Relative abundance profiling of targeted genes in raw read data via MetAnnotate
+This was done as a cross-comparison to the above MetAnnotate code.
 
 The same three HMMs as mentioned earlier for MetAnnotate were used, along with one more for reference: *bchL* - pigment synthesis gene.
 ```bash
