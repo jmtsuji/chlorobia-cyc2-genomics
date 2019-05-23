@@ -18,7 +18,7 @@ In addition, the following files must be downloaded from the Zenodo data reposit
 - `metannotate_annotations_genome_bins.tsv.gz` - the MetAnnotate annotations for the genome bins, generated in `Data_analysis_pipeline/05_bin_analysis/03_metannotate`
 
 Download code:
-```
+```bash
 # Define where you downloaded the Github repo on your local machine
 github_repo_location="/Analysis/jmtsuji/chlorobia-cyc2-genomics"
 
