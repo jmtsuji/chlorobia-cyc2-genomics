@@ -13,7 +13,7 @@ The `input_files` directory contains the data used to create the plot:
 Ran `plot/Figure_02_plotter.R` in interactive mode (e.g., in RStudio) to produce `plot/Figure_02_raw.pdf`. Note that you'll need to install all libraries loaded at the top of the script. After running, I then cleaned up the raw figure in Inkscape to make `plot/Figure_02_cleaned.pdf`, the final figure. Note that the script also outputs `plot/Figure_02_plotting_data.tsv` as a summary of the data to be plotted for the heatmap.
 
 This results in the following figure:
-![Figure_02](Figure_02_Fe_S_gene_pathways/plot/Figure_02_cleaned.png)
+![Figure_02](plot/Figure_02_cleaned.png)
 
 See R package versions in `R_session_info.log`. Log was generated after running the above script by:
 ```R
