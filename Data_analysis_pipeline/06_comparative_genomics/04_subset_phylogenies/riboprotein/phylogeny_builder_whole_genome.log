@@ -1,0 +1,25 @@
+[ Wed May 15 03:27:33 UTC 2019 ]: Running phylogeny_builder_whole_genome
+[ Wed May 15 03:27:33 UTC 2019 ]: Version: v1.2.2
+[ Wed May 15 03:27:33 UTC 2019 ]: Command: phylogeny_builder_whole_genome.sh -@ 24 -b 1000 -B normal -p Universal_Hug_et_al.hmm /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/inputs /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny
+[ Wed May 15 03:27:33 UTC 2019 ]: #### SETTINGS ####
+[ Wed May 15 03:27:33 UTC 2019 ]: input_genome_directory: /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/inputs
+[ Wed May 15 03:27:33 UTC 2019 ]: output_directory: /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny
+[ Wed May 15 03:27:33 UTC 2019 ]: threads: 24
+[ Wed May 15 03:27:33 UTC 2019 ]: gtotree_phylogenetic_marker_set: Universal_Hug_et_al.hmm
+[ Wed May 15 03:27:33 UTC 2019 ]: gtotree_outlier_length_threshold: 0.2
+[ Wed May 15 03:27:33 UTC 2019 ]: gtotree_minimum_hit_fraction: 0.5
+[ Wed May 15 03:27:33 UTC 2019 ]: iqtree_bootstraps: 1000
+[ Wed May 15 03:27:33 UTC 2019 ]: iqtree_boostrap_type: normal
+[ Wed May 15 03:27:33 UTC 2019 ]: iqtree_model: MFP
+[ Wed May 15 03:27:33 UTC 2019 ]: iqtree_phylogeny_seed: 2
+[ Wed May 15 03:27:33 UTC 2019 ]: ##################
+[ Wed May 15 03:27:33 UTC 2019 ]: No nucleotide files provided. Running with amino acid files only.
+[ Wed May 15 03:27:33 UTC 2019 ]: detected 7 amino acid genome files to run.
+[ Wed May 15 03:27:33 UTC 2019 ]: Running GToTree
+[ Wed May 15 03:27:33 UTC 2019 ]: Command: GToTree -A /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/input_genomes_faa.list -H Universal_Hug_et_al.hmm -o /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/alignment -T IQ-TREE -c 0.2 -G 0.5 -n 24 -j 24 > /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/GToTree.log
+[ Wed May 15 03:27:52 UTC 2019 ]: GToTree: finished. See log to confirm run details.
+[ Wed May 15 03:27:52 UTC 2019 ]: Running IQ-TREE (could take time)
+[ Wed May 15 03:27:52 UTC 2019 ]: Command: iqtree -s /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/alignment/Aligned_SCGs.faa -pre /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/phylogeny/Universal_Hug_et_al_phylogeny -nt 24 -seed 2 -b 1000 -m MFP >/dev/null
+[ Wed May 15 03:52:01 UTC 2019 ]: IQ-TREE: finished. See log to confirm run details.
+[ Wed May 15 03:52:01 UTC 2019 ]: Summarizing key output files
+[ Wed May 15 03:52:01 UTC 2019 ]: Pipeline finished. See key output files in '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/summary'.

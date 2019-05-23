@@ -1,0 +1,497 @@
+
+
+               GToTree v1.1.10 (github.com/AstrobioMike/GToTree)
+
+
+ ---------------------------------  RUN INFO  --------------------------------- 
+
+
+    Input genome sources include:
+      - Amino acid files listed in /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/input_genomes_faa.list (7 genomes)
+
+                             [0;32mTotal input genomes: 7[0m
+
+    HMM source to be used:
+      - Universal_Hug_et_al.hmm (15 targets)
+
+
+    Options set:
+      - The output directory has been set to "/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/alignment".
+      - Tree generation program ("-T") has been set to IQ-TREE.
+      - Number of cpus to use during hmm search ("-n") has been set to 24.
+      - Number of jobs to run during parallelizable steps has been set to 24.
+
+
+  [0;31m********************************** [0mNOTICE [0;31m**********************************[0m  
+    Filtering by gene-length using the median length of a gene set (set with
+    the "-c" flag) becomes less reliable with fewer genomes. With 7 total
+    input genomes, if a lot of sequences are dropped, consider increasing
+    the parameter and/or visually inspecting some alignments.
+
+    More info can be found here:
+      github.com/AstrobioMike/GToTree/wiki/Things-to-consider
+
+	        Moving forward with "-c" set to 0.2 this run.
+  [0;31m****************************************************************************[0m  
+
+
+ ############################################################################## 
+ ####         Working on the genomes provided as amino acid files          ####
+ ############################################################################## 
+
+           It is currently 11:27 PM; the process started at 11:27 PM.
+               Current process runtime: 0 hours and 0 minutes.
+
+   --------------------------------------------------------------------------   
+
+     Genome: [0;32mL227_2013_bin_56[0m
+             Found 13 of the targeted 15 genes.
+             Est. % comp: 86.67; Est. % redund: 0.00
+
+   --------------------------------------------------------------------------   
+
+     Genome: [0;32mChl_phaeoferrooxidans_KB01[0m
+             Found 14 of the targeted 15 genes.
+             Est. % comp: 93.33; Est. % redund: 0.00
+
+   --------------------------------------------------------------------------   
+
+     Genome: [0;32mChl_ferrooxidans_KoFox[0m
+             Found 9 of the targeted 15 genes.
+             Est. % comp: 60.00; Est. % redund: 0.00
+
+   --------------------------------------------------------------------------   
+
+     Genome: [0;32mChl_luteolum_DSM_273[0m
+             Found 13 of the targeted 15 genes.
+             Est. % comp: 86.67; Est. % redund: 0.00
+
+   --------------------------------------------------------------------------   
+
+     Genome: [0;32mL227_enrichment_S_6D[0m
+             Found 14 of the targeted 15 genes.
+             Est. % comp: 93.33; Est. % redund: 0.00
+
+   --------------------------------------------------------------------------   
+
+     Genome: [0;32mChl_sp_N1[0m
+             Found 14 of the targeted 15 genes.
+             Est. % comp: 93.33; Est. % redund: 0.00
+
+   --------------------------------------------------------------------------   
+
+     Genome: [0;32mL304_enrichment_S_6D[0m
+             Found 14 of the targeted 15 genes.
+             Est. % comp: 93.33; Est. % redund: 0.00
+
+_______________________________________________________________________________
+
+
+ ############################################################################## 
+ ####                     Filtering genes by length                        ####
+ ############################################################################## 
+
+     Keeping those with lengths within 20% of the median for the gene set.
+
+           It is currently 11:27 PM; the process started at 11:27 PM.
+               Current process runtime: 0 hours and 0 minutes.
+
+
+  [0;31m********************************** [0mNOTICE [0;31m**********************************[0m  
+    1 gene(s) either had no hits in any genome, or only multiple hits per
+    genome... Just so ya know!!
+
+	  These included:
+
+                     Ribosomal_L18
+
+        Reported in "/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/alignment/Genes_with_no_hits_to_any_genomes.txt".
+
+   You can figure out which of those two scenarios was the cause by checking out
+   "/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/alignment/All_genomes_SCG_hit_counts.tsv".
+  [0;31m****************************************************************************[0m  
+
+
+    Filtering [0;32mRibosomal_L22[0m sequences by length...
+
+	Retained 6 sequences of the initial 7 (85.71%).
+
+
+    Filtering [0;32mRibosomal_L2[0m sequences by length...
+
+	Retained 5 sequences of the initial 5 (100.0%).
+
+
+    Filtering [0;32mRibosomal_S17[0m sequences by length...
+
+	Retained 7 sequences of the initial 7 (100.0%).
+
+
+    Filtering [0;32mRibosomal_L14[0m sequences by length...
+
+	Retained 7 sequences of the initial 7 (100.0%).
+
+
+    Filtering [0;32mRibosomal_L16[0m sequences by length...
+
+	Retained 7 sequences of the initial 7 (100.0%).
+
+
+    Filtering [0;32mribosomal_L24[0m sequences by length...
+
+	Retained 7 sequences of the initial 7 (100.0%).
+
+
+    Filtering [0;32mRibosomal_L5[0m sequences by length...
+
+	Retained 7 sequences of the initial 7 (100.0%).
+
+
+    Filtering [0;32mRibosomal_S10[0m sequences by length...
+
+	Retained 6 sequences of the initial 6 (100.0%).
+
+
+    Filtering [0;32mRibosomal_L6[0m sequences by length...
+
+	Retained 7 sequences of the initial 7 (100.0%).
+
+
+    Filtering [0;32mRibosomal_L4[0m sequences by length...
+
+	Retained 6 sequences of the initial 6 (100.0%).
+
+
+    Filtering [0;32mRibosomal_L3[0m sequences by length...
+
+	Retained 6 sequences of the initial 6 (100.0%).
+
+
+    Filtering [0;32mRibosomal_S8[0m sequences by length...
+
+	Retained 6 sequences of the initial 6 (100.0%).
+
+
+    Filtering [0;32mRibosomal_S3_C[0m sequences by length...
+
+	Retained 7 sequences of the initial 7 (100.0%).
+
+
+    Filtering [0;32mRibosomal_S19[0m sequences by length...
+
+	Retained 6 sequences of the initial 6 (100.0%).
+
+________________________________________________________________________________ 
+
+
+
+ ############################################################################## 
+ ####                Filtering genomes with too few hits                   ####
+ ############################################################################## 
+
+     Removing those with fewer than 50% of the total SCGs targeted.
+
+           It is currently 11:27 PM; the process started at 11:27 PM.
+               Current process runtime: 0 hours and 0 minutes.
+
+             [0;32mNo genomes were removed for having too few hits :)[0m
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####          Aligning, trimming, and inserting gap-sequences             ####
+ ############################################################################## 
+
+           It is currently 11:27 PM; the process started at 11:27 PM.
+               Current process runtime: 0 hours and 0 minutes.
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mRibosomal_L14[0m.
+   --------------------------------------------------------------------------   
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mRibosomal_L2[0m.
+   --------------------------------------------------------------------------   
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mRibosomal_L16[0m.
+   --------------------------------------------------------------------------   
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mribosomal_L24[0m.
+   --------------------------------------------------------------------------   
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mRibosomal_L3[0m.
+   --------------------------------------------------------------------------   
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mRibosomal_L6[0m.
+   --------------------------------------------------------------------------   
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mRibosomal_S10[0m.
+   --------------------------------------------------------------------------   
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mRibosomal_L5[0m.
+   --------------------------------------------------------------------------   
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mRibosomal_L22[0m.
+   --------------------------------------------------------------------------   
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mRibosomal_S8[0m.
+   --------------------------------------------------------------------------   
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mRibosomal_L4[0m.
+   --------------------------------------------------------------------------   
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mRibosomal_S17[0m.
+   --------------------------------------------------------------------------   
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mRibosomal_S19[0m.
+   --------------------------------------------------------------------------   
+
+
+
+   --------------------------------------------------------------------------   
+	    Finished aligning and formatting gene-set [0;32mRibosomal_S3_C[0m.
+   --------------------------------------------------------------------------   
+
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                  Catting all alignments together                     ####
+ ############################################################################## 
+
+           It is currently 11:27 PM; the process started at 11:27 PM.
+               Current process runtime: 0 hours and 0 minutes.
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                          Running IQ-TREE                            ####
+ ############################################################################## 
+
+           It is currently 11:27 PM; the process started at 11:27 PM.
+               Current process runtime: 0 hours and 0 minutes.
+
+IQ-TREE multicore version 1.6.9 for Linux 64-bit built Mar  9 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Mellea (AVX2, FMA3, 251 GB RAM)
+Command: iqtree -s /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/alignment/Aligned_SCGs.faa -nt 24 -mset WAG,LG -bb 1000 -pre iqtree_out
+Seed:    596544 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 14 23:27:49 2019
+Kernel:  AVX+FMA - 24 threads (56 CPU cores detected)
+
+Reading alignment file /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/alignment/Aligned_SCGs.faa ... Fasta format detected
+Alignment most likely contains protein sequences
+WARNING: 65 sites contain only gaps or ambiguous characters.
+Alignment has 7 sequences with 2250 columns, 506 distinct patterns
+281 parsimony-informative, 185 singleton sites, 1784 constant sites
+                            Gap/Ambiguity  Composition  p-value
+   1  Chl_ferrooxidans_KoFox       48.00%    passed     63.65%
+   2  Chl_luteolum_DSM_273         15.33%    passed    100.00%
+   3  Chl_phaeoferrooxidans_KB01    2.89%    passed    100.00%
+   4  Chl_sp_N1                     2.93%    passed     99.96%
+   5  L227_2013_bin_56              8.71%    passed     99.96%
+   6  L227_enrichment_S_6D          2.89%    passed    100.00%
+   7  L304_enrichment_S_6D          2.93%    passed    100.00%
+****  TOTAL                        11.96%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+NOTE: ModelFinder requires 7 MB RAM!
+ModelFinder will test 52 protein models (sample size: 2250) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  WAG           10540.816    11  21103.633    21103.750    21166.538
+  2  WAG+I         10386.691    12  20797.382    20797.521    20866.006
+  3  WAG+G4        10387.405    12  20798.810    20798.950    20867.434
+  4  WAG+I+G4      10389.226    13  20804.453    20804.615    20878.795
+  5  WAG+R2        10386.692    13  20799.385    20799.548    20873.728
+  6  WAG+R3        10386.676    15  20803.352    20803.566    20889.132
+ 14  WAG+F         10411.787    30  20883.574    20884.412    21055.134
+ 15  WAG+F+I       10253.441    31  20568.882    20569.776    20746.161
+ 16  WAG+F+G4      10253.889    31  20569.778    20570.673    20747.058
+ 17  WAG+F+I+G4    10255.635    32  20575.269    20576.222    20758.267
+ 18  WAG+F+R2      10253.370    32  20570.739    20571.692    20753.737
+ 19  WAG+F+R3      10253.359    34  20574.717    20575.792    20769.152
+ 27  LG            10496.619    11  21015.237    21015.355    21078.143
+ 28  LG+I          10336.707    12  20697.413    20697.553    20766.037
+ 29  LG+G4         10335.778    12  20695.556    20695.695    20764.180
+ 30  LG+I+G4       10336.271    13  20698.542    20698.705    20772.885
+ 31  LG+R2         10336.222    13  20698.444    20698.607    20772.787
+ 32  LG+R3         10336.220    15  20702.439    20702.654    20788.219
+ 40  LG+F          10390.275    30  20840.551    20841.389    21012.111
+ 41  LG+F+I        10224.549    31  20511.097    20511.992    20688.377
+ 42  LG+F+G4       10223.474    31  20508.949    20509.843    20686.228
+ 43  LG+F+I+G4     10224.040    32  20512.079    20513.032    20695.077
+ 44  LG+F+R2       10224.010    32  20512.020    20512.972    20695.018
+ 45  LG+F+R3       10223.997    34  20515.993    20517.068    20710.429
+Akaike Information Criterion:           LG+F+G4
+Corrected Akaike Information Criterion: LG+F+G4
+Bayesian Information Criterion:         LG+F+G4
+Best-fit model: LG+F+G4 chosen according to BIC
+
+All model information printed to iqtree_out.model.gz
+CPU time for ModelFinder: 6.359 seconds (0h:0m:6s)
+Wall-clock time for ModelFinder: 0.275 seconds (0h:0m:0s)
+Generating 1000 samples for ultrafast bootstrap (seed: 596544)...
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -10287.652
+2. Current log-likelihood: -10224.345
+3. Current log-likelihood: -10223.475
+Optimal log-likelihood: -10223.474
+Gamma shape alpha: 0.200
+Parameters optimization took 3 rounds (0.019 sec)
+Computing ML distances based on estimated model parameters... 0.085 sec
+Computing BIONJ tree...
+0.000 seconds
+Log-likelihood of BIONJ tree: -10223.474
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.075 second
+Computing log-likelihood of 34 initial trees ... 0.137 seconds
+Current best score: -10223.474
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -10223.474
+Iteration 10 / LogL: -10223.489 / Time: 0h:0m:0s
+Iteration 20 / LogL: -10223.965 / Time: 0h:0m:0s
+Finish initializing candidate tree set (1)
+Current best tree score: -10223.474 / CPU time: 0.706
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -10225.900 / Time: 0h:0m:1s (0h:0m:2s left)
+Iteration 40 / LogL: -10223.889 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 50 / LogL: -10223.474 / Time: 0h:0m:1s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -10249.195
+Iteration 60 / LogL: -10223.483 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 70 / LogL: -10223.474 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 80 / LogL: -10223.483 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 90 / LogL: -10223.483 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 100 / LogL: -10223.492 / Time: 0h:0m:2s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -10249.532
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -10223.474
+Optimal log-likelihood: -10223.474
+Gamma shape alpha: 0.200
+Parameters optimization took 1 rounds (0.003 sec)
+BEST SCORE FOUND : -10223.474
+Creating bootstrap support values...
+Split supports printed to NEXUS file iqtree_out.splits.nex
+Total tree length: 0.390
+
+Total number of iterations: 102
+CPU time used for tree search: 57.727 sec (0h:0m:57s)
+Wall-clock time used for tree search: 2.706 sec (0h:0m:2s)
+Total CPU time used: 58.486 sec (0h:0m:58s)
+Total wall-clock time used: 2.802 sec (0h:0m:2s)
+
+Computing bootstrap consensus tree...
+Reading input file iqtree_out.splits.nex...
+7 taxa and 13 splits.
+Consensus tree written to iqtree_out.contree
+Reading input trees file iqtree_out.contree
+Log-likelihood of consensus tree: -10223.474
+
+Analysis results written to: 
+  IQ-TREE report:                iqtree_out.iqtree
+  Maximum-likelihood tree:       iqtree_out.treefile
+  Likelihood distances:          iqtree_out.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          iqtree_out.splits.nex
+  Consensus tree:                iqtree_out.contree
+  Screen log file:               iqtree_out.log
+
+Date and Time: Tue May 14 23:27:52 2019
+
+
+#################################################################################
+####                                 [0;32mDone!![0m                                  ####
+#################################################################################
+
+            [0;32mAll 7 input genomes were retained through the workflow![0m
+
+    Full alignment written to file:
+        [0;32m/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/alignment/Aligned_SCGs.faa[0m
+
+    Tree written to file:
+        [0;32m/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/alignment/Aligned_SCGs.tre[0m
+
+    Summary file with comp./redund. estimates written to file:
+        [0;32m/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/alignment/All_genomes_summary_info.tsv[0m
+
+    Summary table with hits per target gene per genome written to file:
+        [0;32m/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/alignment/All_genomes_SCG_hit_counts.tsv[0m
+
+
+  Notes:
+
+    1 gene(s) had no hits in any genome.
+        Reported in "/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/alignment/Genes_with_no_hits_to_any_genomes.txt".
+
+________________________________________________________________________________
+
+    Log file written to:
+        [0;32m/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/riboprotein/phylogeny/alignment/gtotree-runlog.txt[0m
+
+                                         Total process runtime: 0 hours and 0 minutes.
+                                                      [0;32mHappy Tuesday :)[0m
+

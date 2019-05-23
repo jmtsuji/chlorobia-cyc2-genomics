@@ -1,0 +1,9 @@
+Using 4 threads
+Read 7 sequences (type: Protein) from /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/04_subset_phylogenies/cyc2/input/cyc2_subset_renamed.faa
+not more sequences (7) than cluster-size (100), turn off mBed
+Calculating pairwise ktuple-distances...
+Ktuple-distance calculation progress: 0 % (0 out of 28)Ktuple-distance calculation progress: 3 % (1 out of 28)Ktuple-distance calculation progress: 7 % (2 out of 28)Ktuple-distance calculation progress: 32 % (9 out of 28)Ktuple-distance calculation progress: 42 % (12 out of 28)Ktuple-distance calculation progress: 50 % (14 out of 28)Ktuple-distance calculation progress: 57 % (16 out of 28)Pairwise distance matrix written to cyc2_subset_renamed_distmat.txt
+Ktuple-distance calculation progress done. CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00
+Guide-tree computation done.
+Progressive alignment progress: 16 % (1 out of 6)Progressive alignment progress: 33 % (2 out of 6)Progressive alignment progress: 50 % (3 out of 6)Progressive alignment progress: 66 % (4 out of 6)Progressive alignment progress: 83 % (5 out of 6)Progressive alignment progress: 100 % (6 out of 6)Progressive alignment progress done. CPU time: 0.21u 0.03s 00:00:00.24 Elapsed: 00:00:00
+Alignment written to cyc2_subset_renamed_aligned.faa
