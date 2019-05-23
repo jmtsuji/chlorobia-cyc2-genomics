@@ -18,13 +18,13 @@ Unique genome bins were determined using dRep, version 2.0.5.
 dRep was run for the lake metagenomes. The enrichment culture genomes were determined later to be distinct from any of the lake metagenomes with an additional dRep run, but then the lake metagenome dRep results were used, with the enrichment culture genomes appended to the output table (because of the timing of when data became available for the manuscript).
 
 ### Create the conda environment with all needed dependencies:
-```
+```bash
 conda create -y -n dRep -c bioconda -c r drep=2.0.5 r-dplyr
 ```
 Use this environment via `conda activate dRep`
 
 ### Prepare CheckM and bin information for dRep
-```
+```bash
 # User variables
 input_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/lake_metagenomes"
 output_dir="${github_repo_location}/Data_analysis_pipeline/03_bin_curation/01_dereplication"
@@ -84,7 +84,7 @@ done
 ```
 
 ### Dereplicate the bins
-```
+```bash
 cd ${output_dir}/output
 log_code=$(date '+%y%m%d_%H%M')
 dRep dereplicate -p ${threads} -g ${output_dir}/input/bins/*.fasta --genomeInfo ${output_dir}/input/checkm_stats_reduced.csv ${output_dir}/output 2>&1 | tee dRep_${log_code}.log
@@ -92,7 +92,7 @@ dRep dereplicate -p ${threads} -g ${output_dir}/input/bins/*.fasta --genomeInfo 
 
 Once dRep is done, make a summary file of dRep output and CheckM input using R  
 First, navigate to the right folder and start R:
-```
+```bash
 cd ${output_dir}
 R
 ```
@@ -134,7 +134,7 @@ All genome bins (pre-dereplication) were imported into Anvi'o for subsequent man
 Genome bins were imported into anvi'o 4 using [atlas-to-anvi.sh](https://github.com/jmtsuji/atlas-extensions), version 1.0.22-coassembly-r4.
 
 Create the conda environment with all dependencies installed:
-```
+```bash
 conda create -y -n atlas_to_anvi_r4 -c bioconda -c conda-forge -c r anvio=4 diamond bwa bbmap gffutils r r-plyr r-dplyr r-getopt
 git clone https://github.com/jmtsuji/atlas-extensions.git
 cd atlas-extensions
@@ -145,13 +145,13 @@ rm -rf atlas-extensions
 ```
 
 The first time you use the environment, you'll need to download the COGs:
-```
+```bash
 conda activate atlas_to_anvi_r4
 anvi-setup-ncbi-cogs --just-do-it
 ```
 
 Import the bins:
-```
+```bash
 # User variables
 atlas_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/lake_metagenomes"
 output_dir="${github_repo_location}/Data_analysis_pipeline/03_bin_curation/02_anvio"
@@ -173,7 +173,7 @@ echo "[ $(date -u) ]: finished."
 ```
 
 You can then refine bins of interest (e.g., `CA_L227_2013_55`) by running the following code and then working with the anvi'o browser interface:
-```
+```bash
 bin_dir="${output_dir}/CA_L227_2013"
 bin_name="CA_L227_2013_55"
 taxonomic_level="t_genus"
@@ -188,18 +188,17 @@ anvi-refine -p ${bin_dir##*/}_samples_merged/PROFILE.db -c ${bin_dir##*/}_contig
 ```
 
 Once finished, export the genome bin sequences using
-```
+```bash
 anvi-summarize -p ${bin_dir##*/}samples_merged/PROFILE.db -c ${bin_dir##*/}_contigs.db -C metabat2 -o ${bin_dir##*/}_summary_refined --taxonomic-level ${taxonomic_level} --init-gene-coverages 2>&1 | tee misc_logs/anvi-summarize-refined_lakes.log
 ```
 
 I've included visual notes of how the bins were refined in `02_anvio/refinement_images`.
-```
 
 ### Enrichment culture metagenomes
 Because enrichment cultures were sequenced later, they were refined using updated software. Anvi'o 5 was used with [atlas-to-anvi.sh](https://github.com/jmtsuji/atlas-extensions), commit 99b85ac.
 
 Create the conda environment with all dependencies installed:
-```
+```bash
 conda create -y -n atlas_to_anvi_99b85ac -c bioconda -c conda-forge -c r anvio=5 diamond bwa bbmap gffutils r r-plyr r-dplyr r-getopt
 git clone https://github.com/jmtsuji/atlas-extensions.git
 cd atlas-extensions
@@ -210,13 +209,13 @@ rm -rf atlas-extensions
 ```
 
 The first time you use the environment, you'll need to download the COGs:
-```
+```bash
 conda activate atlas_to_anvi_99b85ac
 anvi-setup-ncbi-cogs --just-do-it
 ```
 
 Import the bins:
-```
+```bash
 # User variables
 atlas_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/enrichment_metagenomes"
 output_dir="${github_repo_location}/Data_analysis_pipeline/03_bin_curation/02_anvio"
@@ -250,7 +249,7 @@ echo "[ $(date -u) ]: Finished."
 ```
 
 You can then refine bins of interest (e.g., `L227_S_6D_001`) by running the following code and then working with the anvi'o browser interface:
-```
+```bash
 bin_dir="${output_dir}/L227_S_6D"
 bin_name="L227_S_6D_001"
 taxonomic_level="t_family"
@@ -265,7 +264,7 @@ anvi-refine -p ${bin_dir##*/}_samples_merged/PROFILE.db -c ${bin_dir##*/}_contig
 ```
 
 Once finished, export the genome bin sequences using
-```
+```bash
 anvi-summarize -p ${bin_dir##*/}samples_merged/PROFILE.db -c ${bin_dir##*/}_contigs.db -C metabat2 -o ${bin_dir##*/}_summary_refined --taxonomic-level ${taxonomic_level} --init-gene-coverages 2>&1 | tee misc_logs/anvi-summarize-refined_enrichments.log
 ```
 
@@ -275,7 +274,7 @@ I've included visual notes of how the bins were refined in `02_anvio/refinement_
 Contigs for the manually curated genomes were ordered based on the reference genome sequence of *Chlorobium luteolum*. The re-ordering does not actually affect the downstream analyses of this paper but is good practice in some cases (e.g., for comparing gene arrangement).
 
 Installed the mauve contig mover (a bit difficult - not possible directly via conda; **note that Java and seqtk are dependencies**):
-```
+```bash
 work_dir="${github_repo_location}/Data_analysis_pipeline/03_bin_curation/03_contig_ordering"
 
 mkdir -p "${work_dir}"
@@ -301,7 +300,7 @@ mkdir -p "${work_dir}/input_genomes"
 Then, you must **manually** copy all refined genome bins into `${work_dir}/input_genomes`.
 
 Download the *Chl. luteolum* reference genome
-```
+```bash
 mkdir -p "${work_dir}/reference_genome"
 cd "${work_dir}/reference_genome"
 
@@ -310,7 +309,7 @@ wget -O - ${luteolum_fna_URL} | gunzip > Chl_luteolum_DSM_273_genome.fa
 ```
 
 Run the Mauve Contig Mover
-```
+```bash
 # User variables
 input_dir="${work_dir}/input_genomes"
 output_dir="${work_dir}/ordered_genomes/original"
@@ -349,7 +348,7 @@ echo "[ $(date -u) ]: Done."
 Calculated CheckM stats, length stats, and so on for the final set of genome bins
 
 Installed dependencies:
-```
+```bash
 conda create -n bin_stats -c bioconda bbmap checkm-genome prokka=1.13.3
 
 # Must manually finish the checkm install by running once and specifying the database dir.
@@ -359,7 +358,7 @@ checkm
 Activate this with `conda activate bin_stats` before running the code below.
 
 
-```
+```bash
 out_dir="${github_repo_location}/Data_analysis_pipeline/03_bin_curation/04_bin_stats"
 threads=12
 final_bin_dir="${work_dir}/ordered_genomes/final"
