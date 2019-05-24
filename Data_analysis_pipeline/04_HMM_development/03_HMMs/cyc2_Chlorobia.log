@@ -1,5 +1,5 @@
 # hmmbuild :: profile HMM construction from multiple sequence alignments
-# HMMER 3.2 (June 2018); http://hmmer.org/
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
 # Copyright (C) 2018 Howard Hughes Medical Institute.
 # Freely distributed under the BSD open source license.
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -14,4 +14,4 @@
 #---- -------------------- ----- ----- ----- -------- ------ -----------
 1     cyc2_Chlorobia           8   451   416     0.66  0.591 
 
-# CPU time: 0.35u 0.00s 00:00:00.35 Elapsed: 00:00:00.35
+# CPU time: 0.36u 0.00s 00:00:00.36 Elapsed: 00:00:00.37
