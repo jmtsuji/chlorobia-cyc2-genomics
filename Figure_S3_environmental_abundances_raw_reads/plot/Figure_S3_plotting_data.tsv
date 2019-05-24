@@ -1,0 +1,168 @@
+Dataset	HMM.Family	Closest.Homolog.Superkingdom	Closest.Homolog.Phylum	Closest.Homolog.Class	Closest.Homolog.Order	Closest.Homolog.Family	percent_abundance
+L227 2013 6m	rpoB	Bacteria	Acidobacteria	Holophagae	Holophagales	Holophagaceae	7.88895221037206
+L227 2013 6m	rpoB	Bacteria	Actinobacteria	Actinobacteria	Streptomycetales	Streptomycetaceae	1.70153871204103
+L227 2013 6m	rpoB	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prolixibacteraceae	1.09500936253358
+L227 2013 6m	rpoB	Bacteria	Bacteroidetes	Chitinophagia	Chitinophagales	Chitinophagaceae	1.13571603028576
+L227 2013 6m	rpoB	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	9.76552959374745
+L227 2013 6m	rpoB	Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales	Phycisphaeraceae	1.37181470324839
+L227 2013 6m	rpoB	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	3.18733208499552
+L227 2013 6m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	5.08833346902223
+L227 2013 6m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	8.27566555401775
+L227 2013 6m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae	2.72734673939591
+L227 2013 6m	rpoB	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobacteraceae	1.64047871041277
+L227 2013 6m	rpoB	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	11.8008629813563
+L227 2013 6m	rpoB	Bacteria	Spirochaetes	Spirochaetia	Spirochaetales	Spirochaetaceae	1.18863469836359
+L227 2013 6m	rpoB	Bacteria	Verrucomicrobia	Opitutae	Opitutales	Opitutaceae	1.92542538467801
+L227 2013 6m	rpoB	Bacteria	Verrucomicrobia	Spartobacteria	Chthoniobacterales	Chthoniobacteraceae	2.5400960677359
+L227 2013 6m	rpoB	Bacteria	Verrucomicrobia	Spartobacteria	Terrimicrobium	Terrimicrobium	1.5346413742571
+L227 2013 6m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	1.08279736220793
+L227 2013 6m	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	2.80456605458641
+L227 2013 6m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	1.96858963446931
+L227 2013 6m	cyc2	unclassified	unclassified	unclassified	unclassified	unclassified	2.56186322293951
+L227 2013 6m	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	3.5427597620436
+L227 2013 6m	dsrA	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobacteraceae	2.7903152108131
+L227 2013 6m	bchL	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	16.3029652766608
+L227 2013 6m	bchL	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfuromonadales	Geobacteraceae	1.09731497054448
+L227 2013 6m	bchL	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	1.19137053944829
+L227 2013 8m	rpoB	Bacteria	Acidobacteria	Holophagae	Holophagales	Holophagaceae	3.36818687430478
+L227 2013 8m	rpoB	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Lentimicrobiaceae	4.36484983314794
+L227 2013 8m	rpoB	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	2.15350389321468
+L227 2013 8m	rpoB	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prolixibacteraceae	1.70856507230256
+L227 2013 8m	rpoB	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	1.27252502780868
+L227 2013 8m	rpoB	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	5.93548387096774
+L227 2013 8m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	4.80533926585095
+L227 2013 8m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	3.07452725250278
+L227 2013 8m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae	1.79310344827586
+L227 2013 8m	rpoB	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfuromonadales	Geobacteraceae	1.16573971078977
+L227 2013 8m	rpoB	Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophaceae	1.93993325917686
+L227 2013 8m	rpoB	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	9.43270300333704
+L227 2013 8m	rpoB	Bacteria	Spirochaetes	Spirochaetia	Spirochaetales	Spirochaetaceae	1.25027808676307
+L227 2013 8m	rpoB	Bacteria	Verrucomicrobia	Opitutae	Opitutales	Opitutaceae	1.53948832035595
+L227 2013 8m	rpoB	Bacteria	Verrucomicrobia	Spartobacteria	Chthoniobacterales	Chthoniobacteraceae	3.07007786429366
+L227 2013 8m	rpoB	Bacteria	Verrucomicrobia	Spartobacteria	Terrimicrobium	Terrimicrobium	1.69076751946607
+L227 2013 8m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobia subdivision 3	1.16573971078977
+L227 2013 8m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	1.4238042269188
+L227 2013 8m	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	1.03165651552748
+L227 2013 8m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	2.03383713061132
+L227 2013 8m	cyc2	unclassified	unclassified	unclassified	unclassified	unclassified	1.06113241597113
+L227 2013 8m	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	5.31165311653117
+L227 2013 8m	dsrA	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptococcaceae	1.06233062330623
+L227 2013 8m	bchL	Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	1.23367427222659
+L227 2013 8m	bchL	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	9.8008567182446
+L227 2013 8m	bchL	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfuromonadales	Geobacteraceae	1.81624267855582
+L227 2013 8m	bchL	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	1.54209284028324
+L227 2014 6m	rpoB	Bacteria	Acidobacteria	Holophagae	Holophagales	Holophagaceae	8.2567153416261
+L227 2014 6m	rpoB	Bacteria	Actinobacteria	Actinobacteria	Streptomycetales	Streptomycetaceae	2.41572020912205
+L227 2014 6m	rpoB	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Lentimicrobiaceae	2.34360915810348
+L227 2014 6m	rpoB	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	1.37912385073012
+L227 2014 6m	rpoB	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prolixibacteraceae	1.44522564749715
+L227 2014 6m	rpoB	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	1.06664262964966
+L227 2014 6m	rpoB	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	12.3039480800433
+L227 2014 6m	rpoB	Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	1.72766059731987
+L227 2014 6m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	3.65062195781504
+L227 2014 6m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	5.66672675920918
+L227 2014 6m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae	2.04915569977766
+L227 2014 6m	rpoB	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobacteraceae	1.85685956372814
+L227 2014 6m	rpoB	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	3.52442761853254
+L227 2014 6m	rpoB	Bacteria	Verrucomicrobia	Spartobacteria	Chthoniobacterales	Chthoniobacteraceae	1.83282254672195
+L227 2014 6m	rpoB	Bacteria	Verrucomicrobia	Spartobacteria	Terrimicrobium	Terrimicrobium	1.23790637581876
+L227 2014 6m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobia subdivision 3	1.11471666366204
+L227 2014 6m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	1.20185085030948
+L227 2014 6m	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	4.31933709380978
+L227 2014 6m	cyc2	unclassified	unclassified	unclassified	unclassified	unclassified	1.27390587098537
+L227 2014 6m	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	8.00689973127722
+L227 2014 6m	dsrA	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobacteraceae	3.21664468973276
+L227 2014 6m	bchL	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	20.1098146430055
+L227 2014 6m	bchL	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfuromonadales	Geobacteraceae	1.36533839348369
+L227 2014 8m	rpoB	Bacteria	Acidobacteria	Holophagae	Holophagales	Holophagaceae	4.46782555657213
+L227 2014 8m	rpoB	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Lentimicrobiaceae	3.56307817424011
+L227 2014 8m	rpoB	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	1.62651214801261
+L227 2014 8m	rpoB	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prolixibacteraceae	1.42828097997357
+L227 2014 8m	rpoB	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	1.23513266239707
+L227 2014 8m	rpoB	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	4.39158279963404
+L227 2014 8m	rpoB	Bacteria	Planctomycetes	Planctomycetia	Planctomycetales	Planctomycetaceae	1.15380705499644
+L227 2014 8m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	3.10562163261157
+L227 2014 8m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	3.62915523025313
+L227 2014 8m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae	1.93656602622751
+L227 2014 8m	rpoB	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfuromonadales	Geobacteraceae	1.26562976517231
+L227 2014 8m	rpoB	Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophaceae	3.1361187353868
+L227 2014 8m	rpoB	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	10.252109382942
+L227 2014 8m	rpoB	Bacteria	Spirochaetes	Spirochaetia	Spirochaetales	Spirochaetaceae	1.17922130730914
+L227 2014 8m	rpoB	Bacteria	Verrucomicrobia	Opitutae	Opitutales	Opitutaceae	1.20463555962184
+L227 2014 8m	rpoB	Bacteria	Verrucomicrobia	Spartobacteria	Chthoniobacterales	Chthoniobacteraceae	2.24153705397987
+L227 2014 8m	rpoB	Bacteria	Verrucomicrobia	Spartobacteria	Terrimicrobium	Terrimicrobium	1.72308630680085
+L227 2014 8m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobia subdivision 3	1.24529836332215
+L227 2014 8m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	1.24529836332215
+L227 2014 8m	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	1.04384450221596
+L227 2014 8m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	1.85198218135089
+L227 2014 8m	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	2.58374099447002
+L227 2014 8m	dsrA	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptococcaceae	1.76164158713865
+L227 2014 8m	bchL	Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	1.48760845136153
+L227 2014 8m	bchL	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	7.08571393937991
+L227 2014 8m	bchL	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	1.25272290640971
+L442 2011 16.5m	rpoB	Bacteria	Acidobacteria	Holophagae	Holophagales	Holophagaceae	1.89379774560607
+L442 2011 16.5m	rpoB	Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	Acidimicrobiaceae	1.13521021422085
+L442 2011 16.5m	rpoB	Bacteria	Actinobacteria	Actinobacteria	Streptomycetales	Streptomycetaceae	1.56258347133928
+L442 2011 16.5m	rpoB	Bacteria	Bacteroidetes	Chitinophagia	Chitinophagales	Chitinophagaceae	1.46909557134462
+L442 2011 16.5m	rpoB	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	2.16624819701907
+L442 2011 16.5m	rpoB	Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales	Phycisphaeraceae	1.95256156845985
+L442 2011 16.5m	rpoB	Bacteria	Planctomycetes	Planctomycetia	Planctomycetales	Planctomycetaceae	1.45306907420268
+L442 2011 16.5m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	2.95421763983119
+L442 2011 16.5m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	5.86035578823655
+L442 2011 16.5m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Gallionellales	Gallionellaceae	2.5695817084246
+L442 2011 16.5m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae	7.45766333671671
+L442 2011 16.5m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Nitrosomonadales	Nitrosomonadaceae	2.05139163416849
+L442 2011 16.5m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	3.97190020834446
+L442 2011 16.5m	rpoB	Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophaceae	1.45574015705967
+L442 2011 16.5m	rpoB	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	8.46199049094503
+L442 2011 16.5m	rpoB	Bacteria	Verrucomicrobia	Opitutae	Opitutales	Opitutaceae	3.004968214114
+L442 2011 16.5m	rpoB	Bacteria	Verrucomicrobia	Spartobacteria	Chthoniobacterales	Chthoniobacteraceae	1.18863187136065
+L442 2011 16.5m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	1.39791650556114
+L442 2011 16.5m	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	2.8389919029272
+L442 2011 16.5m	dsrA	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobacteraceae	1.11090987505847
+L442 2011 16.5m	bchL	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	2.81841949783353
+L442 2011 16.5m	bchL	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	1.04919265977744
+L442 2014 13m	rpoB	Bacteria	Acidobacteria	Holophagae	Holophagales	Holophagaceae	4.50968190636553
+L442 2014 13m	rpoB	Bacteria	Actinobacteria	Actinobacteria	Streptomycetales	Streptomycetaceae	1.49712654196713
+L442 2014 13m	rpoB	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	8.12621252608075
+L442 2014 13m	rpoB	Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	1.16036458142685
+L442 2014 13m	rpoB	Bacteria	Gemmatimonadetes	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	1.32874556169699
+L442 2014 13m	rpoB	Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales	Phycisphaeraceae	2.19261319960467
+L442 2014 13m	rpoB	Bacteria	Planctomycetes	Planctomycetia	Planctomycetales	Planctomycetaceae	1.41293605183206
+L442 2014 13m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiaceae	1.59229840038069
+L442 2014 13m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	6.08367802628207
+L442 2014 13m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Gallionellales	Gallionellaceae	1.44588015666752
+L442 2014 13m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae	1.85951169515722
+L442 2014 13m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Nitrosomonadales	Nitrosomonadaceae	1.26285735202606
+L442 2014 13m	rpoB	Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	3.69340019766463
+L442 2014 13m	rpoB	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	5.10633624949669
+L442 2014 13m	rpoB	Bacteria	Verrucomicrobia	Opitutae	Opitutales	Opitutaceae	3.23584318606098
+L442 2014 13m	rpoB	Bacteria	Verrucomicrobia	Spartobacteria	Chthoniobacterales	Chthoniobacteraceae	2.00592993887038
+L442 2014 13m	rpoB	Bacteria	Verrucomicrobia	Spartobacteria	Terrimicrobium	Terrimicrobium	1.06519272301329
+L442 2014 13m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobia subdivision 3	1.13840184486987
+L442 2014 13m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	1.25919689593323
+L442 2014 13m	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	13.7297260084135
+L442 2014 13m	dsrA	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobacteraceae	1.12769823477729
+L442 2014 13m	bchL	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	20.8624173433798
+L442 2014 13m	bchL	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfuromonadales	Geobacteraceae	2.08624173433798
+L227-enr-6D	rpoB	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Lentimicrobiaceae	8.34879406307978
+L227-enr-6D	rpoB	Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	1.775775245163
+L227-enr-6D	rpoB	Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	2.06732043466737
+L227-enr-6D	rpoB	Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	1.37821362311158
+L227-enr-6D	rpoB	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	74.2645109992049
+L227-enr-6D	rpoB	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	1.2987012987013
+L227-enr-6D	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	27.2152090333909
+L227-enr-6D	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Candidatus Thiodiazotropha	Candidatus Thiodiazotropha	3.51163987527624
+L227-enr-6D	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	26.741280399817
+L227-enr-6D	bchL	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	101.657691901594
+L227-enr-6D	bchL	Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	2.24545102593883
+L227-enr-6D	bchL	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfuromonadales	Geobacteraceae	1.83718720304086
+L304-enr-6D	rpoB	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	96.5535524920467
+L304-enr-6D	rpoB	Bacteria	Spirochaetes	Spirochaetia	Spirochaetales	Borreliaceae	1.08695652173913
+L304-enr-6D	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	71.4808168148571
+L304-enr-6D	cyc2	Bacteria	Proteobacteria	Betaproteobacteria	Gallionellales	Gallionellaceae	2.45879959559705
+L304-enr-6D	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	44.7167403805533
+L304-enr-6D	dsrA	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	1.02093014567473
+L304-enr-6D	bchL	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	135.37533731647
+L304-enr-6D	bchL	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobacteraceae	5.51302278664356
+L304-enr-6D	bchL	Bacteria	Verrucomicrobia	Opitutae	Puniceicoccales	Puniceicoccaceae	6.53395293231829
