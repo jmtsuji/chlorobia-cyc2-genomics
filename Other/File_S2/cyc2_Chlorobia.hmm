@@ -1,4 +1,4 @@
-HMMER3/f [3.2 | June 2018]
+HMMER3/f [3.2.1 | June 2018]
 NAME  cyc2_Chlorobia
 LENG  416
 ALPH  amino
@@ -7,7 +7,7 @@ MM    no
 CONS  yes
 CS    no
 MAP   yes
-DATE  Wed May  8 17:48:48 2019
+DATE  Fri May 24 02:12:04 2019
 NSEQ  8
 EFFN  0.660156
 CKSUM 1954572972
