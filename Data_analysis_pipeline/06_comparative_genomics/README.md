@@ -131,7 +131,7 @@ cd ${phylogeny_dir}
 
 iqtree -s ${input_filepath} -pre cyc2_phylogeny -nt ${threads} -seed 47 -b 1000 -m MFP
 ```
-The output file `cyc2_phylogeny.contree` contains the consensus tree data for the phylogenetic tree.  
+The output file `cyc2_phylogeny.treefile` contains the phylogenetic tree info.  
 
 See Figure 1 folder for the code of how this was plotted.
 
