@@ -1,5 +1,6 @@
 # ABOUT IISD-ELA _Chlorobia_ _cyc2_ genomics project
-Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
+Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
+[![Github repo DOI](https://zenodo.org/badge/168807016.svg)](https://zenodo.org/badge/latestdoi/168807016)
 
 This Github repository describes the steps/code used to perform bioinformatics analysis for the paper by Tsuji and colleagues, 2019 (pre-print link will be posted here once available). Descriptor files in this repo are in the Markdown (`.md`) format and begin with `README`. Other files include scripts and raw data files. The information is organized as follows:
 
