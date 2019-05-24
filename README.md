@@ -14,6 +14,13 @@ A unique folder exists for most main or supplementary tables/figures in the publ
 ## `Other`
 Some supplementary material did not warrant having its own folder, so it is grouped in the `Other` folder exactly as it would appear in the Supplementary Information on the journal website.
 
+## Zenodo
+Note that this repo has a corresponding data repository in Zenodo for hosting larger files (e.g., non-curated genome bins). Check out the version (`v1.0.1`) corresponding to the current repo code below:
+[![Zenodo data repository](https://zenodo.org/badge/DOI/10.5281/zenodo.3228469.svg)](http://doi.org/10.5281/zenodo.3228469)
+
+Code in this repo shows how to use the files in the Zenodo repo for analysis.
+
+## Final remarks
 I hope this is a helpful resource for the scientific community, both in the critique of my work and in further development of bioinformatics. Feel free to post an issue if you have any questions or concerns. Enjoy!  
 
 
