@@ -509,11 +509,6 @@ main <- function(params) {
                                   function(x) {dplyr::left_join(gff_data_aligned[[x]], colouring_table, by = "product")})
   names(gff_data_aligned) <- genome_names
   
-  # # Make pretty genome names
-  # genome_names <- plyr::mapvalues(genome_names, from = cyc2_info$genome, to = cyc2_info$plotting_name)
-  # genome_names <- factor(genome_names, levels = cyc2_info$plotting_name, ordered = TRUE)
-  # names(gff_data_aligned) <- genome_names
-  
   # Make Gviz tracks
   flog.info("Generating plot")
   annotation_tracks <- lapply(names(gff_data_aligned), 
