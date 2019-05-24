@@ -1,25 +1,38 @@
-#!/usr/bin/env Rscript
-# Genomic context plotting tool
-# Built for cyc2 context plotting, but in theory is extendable to other applications
-# Copyright Jackson M. Tsuji, Neufeld Research Group, 2018
+# Figure_1B.R
+# Genomic context plotter for Figure 1, panel B, of the Chlorobia cyc2 paper
+# Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
 
 # Load libraries
+library(here)
 library(stats4)
 library(parallel)
 library(BiocGenerics, warn.conflicts = FALSE)
-library(argparser)
 library(futile.logger)
 library(scales)
 library(S4Vectors, warn.conflicts = FALSE)
 library(dplyr, warn.conflicts = FALSE)
 library(RColorBrewer)
 library(grid)
-library(ggplot2)
+library(ggplot2, quietly = TRUE, warn.conflicts = FALSE)
 library(IRanges, warn.conflicts = FALSE)
 library(GenomeInfoDb)
 library(GenomicRanges)
 library(Gviz)
 library(ape)
+
+######################################
+## User variables
+######################################
+params <- list()
+params$gff_summary_filename <- here::here("plot", "Figure_1B_plotting_data.tsv")
+params$plotting_colour_guide_filename <- here::here("input_data", "Figure_1B_plotting_colours.tsv")
+params$pdf_filename <- here::here("plot", "Figure_1B_raw.pdf")
+params$cyc2_info_filename <- NA
+params$gff_directory <- NA
+params$threads <- 4
+params$buffer_length <- NA
+params$run_mode <- "normal"
+######################################
 
 #' Grabs accession and product into from a provided GFF attribute entry
 #' 
@@ -38,8 +51,10 @@ parse_gff_attributes <- function(unparsed_gff_attribute_string) {
   test_locus_tag <- length(grep(x = attributes_unparsed, pattern = "^locus_tag="))
   
   if (test_protein_ID == 1 && test_locus_tag == 1) {
-    flog.error("protein_id and locus_tag attributes are both present in the GFF file; don't know what to do. Exiting...")
-    quit(save = "no", status = 1)
+    # Use protein_id over locus_tag, BUT throw a warning -- I don't know if this will mess things up.
+    accession <- gsub(x = attributes_unparsed[grep(x = attributes_unparsed, pattern = "^protein_id=")], 
+                      pattern = "^protein_id=", replacement = "")
+    flog.warn(glue::glue(accession, ": found protein_id and locus_tag. Defaulting to protein_id."))
   } else if (test_protein_ID == 1) {
     flog.debug("Setting accession parsing mode to 'protein_ID'")
     accession <- gsub(x = attributes_unparsed[grep(x = attributes_unparsed, pattern = "^protein_id=")], 
@@ -77,8 +92,8 @@ read_gff_cds <- function(gff_filename, gff_directory, threads = 1) {
   gff_file[] <- lapply(gff_file, as.character) # make all characters; see https://stackoverflow.com/a/2851213 (accessed Nov 28, 2018)
   
   # Filter down to features and columns of interest
-  gff_file <- dplyr::filter(gff_file, type == "CDS")
-  gff_file <- dplyr::select(gff_file, seqid, source, start, end, strand, attributes)
+  gff_file <- dplyr::filter(gff_file, type == "CDS") %>%
+              dplyr::select(seqid, source, start, end, strand, attributes)
   
   # Get attributes of interest
   gff_attributes <- dplyr::bind_rows(mclapply(gff_file$attributes, parse_gff_attributes, mc.cores = threads))
@@ -402,7 +417,7 @@ process_gff_data <- function(gff_summary_filename, cyc2_info_filename = NA, gff_
     cyc2_info <- as_tibble(read.table(cyc2_info_filename, sep = "\t", header = TRUE, stringsAsFactors = FALSE))
     
     # Load the GFF files
-    flog.info("Loading GFF files (takes time to parse...)")
+    flog.info("Loading GFF files (can take time to parse...)")
     gff_data <- lapply(cyc2_info$gff_filename, function(x) {read_gff_cds(x, gff_directory, threads)})
     names(gff_data) <- cyc2_info$cyc2_accession
     
@@ -494,6 +509,10 @@ main <- function(params) {
                                   function(x) {dplyr::left_join(gff_data_aligned[[x]], colouring_table, by = "product")})
   names(gff_data_aligned) <- genome_names
   
+  # # Make pretty genome names
+  # genome_names <- plyr::mapvalues(genome_names, from = cyc2_info$genome, to = cyc2_info$plotting_name)
+  # genome_names <- factor(genome_names, levels = cyc2_info$plotting_name, ordered = TRUE)
+  # names(gff_data_aligned) <- genome_names
   
   # Make Gviz tracks
   flog.info("Generating plot")
@@ -515,50 +534,4 @@ main <- function(params) {
   
 }
 
-if (interactive() == FALSE) {
-  
-  parser <- argparser::arg_parser("Generates a genomic context plot for the Chlorobi cyc2 paper.")
-  parser <- argparser::add_argument(parser, arg = "gff_summary_filename", 
-                                    help = "Filepath to save TSV-format parsed GFF information to; OR filepath of user-provided pre-parsed GFF info to load",
-                                    type = "character")
-  parser <- argparser::add_argument(parser, arg = "plotting_colour_guide_filename", 
-                                    help = "Filepath to save TSV-format colouring table to; OR filepath of user-provided pre-generated colouring table to load",
-                                    type = "character")
-  parser <- argparser::add_argument(parser, arg = "pdf_filename", 
-                                    help = "Filepath to save PDF plot to",
-                                    type = "character")
-  parser <- argparser::add_argument(parser, arg = "--cyc2_info_filename", 
-                                    help = "Filepath of information file giving locations of GFF files and cyc accessions",
-                                    type = "character", short = "-c")
-  parser <- argparser::add_argument(parser, arg = "--gff_directory", 
-                                    help = "Character vector giving the directory where GFF files are stored",
-                                    type = "character", short = "-g")
-  parser <- argparser::add_argument(parser, arg = "--buffer_length", 
-                                    help = "[Optional] buffer to trim to up/downstream of the gene of interest for plotting",
-                                    type = "numeric", default = NA, short = "-b")
-  parser <- argparser::add_argument(parser, arg = "--run_mode", 
-                                    help = "[Optional] set to 'auto' to auto-generate a plot",
-                                    type = "character", default = "normal", short = "-r")
-  parser <- argparser::add_argument(parser, arg = "--threads", 
-                                    help = "[Optional] number of threads to use",
-                                    type = "numeric", default = 1, short = "-t")
-  
-  params <- argparser::parse_args(parser)
-  
-  main(params)
-} else {
-  # Set variables within the script
-  setwd("/home/jmtsuji/Research_General/PhD/04b_Metagenome_resequencing_F2015/10_ATLAS_re_analysis/13_cyc2_comparison/03_genomic_context/")
-  params <- list()
-  params$gff_summary_filename <- "cyc2_context_vs3_summary_edit3.tsv"
-  params$plotting_colour_guide_filename <- "cyc2_context_vs3_colours_edit.tsv"
-  params$pdf_filename <- "cyc2_context_vs3_plot_custom.pdf"
-  params$cyc2_info_filename <- NA
-  params$gff_directory <- NA
-  params$threads <- 4
-  params$buffer_length <- 5000
-  params$run_mode <- "normal"
-  
-  main(params)
-}
-
+main(params)

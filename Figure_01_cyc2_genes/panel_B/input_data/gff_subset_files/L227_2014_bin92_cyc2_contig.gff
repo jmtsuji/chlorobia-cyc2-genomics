@@ -1,0 +1,8 @@
+CA-L227-2014_238212	Prodigal:2.6	CDS	57	398	.	+	0	ID=CA-L227-2014_163909;inference=ab initio prediction:Prodigal:2.6;locus_tag=CA-L227-2014_163909;product=hypothetical protein
+CA-L227-2014_238212	Prodigal:2.6	CDS	692	1054	.	+	0	ID=CA-L227-2014_163910;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:Q8KG93;locus_tag=CA-L227-2014_163910;product=Cytochrome c-555
+CA-L227-2014_238212	Prodigal:2.6	CDS	1093	2349	.	+	0	ID=CA-L227-2014_163911;inference=ab initio prediction:Prodigal:2.6;locus_tag=CA-L227-2014_163911;product=hypothetical protein
+CA-L227-2014_238212	Prodigal:2.6	CDS	2562	3527	.	-	0	ID=CA-L227-2014_163912;Name=czcD_20;gene=czcD_20;inference=ab initio prediction:Prodigal:2.6,similar to AA sequence:UniProtKB:O07084;locus_tag=CA-L227-2014_163912;product=Cadmium%2C cobalt and zinc/H(+)-K(+) antiporter
+CA-L227-2014_238212	Prodigal:2.6	CDS	3758	4366	.	+	0	ID=CA-L227-2014_163913;inference=ab initio prediction:Prodigal:2.6;locus_tag=CA-L227-2014_163913;product=hypothetical protein
+CA-L227-2014_238212	Prodigal:2.6	CDS	4665	4829	.	-	0	ID=CA-L227-2014_163914;inference=ab initio prediction:Prodigal:2.6;locus_tag=CA-L227-2014_163914;product=hypothetical protein
+CA-L227-2014_238212	Prodigal:2.6	CDS	4848	5129	.	-	0	ID=CA-L227-2014_163915;inference=ab initio prediction:Prodigal:2.6;locus_tag=CA-L227-2014_163915;product=hypothetical protein
+CA-L227-2014_238212	Prodigal:2.6	CDS	5136	5525	.	-	0	ID=CA-L227-2014_163916;inference=ab initio prediction:Prodigal:2.6;locus_tag=CA-L227-2014_163916;product=hypothetical protein

@@ -1,5 +1,9 @@
-genome	cyc2_accession
-Chl_ferrooxidans_KoFox	WP_006367388.1
-Chl_phaeoferrooxidans_KB01	WP_076792910.1
-Chl_luteolum_DSM_273	WP_011358173.1
-Chl_N1	WP_131354685.1
+genome	plotting_name	cyc2_accession	gff_filename
+Chl_ferrooxidans_KoFox	Chl. ferrooxidans KoFox	WP_006367388.1	Chl_ferrooxidans_KoFox_cyc2_contig.gff
+Chl_phaeoferrooxidans_KB01	Chl. phaeoferrooxidans KB01	WP_076792910.1	Chl_phaeoferrooxidans_KB01_cyc2_contig.gff
+Chl_N1	Chl. sp. N1	WP_131354685.1	Chl_N1_cyc2_contig.gff
+Chl_luteolum_DSM_273	Chl. luteolum DSM 273	WP_011358173.1	Chl_luteolum_DSM_273_cyc2_contig.gff
+L227_2013_bin56	L227 2013 bin 56	CA-L227-2013_21211	L227_2013_bin56_cyc2_contig.gff
+L227_2014_bin92	L227 2013 bin 92	CA-L227-2014_163911	L227_2014_bin92_cyc2_contig.gff
+L227_enr_S_6D_bin01	L227 enrichment S-6D	L227_S_6D_01955	L227_enr_S_6D_bin01_cyc2_contig.gff
+L304_enr_S_6D_bin01	L304 enrichment S-6D	L304_S_6D_00446	L304_enr_S_6D_bin01_cyc2_contig.gff
