@@ -1,0 +1,337 @@
+Running commands: hmmstat /home/linuxbrew/hmm_files/TIGR01281_bchL.hmm
+Running hmmsearch on provided sequences.
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpoteCOE --domtblout /home/linuxbrew/output/tmp/tmpLKq15R --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/TIGR01281_bchL.hmm /home/linuxbrew/orf_files/L227-2013-6m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpxdNgBK fasta /home/linuxbrew/output/tmp/tmpoteCOE
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpc2eVkL --domtblout /home/linuxbrew/output/tmp/tmpS_kyis --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/TIGR01281_bchL.hmm /home/linuxbrew/orf_files/L227-2013-8m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmp3CbrN_ fasta /home/linuxbrew/output/tmp/tmpc2eVkL
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpN9xxby --domtblout /home/linuxbrew/output/tmp/tmp_ffv0Q --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/TIGR01281_bchL.hmm /home/linuxbrew/orf_files/L227-2014-6m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpA6l2pT fasta /home/linuxbrew/output/tmp/tmpN9xxby
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpfucQoB --domtblout /home/linuxbrew/output/tmp/tmpt7LyQE --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/TIGR01281_bchL.hmm /home/linuxbrew/orf_files/L227-2014-8m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmp7TqHUu fasta /home/linuxbrew/output/tmp/tmpfucQoB
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpz8QK7R --domtblout /home/linuxbrew/output/tmp/tmpqdOqAJ --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/TIGR01281_bchL.hmm /home/linuxbrew/orf_files/L227_S_6D_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpZSoljJ fasta /home/linuxbrew/output/tmp/tmpz8QK7R
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpEiWwZr --domtblout /home/linuxbrew/output/tmp/tmpb2sh8A --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/TIGR01281_bchL.hmm /home/linuxbrew/orf_files/L304_S_6D_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpxLdDjW fasta /home/linuxbrew/output/tmp/tmpEiWwZr
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpB1TRVD --domtblout /home/linuxbrew/output/tmp/tmpfgd_Sj --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/TIGR01281_bchL.hmm /home/linuxbrew/orf_files/L442-2011-16-5m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpJGfyqL fasta /home/linuxbrew/output/tmp/tmpB1TRVD
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpYsoH6n --domtblout /home/linuxbrew/output/tmp/tmpls9YY_ --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/TIGR01281_bchL.hmm /home/linuxbrew/orf_files/L442-2014-13m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpNAf6l0 fasta /home/linuxbrew/output/tmp/tmpYsoH6n
+Running hmmsearch on Reference database.
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpvFzwuC --domE 1e-06 --domtblout cache/8e096271a0d9712817b0de7aa6924e8825ca01adb8e09b71.domtblout --cpu 20 /home/linuxbrew/hmm_files/TIGR01281_bchL.hmm /home/linuxbrew/databases/Refseq.fa
+Running commands: esl-reformat -o cache/8e096271a0d9712817b0de7aa6924e8825ca01adb8e09b71.converted.msa fasta /home/linuxbrew/output/tmp/tmpvFzwuC
+Running commands: cat /home/linuxbrew/output/tmp/tmpyHnadV /home/linuxbrew/output/tmp/tmpVynLr7 /home/linuxbrew/output/tmp/tmpsPqL48 /home/linuxbrew/output/tmp/tmpS_m0Ce /home/linuxbrew/output/tmp/tmpdmjTld /home/linuxbrew/output/tmp/tmpTF2ObY /home/linuxbrew/output/tmp/tmpT7dk9t /home/linuxbrew/output/tmp/tmpfJKmPZ
+Running commands: cat /home/linuxbrew/output/TIGR01281_0_L227_2013_6m_QC_R1_frag_0_reads_gclhCp570552784.fa /home/linuxbrew/output/TIGR01281_0_L227_2013_8m_QC_R1_frag_1_reads__uFUji789612257.fa /home/linuxbrew/output/TIGR01281_0_L227_2014_6m_QC_R1_frag_2_reads_TF2vdv837090929.fa /home/linuxbrew/output/TIGR01281_0_L227_2014_8m_QC_R1_frag_3_reads_divtrl75016236.fa /home/linuxbrew/output/TIGR01281_0_L227_S_6D_QC_R1_frag_4_reads_mBGq6X475824181.fa /home/linuxbrew/output/TIGR01281_0_L304_S_6D_QC_R1_frag_5_reads_HsdcFo563609122.fa /home/linuxbrew/output/TIGR01281_0_L442_2011_16_5m_QC_R1_frag_6_reads_Ia40Q2585903243.fa /home/linuxbrew/output/TIGR01281_0_L442_2014_13m_QC_R1_frag_7_reads_MTS_tF84936942.fa
+Running commands: cat /home/linuxbrew/output/tmp/tmpXl07oL /home/linuxbrew/output/tmp/tmpN4pBxV
+Running commands: esl-sfetch -o cache/77a444d827c30dfc.fullrefseq.ids -f /home/linuxbrew/databases/Refseq.fa /home/linuxbrew/output/tmp/tmpzeimyL
+Running USEARCH
+Running commands: usearch -usearch_global /home/linuxbrew/output/tmp/tmpwF1ktK -db /home/linuxbrew/output/tmp/tmpycR7qH -id 0.5 -blast6out /home/linuxbrew/output/tmp/tmprNCTO2
+Running taxonomic classification.
+Running commands: esl-sfetch --index /home/linuxbrew/output/TIGR01281_0_L227_2013_6m_QC_R1_frag_0_reads_gclhCp570552784.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/TIGR01281_0_L227_2013_8m_QC_R1_frag_1_reads__uFUji789612257.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/TIGR01281_0_L227_2014_6m_QC_R1_frag_2_reads_TF2vdv837090929.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/TIGR01281_0_L227_2014_8m_QC_R1_frag_3_reads_divtrl75016236.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/TIGR01281_0_L227_S_6D_QC_R1_frag_4_reads_mBGq6X475824181.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/TIGR01281_0_L304_S_6D_QC_R1_frag_5_reads_HsdcFo563609122.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/TIGR01281_0_L442_2011_16_5m_QC_R1_frag_6_reads_Ia40Q2585903243.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/TIGR01281_0_L442_2014_13m_QC_R1_frag_7_reads_MTS_tF84936942.fa
+Running commands: cat /home/linuxbrew/output/tmp/tmpbbnaGt /home/linuxbrew/output/tmp/tmp_QI3tX /home/linuxbrew/output/tmp/tmpI57stS /home/linuxbrew/output/tmp/tmpaYbLC6 /home/linuxbrew/output/tmp/tmp0F851I /home/linuxbrew/output/tmp/tmpaueuDh /home/linuxbrew/output/tmp/tmpGETZ0Q /home/linuxbrew/output/tmp/tmpgV_OTB
+Running commands: ktImportText -o /home/linuxbrew/output/TIGR01281_0_krona_9FwJEL219027701.html /home/linuxbrew/output/tmp/tmpbbnaGt,L227_2013_6m_QC_R1_frag_0 /home/linuxbrew/output/tmp/tmp_QI3tX,L227_2013_8m_QC_R1_frag_1 /home/linuxbrew/output/tmp/tmpI57stS,L227_2014_6m_QC_R1_frag_2 /home/linuxbrew/output/tmp/tmpaYbLC6,L227_2014_8m_QC_R1_frag_3 /home/linuxbrew/output/tmp/tmp0F851I,L227_S_6D_QC_R1_frag_4 /home/linuxbrew/output/tmp/tmpaueuDh,L304_S_6D_QC_R1_frag_5 /home/linuxbrew/output/tmp/tmpGETZ0Q,L442_2011_16_5m_QC_R1_frag_6 /home/linuxbrew/output/tmp/tmpgV_OTB,L442_2014_13m_QC_R1_frag_7 /home/linuxbrew/output/tmp/tmp4QiRpF,all_datasets
+Running commands: hmmstat /home/linuxbrew/hmm_files/cyc2_Chlorobia.hmm
+Running hmmsearch on provided sequences.
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpnwPOXb --domtblout /home/linuxbrew/output/tmp/tmpKPK8Cc --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_Chlorobia.hmm /home/linuxbrew/orf_files/L227-2013-6m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpr49XDS fasta /home/linuxbrew/output/tmp/tmpnwPOXb
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpMXIzyA --domtblout /home/linuxbrew/output/tmp/tmphtJH79 --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_Chlorobia.hmm /home/linuxbrew/orf_files/L227-2013-8m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpmw6TQg fasta /home/linuxbrew/output/tmp/tmpMXIzyA
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpez0C_j --domtblout /home/linuxbrew/output/tmp/tmpze2W8x --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_Chlorobia.hmm /home/linuxbrew/orf_files/L227-2014-6m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpuaFTts fasta /home/linuxbrew/output/tmp/tmpez0C_j
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpD233KL --domtblout /home/linuxbrew/output/tmp/tmpeqSwUp --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_Chlorobia.hmm /home/linuxbrew/orf_files/L227-2014-8m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpfmnWch fasta /home/linuxbrew/output/tmp/tmpD233KL
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpjJ9ltT --domtblout /home/linuxbrew/output/tmp/tmppIWNOw --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_Chlorobia.hmm /home/linuxbrew/orf_files/L227_S_6D_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpYbF0WH fasta /home/linuxbrew/output/tmp/tmpjJ9ltT
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmp_BZv1K --domtblout /home/linuxbrew/output/tmp/tmp1fEXrY --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_Chlorobia.hmm /home/linuxbrew/orf_files/L304_S_6D_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpQdhS07 fasta /home/linuxbrew/output/tmp/tmp_BZv1K
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmp2MUPa6 --domtblout /home/linuxbrew/output/tmp/tmpH6reZN --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_Chlorobia.hmm /home/linuxbrew/orf_files/L442-2011-16-5m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpsT8ti4 fasta /home/linuxbrew/output/tmp/tmp2MUPa6
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpaZH3gD --domtblout /home/linuxbrew/output/tmp/tmp085OJB --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_Chlorobia.hmm /home/linuxbrew/orf_files/L442-2014-13m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpa2UlGd fasta /home/linuxbrew/output/tmp/tmpaZH3gD
+Running hmmsearch on Reference database.
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmp9BRuo2 --domE 1e-06 --domtblout cache/12d7d539cdba05972cba8f008fdbfce725ca01adb8e09b71.domtblout --cpu 20 /home/linuxbrew/hmm_files/cyc2_Chlorobia.hmm /home/linuxbrew/databases/Refseq.fa
+Running commands: esl-reformat -o cache/12d7d539cdba05972cba8f008fdbfce725ca01adb8e09b71.converted.msa fasta /home/linuxbrew/output/tmp/tmp9BRuo2
+Running commands: cat /home/linuxbrew/output/tmp/tmpBIC_BH /home/linuxbrew/output/tmp/tmpXz_Nao /home/linuxbrew/output/tmp/tmpwisk07 /home/linuxbrew/output/tmp/tmpgs5qdH /home/linuxbrew/output/tmp/tmpZQpFAr /home/linuxbrew/output/tmp/tmp0ZK1YH /home/linuxbrew/output/tmp/tmpsSVOpk /home/linuxbrew/output/tmp/tmpOpbVDd
+Running commands: cat /home/linuxbrew/output/cyc2_Chlorobia_1_L227_2013_6m_QC_R1_frag_0_reads_mIUcTb180625343.fa /home/linuxbrew/output/cyc2_Chlorobia_1_L227_2013_8m_QC_R1_frag_1_reads_3CgmBl409685014.fa /home/linuxbrew/output/cyc2_Chlorobia_1_L227_2014_6m_QC_R1_frag_2_reads_0yY2_H781357933.fa /home/linuxbrew/output/cyc2_Chlorobia_1_L227_2014_8m_QC_R1_frag_3_reads_l50SHe899108394.fa /home/linuxbrew/output/cyc2_Chlorobia_1_L227_S_6D_QC_R1_frag_4_reads_xQx_tl941682947.fa /home/linuxbrew/output/cyc2_Chlorobia_1_L304_S_6D_QC_R1_frag_5_reads_k5uVHy8986347.fa /home/linuxbrew/output/cyc2_Chlorobia_1_L442_2011_16_5m_QC_R1_frag_6_reads_8qDLp6210008820.fa /home/linuxbrew/output/cyc2_Chlorobia_1_L442_2014_13m_QC_R1_frag_7_reads_kf1F8I61689671.fa
+Running commands: cat /home/linuxbrew/output/tmp/tmp7kwcxr /home/linuxbrew/output/tmp/tmpqrTnCb
+Running commands: esl-sfetch -o cache/1bf1c2bb9f84b008.fullrefseq.ids -f /home/linuxbrew/databases/Refseq.fa /home/linuxbrew/output/tmp/tmpM4t2ZT
+Running USEARCH
+Running commands: usearch -usearch_global /home/linuxbrew/output/tmp/tmp7OaN6o -db /home/linuxbrew/output/tmp/tmpQVOQrT -id 0.5 -blast6out /home/linuxbrew/output/tmp/tmpmkWhSy
+Running taxonomic classification.
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_Chlorobia_1_L227_2013_6m_QC_R1_frag_0_reads_mIUcTb180625343.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_Chlorobia_1_L227_2013_8m_QC_R1_frag_1_reads_3CgmBl409685014.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_Chlorobia_1_L227_2014_6m_QC_R1_frag_2_reads_0yY2_H781357933.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_Chlorobia_1_L227_2014_8m_QC_R1_frag_3_reads_l50SHe899108394.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_Chlorobia_1_L227_S_6D_QC_R1_frag_4_reads_xQx_tl941682947.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_Chlorobia_1_L304_S_6D_QC_R1_frag_5_reads_k5uVHy8986347.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_Chlorobia_1_L442_2011_16_5m_QC_R1_frag_6_reads_8qDLp6210008820.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_Chlorobia_1_L442_2014_13m_QC_R1_frag_7_reads_kf1F8I61689671.fa
+Running commands: cat /home/linuxbrew/output/tmp/tmpt4GRKj /home/linuxbrew/output/tmp/tmpdP8rrf /home/linuxbrew/output/tmp/tmpBcURPd /home/linuxbrew/output/tmp/tmpN80WCK /home/linuxbrew/output/tmp/tmp_DdcqC /home/linuxbrew/output/tmp/tmp0pq8SN /home/linuxbrew/output/tmp/tmpLLehw7 /home/linuxbrew/output/tmp/tmpmc3JJx
+Running commands: ktImportText -o /home/linuxbrew/output/cyc2_Chlorobia_1_krona_3DfH0V447798889.html /home/linuxbrew/output/tmp/tmpt4GRKj,L227_2013_6m_QC_R1_frag_0 /home/linuxbrew/output/tmp/tmpdP8rrf,L227_2013_8m_QC_R1_frag_1 /home/linuxbrew/output/tmp/tmpBcURPd,L227_2014_6m_QC_R1_frag_2 /home/linuxbrew/output/tmp/tmpN80WCK,L227_2014_8m_QC_R1_frag_3 /home/linuxbrew/output/tmp/tmp_DdcqC,L227_S_6D_QC_R1_frag_4 /home/linuxbrew/output/tmp/tmp0pq8SN,L304_S_6D_QC_R1_frag_5 /home/linuxbrew/output/tmp/tmpLLehw7,L442_2011_16_5m_QC_R1_frag_6 /home/linuxbrew/output/tmp/tmpmc3JJx,L442_2014_13m_QC_R1_frag_7 /home/linuxbrew/output/tmp/tmpUSgDBb,all_datasets
+Running commands: hmmstat /home/linuxbrew/hmm_files/cyc2_all_references.hmm
+Running hmmsearch on provided sequences.
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpAuyaGF --domtblout /home/linuxbrew/output/tmp/tmp4WuHtn --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_all_references.hmm /home/linuxbrew/orf_files/L227-2013-6m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpwvGyye fasta /home/linuxbrew/output/tmp/tmpAuyaGF
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpVR1B9N --domtblout /home/linuxbrew/output/tmp/tmp96gvfU --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_all_references.hmm /home/linuxbrew/orf_files/L227-2013-8m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmp4m_2LB fasta /home/linuxbrew/output/tmp/tmpVR1B9N
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpfS3s3G --domtblout /home/linuxbrew/output/tmp/tmpfqMV0L --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_all_references.hmm /home/linuxbrew/orf_files/L227-2014-6m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpkMWevd fasta /home/linuxbrew/output/tmp/tmpfS3s3G
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpuOS6Sc --domtblout /home/linuxbrew/output/tmp/tmpDLSKzy --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_all_references.hmm /home/linuxbrew/orf_files/L227-2014-8m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpQ5JdHO fasta /home/linuxbrew/output/tmp/tmpuOS6Sc
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpISS7N3 --domtblout /home/linuxbrew/output/tmp/tmpxzu01n --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_all_references.hmm /home/linuxbrew/orf_files/L227_S_6D_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmp8zZujY fasta /home/linuxbrew/output/tmp/tmpISS7N3
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpboZvp6 --domtblout /home/linuxbrew/output/tmp/tmpoe87nO --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_all_references.hmm /home/linuxbrew/orf_files/L304_S_6D_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpMqpHkP fasta /home/linuxbrew/output/tmp/tmpboZvp6
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmp2aR3_2 --domtblout /home/linuxbrew/output/tmp/tmp_8y6RM --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_all_references.hmm /home/linuxbrew/orf_files/L442-2011-16-5m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpTwglv2 fasta /home/linuxbrew/output/tmp/tmp2aR3_2
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpUSjdT_ --domtblout /home/linuxbrew/output/tmp/tmpMxL0wB --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/cyc2_all_references.hmm /home/linuxbrew/orf_files/L442-2014-13m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpuiDKUO fasta /home/linuxbrew/output/tmp/tmpUSjdT_
+Running hmmsearch on Reference database.
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmp8kAhrv --domE 1e-06 --domtblout cache/0af8b8752b70cccd0c1d190ad084b69925ca01adb8e09b71.domtblout --cpu 20 /home/linuxbrew/hmm_files/cyc2_all_references.hmm /home/linuxbrew/databases/Refseq.fa
+Running commands: esl-reformat -o cache/0af8b8752b70cccd0c1d190ad084b69925ca01adb8e09b71.converted.msa fasta /home/linuxbrew/output/tmp/tmp8kAhrv
+Running commands: cat /home/linuxbrew/output/tmp/tmpQsB_At /home/linuxbrew/output/tmp/tmpqXUSWx /home/linuxbrew/output/tmp/tmp758QO3 /home/linuxbrew/output/tmp/tmpbvDPiG /home/linuxbrew/output/tmp/tmpEaUW9l /home/linuxbrew/output/tmp/tmpr7UiiC /home/linuxbrew/output/tmp/tmp4bGnQX /home/linuxbrew/output/tmp/tmpkks3sg
+Running commands: cat /home/linuxbrew/output/cyc2_all_references_2_L227_2013_6m_QC_R1_frag_0_reads_zVVPDW942667511.fa /home/linuxbrew/output/cyc2_all_references_2_L227_2013_8m_QC_R1_frag_1_reads_DKioDu537538767.fa /home/linuxbrew/output/cyc2_all_references_2_L227_2014_6m_QC_R1_frag_2_reads_ytmloO297519783.fa /home/linuxbrew/output/cyc2_all_references_2_L227_2014_8m_QC_R1_frag_3_reads_L09rZd472749566.fa /home/linuxbrew/output/cyc2_all_references_2_L227_S_6D_QC_R1_frag_4_reads_Xrq7Wf311415063.fa /home/linuxbrew/output/cyc2_all_references_2_L304_S_6D_QC_R1_frag_5_reads__F5ruw925672278.fa /home/linuxbrew/output/cyc2_all_references_2_L442_2011_16_5m_QC_R1_frag_6_reads_32jExr245564855.fa /home/linuxbrew/output/cyc2_all_references_2_L442_2014_13m_QC_R1_frag_7_reads_JyUh80320406622.fa
+Running commands: cat /home/linuxbrew/output/tmp/tmpue6UQa /home/linuxbrew/output/tmp/tmpC1ZHZk
+Running commands: esl-sfetch -o cache/38d4490f5a6cc3b.fullrefseq.ids -f /home/linuxbrew/databases/Refseq.fa /home/linuxbrew/output/tmp/tmpmgjQXV
+Running USEARCH
+Running commands: usearch -usearch_global /home/linuxbrew/output/tmp/tmp4UGGwm -db /home/linuxbrew/output/tmp/tmpP2P8km -id 0.5 -blast6out /home/linuxbrew/output/tmp/tmpfxadlY
+Running taxonomic classification.
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_all_references_2_L227_2013_6m_QC_R1_frag_0_reads_zVVPDW942667511.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_all_references_2_L227_2013_8m_QC_R1_frag_1_reads_DKioDu537538767.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_all_references_2_L227_2014_6m_QC_R1_frag_2_reads_ytmloO297519783.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_all_references_2_L227_2014_8m_QC_R1_frag_3_reads_L09rZd472749566.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_all_references_2_L227_S_6D_QC_R1_frag_4_reads_Xrq7Wf311415063.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_all_references_2_L304_S_6D_QC_R1_frag_5_reads__F5ruw925672278.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_all_references_2_L442_2011_16_5m_QC_R1_frag_6_reads_32jExr245564855.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/cyc2_all_references_2_L442_2014_13m_QC_R1_frag_7_reads_JyUh80320406622.fa
+Running commands: cat /home/linuxbrew/output/tmp/tmp3nLRgK /home/linuxbrew/output/tmp/tmp5tXZge /home/linuxbrew/output/tmp/tmpAo4cbg /home/linuxbrew/output/tmp/tmpAe03l5 /home/linuxbrew/output/tmp/tmpZugIX1 /home/linuxbrew/output/tmp/tmpmyCTce /home/linuxbrew/output/tmp/tmpfC9gJY /home/linuxbrew/output/tmp/tmpZHiVG5
+Running commands: ktImportText -o /home/linuxbrew/output/cyc2_all_references_2_krona_x8p61z803703659.html /home/linuxbrew/output/tmp/tmp3nLRgK,L227_2013_6m_QC_R1_frag_0 /home/linuxbrew/output/tmp/tmp5tXZge,L227_2013_8m_QC_R1_frag_1 /home/linuxbrew/output/tmp/tmpAo4cbg,L227_2014_6m_QC_R1_frag_2 /home/linuxbrew/output/tmp/tmpAe03l5,L227_2014_8m_QC_R1_frag_3 /home/linuxbrew/output/tmp/tmpZugIX1,L227_S_6D_QC_R1_frag_4 /home/linuxbrew/output/tmp/tmpmyCTce,L304_S_6D_QC_R1_frag_5 /home/linuxbrew/output/tmp/tmpfC9gJY,L442_2011_16_5m_QC_R1_frag_6 /home/linuxbrew/output/tmp/tmpZHiVG5,L442_2014_13m_QC_R1_frag_7 /home/linuxbrew/output/tmp/tmpukTpNa,all_datasets
+Running commands: hmmstat /home/linuxbrew/hmm_files/dsrA.hmm
+Running hmmsearch on provided sequences.
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpvImMV9 --domtblout /home/linuxbrew/output/tmp/tmpOMi5FA --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/dsrA.hmm /home/linuxbrew/orf_files/L227-2013-6m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpMF99qg fasta /home/linuxbrew/output/tmp/tmpvImMV9
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpcNRpWt --domtblout /home/linuxbrew/output/tmp/tmp70TSj6 --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/dsrA.hmm /home/linuxbrew/orf_files/L227-2013-8m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpon3ySL fasta /home/linuxbrew/output/tmp/tmpcNRpWt
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpykBWzg --domtblout /home/linuxbrew/output/tmp/tmp16fWoH --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/dsrA.hmm /home/linuxbrew/orf_files/L227-2014-6m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpQUiNR4 fasta /home/linuxbrew/output/tmp/tmpykBWzg
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpcf2O_U --domtblout /home/linuxbrew/output/tmp/tmpnc5nf8 --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/dsrA.hmm /home/linuxbrew/orf_files/L227-2014-8m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpJYkcEw fasta /home/linuxbrew/output/tmp/tmpcf2O_U
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpn4NG5m --domtblout /home/linuxbrew/output/tmp/tmpe8_NPN --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/dsrA.hmm /home/linuxbrew/orf_files/L227_S_6D_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpbeeHbA fasta /home/linuxbrew/output/tmp/tmpn4NG5m
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpc03a86 --domtblout /home/linuxbrew/output/tmp/tmp2j6ihv --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/dsrA.hmm /home/linuxbrew/orf_files/L304_S_6D_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpEitvMq fasta /home/linuxbrew/output/tmp/tmpc03a86
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpuFm6YZ --domtblout /home/linuxbrew/output/tmp/tmpr27lRq --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/dsrA.hmm /home/linuxbrew/orf_files/L442-2011-16-5m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpItMm3R fasta /home/linuxbrew/output/tmp/tmpuFm6YZ
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpfVAkG9 --domtblout /home/linuxbrew/output/tmp/tmp60TyNk --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/dsrA.hmm /home/linuxbrew/orf_files/L442-2014-13m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpOsi5q7 fasta /home/linuxbrew/output/tmp/tmpfVAkG9
+Running hmmsearch on Reference database.
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpEQ_LId --domE 1e-06 --domtblout cache/2b2d9736c93b1689342ee60e9df78c8925ca01adb8e09b71.domtblout --cpu 20 /home/linuxbrew/hmm_files/dsrA.hmm /home/linuxbrew/databases/Refseq.fa
+Running commands: esl-reformat -o cache/2b2d9736c93b1689342ee60e9df78c8925ca01adb8e09b71.converted.msa fasta /home/linuxbrew/output/tmp/tmpEQ_LId
+Running commands: cat /home/linuxbrew/output/tmp/tmps9CFOU /home/linuxbrew/output/tmp/tmpBVtTan /home/linuxbrew/output/tmp/tmpY72LGA /home/linuxbrew/output/tmp/tmphlbytf /home/linuxbrew/output/tmp/tmpQzfz2Y /home/linuxbrew/output/tmp/tmp4reAxF /home/linuxbrew/output/tmp/tmpf8z6yE /home/linuxbrew/output/tmp/tmphLrjnH
+Running commands: cat /home/linuxbrew/output/dsrA_3_L227_2013_6m_QC_R1_frag_0_reads_0sENBG727458096.fa /home/linuxbrew/output/dsrA_3_L227_2013_8m_QC_R1_frag_1_reads_MLwlAZ919281264.fa /home/linuxbrew/output/dsrA_3_L227_2014_6m_QC_R1_frag_2_reads_NQVpeF385295700.fa /home/linuxbrew/output/dsrA_3_L227_2014_8m_QC_R1_frag_3_reads_T2obzy22746090.fa /home/linuxbrew/output/dsrA_3_L227_S_6D_QC_R1_frag_4_reads_pSRW_B94791805.fa /home/linuxbrew/output/dsrA_3_L304_S_6D_QC_R1_frag_5_reads_CsiXJ_843480206.fa /home/linuxbrew/output/dsrA_3_L442_2011_16_5m_QC_R1_frag_6_reads_CJ1sRR632729769.fa /home/linuxbrew/output/dsrA_3_L442_2014_13m_QC_R1_frag_7_reads_mI2LhK374117651.fa
+Running commands: cat /home/linuxbrew/output/tmp/tmpcybEE9 /home/linuxbrew/output/tmp/tmpg9Iu1C
+Running commands: esl-sfetch -o cache/4f790274441bdde2.fullrefseq.ids -f /home/linuxbrew/databases/Refseq.fa /home/linuxbrew/output/tmp/tmpaWQ7tI
+Running USEARCH
+Running commands: usearch -usearch_global /home/linuxbrew/output/tmp/tmp_CO8tt -db /home/linuxbrew/output/tmp/tmpsnsIJM -id 0.5 -blast6out /home/linuxbrew/output/tmp/tmpDcyvWa
+Running taxonomic classification.
+Running commands: esl-sfetch --index /home/linuxbrew/output/dsrA_3_L227_2013_6m_QC_R1_frag_0_reads_0sENBG727458096.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/dsrA_3_L227_2013_8m_QC_R1_frag_1_reads_MLwlAZ919281264.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/dsrA_3_L227_2014_6m_QC_R1_frag_2_reads_NQVpeF385295700.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/dsrA_3_L227_2014_8m_QC_R1_frag_3_reads_T2obzy22746090.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/dsrA_3_L227_S_6D_QC_R1_frag_4_reads_pSRW_B94791805.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/dsrA_3_L304_S_6D_QC_R1_frag_5_reads_CsiXJ_843480206.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/dsrA_3_L442_2011_16_5m_QC_R1_frag_6_reads_CJ1sRR632729769.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/dsrA_3_L442_2014_13m_QC_R1_frag_7_reads_mI2LhK374117651.fa
+Running commands: cat /home/linuxbrew/output/tmp/tmpDu3nDx /home/linuxbrew/output/tmp/tmpA_jJEM /home/linuxbrew/output/tmp/tmpbeNVCT /home/linuxbrew/output/tmp/tmpFvwFDf /home/linuxbrew/output/tmp/tmpCKagcW /home/linuxbrew/output/tmp/tmpDeL66E /home/linuxbrew/output/tmp/tmpFl89Up /home/linuxbrew/output/tmp/tmpo1xoP4
+Running commands: ktImportText -o /home/linuxbrew/output/dsrA_3_krona__8pXdN508249082.html /home/linuxbrew/output/tmp/tmpDu3nDx,L227_2013_6m_QC_R1_frag_0 /home/linuxbrew/output/tmp/tmpA_jJEM,L227_2013_8m_QC_R1_frag_1 /home/linuxbrew/output/tmp/tmpbeNVCT,L227_2014_6m_QC_R1_frag_2 /home/linuxbrew/output/tmp/tmpFvwFDf,L227_2014_8m_QC_R1_frag_3 /home/linuxbrew/output/tmp/tmpCKagcW,L227_S_6D_QC_R1_frag_4 /home/linuxbrew/output/tmp/tmpDeL66E,L304_S_6D_QC_R1_frag_5 /home/linuxbrew/output/tmp/tmpFl89Up,L442_2011_16_5m_QC_R1_frag_6 /home/linuxbrew/output/tmp/tmpo1xoP4,L442_2014_13m_QC_R1_frag_7 /home/linuxbrew/output/tmp/tmpJXXiKy,all_datasets
+Running commands: hmmstat /home/linuxbrew/hmm_files/rpoB.hmm
+Running hmmsearch on provided sequences.
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpYDOYt8 --domtblout /home/linuxbrew/output/tmp/tmpeCAZcQ --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/rpoB.hmm /home/linuxbrew/orf_files/L227-2013-6m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpm_rtPi fasta /home/linuxbrew/output/tmp/tmpYDOYt8
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmptz2cXd --domtblout /home/linuxbrew/output/tmp/tmp7q0YrZ --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/rpoB.hmm /home/linuxbrew/orf_files/L227-2013-8m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmp3GuRM2 fasta /home/linuxbrew/output/tmp/tmptz2cXd
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpwNjtvj --domtblout /home/linuxbrew/output/tmp/tmpbSQ5Tl --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/rpoB.hmm /home/linuxbrew/orf_files/L227-2014-6m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpXWImRY fasta /home/linuxbrew/output/tmp/tmpwNjtvj
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpR8mknG --domtblout /home/linuxbrew/output/tmp/tmpbgc2TQ --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/rpoB.hmm /home/linuxbrew/orf_files/L227-2014-8m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpZMRH2d fasta /home/linuxbrew/output/tmp/tmpR8mknG
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpKwzPHS --domtblout /home/linuxbrew/output/tmp/tmpua8CGT --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/rpoB.hmm /home/linuxbrew/orf_files/L227_S_6D_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpVCjpJI fasta /home/linuxbrew/output/tmp/tmpKwzPHS
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpTHw6GD --domtblout /home/linuxbrew/output/tmp/tmp7kVMJ9 --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/rpoB.hmm /home/linuxbrew/orf_files/L304_S_6D_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmp1uuT11 fasta /home/linuxbrew/output/tmp/tmpTHw6GD
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpKdgQ3e --domtblout /home/linuxbrew/output/tmp/tmpkWpr8_ --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/rpoB.hmm /home/linuxbrew/orf_files/L442-2011-16-5m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmpFQoH8M fasta /home/linuxbrew/output/tmp/tmpKdgQ3e
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpH075n6 --domtblout /home/linuxbrew/output/tmp/tmpp0sQhG --domE 0.001 --cpu 20 /home/linuxbrew/hmm_files/rpoB.hmm /home/linuxbrew/orf_files/L442-2014-13m_QC_R1.frag.faa
+Running commands: esl-reformat -o /home/linuxbrew/output/tmp/tmprkidqF fasta /home/linuxbrew/output/tmp/tmpH075n6
+Running hmmsearch on Reference database.
+Running commands: hmmsearch -o /dev/null -A /home/linuxbrew/output/tmp/tmpfTSH4y --domE 1e-06 --domtblout cache/726ef10e59b5a5a58ff57349607708a925ca01adb8e09b71.domtblout --cpu 20 /home/linuxbrew/hmm_files/rpoB.hmm /home/linuxbrew/databases/Refseq.fa
+Running commands: esl-reformat -o cache/726ef10e59b5a5a58ff57349607708a925ca01adb8e09b71.converted.msa fasta /home/linuxbrew/output/tmp/tmpfTSH4y
+Running commands: cat /home/linuxbrew/output/tmp/tmpceai_W /home/linuxbrew/output/tmp/tmpSbga9C /home/linuxbrew/output/tmp/tmpM76kWy /home/linuxbrew/output/tmp/tmpLwmqtW /home/linuxbrew/output/tmp/tmp4uV0cI /home/linuxbrew/output/tmp/tmpNT38b4 /home/linuxbrew/output/tmp/tmp5dfAk_ /home/linuxbrew/output/tmp/tmpde58o6
+Running commands: cat /home/linuxbrew/output/rpoB_4_L227_2013_6m_QC_R1_frag_0_reads_dZip4J805048321.fa /home/linuxbrew/output/rpoB_4_L227_2013_8m_QC_R1_frag_1_reads_zHyzr6853116193.fa /home/linuxbrew/output/rpoB_4_L227_2014_6m_QC_R1_frag_2_reads_AJDhXL999639280.fa /home/linuxbrew/output/rpoB_4_L227_2014_8m_QC_R1_frag_3_reads_Baodw4603740522.fa /home/linuxbrew/output/rpoB_4_L227_S_6D_QC_R1_frag_4_reads_VddJjU850529996.fa /home/linuxbrew/output/rpoB_4_L304_S_6D_QC_R1_frag_5_reads_1MEd35127922882.fa /home/linuxbrew/output/rpoB_4_L442_2011_16_5m_QC_R1_frag_6_reads_6HiIti277714005.fa /home/linuxbrew/output/rpoB_4_L442_2014_13m_QC_R1_frag_7_reads_jhYyhB230012714.fa
+Running commands: cat /home/linuxbrew/output/tmp/tmpGpR4JZ /home/linuxbrew/output/tmp/tmpA8fQWg
+Running commands: esl-sfetch -o cache/2d48f356337b4e84.fullrefseq.ids -f /home/linuxbrew/databases/Refseq.fa /home/linuxbrew/output/tmp/tmpoeET_a
+Running USEARCH
+Running commands: usearch -usearch_global /home/linuxbrew/output/tmp/tmp9iIWws -db /home/linuxbrew/output/tmp/tmpp02QVX -id 0.5 -blast6out /home/linuxbrew/output/tmp/tmp5L8BOi
+Running taxonomic classification.
+Running commands: esl-sfetch --index /home/linuxbrew/output/rpoB_4_L227_2013_6m_QC_R1_frag_0_reads_dZip4J805048321.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/rpoB_4_L227_2013_8m_QC_R1_frag_1_reads_zHyzr6853116193.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/rpoB_4_L227_2014_6m_QC_R1_frag_2_reads_AJDhXL999639280.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/rpoB_4_L227_2014_8m_QC_R1_frag_3_reads_Baodw4603740522.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/rpoB_4_L227_S_6D_QC_R1_frag_4_reads_VddJjU850529996.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/rpoB_4_L304_S_6D_QC_R1_frag_5_reads_1MEd35127922882.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/rpoB_4_L442_2011_16_5m_QC_R1_frag_6_reads_6HiIti277714005.fa
+Running commands: esl-sfetch --index /home/linuxbrew/output/rpoB_4_L442_2014_13m_QC_R1_frag_7_reads_jhYyhB230012714.fa
+Running commands: cat /home/linuxbrew/output/tmp/tmpUE2KO1 /home/linuxbrew/output/tmp/tmpCWJy44 /home/linuxbrew/output/tmp/tmpD6Zoxa /home/linuxbrew/output/tmp/tmpsspuKp /home/linuxbrew/output/tmp/tmpkjj0xh /home/linuxbrew/output/tmp/tmpZ4t5kj /home/linuxbrew/output/tmp/tmpC_u2hS /home/linuxbrew/output/tmp/tmpnvDRqX
+Running commands: ktImportText -o /home/linuxbrew/output/rpoB_4_krona_7OwLtQ410268800.html /home/linuxbrew/output/tmp/tmpUE2KO1,L227_2013_6m_QC_R1_frag_0 /home/linuxbrew/output/tmp/tmpCWJy44,L227_2013_8m_QC_R1_frag_1 /home/linuxbrew/output/tmp/tmpD6Zoxa,L227_2014_6m_QC_R1_frag_2 /home/linuxbrew/output/tmp/tmpsspuKp,L227_2014_8m_QC_R1_frag_3 /home/linuxbrew/output/tmp/tmpkjj0xh,L227_S_6D_QC_R1_frag_4 /home/linuxbrew/output/tmp/tmpZ4t5kj,L304_S_6D_QC_R1_frag_5 /home/linuxbrew/output/tmp/tmpC_u2hS,L442_2011_16_5m_QC_R1_frag_6 /home/linuxbrew/output/tmp/tmpnvDRqX,L442_2014_13m_QC_R1_frag_7 /home/linuxbrew/output/tmp/tmpRofYZd,all_datasets
+Running commands: cat /home/linuxbrew/output/tmp/tmpbbnaGt /home/linuxbrew/output/tmp/tmpt4GRKj /home/linuxbrew/output/tmp/tmp3nLRgK /home/linuxbrew/output/tmp/tmpDu3nDx /home/linuxbrew/output/tmp/tmpUE2KO1
+Running commands: ktImportText -o /home/linuxbrew/output/L227_2013_6m_QC_R1_frag_0_krona_ZdaBJ2489786154.html /home/linuxbrew/output/tmp/tmpbbnaGt,TIGR01281_0 /home/linuxbrew/output/tmp/tmpt4GRKj,cyc2_Chlorobia_1 /home/linuxbrew/output/tmp/tmp3nLRgK,cyc2_all_references_2 /home/linuxbrew/output/tmp/tmpDu3nDx,dsrA_3 /home/linuxbrew/output/tmp/tmpUE2KO1,rpoB_4 /home/linuxbrew/output/tmp/tmpKMHDM9,all_hmms
+Running commands: cat /home/linuxbrew/output/tmp/tmp_QI3tX /home/linuxbrew/output/tmp/tmpdP8rrf /home/linuxbrew/output/tmp/tmp5tXZge /home/linuxbrew/output/tmp/tmpA_jJEM /home/linuxbrew/output/tmp/tmpCWJy44
+Running commands: ktImportText -o /home/linuxbrew/output/L227_2013_8m_QC_R1_frag_1_krona_q00tPy130889111.html /home/linuxbrew/output/tmp/tmp_QI3tX,TIGR01281_0 /home/linuxbrew/output/tmp/tmpdP8rrf,cyc2_Chlorobia_1 /home/linuxbrew/output/tmp/tmp5tXZge,cyc2_all_references_2 /home/linuxbrew/output/tmp/tmpA_jJEM,dsrA_3 /home/linuxbrew/output/tmp/tmpCWJy44,rpoB_4 /home/linuxbrew/output/tmp/tmpDidkYL,all_hmms
+Running commands: cat /home/linuxbrew/output/tmp/tmpI57stS /home/linuxbrew/output/tmp/tmpBcURPd /home/linuxbrew/output/tmp/tmpAo4cbg /home/linuxbrew/output/tmp/tmpbeNVCT /home/linuxbrew/output/tmp/tmpD6Zoxa
+Running commands: ktImportText -o /home/linuxbrew/output/L227_2014_6m_QC_R1_frag_2_krona_DgAb2i868668276.html /home/linuxbrew/output/tmp/tmpI57stS,TIGR01281_0 /home/linuxbrew/output/tmp/tmpBcURPd,cyc2_Chlorobia_1 /home/linuxbrew/output/tmp/tmpAo4cbg,cyc2_all_references_2 /home/linuxbrew/output/tmp/tmpbeNVCT,dsrA_3 /home/linuxbrew/output/tmp/tmpD6Zoxa,rpoB_4 /home/linuxbrew/output/tmp/tmp84Pm4W,all_hmms
+Running commands: cat /home/linuxbrew/output/tmp/tmpaYbLC6 /home/linuxbrew/output/tmp/tmpN80WCK /home/linuxbrew/output/tmp/tmpAe03l5 /home/linuxbrew/output/tmp/tmpFvwFDf /home/linuxbrew/output/tmp/tmpsspuKp
+Running commands: ktImportText -o /home/linuxbrew/output/L227_2014_8m_QC_R1_frag_3_krona_OlHeNW707672897.html /home/linuxbrew/output/tmp/tmpaYbLC6,TIGR01281_0 /home/linuxbrew/output/tmp/tmpN80WCK,cyc2_Chlorobia_1 /home/linuxbrew/output/tmp/tmpAe03l5,cyc2_all_references_2 /home/linuxbrew/output/tmp/tmpFvwFDf,dsrA_3 /home/linuxbrew/output/tmp/tmpsspuKp,rpoB_4 /home/linuxbrew/output/tmp/tmppQEWcP,all_hmms
+Running commands: cat /home/linuxbrew/output/tmp/tmp0F851I /home/linuxbrew/output/tmp/tmp_DdcqC /home/linuxbrew/output/tmp/tmpZugIX1 /home/linuxbrew/output/tmp/tmpCKagcW /home/linuxbrew/output/tmp/tmpkjj0xh
+Running commands: ktImportText -o /home/linuxbrew/output/L227_S_6D_QC_R1_frag_4_krona_2ONLzy292014642.html /home/linuxbrew/output/tmp/tmp0F851I,TIGR01281_0 /home/linuxbrew/output/tmp/tmp_DdcqC,cyc2_Chlorobia_1 /home/linuxbrew/output/tmp/tmpZugIX1,cyc2_all_references_2 /home/linuxbrew/output/tmp/tmpCKagcW,dsrA_3 /home/linuxbrew/output/tmp/tmpkjj0xh,rpoB_4 /home/linuxbrew/output/tmp/tmpU7BdDd,all_hmms
+Running commands: cat /home/linuxbrew/output/tmp/tmpaueuDh /home/linuxbrew/output/tmp/tmp0pq8SN /home/linuxbrew/output/tmp/tmpmyCTce /home/linuxbrew/output/tmp/tmpDeL66E /home/linuxbrew/output/tmp/tmpZ4t5kj
+Running commands: ktImportText -o /home/linuxbrew/output/L304_S_6D_QC_R1_frag_5_krona_a_G2WJ159904958.html /home/linuxbrew/output/tmp/tmpaueuDh,TIGR01281_0 /home/linuxbrew/output/tmp/tmp0pq8SN,cyc2_Chlorobia_1 /home/linuxbrew/output/tmp/tmpmyCTce,cyc2_all_references_2 /home/linuxbrew/output/tmp/tmpDeL66E,dsrA_3 /home/linuxbrew/output/tmp/tmpZ4t5kj,rpoB_4 /home/linuxbrew/output/tmp/tmp9ujPqy,all_hmms
+Running commands: cat /home/linuxbrew/output/tmp/tmpGETZ0Q /home/linuxbrew/output/tmp/tmpLLehw7 /home/linuxbrew/output/tmp/tmpfC9gJY /home/linuxbrew/output/tmp/tmpFl89Up /home/linuxbrew/output/tmp/tmpC_u2hS
+Running commands: ktImportText -o /home/linuxbrew/output/L442_2011_16_5m_QC_R1_frag_6_krona_nGShx_751949070.html /home/linuxbrew/output/tmp/tmpGETZ0Q,TIGR01281_0 /home/linuxbrew/output/tmp/tmpLLehw7,cyc2_Chlorobia_1 /home/linuxbrew/output/tmp/tmpfC9gJY,cyc2_all_references_2 /home/linuxbrew/output/tmp/tmpFl89Up,dsrA_3 /home/linuxbrew/output/tmp/tmpC_u2hS,rpoB_4 /home/linuxbrew/output/tmp/tmpEYYyFM,all_hmms
+Running commands: cat /home/linuxbrew/output/tmp/tmpgV_OTB /home/linuxbrew/output/tmp/tmpmc3JJx /home/linuxbrew/output/tmp/tmpZHiVG5 /home/linuxbrew/output/tmp/tmpo1xoP4 /home/linuxbrew/output/tmp/tmpnvDRqX
+Running commands: ktImportText -o /home/linuxbrew/output/L442_2014_13m_QC_R1_frag_7_krona_4QhV_r45727549.html /home/linuxbrew/output/tmp/tmpgV_OTB,TIGR01281_0 /home/linuxbrew/output/tmp/tmpmc3JJx,cyc2_Chlorobia_1 /home/linuxbrew/output/tmp/tmpZHiVG5,cyc2_all_references_2 /home/linuxbrew/output/tmp/tmpo1xoP4,dsrA_3 /home/linuxbrew/output/tmp/tmpnvDRqX,rpoB_4 /home/linuxbrew/output/tmp/tmpDCaEzu,all_hmms
+Running commands: cat /home/linuxbrew/output/tmp/tmpKMHDM9 /home/linuxbrew/output/tmp/tmpDidkYL /home/linuxbrew/output/tmp/tmp84Pm4W /home/linuxbrew/output/tmp/tmppQEWcP /home/linuxbrew/output/tmp/tmpU7BdDd /home/linuxbrew/output/tmp/tmp9ujPqy /home/linuxbrew/output/tmp/tmpEYYyFM /home/linuxbrew/output/tmp/tmpDCaEzu
+Running commands: ktImportText -o /home/linuxbrew/output/all_hmms_krona_UO8zGx972342762.html /home/linuxbrew/output/tmp/tmpKMHDM9,L227_2013_6m_QC_R1_frag_0 /home/linuxbrew/output/tmp/tmpDidkYL,L227_2013_8m_QC_R1_frag_1 /home/linuxbrew/output/tmp/tmp84Pm4W,L227_2014_6m_QC_R1_frag_2 /home/linuxbrew/output/tmp/tmppQEWcP,L227_2014_8m_QC_R1_frag_3 /home/linuxbrew/output/tmp/tmpU7BdDd,L227_S_6D_QC_R1_frag_4 /home/linuxbrew/output/tmp/tmp9ujPqy,L304_S_6D_QC_R1_frag_5 /home/linuxbrew/output/tmp/tmpEYYyFM,L442_2011_16_5m_QC_R1_frag_6 /home/linuxbrew/output/tmp/tmpDCaEzu,L442_2014_13m_QC_R1_frag_7 /home/linuxbrew/output/tmp/tmpbcG6fs,all_datasets
+Running commands: cat /home/linuxbrew/output/tmp/tmp4QiRpF /home/linuxbrew/output/tmp/tmpUSgDBb /home/linuxbrew/output/tmp/tmpukTpNa /home/linuxbrew/output/tmp/tmpJXXiKy /home/linuxbrew/output/tmp/tmpRofYZd
+Running commands: ktImportText -o /home/linuxbrew/output/all_datasets_krona_1V_DtB502465163.html /home/linuxbrew/output/tmp/tmp4QiRpF,TIGR01281_0 /home/linuxbrew/output/tmp/tmpUSgDBb,cyc2_Chlorobia_1 /home/linuxbrew/output/tmp/tmpukTpNa,cyc2_all_references_2 /home/linuxbrew/output/tmp/tmpJXXiKy,dsrA_3 /home/linuxbrew/output/tmp/tmpRofYZd,rpoB_4 /home/linuxbrew/output/tmp/tmpjTEVaS,all_hmms
+Job ran successfully. The following files are now available:
+
+/home/linuxbrew/output/TIGR01281_0_L227_2013_6m_QC_R1_frag_0_reads_gclhCp570552784.fa
+/home/linuxbrew/output/TIGR01281_0_L227_2013_8m_QC_R1_frag_1_reads__uFUji789612257.fa
+/home/linuxbrew/output/TIGR01281_0_L227_2014_6m_QC_R1_frag_2_reads_TF2vdv837090929.fa
+/home/linuxbrew/output/TIGR01281_0_L227_2014_8m_QC_R1_frag_3_reads_divtrl75016236.fa
+/home/linuxbrew/output/TIGR01281_0_L227_S_6D_QC_R1_frag_4_reads_mBGq6X475824181.fa
+/home/linuxbrew/output/TIGR01281_0_L304_S_6D_QC_R1_frag_5_reads_HsdcFo563609122.fa
+/home/linuxbrew/output/TIGR01281_0_L442_2011_16_5m_QC_R1_frag_6_reads_Ia40Q2585903243.fa
+/home/linuxbrew/output/TIGR01281_0_L442_2014_13m_QC_R1_frag_7_reads_MTS_tF84936942.fa
+/home/linuxbrew/output/TIGR01281_0_L227_2013_6m_QC_R1_frag_0_annotations_GsFDVr290170921.tsv
+/home/linuxbrew/output/TIGR01281_0_L227_2013_8m_QC_R1_frag_1_annotations_yx5PZX457012371.tsv
+/home/linuxbrew/output/TIGR01281_0_L227_2014_6m_QC_R1_frag_2_annotations_1UCWvq889344782.tsv
+/home/linuxbrew/output/TIGR01281_0_L227_2014_8m_QC_R1_frag_3_annotations_IwZU8z290452704.tsv
+/home/linuxbrew/output/TIGR01281_0_L227_S_6D_QC_R1_frag_4_annotations_8vc22P857846570.tsv
+/home/linuxbrew/output/TIGR01281_0_L304_S_6D_QC_R1_frag_5_annotations_qq5cW4901974552.tsv
+/home/linuxbrew/output/TIGR01281_0_L442_2011_16_5m_QC_R1_frag_6_annotations_ysAIch688863280.tsv
+/home/linuxbrew/output/TIGR01281_0_L442_2014_13m_QC_R1_frag_7_annotations_sFrXE1431041470.tsv
+/home/linuxbrew/output/TIGR01281_0_krona_9FwJEL219027701.html
+/home/linuxbrew/output/TIGR01281_0_all_annotations_NGmzUL994003214.tsv
+/home/linuxbrew/output/TIGR01281_0_all_reads_42AYFL612575882.fa
+/home/linuxbrew/output/cyc2_Chlorobia_1_L227_2013_6m_QC_R1_frag_0_reads_mIUcTb180625343.fa
+/home/linuxbrew/output/cyc2_Chlorobia_1_L227_2013_8m_QC_R1_frag_1_reads_3CgmBl409685014.fa
+/home/linuxbrew/output/cyc2_Chlorobia_1_L227_2014_6m_QC_R1_frag_2_reads_0yY2_H781357933.fa
+/home/linuxbrew/output/cyc2_Chlorobia_1_L227_2014_8m_QC_R1_frag_3_reads_l50SHe899108394.fa
+/home/linuxbrew/output/cyc2_Chlorobia_1_L227_S_6D_QC_R1_frag_4_reads_xQx_tl941682947.fa
+/home/linuxbrew/output/cyc2_Chlorobia_1_L304_S_6D_QC_R1_frag_5_reads_k5uVHy8986347.fa
+/home/linuxbrew/output/cyc2_Chlorobia_1_L442_2011_16_5m_QC_R1_frag_6_reads_8qDLp6210008820.fa
+/home/linuxbrew/output/cyc2_Chlorobia_1_L442_2014_13m_QC_R1_frag_7_reads_kf1F8I61689671.fa
+/home/linuxbrew/output/cyc2_Chlorobia_1_L227_2013_6m_QC_R1_frag_0_annotations_VAOWsG357224275.tsv
+/home/linuxbrew/output/cyc2_Chlorobia_1_L227_2013_8m_QC_R1_frag_1_annotations_BzOsCM902080650.tsv
+/home/linuxbrew/output/cyc2_Chlorobia_1_L227_2014_6m_QC_R1_frag_2_annotations_f31R2F424942863.tsv
+/home/linuxbrew/output/cyc2_Chlorobia_1_L227_2014_8m_QC_R1_frag_3_annotations_ovAsVC386021994.tsv
+/home/linuxbrew/output/cyc2_Chlorobia_1_L227_S_6D_QC_R1_frag_4_annotations_6_mn2S915676021.tsv
+/home/linuxbrew/output/cyc2_Chlorobia_1_L304_S_6D_QC_R1_frag_5_annotations_UjLvGi533199715.tsv
+/home/linuxbrew/output/cyc2_Chlorobia_1_L442_2011_16_5m_QC_R1_frag_6_annotations_yS58tx436384025.tsv
+/home/linuxbrew/output/cyc2_Chlorobia_1_L442_2014_13m_QC_R1_frag_7_annotations_dC3WqE876451150.tsv
+/home/linuxbrew/output/cyc2_Chlorobia_1_krona_3DfH0V447798889.html
+/home/linuxbrew/output/cyc2_Chlorobia_1_all_annotations_2QHHoc664053192.tsv
+/home/linuxbrew/output/cyc2_Chlorobia_1_all_reads_JA4wTD830374189.fa
+/home/linuxbrew/output/cyc2_all_references_2_L227_2013_6m_QC_R1_frag_0_reads_zVVPDW942667511.fa
+/home/linuxbrew/output/cyc2_all_references_2_L227_2013_8m_QC_R1_frag_1_reads_DKioDu537538767.fa
+/home/linuxbrew/output/cyc2_all_references_2_L227_2014_6m_QC_R1_frag_2_reads_ytmloO297519783.fa
+/home/linuxbrew/output/cyc2_all_references_2_L227_2014_8m_QC_R1_frag_3_reads_L09rZd472749566.fa
+/home/linuxbrew/output/cyc2_all_references_2_L227_S_6D_QC_R1_frag_4_reads_Xrq7Wf311415063.fa
+/home/linuxbrew/output/cyc2_all_references_2_L304_S_6D_QC_R1_frag_5_reads__F5ruw925672278.fa
+/home/linuxbrew/output/cyc2_all_references_2_L442_2011_16_5m_QC_R1_frag_6_reads_32jExr245564855.fa
+/home/linuxbrew/output/cyc2_all_references_2_L442_2014_13m_QC_R1_frag_7_reads_JyUh80320406622.fa
+/home/linuxbrew/output/cyc2_all_references_2_L227_2013_6m_QC_R1_frag_0_annotations_CEwRoQ146640142.tsv
+/home/linuxbrew/output/cyc2_all_references_2_L227_2013_8m_QC_R1_frag_1_annotations_20Bnwb386174288.tsv
+/home/linuxbrew/output/cyc2_all_references_2_L227_2014_6m_QC_R1_frag_2_annotations_MKKGkW840600933.tsv
+/home/linuxbrew/output/cyc2_all_references_2_L227_2014_8m_QC_R1_frag_3_annotations_EvscnC873745684.tsv
+/home/linuxbrew/output/cyc2_all_references_2_L227_S_6D_QC_R1_frag_4_annotations_iwheI1713443321.tsv
+/home/linuxbrew/output/cyc2_all_references_2_L304_S_6D_QC_R1_frag_5_annotations_EhRs0Y326167546.tsv
+/home/linuxbrew/output/cyc2_all_references_2_L442_2011_16_5m_QC_R1_frag_6_annotations_1U6Lw2374269264.tsv
+/home/linuxbrew/output/cyc2_all_references_2_L442_2014_13m_QC_R1_frag_7_annotations_5iFGtc76038303.tsv
+/home/linuxbrew/output/cyc2_all_references_2_krona_x8p61z803703659.html
+/home/linuxbrew/output/cyc2_all_references_2_all_annotations_QNEJ0x13560226.tsv
+/home/linuxbrew/output/cyc2_all_references_2_all_reads_WsTPwq905228918.fa
+/home/linuxbrew/output/dsrA_3_L227_2013_6m_QC_R1_frag_0_reads_0sENBG727458096.fa
+/home/linuxbrew/output/dsrA_3_L227_2013_8m_QC_R1_frag_1_reads_MLwlAZ919281264.fa
+/home/linuxbrew/output/dsrA_3_L227_2014_6m_QC_R1_frag_2_reads_NQVpeF385295700.fa
+/home/linuxbrew/output/dsrA_3_L227_2014_8m_QC_R1_frag_3_reads_T2obzy22746090.fa
+/home/linuxbrew/output/dsrA_3_L227_S_6D_QC_R1_frag_4_reads_pSRW_B94791805.fa
+/home/linuxbrew/output/dsrA_3_L304_S_6D_QC_R1_frag_5_reads_CsiXJ_843480206.fa
+/home/linuxbrew/output/dsrA_3_L442_2011_16_5m_QC_R1_frag_6_reads_CJ1sRR632729769.fa
+/home/linuxbrew/output/dsrA_3_L442_2014_13m_QC_R1_frag_7_reads_mI2LhK374117651.fa
+/home/linuxbrew/output/dsrA_3_L227_2013_6m_QC_R1_frag_0_annotations_tf_nlb151841962.tsv
+/home/linuxbrew/output/dsrA_3_L227_2013_8m_QC_R1_frag_1_annotations_lxKXUu693574717.tsv
+/home/linuxbrew/output/dsrA_3_L227_2014_6m_QC_R1_frag_2_annotations_LpYKmE46647612.tsv
+/home/linuxbrew/output/dsrA_3_L227_2014_8m_QC_R1_frag_3_annotations_6jhBqL187479415.tsv
+/home/linuxbrew/output/dsrA_3_L227_S_6D_QC_R1_frag_4_annotations_KfzgWK660761974.tsv
+/home/linuxbrew/output/dsrA_3_L304_S_6D_QC_R1_frag_5_annotations_9g6__y842278149.tsv
+/home/linuxbrew/output/dsrA_3_L442_2011_16_5m_QC_R1_frag_6_annotations_YlI13w356759281.tsv
+/home/linuxbrew/output/dsrA_3_L442_2014_13m_QC_R1_frag_7_annotations_5NBQ69948264668.tsv
+/home/linuxbrew/output/dsrA_3_krona__8pXdN508249082.html
+/home/linuxbrew/output/dsrA_3_all_annotations_3UDpOS826351011.tsv
+/home/linuxbrew/output/dsrA_3_all_reads_fqCMxn824309592.fa
+/home/linuxbrew/output/rpoB_4_L227_2013_6m_QC_R1_frag_0_reads_dZip4J805048321.fa
+/home/linuxbrew/output/rpoB_4_L227_2013_8m_QC_R1_frag_1_reads_zHyzr6853116193.fa
+/home/linuxbrew/output/rpoB_4_L227_2014_6m_QC_R1_frag_2_reads_AJDhXL999639280.fa
+/home/linuxbrew/output/rpoB_4_L227_2014_8m_QC_R1_frag_3_reads_Baodw4603740522.fa
+/home/linuxbrew/output/rpoB_4_L227_S_6D_QC_R1_frag_4_reads_VddJjU850529996.fa
+/home/linuxbrew/output/rpoB_4_L304_S_6D_QC_R1_frag_5_reads_1MEd35127922882.fa
+/home/linuxbrew/output/rpoB_4_L442_2011_16_5m_QC_R1_frag_6_reads_6HiIti277714005.fa
+/home/linuxbrew/output/rpoB_4_L442_2014_13m_QC_R1_frag_7_reads_jhYyhB230012714.fa
+/home/linuxbrew/output/rpoB_4_L227_2013_6m_QC_R1_frag_0_annotations_pbmWfR326041756.tsv
+/home/linuxbrew/output/rpoB_4_L227_2013_8m_QC_R1_frag_1_annotations_8k3_bs872761806.tsv
+/home/linuxbrew/output/rpoB_4_L227_2014_6m_QC_R1_frag_2_annotations_dLdys9495770017.tsv
+/home/linuxbrew/output/rpoB_4_L227_2014_8m_QC_R1_frag_3_annotations_HVdbWL970718623.tsv
+/home/linuxbrew/output/rpoB_4_L227_S_6D_QC_R1_frag_4_annotations_2NGOUL946575154.tsv
+/home/linuxbrew/output/rpoB_4_L304_S_6D_QC_R1_frag_5_annotations_VOw9XM141172140.tsv
+/home/linuxbrew/output/rpoB_4_L442_2011_16_5m_QC_R1_frag_6_annotations_TQMwCo950262113.tsv
+/home/linuxbrew/output/rpoB_4_L442_2014_13m_QC_R1_frag_7_annotations_ljJ9lW33643524.tsv
+/home/linuxbrew/output/rpoB_4_krona_7OwLtQ410268800.html
+/home/linuxbrew/output/rpoB_4_all_annotations_x8so8x65667348.tsv
+/home/linuxbrew/output/rpoB_4_all_reads_DUTWXe961362899.fa
+/home/linuxbrew/output/L227_2013_6m_QC_R1_frag_0_krona_ZdaBJ2489786154.html
+/home/linuxbrew/output/L227_2013_6m_QC_R1_frag_0_all_annotations_GUr2wk424010725.tsv
+/home/linuxbrew/output/L227_2013_6m_QC_R1_frag_0_all_reads_M56Q3Z633200766.fa
+/home/linuxbrew/output/L227_2013_8m_QC_R1_frag_1_krona_q00tPy130889111.html
+/home/linuxbrew/output/L227_2013_8m_QC_R1_frag_1_all_annotations_Z88Xjt431695035.tsv
+/home/linuxbrew/output/L227_2013_8m_QC_R1_frag_1_all_reads_dCKM_W509301820.fa
+/home/linuxbrew/output/L227_2014_6m_QC_R1_frag_2_krona_DgAb2i868668276.html
+/home/linuxbrew/output/L227_2014_6m_QC_R1_frag_2_all_annotations_jmqwr0843191115.tsv
+/home/linuxbrew/output/L227_2014_6m_QC_R1_frag_2_all_reads_IB28e2874108605.fa
+/home/linuxbrew/output/L227_2014_8m_QC_R1_frag_3_krona_OlHeNW707672897.html
+/home/linuxbrew/output/L227_2014_8m_QC_R1_frag_3_all_annotations_M2J6E5903355880.tsv
+/home/linuxbrew/output/L227_2014_8m_QC_R1_frag_3_all_reads_T75yHV107399237.fa
+/home/linuxbrew/output/L227_S_6D_QC_R1_frag_4_krona_2ONLzy292014642.html
+/home/linuxbrew/output/L227_S_6D_QC_R1_frag_4_all_annotations_32M3eE445644120.tsv
+/home/linuxbrew/output/L227_S_6D_QC_R1_frag_4_all_reads_7TiijE84613630.fa
+/home/linuxbrew/output/L304_S_6D_QC_R1_frag_5_krona_a_G2WJ159904958.html
+/home/linuxbrew/output/L304_S_6D_QC_R1_frag_5_all_annotations_QruAgF977904771.tsv
+/home/linuxbrew/output/L304_S_6D_QC_R1_frag_5_all_reads_dVHCeN422779125.fa
+/home/linuxbrew/output/L442_2011_16_5m_QC_R1_frag_6_krona_nGShx_751949070.html
+/home/linuxbrew/output/L442_2011_16_5m_QC_R1_frag_6_all_annotations_jGy42Z546006382.tsv
+/home/linuxbrew/output/L442_2011_16_5m_QC_R1_frag_6_all_reads_4sRTGL330372762.fa
+/home/linuxbrew/output/L442_2014_13m_QC_R1_frag_7_krona_4QhV_r45727549.html
+/home/linuxbrew/output/L442_2014_13m_QC_R1_frag_7_all_annotations_QbQe_x533917516.tsv
+/home/linuxbrew/output/L442_2014_13m_QC_R1_frag_7_all_reads_Za34jd612307074.fa
+/home/linuxbrew/output/all_hmms_krona_UO8zGx972342762.html
+/home/linuxbrew/output/all_datasets_krona_1V_DtB502465163.html
+/home/linuxbrew/output/all_annotations_n7fQuP989572572.tsv
+/home/linuxbrew/output/all_reads_oYhv8Z577108894.fa
+/home/linuxbrew/output/raw_counts_kG_5kd661285687.csv
+/home/linuxbrew/output/normalized_counts_aAP9jZ971722657.csv

@@ -1,0 +1,38 @@
+Command run: metannotate-wrapper-docker sequence /home/linuxbrew/orf_files /home/linuxbrew/hmm_files
+Accessing metannotate-wrapper with settings for Docker container...
+Running metannotate-wrapper version 0.9.2 on 190524 (yymmdd).
+Command run: metannotate-wrapper /home/linuxbrew/MetAnnotate /home/linuxbrew/databases sequence /home/linuxbrew/orf_files /home/linuxbrew/hmm_files /home/linuxbrew/output
+
+Creating temp directory '/home/linuxbrew/output/tmp' for MetAnnotate
+Found 8 open reading frame (ORF) prediction files to run MetAnnotate on.
+Found 5 HMM files as queries for MetAnnotate.
+
+ORF prediction files being scanned:
+   L227-2013-6m_QC_R1.frag.faa
+   L227-2013-8m_QC_R1.frag.faa
+   L227-2014-6m_QC_R1.frag.faa
+   L227-2014-8m_QC_R1.frag.faa
+   L227_S_6D_QC_R1.frag.faa
+   L304_S_6D_QC_R1.frag.faa
+   L442-2011-16-5m_QC_R1.frag.faa
+   L442-2014-13m_QC_R1.frag.faa
+
+
+Lengths of HMM being run (ID: length):
+   TIGR01281_bchL.hmm: LENG  268
+   cyc2_Chlorobia.hmm: LENG  416
+   cyc2_all_references.hmm: LENG  428
+   dsrA.hmm: LENG  369
+   rpoB.hmm: LENG  2842
+
+
+Running MetAnnotate using 20 threads for all samples against all HMMs. Saving run log to '/home/linuxbrew/output/metannotate.log'.
+(Threads can be modified using file /home/linuxbrew/MetAnnotate/concurrency.txt.)
+(All other values, e.g., e-value cutoffs, are defaults.)
+
+
+metannotate-wrapper: finished. Output can be found in /home/linuxbrew/output. Can delete '/home/linuxbrew/output/tmp' if empty.
+Started at Fri May 24 07:28:19 UTC 2019 and finished at Fri May 24 08:36:31 UTC 2019.
+
+metannotate-wrapper-docker: done.
+
