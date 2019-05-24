@@ -1,0 +1,39 @@
+[2019-05-24 03:02:31] INFO: GTDB-Tk v0.2.2
+[2019-05-24 03:02:31] INFO: gtdbtk classify_wf --genome_dir /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/05_bin_analysis/01_all_genome_bins --out_dir /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/05_bin_analysis/02_gtdbtk_taxonomy -x fa --min_perc_aa 10 --prefix ELA111314_dRep_gtdbtk --cpus 10 --debug
+[2019-05-24 03:02:31] WARNING: Results are still being validated and taxonomic assignments may be incorrect! Use at your own risk!
+[2019-05-24 03:02:31] INFO: Identifying markers in 81 genomes with 10 threads.
+[2019-05-24 03:02:31] INFO: Running Prodigal to identify genes.
+[2019-05-24 03:05:25] INFO: Identifying TIGRFAM protein families.
+[2019-05-24 03:06:40] INFO: Identifying Pfam protein families.
+[2019-05-24 03:06:50] INFO: Done.
+[2019-05-24 03:06:50] INFO: Aligning markers in 81 genomes with 10 threads.
+[2019-05-24 03:06:50] INFO: Processing 78 genomes identified as bacterial.
+[2019-05-24 03:06:52] INFO: Read concatenated alignment for 21263 GTDB genomes.
+[2019-05-24 03:07:54] INFO: Masking columns of multiple sequence alignment using canonical mask.
+[2019-05-24 03:08:44] INFO: Masked alignment from 41155 to 5035 AA.
+[2019-05-24 03:08:44] INFO: 0 user genomes have amino acids in <10.0% of columns in filtered MSA.
+[2019-05-24 03:08:44] INFO: Creating concatenated alignment for 21341 GTDB and user genomes.
+[2019-05-24 03:08:44] INFO: Creating concatenated alignment for 78 user genomes.
+[2019-05-24 03:08:44] INFO: Processing 3 genomes identified as archaeal.
+[2019-05-24 03:08:44] INFO: Read concatenated alignment for 1177 GTDB genomes.
+[2019-05-24 03:08:52] INFO: Masking columns of multiple sequence alignment using canonical mask.
+[2019-05-24 03:08:55] INFO: Masked alignment from 32675 to 5024 AA.
+[2019-05-24 03:08:55] INFO: 0 user genomes have amino acids in <10.0% of columns in filtered MSA.
+[2019-05-24 03:08:55] INFO: Creating concatenated alignment for 1180 GTDB and user genomes.
+[2019-05-24 03:08:55] INFO: Creating concatenated alignment for 3 user genomes.
+[2019-05-24 03:08:55] INFO: Done.
+[2019-05-24 03:08:55] INFO: Placing 3 archaeal genomes into reference tree with pplacer (be patient).
+[2019-05-24 03:09:46] INFO: Calculating Average Nucleotide Identity using FastANI.
+[2019-05-24 03:09:50] INFO: 0 genomes have been classify using FastANI and Pplacer.
+[2019-05-24 03:09:50] INFO: Reading tree.
+[2019-05-24 03:09:50] INFO: Reading taxonomy from file.
+[2019-05-24 03:09:51] INFO: Identified 7 phyla.
+[2019-05-24 03:09:51] INFO: Using 7 phyla as rootings for inferring RED distributions.
+[2019-05-24 03:09:53] INFO: Placing 78 bacterial genomes into reference tree with pplacer (be patient).
+[2019-05-24 03:58:11] INFO: Calculating Average Nucleotide Identity using FastANI.
+[2019-05-24 03:58:40] INFO: 1 genomes have been classify using FastANI and Pplacer.
+[2019-05-24 03:58:40] INFO: Reading tree.
+[2019-05-24 03:58:44] INFO: Reading taxonomy from file.
+[2019-05-24 03:58:45] INFO: Identified 36 phyla.
+[2019-05-24 03:58:45] INFO: Using 36 phyla as rootings for inferring RED distributions.
+[2019-05-24 04:04:04] INFO: Done.
