@@ -1,11 +1,11 @@
 # ABOUT assembly and binning
-Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
+Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
 All code here is to be run in a Bash terminal of a unix system (e.g., Ubuntu 16 or 18) unless indicated otherwise. Assumes you have already run code in `01_data_acquisition`. **WARNING: ONLY run this section of the code if you really want to perform several days' worth of sequencing assembly/annotation on your server!**
 
 ## Define where you downloaded the Github repo:
-```
+```bash
 github_repo_location="/Analysis/jmtsuji/chlorobia-cyc2-genomics"
 ```
 
@@ -15,7 +15,7 @@ github_repo_location="/Analysis/jmtsuji/chlorobia-cyc2-genomics"
 - A server with at least ~300 GB storage and ~100 GB RAM!
 
 ## To set up the ATLAS coassembly docker container and associated wrappers (for ease of use) and databases
-```
+```bash
 # Download the Docker container to use later
 docker pull jmtsuji/atlas-extensions:1.0.22-coassembly-r3
 
@@ -48,7 +48,7 @@ Important note: sometime in 2017 or 2018, the conda install of prokka 1.12 stopp
 
 ## Part A: Lake metagenomes
 Get everything ready:
-```
+```bash
 input_data_dir="${github_repo_location}/Data_analysis_pipeline/01_data_acquisition/lake_metagenomes"
 atlas_database_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/atlas_databases_1.0.22"
 output_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/lake_metagenomes"
@@ -62,7 +62,7 @@ cd ${output_dir}
 ```
 
 Perform the standard sequence assembly and binning workflow. **I recommend starting a screen/byobu/tmux session that you can pull out of after starting the download command -- could take several days.**
-```
+```bash
 # Enter the Docker container. I have to ignore the typical wrapper command to include the input files:
 docker run -v ${atlas_database_dir}:/home/atlas/databases \
         -v ${output_dir}:/home/atlas/output \
@@ -82,7 +82,7 @@ exit
 ```
 
 Now perform the three coassemblies, using standard assembly data as input. **I recommend starting a screen/byobu/tmux session that you can pull out of after starting the download command -- could take several days.** A wrapper around the ATLAS pipeline, [co-assembly.sh](https://github.com/jmtsuji/atlas-extensions/blob/master/co-assembly.sh) (version `1.0.22-coassembly-r3`), is used to perform co-assembly and is runnable via Docker container. The workflow is described in the Methods section of the paper. To start the Docker container:
-```
+```bash
 atlas_database_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/atlas_databases_1.0.22"
 output_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/lake_metagenomes"
 
@@ -111,7 +111,7 @@ exit
 This feels a lot like working with the lake metagenomes above, except that only individual assemblies were used. Because he datasets are so much simpler, the assemblies should run much faster. Careful -- I worked with a different server this time, so the config file is set for 40 threads. Make sure your server has at least 40 threads, or else you'll need to modify the config.
 
 Get everything ready:
-```
+```bash
 input_data_dir="${github_repo_location}/Data_analysis_pipeline/01_data_acquisition/enrichment_metagenomes"
 atlas_database_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/atlas_databases_1.0.22"
 output_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning/enrichment_metagenomes"
@@ -125,7 +125,7 @@ cd ${output_dir}
 ```
 
 Perform the standard sequence assembly and binning workflow. **I recommend starting a screen/byobu/tmux session that you can pull out of after starting the download command -- could take several hours.**
-```
+```bash
 # Enter the Docker container. I have to ignore the typical wrapper command to include the input files:
 docker run -v ${atlas_database_dir}:/home/atlas/databases \
         -v ${output_dir}:/home/atlas/output \

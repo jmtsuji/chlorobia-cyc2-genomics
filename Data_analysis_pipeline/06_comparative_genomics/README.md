@@ -1,5 +1,5 @@
 # ABOUT comparative genomics of *Chlorobia* genome bins
-Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
+Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
 All code here is to be run in a Bash terminal of a unix system (e.g., Ubuntu 16 or 18) unless indicated otherwise.
@@ -14,7 +14,7 @@ github_repo_location="/Analysis/jmtsuji/chlorobia-cyc2-genomics"
 ## Software prerequisites
 - miniconda (miniconda3 preferred)
 
-## Conda environment with all needed dependencies:
+## Conda environment with needed dependencies for the majority of the README:
 ```bash
 conda create -y -n genome_comparison -c bioconda iqtree=1.6.10 gblocks=0.91b clustalo=1.2.3 seqtk=1.3 prodigal=2.6.3 fastani=1.1
 
@@ -27,7 +27,7 @@ rm -rf basic-sequence-analysis-1.2.0
 conda deactivate
 ```
 Use this environment via `conda activate genome_comparison` (as shown below).  
-This is used for all analyses except for the BackBLAST core module, which has its own conda env (as shown below)
+This is used for all analyses except for the BackBLAST core module and GToTree, which have their own conda envs (as shown below)
 
 ## Download *Chlorobia* genomes
 
@@ -37,17 +37,10 @@ You have several options:
 **Option 1** (recommended): Download from the Zenodo repo. This is the method I've tested and know works.
 ```bash
 download_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes/this_study"
-info_filepath="${download_dir}/ELA_Chlorobia_links.tsv"
-mkdir -p ${download_dir}
-cd ${download_dir}
-
-# TODO
-# Because the NCBI accession is not yet up, download from Zenodo instead
-destination_dir="${github_repo_location}/Data_analysis_pipeline/05_bin_analysis/01_all_genome_bins"
 zenodo_url="https://zenodo.org/record/3228469/files/dereplicated_genomes.tar.gz"
 
-mkdir -p ${destination_dir}
-cd ${destination_dir}
+mkdir -p ${download_dir}
+cd ${download_dir}
 
 # Download
 wget -O - ${zenodo_url} | tar -xzf -
@@ -74,7 +67,7 @@ gzip *.fna *.faa *.gff
 ```
 
 **Option 2**: download from NCBI. This is a nice option, but the genomes are not yet available on NCBI, so I am not yet sure how NCBI's annotations will compare to mind
-```
+```bash
 download_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes/this_study"
 info_filepath="${download_dir}/ELA_Chlorobia_links.tsv"
 mkdir -p ${download_dir}

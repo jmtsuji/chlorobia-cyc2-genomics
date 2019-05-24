@@ -1,5 +1,5 @@
 # ABOUT additional bin/sample analyses
-Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
+Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
 All code here is to be run in a Bash terminal of a unix system (e.g., Ubuntu 16 or 18) unless indicated otherwise.

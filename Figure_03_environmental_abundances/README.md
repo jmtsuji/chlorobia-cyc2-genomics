@@ -1,5 +1,5 @@
 # ABOUT Figure 3 - environmental abundances of genome bins
-Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
+Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
 ## 1. Data collection

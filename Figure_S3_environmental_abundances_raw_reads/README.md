@@ -1,5 +1,5 @@
 # ABOUT Figure S3 - unassembled read profiling of taxonomic/functional genes
-Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
+Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
 This figure was build as a validation for Figure 3. Figure 3 relies on read mapping to genomic bins. For Figure S3, meanwhile, unassembled reads were scanned directly using HMMs, and taxonomic affiliations of each hit were determined (via MetAnnotate). The correspondance between the data in Figures 3 and S3 are fairly reasonable (within ~2x; see the manuscript text), implying that the methods are fairly robist.

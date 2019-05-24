@@ -1,5 +1,5 @@
 # ABOUT Figure 02 - Fe/S gene pathways among *Chlorobia*
-Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
+Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
 ## 1. Input files

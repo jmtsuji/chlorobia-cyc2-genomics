@@ -1,11 +1,11 @@
 # ABOUT bin dereplication and manual curation
-Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
+Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
 All code here is to be run in a Bash terminal of a unix system (e.g., Ubuntu 16 or 18) unless indicated otherwise.
 
 ## Define where you downloaded the Github repo:
-```
+```bash
 github_repo_location="/Analysis/jmtsuji/chlorobia-cyc2-genomics"
 ```
 
@@ -17,7 +17,7 @@ github_repo_location="/Analysis/jmtsuji/chlorobia-cyc2-genomics"
 Unique genome bins were determined using dRep, version 2.0.5.  
 dRep was run for the lake metagenomes. The enrichment culture genomes were determined later to be distinct from any of the lake metagenomes with an additional dRep run, but then the lake metagenome dRep results were used, with the enrichment culture genomes appended to the output table (because of the timing of when data became available for the manuscript).
 
-### Create the conda environment with all needed dependencies:
+### Create the conda environment for dRep:
 ```bash
 conda create -y -n dRep -c bioconda -c r drep=2.0.5 r-dplyr
 ```
@@ -406,6 +406,7 @@ done
 The output tables were combined into the final Table 1 in the paper -- see Table 1 folder:
 - statswrapper.tsv
 - completeness.tsv
+- taxonomy.tsv
 - tRNA_counts.tsv (note that the original counts were done manually, and the above coded method was made later for simplicity)
 
 Now, the genome bins are done!

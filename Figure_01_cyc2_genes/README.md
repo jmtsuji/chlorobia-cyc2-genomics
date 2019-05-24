@@ -1,4 +1,4 @@
-# ABOUT Figure 1 - cyc2 gene verification and novelty
+# ABOUT Figure 1 - *cyc2* gene verification and novelty
 Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
@@ -36,10 +36,10 @@ params$run_mode <- "auto"
 ######################################
 ```
 From here, `input_data/Figure_1B_plotting_data_raw.tsv` had to be manually checked for accuracy. Although not shown in the repo, I went back and mined ORF prediction files corresponding to the GFFs to get the protein sequences of each entry, and I then ran those through BLASTP online. Each entry was checked for the annotation and taxonomic affiliation of its closest representatives, allowing for the annotation colours and abbreviations in the final plot. Generally, I followed the following protocol:
-- Labelled a protein as 'Other (annotated)' if its closest BLASTP hit was to another member of *Chlorobia* with > 50% sequence identity, and the hit was annotated as a protein of known function.
+- Labelled a protein as 'Other (annotated)' if its closest BLASTP hit was to another member of *Chlorobia* with ~ >50% sequence identity, and the hit was annotated as a protein of known function.
 - Labelled a protein "Other shared gene" if it matched all of the above criteria plus was related to another protein in the figure
-- Labelled a protein 'Other (hypotheticl)' if it hit *Chlorobia* with > 50% sequence identity as above but the hit protein had unknown function, OR if the closest database hit was < 50% sequence identity (regardless of its taxonomy/annotation)
-- Labelled a protein as a "Non-Chlorobia gene" if it had a hit of >50% sequence identity to a non-*Chlorobia* sequence.
+- Labelled a protein 'Other (hypotheticl)' if it hit *Chlorobia* with ~ >50% sequence identity as above but the hit protein had unknown function, OR if the closest database hit was ~ <50% sequence identity (regardless of its taxonomy/annotation)
+- Labelled a protein as a "Non-Chlorobia gene" if it had a hit of ~ >50% sequence identity to a non-*Chlorobia* sequence.
 
 Once done, the manually curated `input_data/Figure_1B_plotting_data.tsv`, along with the corresponding `input_data/Figure_1B_plotting_colours.tsv` were fed into `plot/Figure_1B_plotter.R` with alternative settings for producing the final plot:
 ```R
@@ -62,6 +62,7 @@ The output plot (`plot/Figure_1B_raw.pdf`) was still lacking several details tha
 - lengths of contigs
 - short form abbreviations for each gene
 - legend
+- (Note that I removed a couple genes from the sides that stuck out too far to the left or right of the plot, and also added one on the right side of L304 (next entry in the GFF file) because of empty space.)
 
 Once added, this resulted in `Figure_1B_cleaned.pdf`.
 
