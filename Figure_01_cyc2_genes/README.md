@@ -1,5 +1,5 @@
 # ABOUT Figure 1 - cyc2 gene verification and novelty
-Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
+Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
 This figure is composed of three panels that were produced separately and then combined in Inkscape.
