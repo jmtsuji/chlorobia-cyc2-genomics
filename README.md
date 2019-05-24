@@ -20,6 +20,11 @@ Note that this repo has a corresponding data repository in Zenodo for hosting la
 
 Code in this repo shows how to use the files in the Zenodo repo for analysis.
 
+## Issues
+It's likely that there are some typo's in the code. I did not perform all of these analyses at once, but I have tried in making this repo to organize them into one smooth, continuous workflow. This involved renaming some variables and such. Not all of the code has been tested in its current state.
+
+If you want to try to use something here and are having problems (or have other questions/concerns about the analysis), feel free to post a [Github issue](https://github.com/jmtsuji/chlorobia-cyc2-genomics/issues).
+
 ## Final remarks
 I hope this is a helpful resource for the scientific community, both in the critique of my work and in further development of bioinformatics. Feel free to post an issue if you have any questions or concerns. Enjoy!  
 
