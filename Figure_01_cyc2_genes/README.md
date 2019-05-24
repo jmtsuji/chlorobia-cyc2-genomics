@@ -95,6 +95,6 @@ sink()
 
 ## Final figure
 Each panel was combined to produce Figure 1:
-![Figure_01](plot/Figure_01_cleaned.png)
+![Figure_01](Figure_01_cleaned.png)
 
 
