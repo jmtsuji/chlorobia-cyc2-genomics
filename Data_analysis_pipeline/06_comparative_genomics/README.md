@@ -447,6 +447,20 @@ fastANI --rl genomes.list --ql genomes.list -o ${output_filename} -t ${threads} 
 The output file `Chlorobia_FastANI_results.txt` is used in Supplementary Figure S1 (see that folder for the scripting details).
 
 
-### Done!
+## Alignment of cytochrome c5 primary sequences
+The *cyc2* gene in *Chlorobia* appears to consistently be adjacent to a c5 family cytochrome in the genome. I gathered and aligned these sequences to include in Supplementary File S3.
+
+Obtained reference sequences manually based on the info in `reference_Chlorobia_c5_protein_info.tsv`. **MANUALLY** added sequences from this study. (Didn't code this - just a quick side analysis. Looked for c5 genes immediately adjacent to the cyc2 genes, as I already knew were there based on Figure 1B.) This resulted in `c5_family_Chlorobia_unaligned.faa`
+
+Then aligned the c5 sequences
+```bash
+cd "${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/07_c5_alignment"
+
+clustalo -i c5_family_Chlorobia_unaligned.faa --full --percent-id --distmat-out=c5_family_Chlorobia_aligned_distmat.txt -o c5_family_Chlorobia_aligned.faa --threads=2 --verbose 2>&1 | tee c5_family_Chlorobia_aligned.log
+```
+A copy of `c5_family_Chlorobia_aligned.faa` is included in Supplementary File S3.
+
+
+## Done!
 This is the end of the main heavy-lifting data processing work for this paper. Figures were generated based off this dataset using code found in each figure folder.
 
