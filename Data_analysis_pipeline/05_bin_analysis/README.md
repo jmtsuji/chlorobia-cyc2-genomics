@@ -17,7 +17,7 @@ You have two options here:
 **Option 1.** Download the pre-made bin set in the Zenodo repository (recommended)
 ```bash
 destination_dir="${github_repo_location}/Data_analysis_pipeline/05_bin_analysis/01_all_genome_bins"
-zenodo_url="https://zenodo.org/record/2720706/files/dereplicated_genomes.tar.gz"
+zenodo_url="https://zenodo.org/record/3228469/files/dereplicated_genomes.tar.gz"
 
 mkdir -p ${destination_dir}
 cd ${destination_dir}

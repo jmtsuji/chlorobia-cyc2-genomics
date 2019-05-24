@@ -21,7 +21,7 @@ github_repo_location="/Analysis/jmtsuji/chlorobia-cyc2-genomics"
 download_dir="${github_repo_location}/Figure_03_environmental_abundances/input_data"
 
 # Download the files
-zenodo_url="https://zenodo.org/record/2720706/files/metannotate_annotations_unassembled_reads.tsv.gz"
+zenodo_url="https://zenodo.org/record/3228469/files/metannotate_annotations_unassembled_reads.tsv.gz"
 cd ${download_dir}
 wget ${zenodo_url}
 

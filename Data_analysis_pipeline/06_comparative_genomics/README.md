@@ -30,7 +30,11 @@ Use this environment via `conda activate genome_comparison` (as shown below).
 This is used for all analyses except for the BackBLAST core module, which has its own conda env (as shown below)
 
 ## Download *Chlorobia* genomes
-Download the *Chlorobia* genomes from this study from NCBI
+
+### Download the *Chlorobia* genomes from this study
+You have several options:
+
+**Option 1** (recommended): Download from the Zenodo repo. This is the method I've tested and know works.
 ```bash
 download_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes/this_study"
 info_filepath="${download_dir}/ELA_Chlorobia_links.tsv"
@@ -39,30 +43,51 @@ cd ${download_dir}
 
 # TODO
 # Because the NCBI accession is not yet up, download from Zenodo instead
-zenodo_url=
-wget -O - ${zenodo_url} | tar -xvzf -
-# Makes ____
-# Then keep just the Chlorobia genomes
+destination_dir="${github_repo_location}/Data_analysis_pipeline/05_bin_analysis/01_all_genome_bins"
+zenodo_url="https://zenodo.org/record/3228469/files/dereplicated_genomes.tar.gz"
 
-# Then change extension to .fna
-find . -name "*.fa" | xargs -I {} basename {} ".fa" | xargs -I {} mv {}.fa {}.fna
+mkdir -p ${destination_dir}
+cd ${destination_dir}
+
+# Download
+wget -O - ${zenodo_url} | tar -xzf -
+# Downloads `dereplicated_genomes.tar.gz` and unpacks into `dereplicated_genomes`
+
+# Change extension to .fna to look like NCBI
+find dereplicated_genomes/curated -type f -name "*.fa" | xargs -I {} basename {} ".fa" | xargs -I {} mv {}.fa {}.fna
+
+# Move the curated bins all into the main folder, then delete the non-curated ones
+find dereplicated_genomes/curated -type f -name "*.fa" | xargs -I {} mv {} .
+rm -r dereplicated_genomes
 
 # Then predict amino acids via Prodigal
 fna_files=($(find . -name "*.fna" | sort -h))
 for fna_file in ${fna_files[@]}; do
 
-echo "[ $(date -u) ]: Predicting genes for '${fna_file%.fna}'"
-prodigal -i ${fna_file} -a ${fna_file%.fna}.faa -c -f gff -o ${fna_file%.fna}.gff 2>${fna_file%.fna}.progidal.log
+    echo "[ $(date -u) ]: Predicting genes for '${fna_file%.fna}'"
+    prodigal -i ${fna_file} -a ${fna_file%.fna}.faa -c -f gff -o ${fna_file%.fna}.gff 2>${fna_file%.fna}.progidal.log
 
 done
 
 # Gzip to match NCBI files
 gzip *.fna *.faa *.gff
 ```
-The alternative would be to use the genome bins you generated yourself, if you ran the whole pipeline up to this point, at `03_bin_curation/03_contig_ordering/ordered_genomes/final`.  
+
+**Option 2**: download from NCBI. This is a nice option, but the genomes are not yet available on NCBI, so I am not yet sure how NCBI's annotations will compare to mind
+```
+download_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes/this_study"
+info_filepath="${download_dir}/ELA_Chlorobia_links.tsv"
+mkdir -p ${download_dir}
+cd ${download_dir}
+
+# TODO - finish once NCBI accessions are known
+
+```
+
+**Option 3**: use the genome bins you generated yourself, if you ran the whole pipeline up to this point, at `03_bin_curation/03_contig_ordering/ordered_genomes/final`.  
 If you'd like to do that, then copy those genomes into the above `download_dir` in place of the ones from NCBI.
 
-Download the type strain *Chlorobia* genomes from NCBI
+### Download the type strain (reference) *Chlorobia* genomes from NCBI
 ```bash
 download_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes/reference"
 info_filepath="${download_dir}/reference_Chlorobia_links.tsv"
