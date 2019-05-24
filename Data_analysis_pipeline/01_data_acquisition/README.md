@@ -1,20 +1,19 @@
 # ABOUT data acquisition
-Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
+Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
 All code here is to be run in a Bash terminal of a unix system (e.g., Ubuntu 16 or 18) unless indicated otherwise.
 
 ## Define where you downloaded the Github repo:
-```
+```bash
 github_repo_location="/Analysis/jmtsuji/chlorobia-cyc2-genomics"
 ```
 
 ## Software prerequisites
 - miniconda (miniconda3 preferred)
 
-
 ## Conda environment with all needed dependencies:
-```
+```bash
 conda create -y -n sra_download -c bioconda sra-tools bbmap
 ```
 Use this environment via `conda activate sra_download` (as shown below).
@@ -25,7 +24,7 @@ Use this environment via `conda activate sra_download` (as shown below).
 Sequencing was performed on an Illumina HiSeq 2500 with 2x200 bp reads (see Methods). Raw reads for the project can be downloaded from NCBI. The `sra_toolkit` needs to be installed, along with the BBTools suite for reformating the data. See the conda code above for this.
 
 #### Download the reads (~50 GB!)
-```
+```bash
 # Activate the conda environment
 conda activate sra_download
 
@@ -57,13 +56,12 @@ done
 # WARNING! This might not work if the R1 and R2 reads are different lengths, for other datasets. The dataset used in this paper should be okay.
 ```
 
-
 ## Part B: Unassembled enrichment culture metagenomes
 ### 1. Data access
 Sequencing was performed on an Illumina HiSeq 2500 with 2x125 bp reads (see Methods). Raw reads for the project can be downloaded from NCBI as above.
 
 #### Download the reads
-```
+```bash
 # Activate the conda environment
 conda activate sra_download
 
@@ -94,14 +92,29 @@ done
 
 # WARNING! This might not work if the R1 and R2 reads are different lengths, for other datasets. The dataset used in this paper should be okay.
 ```
-
 After running Parts A and B, you will be ready to run the assembly and binning pipeline. Otherwise, if you want direct access to the genome bins, see below.
 
 ## Part C: *Chlorobia* genome bins on NCBI
+```
+UNFINISHED -- accessions not yet available
+```
+For now, you can download the *Chlorobia* bins via Zenodo (Part D, below).
 
-UNFINISHED
-
-## Part D: Uncurated genome bins from the sequencing project
+## Part D: *Chlorobia* genome bins and uncurated genome bins from the sequencing project
 A number of additional genome bins were generated for this project that have not been manually curated. You'll see some stats on these in Figure 3 of the manuscript, for example. Although we did not deposit these on NCBI (we plan a future paper that will properly analyze and deposit the bins), they can be downloaded from a Zenodo repo.
 
-UNFINISHED
+Similar download code is also in `05_bin_analysis/README.md`.
+```bash
+destination_dir="${github_repo_location}/Data_analysis_pipeline/01_data_acquisition/zenodo_genome_bins"
+zenodo_url="https://zenodo.org/record/3228469/files/dereplicated_genomes.tar.gz"
+
+mkdir -p ${destination_dir}
+cd ${destination_dir}
+
+# Download
+wget -O - ${zenodo_url} | tar -xzf -
+# Downloads `dereplicated_genomes.tar.gz` and unpacks into `dereplicated_genomes`
+
+# Contains two folders: curated (with *Chlorobia* bins) and uncurated (the other bins)
+```
+
