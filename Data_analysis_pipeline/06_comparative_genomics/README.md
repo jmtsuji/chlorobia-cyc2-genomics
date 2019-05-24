@@ -461,6 +461,110 @@ clustalo -i c5_family_Chlorobia_unaligned.faa --full --percent-id --distmat-out=
 A copy of `c5_family_Chlorobia_aligned.faa` is included in Supplementary File S3.
 
 
+## Obtaining subsets of GFF files around cyc2
+For genomic context analysis in Figure 1B. Obtaining subsets makes the GFFs much easier to work with than when having full-sized files.
+
+For reference genomes (downloaded GFF)
+```
+work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/08_gff_subset/reference"
+reference_chlorobia_guide_file="${work_dir}/../reference_Chlorobia_cyc2_info.tsv"
+logfile="${work_dir}/reference_Chlorobia_cyc2_gff_subset.log"
+
+mkdir -p ${work_dir}
+cd ${work_dir}
+printf "" > ${logfile}
+echo "[ $(date -u) ]: Subsetting cyc2 for $(($(cat ${ELA_chlorobia_guide_file} | wc -l)-1)) entries" | tee -a ${logfile}
+
+for i in $(seq 1 $(($(cat ${reference_chlorobia_guide_file} | wc -l)-1))); do
+# Set counter to start at 2 to skip header
+j=$((${i}+1))
+
+# Assign variables
+genome_ID=$(cut -d $'\t' -f 1 ${reference_chlorobia_guide_file} | tail -n +${j} | head -n 1)
+cyc2_accession=$(cut -d $'\t' -f 2 ${reference_chlorobia_guide_file} | tail -n +${j} | head -n 1)
+gff_link=$(cut -d $'\t' -f 3 ${reference_chlorobia_guide_file} | tail -n +${j} | head -n 1)
+
+echo "[ $(date -u) ]: Downloading '${genome_ID}' from '${gff_link}'" | tee -a ${logfile}
+
+# Download gff
+wget -q -O - ${gff_link} > ${genome_ID}.gff.gz
+
+echo "[ $(date -u) ]: Searching for protein accession '${cyc2_accession}'" | tee -a ${logfile}
+matching_contig=$(zgrep "protein_id=${cyc2_accession}" ${genome_ID}.gff.gz | cut -d $'\t' -f 1)
+if [ ${#matching_contig[@]} != 1 ]; then
+echo "[ $(date -u) ]: Ran into problems finding '${cyc2_accession}'. Exiting..." | tee -a ${logfile}
+#exit 1
+fi
+
+echo "[ $(date -u) ]: Found on contig '${matching_contig}'" | tee -a ${logfile}
+zgrep "^${matching_contig}" ${genome_ID}.gff.gz > ${genome_ID}_cyc2_contig.gff
+echo "[ $(date -u) ]: Grabbed $(cat ${genome_ID}_cyc2_contig.gff | wc -l) total lines corresponding to that contig. Saved as '${genome_ID}_cyc2_contig.gff'" | tee -a ${logfile}
+
+if [ $(cat ${genome_ID}_cyc2_contig.gff | wc -l) -gt 401 ]; then
+echo "[ $(date -u) ]: Output file is too large (e.g., due to long contig). Truncating to +/- 200 entries from cyc2 (same output file)" | tee -a ${logfile}
+zgrep "^${matching_contig}" ${genome_ID}.gff.gz | grep -A 200 -B 200 "protein_id=${cyc2_accession}" > ${genome_ID}_cyc2_contig.gff
+echo "[ $(date -u) ]: Left with $(cat ${genome_ID}_cyc2_contig.gff | wc -l) total lines. (If the number is less than 401, then it could be that the cyc2 is near the end of the contig on one side" | tee -a ${logfile}
+fi
+
+# Clean up
+rm ${genome_ID}.gff.gz
+
+done
+```
+
+For ELA *Chlorobia* cyc2 (worked directly from ATLAS output - you won't be able to replicate this unless you run the whole assembly pipeline, unfortunately)
+```
+work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/08_gff_subset/ELA"
+atlas_dir="${github_repo_location}/Data_analysis_pipeline/02_assembly_and_binning"
+ELA_chlorobia_guide_file="${work_dir}/../ELA_Chlorobia_cyc2_info.tsv"
+logfile="${work_dir}/ELA_Chlorobia_cyc2_gff_subset.log"
+
+printf "" > ${logfile}
+mkdir -p ${work_dir}
+cd ${work_dir}
+
+echo "[ $(date -u) ]: Subsetting cyc2 for $(($(cat ${ELA_chlorobia_guide_file} | wc -l)-1)) entries" | tee -a ${logfile}
+for i in $(seq 1 $(($(cat ${ELA_chlorobia_guide_file} | wc -l)-1))); do
+# Set counter to start at 2 to skip header
+j=$((${i}+1))
+
+# Assign variables
+genome_ID=$(cut -d $'\t' -f 1 ${ELA_chlorobia_guide_file} | tail -n +${j} | head -n 1)
+cyc2_accession=$(cut -d $'\t' -f 2 ${ELA_chlorobia_guide_file} | tail -n +${j} | head -n 1)
+gff_filename=$(cut -d $'\t' -f 3 ${ELA_chlorobia_guide_file} | tail -n +${j} | head -n 1)
+
+echo "[ $(date -u) ]: '${genome_ID}': finding cyc2 '${cyc2_accession}' in '${gff_filename}'" | tee -a ${logfile}
+
+# Find the gff
+gff_filepath=($(find -L ${atlas_dir} -name ${gff_filename} | grep "annotation/prokka"))
+if [ ${#gff_filepath[@]} != 1 ]; then
+echo "[ $(date -u) ]: Ran into problems finding '${gff_filename}'. Exiting..." | tee -a ${logfile}
+#exit 1
+else
+echo "[ $(date -u) ]: Found GFF at '${gff_filepath}'" | tee -a ${logfile}
+fi
+
+echo "[ $(date -u) ]: Searching for protein accession '${cyc2_accession}'" | tee -a ${logfile}
+matching_contig=($(grep "locus_tag=${cyc2_accession}" ${gff_filepath} | cut -d $'\t' -f 1))
+if [ ${#matching_contig[@]} != 1 ]; then
+echo "[ $(date -u) ]: Ran into problems finding '${cyc2_accession}'. Exiting..." | tee -a ${logfile}
+#exit 1
+fi
+
+echo "[ $(date -u) ]: Found on contig '${matching_contig}'" | tee -a ${logfile}
+grep "^${matching_contig}" ${gff_filepath} > ${genome_ID}_cyc2_contig.gff
+echo "[ $(date -u) ]: Grabbed $(cat ${genome_ID}_cyc2_contig.gff | wc -l) total lines corresponding to that contig. Saved as '${genome_ID}_cyc2_contig.gff'" | tee -a ${logfile}
+
+if [ $(cat ${genome_ID}_cyc2_contig.gff | wc -l) -gt 401 ]; then
+echo "[ $(date -u) ]: Output file is too large (e.g., due to long contig). Truncating to +/- 200 entries from cyc2 (same output file)" | tee -a ${logfile}
+grep "^${matching_contig}" ${gff_filepath} | grep -A 200 -B 200 "locus_tag=${cyc2_accession}" > ${genome_ID}_cyc2_contig.gff
+echo "[ $(date -u) ]: Left with $(cat ${genome_ID}_cyc2_contig.gff | wc -l) total lines. (If the number is less than 401, then it could be that the cyc2 is near the end of the contig on one side" | tee -a ${logfile}
+fi
+
+done
+```
+These GFF subset files are used as input for generating Figure 1, Panel B. See that folder for details.
+
 ## Done!
 This is the end of the main heavy-lifting data processing work for this paper. Figures were generated based off this dataset using code found in each figure folder.
 

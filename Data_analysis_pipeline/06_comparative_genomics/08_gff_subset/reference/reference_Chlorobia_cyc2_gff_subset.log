@@ -1,0 +1,21 @@
+[ Fri May 24 16:37:50 UTC 2019 ]: Subsetting cyc2 for 4 entries
+[ Fri May 24 16:37:52 UTC 2019 ]: Downloading 'Chl_ferrooxidans_KoFox' from 'ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/168/715/GCF_000168715.1_ASM16871v1/GCF_000168715.1_ASM16871v1_genomic.gff.gz'
+[ Fri May 24 16:37:53 UTC 2019 ]: Searching for protein accession 'WP_006367388.1'
+[ Fri May 24 16:37:53 UTC 2019 ]: Found on contig 'NZ_AASE01000042.1'
+[ Fri May 24 16:37:53 UTC 2019 ]: Grabbed 25 total lines corresponding to that contig. Saved as 'Chl_ferrooxidans_KoFox_cyc2_contig.gff'
+[ Fri May 24 16:37:53 UTC 2019 ]: Downloading 'Chl_phaeoferrooxidans_KB01' from 'ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/975/465/GCF_001975465.1_ASM197546v1/GCF_001975465.1_ASM197546v1_genomic.gff.gz'
+[ Fri May 24 16:37:53 UTC 2019 ]: Searching for protein accession 'WP_076792910.1'
+[ Fri May 24 16:37:53 UTC 2019 ]: Found on contig 'NZ_MPJE01000115.1'
+[ Fri May 24 16:37:53 UTC 2019 ]: Grabbed 299 total lines corresponding to that contig. Saved as 'Chl_phaeoferrooxidans_KB01_cyc2_contig.gff'
+[ Fri May 24 16:37:53 UTC 2019 ]: Downloading 'Chl_luteolum_DSM_273' from 'ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/012/485/GCF_000012485.1_ASM1248v1/GCF_000012485.1_ASM1248v1_genomic.gff.gz'
+[ Fri May 24 16:37:54 UTC 2019 ]: Searching for protein accession 'WP_011358173.1'
+[ Fri May 24 16:37:54 UTC 2019 ]: Found on contig 'NC_007512.1'
+[ Fri May 24 16:37:54 UTC 2019 ]: Grabbed 4578 total lines corresponding to that contig. Saved as 'Chl_luteolum_DSM_273_cyc2_contig.gff'
+[ Fri May 24 16:37:54 UTC 2019 ]: Output file is too large (e.g., due to long contig). Truncating to +/- 200 entries from cyc2 (same output file)
+[ Fri May 24 16:37:54 UTC 2019 ]: Left with 401 total lines. (If the number is less than 401, then it could be that the cyc2 is near the end of the contig on one side
+[ Fri May 24 16:37:54 UTC 2019 ]: Downloading 'Chl_N1' from 'ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/332/115/GCF_004332115.1_ASM433211v1/GCF_004332115.1_ASM433211v1_genomic.gff.gz'
+[ Fri May 24 16:37:55 UTC 2019 ]: Searching for protein accession 'WP_131354685.1'
+[ Fri May 24 16:37:55 UTC 2019 ]: Found on contig 'NZ_SJPA01000001.1'
+[ Fri May 24 16:37:55 UTC 2019 ]: Grabbed 1354 total lines corresponding to that contig. Saved as 'Chl_N1_cyc2_contig.gff'
+[ Fri May 24 16:37:55 UTC 2019 ]: Output file is too large (e.g., due to long contig). Truncating to +/- 200 entries from cyc2 (same output file)
+[ Fri May 24 16:37:55 UTC 2019 ]: Left with 401 total lines. (If the number is less than 401, then it could be that the cyc2 is near the end of the contig on one side

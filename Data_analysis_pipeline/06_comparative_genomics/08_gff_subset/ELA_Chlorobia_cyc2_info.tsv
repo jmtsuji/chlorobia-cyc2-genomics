@@ -1,0 +1,5 @@
+genome	cyc2_accession	contig_gff_filename	notes
+L227_2013_bin56	CA-L227-2013_21211	CA-L227-2013.gff	
+L227_2014_bin92	CA-L227-2014_163911	CA-L227-2014.gff	Not in a properly curated genome bin
+L227_enr_S_6D_bin01	L227_S_6D_01955	L227_S_6D.gff	
+L304_enr_S_6D_bin01	L304_S_6D_00446	L304_S_6D.gff	

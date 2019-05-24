@@ -1,0 +1,25 @@
+[ Fri May 24 16:36:52 UTC 2019 ]: Subsetting cyc2 for 4 entries
+[ Fri May 24 16:36:53 UTC 2019 ]: 'L227_2013_bin56': finding cyc2 'CA-L227-2013_21211' in 'CA-L227-2013.gff'
+[ Fri May 24 16:36:53 UTC 2019 ]: Found GFF at '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/08_mauve_contig_ordering/output_reformatted/tmp/annotation/prokka/CA-L227-2013.gff'
+[ Fri May 24 16:36:53 UTC 2019 ]: Searching for protein accession 'CA-L227-2013_21211'
+[ Fri May 24 16:36:53 UTC 2019 ]: Found on contig 'CA-L227-2013_20535'
+[ Fri May 24 16:36:54 UTC 2019 ]: Grabbed 34 total lines corresponding to that contig. Saved as 'L227_2013_bin56_cyc2_contig.gff'
+[ Fri May 24 16:36:54 UTC 2019 ]: 'L227_2014_bin92': finding cyc2 'CA-L227-2014_163911' in 'CA-L227-2014.gff'
+[ Fri May 24 16:36:54 UTC 2019 ]: Found GFF at '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/08_mauve_contig_ordering/output_reformatted/tmp/annotation/prokka/CA-L227-2014.gff'
+[ Fri May 24 16:36:54 UTC 2019 ]: Searching for protein accession 'CA-L227-2014_163911'
+[ Fri May 24 16:36:54 UTC 2019 ]: Found on contig 'CA-L227-2014_238212'
+[ Fri May 24 16:36:55 UTC 2019 ]: Grabbed 8 total lines corresponding to that contig. Saved as 'L227_2014_bin92_cyc2_contig.gff'
+[ Fri May 24 16:36:55 UTC 2019 ]: 'L227_enr_S_6D_bin01': finding cyc2 'L227_S_6D_01955' in 'L227_S_6D.gff'
+[ Fri May 24 16:36:55 UTC 2019 ]: Found GFF at '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/08_mauve_contig_ordering/output_reformatted/tmp/annotation/prokka/L227_S_6D.gff'
+[ Fri May 24 16:36:55 UTC 2019 ]: Searching for protein accession 'L227_S_6D_01955'
+[ Fri May 24 16:36:55 UTC 2019 ]: Found on contig 'L227_S_6D_2'
+[ Fri May 24 16:36:55 UTC 2019 ]: Grabbed 2162 total lines corresponding to that contig. Saved as 'L227_enr_S_6D_bin01_cyc2_contig.gff'
+[ Fri May 24 16:36:55 UTC 2019 ]: Output file is too large (e.g., due to long contig). Truncating to +/- 200 entries from cyc2 (same output file)
+[ Fri May 24 16:36:55 UTC 2019 ]: Left with 401 total lines. (If the number is less than 401, then it could be that the cyc2 is near the end of the contig on one side
+[ Fri May 24 16:36:55 UTC 2019 ]: 'L304_enr_S_6D_bin01': finding cyc2 'L304_S_6D_00446' in 'L304_S_6D.gff'
+[ Fri May 24 16:36:55 UTC 2019 ]: Found GFF at '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/08_mauve_contig_ordering/output_reformatted/tmp/annotation/prokka/L304_S_6D.gff'
+[ Fri May 24 16:36:55 UTC 2019 ]: Searching for protein accession 'L304_S_6D_00446'
+[ Fri May 24 16:36:55 UTC 2019 ]: Found on contig 'L304_S_6D_0'
+[ Fri May 24 16:36:55 UTC 2019 ]: Grabbed 905 total lines corresponding to that contig. Saved as 'L304_enr_S_6D_bin01_cyc2_contig.gff'
+[ Fri May 24 16:36:55 UTC 2019 ]: Output file is too large (e.g., due to long contig). Truncating to +/- 200 entries from cyc2 (same output file)
+[ Fri May 24 16:36:55 UTC 2019 ]: Left with 401 total lines. (If the number is less than 401, then it could be that the cyc2 is near the end of the contig on one side

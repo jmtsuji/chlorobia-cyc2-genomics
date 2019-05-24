@@ -1,0 +1,5 @@
+genome	cyc2_accession	link_gff	notes
+Chl_ferrooxidans_KoFox	WP_006367388.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/168/715/GCF_000168715.1_ASM16871v1/GCF_000168715.1_ASM16871v1_genomic.gff.gz	
+Chl_phaeoferrooxidans_KB01	WP_076792910.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/975/465/GCF_001975465.1_ASM197546v1/GCF_001975465.1_ASM197546v1_genomic.gff.gz	
+Chl_luteolum_DSM_273	WP_011358173.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/012/485/GCF_000012485.1_ASM1248v1/GCF_000012485.1_ASM1248v1_genomic.gff.gz	
+Chl_N1	WP_131354685.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/332/115/GCF_004332115.1_ASM433211v1/GCF_004332115.1_ASM433211v1_genomic.gff.gz	
