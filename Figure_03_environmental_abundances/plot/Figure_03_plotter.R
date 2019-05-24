@@ -27,7 +27,7 @@ params$checkM_stats_filepath <- here::here("input_data", "checkm_stats_reduced.t
 params$clarify_unresolved_taxa <- FALSE
 
 # MetAnnotate - bins
-params$metannotate_bin_filename <- here::here("input_data", "metannotate_annotations_genome_bins.tsv.gz")
+params$metannotate_bin_filename <- here::here("input_data", "metannotate_annotations_genome_bins.tsv")
 params$hmm_info_bins_filename <- here::here("input_data", "hmm_info.tsv")
 params$dataset_info_bins_filename <- here::here("input_data", "dataset_info_metannotate.tsv")
 params$evalue_cutoff_bins <- 1e-40
