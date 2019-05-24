@@ -372,7 +372,7 @@ statswrapper.sh in=${final_bin_dir}/*.fna > ../statswrapper.tsv
 # Got checkM stats
 checkm lineage_wf --file checkm/completeness.tsv --tab_table --quiet --extension fna --threads ${threads} ${final_bin_dir} checkm 2>&1 | tee checkm_lineage_wf.log
 checkm tree_qa --tab_table --out_format 2 --file checkm/taxonomy.tsv checkm 2>&1 | tee checkm_tree_qa.log
-cp checkm/completeness ../
+cp checkm/completeness.tsv checkm/taxonomy.tsv ../
 
 # Annotated genomes and got tRNA counts
 cd ${out_dir}/prokka
