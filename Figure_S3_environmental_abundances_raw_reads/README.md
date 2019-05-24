@@ -33,7 +33,7 @@ wget ${zenodo_url}
 Ran `plot/Figure_S3_plotter.R` in interactive mode (e.g., in RStudio) to produce `plot/Figure_03.pdf`. Note that you'll need to install all libraries loaded at the top of the script and the sourced MetAnnotate processing script. No post-processing was done - the raw PDF output was used as-is.
 
 This results in the following figure:
-![Figure_03](plot/Figure_03.png)
+![Figure_S3](plot/Figure_S3.png)
 
 The script also generates a couple supplementary files also in the `plot` folder:
 - `Figure_S3_plotting_data.tsv` - tabular summary of the data plotted
