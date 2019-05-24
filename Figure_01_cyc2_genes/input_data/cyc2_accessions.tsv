@@ -1,9 +1,0 @@
-genome	cyc2_accession	gff_filename
-Chl_ferrooxidans	WP_006367388.1	Chl_ferrooxidans_KoFox.gff
-Chl_phaeoferrooxidans	WP_076792910.1	Chl_phaeoferrooxidans_KB01.gff
-Chl_luteolum	WP_011358173.1	Chl_luteolum_DSM273.gff
-L227_2013_Bin56	CBIDHOKM_00216	L227_2013_bin56_trunc.gff
-L227_2014_Bin92a	CA-L227-2014_163911	CA-L227-2014_trunc.gff
-L227_enr_6D	HPPIFCBA_00312	L227_enr_S_6D_bin01_trunc.gff
-L304_enr_6D	PLDLAPEK_01773	L304_enr_S_6D_bin01_trunc.gff
-
