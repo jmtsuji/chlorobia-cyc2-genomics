@@ -25,10 +25,10 @@ L227 2013 6m	rpoB	Bacteria	Verrucomicrobia	Spartobacteria	Terrimicrobium	Terrimi
 L227 2013 6m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobia subdivision 3	0.740861353089636
 L227 2013 6m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	1.08279736220793
 L227 2013 6m	rpoB	unclassified	unclassified	unclassified	unclassified	unclassified	0.525116014003094
-L227 2013 6m	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	2.80456605458641
-L227 2013 6m	cyc2	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	0.674174532352502
-L227 2013 6m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	1.96858963446931
-L227 2013 6m	cyc2	unclassified	unclassified	unclassified	unclassified	unclassified	2.56186322293951
+L227 2013 6m	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	2.4056689551169
+L227 2013 6m	cyc2	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	0.675749706493512
+L227 2013 6m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	2.0002191312208
+L227 2013 6m	cyc2	unclassified	unclassified	unclassified	unclassified	unclassified	2.0002191312208
 L227 2013 6m	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	3.5427597620436
 L227 2013 6m	dsrA	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiales bacterium JOSHI_001	0.595685269724146
 L227 2013 6m	dsrA	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	0.532981557121604
@@ -73,9 +73,9 @@ L227 2013 8m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	R
 L227 2013 8m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobia subdivision 3	1.16573971078977
 L227 2013 8m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	1.4238042269188
 L227 2013 8m	rpoB	unclassified	unclassified	unclassified	unclassified	unclassified	0.974416017797553
-L227 2013 8m	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	1.03165651552748
-L227 2013 8m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	2.03383713061132
-L227 2013 8m	cyc2	unclassified	unclassified	unclassified	unclassified	unclassified	1.06113241597113
+L227 2013 8m	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	0.886343081097377
+L227 2013 8m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	2.06813385589388
+L227 2013 8m	cyc2	unclassified	unclassified	unclassified	unclassified	unclassified	1.09315646668677
 L227 2013 8m	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	5.31165311653117
 L227 2013 8m	dsrA	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptococcaceae	1.06233062330623
 L227 2013 8m	bchL	Archaea	Euryarchaeota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	1.23367427222659
@@ -118,9 +118,9 @@ L227 2014 6m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	R
 L227 2014 6m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobia subdivision 3	1.11471666366204
 L227 2014 6m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	1.20185085030948
 L227 2014 6m	rpoB	unclassified	unclassified	unclassified	unclassified	unclassified	0.709092001682591
-L227 2014 6m	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	4.31933709380978
-L227 2014 6m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	0.557333818556101
-L227 2014 6m	cyc2	unclassified	unclassified	unclassified	unclassified	unclassified	1.27390587098537
+L227 2014 6m	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	3.77079300253231
+L227 2014 6m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	0.558636000375157
+L227 2014 6m	cyc2	unclassified	unclassified	unclassified	unclassified	unclassified	0.957661714928841
 L227 2014 6m	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	8.00689973127722
 L227 2014 6m	dsrA	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptococcaceae	0.509109231468494
 L227 2014 6m	dsrA	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiales bacterium JOSHI_001	0.532250560171607
@@ -165,9 +165,9 @@ L227 2014 8m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	R
 L227 2014 8m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobia subdivision 3	1.24529836332215
 L227 2014 8m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	1.24529836332215
 L227 2014 8m	rpoB	unclassified	unclassified	unclassified	unclassified	unclassified	0.843753176781539
-L227 2014 8m	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	1.04384450221596
-L227 2014 8m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	1.85198218135089
-L227 2014 8m	cyc2	unclassified	unclassified	unclassified	unclassified	unclassified	0.909154889026801
+L227 2014 8m	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	0.911279082692751
+L227 2014 8m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	1.8225581653855
+L227 2014 8m	cyc2	unclassified	unclassified	unclassified	unclassified	unclassified	0.843776928419214
 L227 2014 8m	dsrA	Archaea	Euryarchaeota	Archaeoglobi	Archaeoglobales	Archaeoglobaceae	0.587213862379551
 L227 2014 8m	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	2.58374099447002
 L227 2014 8m	dsrA	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptococcaceae	1.76164158713865
@@ -211,10 +211,11 @@ L442 2011 16.5m	rpoB	Bacteria	Verrucomicrobia	Spartobacteria	Terrimicrobium	Terr
 L442 2011 16.5m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Rubritaleaceae	0.536887654255035
 L442 2011 16.5m	rpoB	Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	0.795982691383087
 L442 2011 16.5m	rpoB	unclassified	unclassified	unclassified	unclassified	unclassified	0.622362305678722
-L442 2011 16.5m	cyc2	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Aquabacterium	0.530854369200435
-L442 2011 16.5m	cyc2	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	0.672415534320551
-L442 2011 16.5m	cyc2	Bacteria	Proteobacteria	Betaproteobacteria	Gallionellales	Gallionellaceae	0.583939806120478
-L442 2011 16.5m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	1.39791650556114
+L442 2011 16.5m	cyc2	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Aquabacterium	0.638513619776598
+L442 2011 16.5m	cyc2	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	0.673986598653075
+L442 2011 16.5m	cyc2	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	0.532094683147165
+L442 2011 16.5m	cyc2	Bacteria	Proteobacteria	Betaproteobacteria	Gallionellales	Gallionellaceae	0.727196066967792
+L442 2011 16.5m	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	1.41891915505911
 L442 2011 16.5m	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	2.8389919029272
 L442 2011 16.5m	dsrA	Bacteria	Firmicutes	Clostridia	Clostridiales	Peptococcaceae	0.678889368091288
 L442 2011 16.5m	dsrA	Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Burkholderiales bacterium JOSHI_001	0.658316962997612
@@ -288,8 +289,8 @@ L227-enr-6D	rpoB	Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphi
 L227-enr-6D	rpoB	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	74.2645109992049
 L227-enr-6D	rpoB	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	1.2987012987013
 L227-enr-6D	rpoB	Bacteria	Spirochaetes	Spirochaetia	Spirochaetales	Borreliaceae	0.503578054598463
-L227-enr-6D	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	27.2152090333909
-L227-enr-6D	cyc2	Bacteria	Proteobacteria	Gammaproteobacteria	Candidatus Thiodiazotropha	Candidatus Thiodiazotropha	3.51163987527624
+L227-enr-6D	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	23.9349435611118
+L227-enr-6D	cyc2	Bacteria	Proteobacteria	Betaproteobacteria	Gallionellales	Gallionellaceae	1.23194562446899
 L227-enr-6D	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	26.741280399817
 L227-enr-6D	dsrA	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	0.816527645795939
 L227-enr-6D	bchL	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	101.657691901594
@@ -299,9 +300,9 @@ L304-enr-6D	rpoB	Bacteria	Balneolaeota	Balneolia	Balneolales	Balneolaceae	0.5302
 L304-enr-6D	rpoB	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	96.5535524920467
 L304-enr-6D	rpoB	Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	0.76882290562036
 L304-enr-6D	rpoB	Bacteria	Spirochaetes	Spirochaetia	Spirochaetales	Borreliaceae	1.08695652173913
-L304-enr-6D	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	71.4808168148571
-L304-enr-6D	cyc2	Bacteria	Proteobacteria	Betaproteobacteria	Gallionellales	Gallionellaceae	2.45879959559705
-L304-enr-6D	cyc2	Bacteria	Proteobacteria	Zetaproteobacteria	Mariprofundales	Mariprofundaceae	0.878142712713232
+L304-enr-6D	cyc2	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	64.2541947057016
+L304-enr-6D	cyc2	Bacteria	Proteobacteria	Betaproteobacteria	Gallionellales	Gallionellaceae	2.46454445446527
+L304-enr-6D	cyc2	Bacteria	Proteobacteria	Zetaproteobacteria	Mariprofundales	Mariprofundaceae	0.88019444802331
 L304-enr-6D	dsrA	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	44.7167403805533
 L304-enr-6D	dsrA	Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	1.02093014567473
 L304-enr-6D	bchL	Bacteria	Chlorobi	Chlorobia	Chlorobiales	Chlorobiaceae	135.37533731647
