@@ -24,13 +24,13 @@ library(ape)
 ## User variables
 ######################################
 params <- list()
-params$gff_summary_filename <- here::here("plot", "Figure_1B_plotting_data.tsv")
+params$gff_summary_filename <- here::here("input_data", "Figure_1B_plotting_data.tsv")
 params$plotting_colour_guide_filename <- here::here("input_data", "Figure_1B_plotting_colours.tsv")
 params$pdf_filename <- here::here("plot", "Figure_1B_raw.pdf")
 params$cyc2_info_filename <- NA
 params$gff_directory <- NA
 params$threads <- 4
-params$buffer_length <- NA
+params$buffer_length <- 5000
 params$run_mode <- "normal"
 ######################################
 
