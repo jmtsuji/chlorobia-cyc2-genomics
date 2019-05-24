@@ -1,7 +1,7 @@
 # ABOUT IISD-ELA _Chlorobia_ _cyc2_ genomics project
 Copyright Jackson M. Tsuji, Neufeld Research Group, 2019
 
-This Github repository describes the steps/code used to perform bioinformatics analysis for the paper by Tsuji and colleagues, 2019 (see [preprint here](_____)). Descriptor files in this repo are in the Markdown (`.md`) format and begin with `README`. Other files include scripts and raw data files. The information is organized as follows:
+This Github repository describes the steps/code used to perform bioinformatics analysis for the paper by Tsuji and colleagues, 2019 (pre-print link will be posted here once available). Descriptor files in this repo are in the Markdown (`.md`) format and begin with `README`. Other files include scripts and raw data files. The information is organized as follows:
 
 ## `Data_analysis_pipeline`
 Describes the protocol used to produce assembled contigs and genome bins from the raw metagenomic datasets used for this paper.
