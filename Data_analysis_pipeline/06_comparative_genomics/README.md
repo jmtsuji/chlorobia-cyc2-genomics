@@ -307,7 +307,7 @@ phylogeny_builder_whole_genome.sh -@ ${threads} -b ${bootstrap_replicates} \
     ${genome_dir} ${output_dir} 2>&1 | tee ${log_name}
 ```
 
-Now, the tree files output by these two analyses can be cross-compared -- see the Supplementary Figure S4 folder.
+Now, the tree files output by these two analyses can be cross-compared -- see the Supplementary Figure S3 folder.
 
 ## *Chlorobia* gene pathway analysis
 Used for the Figure 2 heatmap

@@ -472,5 +472,5 @@ sudo chown -R $ref_UID /home/linuxbrew/output
 exit
 ```
 
-The output file `all_annotations`[random_code]`.tsv` shows the hits of the HMMs on all datsets, along with the e-value score. This was renamed (and gzipped) to `metannotate_annotations_unassembled_reads.tsv.gz` for clarity. This file is used in the code for Supplementary Figure S3. Because of its size, it is available for download on Zenodo -- see the Supplementary Figure S3 folder.
+The output file `all_annotations`[random_code]`.tsv` shows the hits of the HMMs on all datsets, along with the e-value score. This was renamed (and gzipped) to `metannotate_annotations_unassembled_reads.tsv.gz` for clarity. This file is used in the code for Supplementary Figure S4. Because of its size, it is available for download on Zenodo -- see the Supplementary Figure S4 folder.
 
