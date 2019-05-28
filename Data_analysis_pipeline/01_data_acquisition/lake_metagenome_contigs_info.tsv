@@ -1,0 +1,10 @@
+Lake	Year	Type	Depth_m	Sample_ID	assembly_accession	FTP_link
+227	2013	single_assembly	6	L227_2013_6m	GCA_005795885.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/005/795/885/GCA_005795885.1_ASM579588v1
+227	2013	single_assembly	8	L227_2013_8m	GCA_005795865.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/005/795/865/GCA_005795865.1_ASM579586v1
+227	2014	single_assembly	6	L227_2014_6m	GCA_005795825.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/005/795/825/GCA_005795825.1_ASM579582v1
+227	2014	single_assembly	8	L227_2014_8m	GCA_005795845.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/005/795/845/GCA_005795845.1_ASM579584v1
+442	2011	single_assembly	16.5	L442_2011_16_5m	GCA_005795805.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/005/795/805/GCA_005795805.1_ASM579580v1
+442	2014	single_assembly	13	L442_2014_13m	GCA_005795745.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/005/795/745/GCA_005795745.1_ASM579574v1
+227	2013	co_assembly	NA	CA_L227_2013	GCA_005795915.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/005/795/915/GCA_005795915.1_ASM579591v1
+227	2014	co_assembly	NA	CA_L227_2014	GCA_005795785.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/005/795/785/GCA_005795785.1_ASM579578v1
+442	NA	co_assembly	NA	CA_L442_2011_2014	GCA_005795945.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/005/795/945/GCA_005795945.1_ASM579594v1

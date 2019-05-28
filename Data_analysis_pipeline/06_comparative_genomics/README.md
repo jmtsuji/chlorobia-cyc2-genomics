@@ -66,15 +66,44 @@ done
 gzip *.fna *.faa *.gff
 ```
 
-**Option 2**: download from NCBI. This is a nice option, but the genomes are not yet available on NCBI, so I am not yet sure how NCBI's annotations will compare to mind
+**Option 2**: download from NCBI. This is a nice option, but the genomes were not yet available on NCBI at the time of writing, so I am not sure how NCBI's annotations will compare to those run on our lab's server. There might be a few differences. Also, the code has not been tested to work with these NCBI genome files end-to-end, so there could be bugs.  
+**NOT YET FINISHED -- enrichment culture genomes are still being annotated by NCBI**
 ```bash
 download_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes/this_study"
 info_filepath="${download_dir}/ELA_Chlorobia_links.tsv"
+logfile="${download_dir}/download.log"
+
 mkdir -p ${download_dir}
 cd ${download_dir}
 
-# TODO - finish once NCBI accessions are known
+# Load the URLs from the provided guide file
+genome_names=($(cut -d $'\t' -f 1 ${info_filepath} | tail -n +2))
+genome_urls_base=($(cut -d $'\t' -f 3 ${info_filepath} | tail -n +2))
 
+# How to work with the base URL:
+# E.g., for 'ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/020/505/GCF_000020505.1_ASM2050v1'
+# Genome is at: ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/020/505/GCF_000020505.1_ASM2050v1/GCF_000020505.1_ASM2050v1_genomic.fna.gz
+# Proteins are at: ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/020/505/GCF_000020505.1_ASM2050v1/GCF_000020505.1_ASM2050v1_protein.faa.gz
+# GFF is at: ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/020/505/GCF_000020505.1_ASM2050v1/GCF_000020505.1_ASM2050v1_genomic.gff.gz
+
+echo "[ $(date -u) ]: Downloading ${#genome_names[@]} genomes" | tee ${logfile}
+
+# Then download
+for i in $(seq 1 ${#genome_names[@]}); do
+
+    # Set counter to zero-ordered
+    j=$((${i}-1))
+
+    genome_name=${genome_names[${j}]}
+    genome_url_base=${genome_urls_base[${j}]}
+    genome_ID=${genome_url_base##*/}
+
+    echo "[ $(date -u) ]: Downloading '${genome_name}' from '${genome_url_base}'" | tee -a ${logfile}
+    wget -nv -O - ${genome_url_base}/${genome_ID}_genomic.fna.gz > ${genome_name}.fna.gz
+    wget -nv -O - ${genome_url_base}/${genome_ID}_protein.faa.gz > ${genome_name}.faa.gz
+    wget -nv -O - ${genome_url_base}/${genome_ID}_genomic.gff.gz > ${genome_name}.gff.gz
+
+done
 ```
 
 **Option 3**: use the genome bins you generated yourself, if you ran the whole pipeline up to this point, at `03_bin_curation/03_contig_ordering/ordered_genomes/final`.  
@@ -103,17 +132,18 @@ echo "[ $(date -u) ]: Downloading ${#genome_names[@]} genomes" | tee ${logfile}
 
 # Then download
 for i in $(seq 1 ${#genome_names[@]}); do
-# Set counter to zero-ordered
-j=$((${i}-1))
 
-genome_name=${genome_names[${j}]}
-genome_url_base=${genome_urls_base[${j}]}
-genome_ID=${genome_url_base##*/}
+    # Set counter to zero-ordered
+    j=$((${i}-1))
 
-echo "[ $(date -u) ]: Downloading '${genome_name}' from '${genome_url_base}'" | tee -a ${logfile}
-wget -nv -O - ${genome_url_base}/${genome_ID}_genomic.fna.gz > ${genome_name}.fna.gz
-wget -nv -O - ${genome_url_base}/${genome_ID}_protein.faa.gz > ${genome_name}.faa.gz
-wget -nv -O - ${genome_url_base}/${genome_ID}_genomic.gff.gz > ${genome_name}.gff.gz
+    genome_name=${genome_names[${j}]}
+    genome_url_base=${genome_urls_base[${j}]}
+    genome_ID=${genome_url_base##*/}
+
+    echo "[ $(date -u) ]: Downloading '${genome_name}' from '${genome_url_base}'" | tee -a ${logfile}
+    wget -nv -O - ${genome_url_base}/${genome_ID}_genomic.fna.gz > ${genome_name}.fna.gz
+    wget -nv -O - ${genome_url_base}/${genome_ID}_protein.faa.gz > ${genome_name}.faa.gz
+    wget -nv -O - ${genome_url_base}/${genome_ID}_genomic.gff.gz > ${genome_name}.gff.gz
 
 done
 ```
