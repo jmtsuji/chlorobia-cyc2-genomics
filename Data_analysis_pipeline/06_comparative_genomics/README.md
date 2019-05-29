@@ -66,8 +66,7 @@ done
 gzip *.fna *.faa *.gff
 ```
 
-**Option 2**: download from NCBI. This is a nice option, but the genomes were not yet available on NCBI at the time of writing, so I am not sure how NCBI's annotations will compare to those run on our lab's server. There might be a few differences. Also, the code has not been tested to work with these NCBI genome files end-to-end, so there could be bugs.  
-**NOT YET FINISHED -- enrichment culture genomes are still being annotated by NCBI**
+**Option 2**: download from NCBI. This is a nice option, but the genomes were not available on NCBI at the time of writing the paper. Thus, I am not sure how NCBI's annotations will compare to those run on our lab's server. There might be a few differences. Also, the code has not been tested to work with these NCBI genome files end-to-end, so there could be bugs.  
 ```bash
 download_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes/this_study"
 info_filepath="${download_dir}/ELA_Chlorobia_links.tsv"

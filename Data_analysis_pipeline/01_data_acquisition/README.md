@@ -91,7 +91,6 @@ done
 After running Parts A and B, you will be ready to run the assembly and binning pipeline. Otherwise, if you want direct access to the genome bins, see below.
 
 ## Part C: *Chlorobia* genome bins on NCBI
-**NOT YET FINISHED -- enrichment culture genomes are still being annotated by NCBI**
 
 This code can also be found as part of the analysis workflow in `06_comparative_genomics/README.md`.  
 
