@@ -156,7 +156,7 @@ curl -LOJ http://fungene.cme.msu.edu/hmm_download.spr?hmm_id=8
 curl -LOJ http://fungene.cme.msu.edu/hmm_download.spr?hmm_id=31
 ```
 
-The *cyc2* HMM was developed in this study and is available in Supplementary File S2 (`cyc2_all_references.hmm`; see also the `04_HMM_development` folder in `Data_analysis_pipeline`). Added both the *Chlorobia*-specific version and the general version. Will use the general version for the paper figures, but the specific version is interesting to test alongside it for reference.
+The *cyc2* HMM was developed in this study and is available in Supplementary File 2 (`cyc2_all_references.hmm`; see also the `04_HMM_development` folder in `Data_analysis_pipeline`). Added both the *Chlorobia*-specific version and the general version. Will use the general version for the paper figures, but the specific version is interesting to test alongside it for reference.
 ```bash
 cd ${download_dir}
 
@@ -472,5 +472,5 @@ sudo chown -R $ref_UID /home/linuxbrew/output
 exit
 ```
 
-The output file `all_annotations`[random_code]`.tsv` shows the hits of the HMMs on all datsets, along with the e-value score. This was renamed (and gzipped) to `metannotate_annotations_unassembled_reads.tsv.gz` for clarity. This file is used in the code for Supplementary Figure S4. Because of its size, it is available for download on Zenodo -- see the Supplementary Figure S4 folder.
+The output file `all_annotations`[random_code]`.tsv` shows the hits of the HMMs on all datsets, along with the e-value score. This was renamed (and gzipped) to `metannotate_annotations_unassembled_reads.tsv.gz` for clarity. This file is used in the code for Supplementary Figure 4. Because of its size, it is available for download on Zenodo -- see the Supplementary Figure 4 folder.
 

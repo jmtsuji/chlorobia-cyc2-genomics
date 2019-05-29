@@ -1,4 +1,4 @@
-# ABOUT Supplementary Figure S1 - average nucleotide identity among *Chlorobia*
+# ABOUT Supplementary Figure 1 - average nucleotide identity among *Chlorobia*
 Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 

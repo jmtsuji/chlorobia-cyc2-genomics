@@ -243,7 +243,7 @@ phylogeny_builder_whole_genome.sh -@ ${threads} -b ${bootstrap_replicates} \
 The output file `*.treefile` can now be used in generating Figure 2 and Supplementary Figure S1.
 
 ## Make subsetted *cyc2* and riboprotein phylogenies for phylogenetic comparison
-This is for Supplementary Figure 4. Subsetting to shared entries between the two sequence sets and then re-aligning and making trees. Procedure is basically the same as above with fewer sequences.
+This is for Supplementary Figure 3. Subsetting to shared entries between the two sequence sets and then re-aligning and making trees. Procedure is basically the same as above with fewer sequences.
 
 Working in `04_subset_phylogenies`
 
@@ -337,7 +337,7 @@ phylogeny_builder_whole_genome.sh -@ ${threads} -b ${bootstrap_replicates} \
     ${genome_dir} ${output_dir} 2>&1 | tee ${log_name}
 ```
 
-Now, the tree files output by these two analyses can be cross-compared -- see the Supplementary Figure S3 folder.
+Now, the tree files output by these two analyses can be cross-compared -- see the Supplementary Figure 3 folder.
 
 ## *Chlorobia* gene pathway analysis
 Used for the Figure 2 heatmap
@@ -467,7 +467,7 @@ blastp -query ${query_file} -subject ${ORF_file} -evalue ${e_value} -outfmt "10 
 The `.csv` output files in the main folder of `03_backblast` are summarized and combined with the *Chlorobi* phylogenetic tree generated above to produce Figure 2 -- see the Figure 2 folder.
 
 ## ANI calculation for *Chlorobia* genomes
-Used for Supplementary Figure S1
+Used for Supplementary Figure 1
 
 ```bash
 work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/06_ANI"
@@ -492,11 +492,11 @@ fastANI --rl genomes.list --ql genomes.list -o ${output_filename} -t ${threads} 
 # Runs very quickly
 ```
 
-The output file `Chlorobia_FastANI_results.txt` is used in Supplementary Figure S1 (see that folder for the scripting details).
+The output file `Chlorobia_FastANI_results.txt` is used in Supplementary Figure 1 (see that folder for the scripting details).
 
 
 ## Alignment of cytochrome c5 primary sequences
-The *cyc2* gene in *Chlorobia* appears to consistently be adjacent to a c5 family cytochrome in the genome. I gathered and aligned these sequences to include in Supplementary File S3.
+The *cyc2* gene in *Chlorobia* appears to consistently be adjacent to a c5 family cytochrome in the genome. I gathered and aligned these sequences to include in Supplementary File 5.
 
 Obtained reference sequences manually based on the info in `reference_Chlorobia_c5_protein_info.tsv`. **MANUALLY** added sequences from this study. (Didn't code this - just a quick side analysis. Looked for c5 genes immediately adjacent to the cyc2 genes, as I already knew were there based on Figure 1B.) This resulted in `c5_family_Chlorobia_unaligned.faa`
 
@@ -506,7 +506,7 @@ cd "${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/07_c5
 
 clustalo -i c5_family_Chlorobia_unaligned.faa --full --percent-id --distmat-out=c5_family_Chlorobia_aligned_distmat.txt -o c5_family_Chlorobia_aligned.faa --threads=2 --verbose 2>&1 | tee c5_family_Chlorobia_aligned.log
 ```
-A copy of `c5_family_Chlorobia_aligned.faa` is included in Supplementary File S3.
+A copy of `c5_family_Chlorobia_aligned.faa` is included in Supplementary File 5.
 
 
 ## Obtaining subsets of GFF files around cyc2

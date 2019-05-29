@@ -1,4 +1,4 @@
-# ABOUT Figure S4 - unassembled read profiling of taxonomic/functional genes
+# ABOUT Supplementary Figure 4 - unassembled read profiling of taxonomic/functional genes
 Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 

@@ -1,4 +1,4 @@
-# ABOUT Supplementary Figure S2 - enrichment culturing log
+# ABOUT Supplementary Figure 2 - enrichment culturing log
 Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
