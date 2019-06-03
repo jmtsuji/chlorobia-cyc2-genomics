@@ -29,7 +29,7 @@ It's likely that there are some typo's in the code. I did not perform all of the
 If you want to try to use something here and are having problems (or have other questions/concerns about the analysis), feel free to post a [Github issue](https://github.com/jmtsuji/chlorobia-cyc2-genomics/issues).
 
 ### Citation
-If you'd like to cite this repo, then please cite the [biorxiv preprint]((https://doi.org/10.1101/653014)).
+If you'd like to cite this repo, then please cite the [biorxiv preprint](https://doi.org/10.1101/653014).
 
 ## Final remarks
 I hope this is a helpful resource for the scientific community, both in the critique of my work and in further development of bioinformatics. Feel free to post an issue if you have any questions or concerns. Enjoy!  
