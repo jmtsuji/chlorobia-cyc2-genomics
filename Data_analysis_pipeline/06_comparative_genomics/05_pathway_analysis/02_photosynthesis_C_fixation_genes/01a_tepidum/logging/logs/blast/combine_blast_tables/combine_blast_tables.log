@@ -1,0 +1,63 @@
+Warning message:
+As of rlang 0.4.0, dplyr must be at least version 0.8.0.
+✖ dplyr 0.7.6 is too old for rlang 0.4.2.
+ℹ Please update dplyr with `install.packages("dplyr")`. 
+INFO [2019-12-14 22:33:22] Running BackBLAST_combine_BLAST_tables.R
+INFO [2019-12-14 22:33:22] Input tables: 21 total
+INFO [2019-12-14 22:33:22] Output table: 'blast/combine_blast_tables/blast_tables_combined.csv'
+INFO [2019-12-14 22:33:22] Loading BLAST tables
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Cba_parvum_NCIB_8327.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Cba_parvum_NCIB_8327'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Che_thalassium_ATCC_35110.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Che_thalassium_ATCC_35110'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Chl_chlorochromatii_CaD3.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Chl_chlorochromatii_CaD3'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Chl_clathratiforme_BU_1.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Chl_clathratiforme_BU_1'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Chl_ferrooxidans_KoFox.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Chl_ferrooxidans_KoFox'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Chl_limicola_DSM_245.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Chl_limicola_DSM_245'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Chl_luteolum_DSM_273.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Chl_luteolum_DSM_273'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Chl_phaeobacteroides_BS1.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Chl_phaeobacteroides_BS1'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Chl_phaeobacteroides_DSM_266.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Chl_phaeobacteroides_DSM_266'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Chl_phaeoferrooxidans_KB01.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Chl_phaeoferrooxidans_KB01'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Chl_phaeovibrioides_DSM_265.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Chl_phaeovibrioides_DSM_265'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Chl_sp_N1.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Chl_sp_N1'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Chl_tepidum_TLS.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Chl_tepidum_TLS'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Ignavibacterium_album_JCM_16511_outgroup.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Ignavibacterium_album_JCM_16511_outgroup'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/L227_2013_bin22.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'L227_2013_bin22'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/L227_2013_bin55.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'L227_2013_bin55'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/L227_2013_bin56.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'L227_2013_bin56'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/L227_enr_S_6D_bin01.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'L227_enr_S_6D_bin01'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/L304_enr_S_6D_bin01.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'L304_enr_S_6D_bin01'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/L442_2011_2014_bin64.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'L442_2011_2014_bin64'
+INFO [2019-12-14 22:33:22] Reading table 'blast/intermediate/fix_blank_results/Ptc_aestuarii_DSM_271.csv'
+INFO [2019-12-14 22:33:22] Adding subject_name of 'Ptc_aestuarii_DSM_271'
+INFO [2019-12-14 22:33:22] Combining BLAST tables
+INFO [2019-12-14 22:33:22] Writing combining BLAST table to file (**with headers**)
+INFO [2019-12-14 22:33:22] BackBLAST_combine_BLAST_tables.R: Done.
+Warning messages:
+1: `lang()` is deprecated as of rlang 0.2.0.
+Please use `call2()` instead.
+This warning is displayed once per session. 
+2: `new_overscope()` is deprecated as of rlang 0.2.0.
+Please use `new_data_mask()` instead.
+This warning is displayed once per session. 
+3: `overscope_eval_next()` is deprecated as of rlang 0.2.0.
+Please use `eval_tidy()` with a data mask instead.
+This warning is displayed once per session. 

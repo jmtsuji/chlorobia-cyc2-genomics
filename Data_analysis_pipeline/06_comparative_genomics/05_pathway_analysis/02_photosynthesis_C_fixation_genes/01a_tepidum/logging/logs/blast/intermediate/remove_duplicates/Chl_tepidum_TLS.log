@@ -1,0 +1,8 @@
++ input=blast/intermediate/reciprocal_blast/Chl_tepidum_TLS.csv
+++ date -u
++ echo '[ Sun Dec 15 03:33:11 UTC 2019 ]: Removing duplicate hits from blast/intermediate/reciprocal_blast/Chl_tepidum_TLS.csv'
+[ Sun Dec 15 03:33:11 UTC 2019 ]: Removing duplicate hits from blast/intermediate/reciprocal_blast/Chl_tepidum_TLS.csv
++ sort -k 1,1 -t , -u blast/intermediate/reciprocal_blast/Chl_tepidum_TLS.csv
+++ date -u
++ echo '[ Sun Dec 15 03:33:11 UTC 2019 ]: BackBLAST_remove_duplicates.sh: done.'
+[ Sun Dec 15 03:33:11 UTC 2019 ]: BackBLAST_remove_duplicates.sh: done.

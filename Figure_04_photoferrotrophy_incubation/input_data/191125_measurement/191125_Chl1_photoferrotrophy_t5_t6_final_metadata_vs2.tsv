@@ -1,0 +1,193 @@
+Plate_number	Well	Sample_name	Replicate	Sample_type	Treatment	Blanking_group	Dilution_factor	Standard_conc
+1	A1				Fe2	Fe2		
+1	A2				Fe2	Fe2		
+1	B1				Fe2	Fe2		
+1	B2				Fe2	Fe2		
+1	C1				Fe2	Fe2		
+1	C2				Fe2	Fe2		
+1	D1				Fe2	Fe2		
+1	D2				Fe2	Fe2		
+1	E1				Fe2	Fe2		
+1	E2				Fe2	Fe2		
+1	F1				Fe2	Fe2		
+1	F2				Fe2	Fe2		
+1	G1	Blank	1	Blank	Fe2	Fe2	1	NA
+1	G2	Blank	1	Blank	Fe2	Fe2	1	NA
+1	H1	Blank	1	Blank	FeTot	FeTot	1	NA
+1	H2	Blank	1	Blank	FeTot	FeTot	1	NA
+1	A3	t5_1	1	Unknown	Fe2	Fe2	1.09	NA
+1	A4	t5_1	1	Unknown	Fe2	Fe2	1.09	NA
+1	B3	t5_2	1	Unknown	Fe2	Fe2	1.09	NA
+1	B4	t5_2	1	Unknown	Fe2	Fe2	1.09	NA
+1	C3	t5_3	1	Unknown	Fe2	Fe2	1.09	NA
+1	C4	t5_3	1	Unknown	Fe2	Fe2	1.09	NA
+1	D3	t5_4	1	Unknown	Fe2	Fe2	1.09	NA
+1	D4	t5_4	1	Unknown	Fe2	Fe2	1.09	NA
+1	E3	t5_5	1	Unknown	Fe2	Fe2	1.09	NA
+1	E4	t5_5	1	Unknown	Fe2	Fe2	1.09	NA
+1	F3	t5_6	1	Unknown	Fe2	Fe2	1.09	NA
+1	F4	t5_6	1	Unknown	Fe2	Fe2	1.09	NA
+1	G3	t5_7	1	Unknown	Fe2	Fe2	1.09	NA
+1	G4	t5_7	1	Unknown	Fe2	Fe2	1.09	NA
+1	H3	t5_8	1	Unknown	Fe2	Fe2	1.09	NA
+1	H4	t5_8	1	Unknown	Fe2	Fe2	1.09	NA
+1	A5	t5_9	1	Unknown	Fe2	Fe2	1.09	NA
+1	A6	t5_9	1	Unknown	Fe2	Fe2	1.09	NA
+1	B5	t5_10	1	Unknown	Fe2	Fe2	1.09	NA
+1	B6	t5_10	1	Unknown	Fe2	Fe2	1.09	NA
+1	C5	t5_11	1	Unknown	Fe2	Fe2	1.09	NA
+1	C6	t5_11	1	Unknown	Fe2	Fe2	1.09	NA
+1	D5	t5_12	1	Unknown	Fe2	Fe2	1.09	NA
+1	D6	t5_12	1	Unknown	Fe2	Fe2	1.09	NA
+1	E5	t5_13	1	Unknown	Fe2	Fe2	1.09	NA
+1	E6	t5_13	1	Unknown	Fe2	Fe2	1.09	NA
+1	F5	t5_14	1	Unknown	Fe2	Fe2	1.09	NA
+1	F6	t5_14	1	Unknown	Fe2	Fe2	1.09	NA
+1	G5	t5_15	1	Unknown	Fe2	Fe2	1.09	NA
+1	G6	t5_15	1	Unknown	Fe2	Fe2	1.09	NA
+1	H5	t5_16	1	Unknown	Fe2	Fe2	1.09	NA
+1	H6	t5_16	1	Unknown	Fe2	Fe2	1.09	NA
+1	A7	Std 1	1	Standard	FeTot	FeTot	1	20
+1	A8	Std 1	1	Standard	FeTot	FeTot	1	20
+1	B7	Std 2	1	Standard	FeTot	FeTot	1	50
+1	B8	Std 2	1	Standard	FeTot	FeTot	1	50
+1	C7	Std 3	1	Standard	FeTot	FeTot	1	100
+1	C8	Std 3	1	Standard	FeTot	FeTot	1	100
+1	D7	Std 4	1	Standard	FeTot	FeTot	1	150
+1	D8	Std 4	1	Standard	FeTot	FeTot	1	150
+1	E7	Std 5	1	Standard	FeTot	FeTot	1	200
+1	E8	Std 5	1	Standard	FeTot	FeTot	1	200
+1	F7	Std 6	1	Standard	FeTot	FeTot	1	300
+1	F8	Std 6	1	Standard	FeTot	FeTot	1	300
+1	G7	Std 7	1	Standard	FeTot	FeTot	1	500
+1	G8	Std 7	1	Standard	FeTot	FeTot	1	500
+1	H7	Std 8	1	Standard	FeTot	FeTot	1	700
+1	H8	Std 8	1	Standard	FeTot	FeTot	1	700
+1	A9	t5_1	1	Unknown	FeTot	FeTot	1.09	NA
+1	A10	t5_1	1	Unknown	FeTot	FeTot	1.09	NA
+1	B9	t5_2	1	Unknown	FeTot	FeTot	1.09	NA
+1	B10	t5_2	1	Unknown	FeTot	FeTot	1.09	NA
+1	C9	t5_3	1	Unknown	FeTot	FeTot	1.09	NA
+1	C10	t5_3	1	Unknown	FeTot	FeTot	1.09	NA
+1	D9	t5_4	1	Unknown	FeTot	FeTot	1.09	NA
+1	D10	t5_4	1	Unknown	FeTot	FeTot	1.09	NA
+1	E9	t5_5	1	Unknown	FeTot	FeTot	1.09	NA
+1	E10	t5_5	1	Unknown	FeTot	FeTot	1.09	NA
+1	F9	t5_6	1	Unknown	FeTot	FeTot	1.09	NA
+1	F10	t5_6	1	Unknown	FeTot	FeTot	1.09	NA
+1	G9	t5_7	1	Unknown	FeTot	FeTot	1.09	NA
+1	G10	t5_7	1	Unknown	FeTot	FeTot	1.09	NA
+1	H9	t5_8	1	Unknown	FeTot	FeTot	1.09	NA
+1	H10	t5_8	1	Unknown	FeTot	FeTot	1.09	NA
+1	A11	t5_9	1	Unknown	FeTot	FeTot	1.09	NA
+1	A12	t5_9	1	Unknown	FeTot	FeTot	1.09	NA
+1	B11	t5_10	1	Unknown	FeTot	FeTot	1.09	NA
+1	B12	t5_10	1	Unknown	FeTot	FeTot	1.09	NA
+1	C11	t5_11	1	Unknown	FeTot	FeTot	1.09	NA
+1	C12	t5_11	1	Unknown	FeTot	FeTot	1.09	NA
+1	D11	t5_12	1	Unknown	FeTot	FeTot	1.09	NA
+1	D12	t5_12	1	Unknown	FeTot	FeTot	1.09	NA
+1	E11	t5_13	1	Unknown	FeTot	FeTot	1.09	NA
+1	E12	t5_13	1	Unknown	FeTot	FeTot	1.09	NA
+1	F11	t5_14	1	Unknown	FeTot	FeTot	1.09	NA
+1	F12	t5_14	1	Unknown	FeTot	FeTot	1.09	NA
+1	G11	t5_15	1	Unknown	FeTot	FeTot	1.09	NA
+1	G12	t5_15	1	Unknown	FeTot	FeTot	1.09	NA
+1	H11	t5_16	1	Unknown	FeTot	FeTot	1.09	NA
+1	H12	t5_16	1	Unknown	FeTot	FeTot	1.09	NA
+2	A1	Blank	1	Blank	Fe2	Fe2	1	NA
+2	A2	Blank	1	Blank	Fe2	Fe2	1	NA
+2	B1				Fe2	Fe2		NA
+2	B2				Fe2	Fe2		NA
+2	C1				Fe2	Fe2		NA
+2	C2				Fe2	Fe2		NA
+2	D1				Fe2	Fe2		NA
+2	D2				Fe2	Fe2		NA
+2	E1				Fe2	Fe2		NA
+2	E2				Fe2	Fe2		NA
+2	F1	FeCl2_2k	1	Unknown	Fe2	Fe2	2181.8	NA
+2	F2	FeCl2_2k	1	Unknown	Fe2	Fe2	2181.8	NA
+2	G1	FeCl2_5k	1	Unknown	Fe2	Fe2	5454.5	NA
+2	G2	FeCl2_5k	1	Unknown	Fe2	Fe2	5454.5	NA
+2	H1	FeCl2_10k	1	Unknown	Fe2	Fe2	10909.1	NA
+2	H2	FeCl2_10k	1	Unknown	Fe2	Fe2	10909.1	NA
+2	A3	t6_1	1	Unknown	Fe2	Fe2	1.09	NA
+2	A4	t6_1	1	Unknown	Fe2	Fe2	1.09	NA
+2	B3	t6_2	1	Unknown	Fe2	Fe2	1.09	NA
+2	B4	t6_2	1	Unknown	Fe2	Fe2	1.09	NA
+2	C3	t6_3	1	Unknown	Fe2	Fe2	1.09	NA
+2	C4	t6_3	1	Unknown	Fe2	Fe2	1.09	NA
+2	D3	t6_4	1	Unknown	Fe2	Fe2	1.09	NA
+2	D4	t6_4	1	Unknown	Fe2	Fe2	1.09	NA
+2	E3	t6_5	1	Unknown	Fe2	Fe2	1.09	NA
+2	E4	t6_5	1	Unknown	Fe2	Fe2	1.09	NA
+2	F3	t6_6	1	Unknown	Fe2	Fe2	1.09	NA
+2	F4	t6_6	1	Unknown	Fe2	Fe2	1.09	NA
+2	G3	t6_7	1	Unknown	Fe2	Fe2	1.09	NA
+2	G4	t6_7	1	Unknown	Fe2	Fe2	1.09	NA
+2	H3	t6_8	1	Unknown	Fe2	Fe2	1.09	NA
+2	H4	t6_8	1	Unknown	Fe2	Fe2	1.09	NA
+2	A5	t6_9	1	Unknown	Fe2	Fe2	1.09	NA
+2	A6	t6_9	1	Unknown	Fe2	Fe2	1.09	NA
+2	B5	t6_10	1	Unknown	Fe2	Fe2	1.09	NA
+2	B6	t6_10	1	Unknown	Fe2	Fe2	1.09	NA
+2	C5	t6_11	1	Unknown	Fe2	Fe2	1.09	NA
+2	C6	t6_11	1	Unknown	Fe2	Fe2	1.09	NA
+2	D5	t6_12	1	Unknown	Fe2	Fe2	1.09	NA
+2	D6	t6_12	1	Unknown	Fe2	Fe2	1.09	NA
+2	E5	t6_13	1	Unknown	Fe2	Fe2	1.09	NA
+2	E6	t6_13	1	Unknown	Fe2	Fe2	1.09	NA
+2	F5	t6_14	1	Unknown	Fe2	Fe2	1.09	NA
+2	F6	t6_14	1	Unknown	Fe2	Fe2	1.09	NA
+2	G5	t6_15	1	Unknown	Fe2	Fe2	1.09	NA
+2	G6	t6_15	1	Unknown	Fe2	Fe2	1.09	NA
+2	H5	t6_16	1	Unknown	Fe2	Fe2	1.09	NA
+2	H6	t6_16	1	Unknown	Fe2	Fe2	1.09	NA
+2	A7	Blank	1	Blank	FeTot	FeTot	1	NA
+2	A8	Blank	1	Blank	FeTot	FeTot	1	NA
+2	B7				FeTot	FeTot		
+2	B8				FeTot	FeTot		
+2	C7				FeTot	FeTot		
+2	C8				FeTot	FeTot		
+2	D7				FeTot	FeTot		
+2	D8				FeTot	FeTot		
+2	E7				FeTot	FeTot		
+2	E8				FeTot	FeTot		
+2	F7	FeCl2_2k	1	Unknown	FeTot	FeTot	2181.8	NA
+2	F8	FeCl2_2k	1	Unknown	FeTot	FeTot	2181.8	NA
+2	G7	FeCl2_5k	1	Unknown	FeTot	FeTot	5454.5	NA
+2	G8	FeCl2_5k	1	Unknown	FeTot	FeTot	5454.5	NA
+2	H7	FeCl2_10k	1	Unknown	FeTot	FeTot	10909.1	NA
+2	H8	FeCl2_10k	1	Unknown	FeTot	FeTot	10909.1	NA
+2	A9	t6_1	1	Unknown	FeTot	FeTot	1.09	NA
+2	A10	t6_1	1	Unknown	FeTot	FeTot	1.09	NA
+2	B9	t6_2	1	Unknown	FeTot	FeTot	1.09	NA
+2	B10	t6_2	1	Unknown	FeTot	FeTot	1.09	NA
+2	C9	t6_3	1	Unknown	FeTot	FeTot	1.09	NA
+2	C10	t6_3	1	Unknown	FeTot	FeTot	1.09	NA
+2	D9	t6_4	1	Unknown	FeTot	FeTot	1.09	NA
+2	D10	t6_4	1	Unknown	FeTot	FeTot	1.09	NA
+2	E9	t6_5	1	Unknown	FeTot	FeTot	1.09	NA
+2	E10	t6_5	1	Unknown	FeTot	FeTot	1.09	NA
+2	F9	t6_6	1	Unknown	FeTot	FeTot	1.09	NA
+2	F10	t6_6	1	Unknown	FeTot	FeTot	1.09	NA
+2	G9	t6_7	1	Unknown	FeTot	FeTot	1.09	NA
+2	G10	t6_7	1	Unknown	FeTot	FeTot	1.09	NA
+2	H9	t6_8	1	Unknown	FeTot	FeTot	1.09	NA
+2	H10	t6_8	1	Unknown	FeTot	FeTot	1.09	NA
+2	A11	t6_9	1	Unknown	FeTot	FeTot	1.09	NA
+2	A12	t6_9	1	Unknown	FeTot	FeTot	1.09	NA
+2	B11	t6_10	1	Unknown	FeTot	FeTot	1.09	NA
+2	B12	t6_10	1	Unknown	FeTot	FeTot	1.09	NA
+2	C11	t6_11	1	Unknown	FeTot	FeTot	1.09	NA
+2	C12	t6_11	1	Unknown	FeTot	FeTot	1.09	NA
+2	D11	t6_12	1	Unknown	FeTot	FeTot	1.09	NA
+2	D12	t6_12	1	Unknown	FeTot	FeTot	1.09	NA
+2	E11	t6_13	1	Unknown	FeTot	FeTot	1.09	NA
+2	E12	t6_13	1	Unknown	FeTot	FeTot	1.09	NA
+2	F11	t6_14	1	Unknown	FeTot	FeTot	1.09	NA
+2	F12	t6_14	1	Unknown	FeTot	FeTot	1.09	NA
+2	G11	t6_15	1	Unknown	FeTot	FeTot	1.09	NA
+2	G12	t6_15	1	Unknown	FeTot	FeTot	1.09	NA
+2	H11	t6_16	1	Unknown	FeTot	FeTot	1.09	NA
+2	H12	t6_16	1	Unknown	FeTot	FeTot	1.09	NA
