@@ -18,12 +18,12 @@
    viewBox="0 0 1079.9246 1016.5992"
    sodipodi:docname="Figure_01_cleaned.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   inkscape:export-filename="/home/jmtsuji/Research_General/PhD/04b_Metagenome_resequencing_F2015/10_ATLAS_re_analysis/15_final_zenodo_code/Chlorobia_cyc2_code/Figure_01_cyc2_genes/Figure_01_cleaned.png"
+   inkscape:export-filename="/home/jmtsuji/Research_General/PhD/06 Manuscripts/02_S2018_L227_111314_metagenomes/09_ready_to_resubmit/chlorobia-cyc2-genomics/Figure_01_cyc2_genes/Figure_01_cleaned.png"
    inkscape:export-xdpi="249.96281"
    inkscape:export-ydpi="249.96281"><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs6"><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath34"><path
@@ -1794,8 +1794,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="2.5284424"
-     inkscape:cx="376.34319"
-     inkscape:cy="897.45516"
+     inkscape:cx="257.69307"
+     inkscape:cy="802.53506"
      inkscape:window-x="0"
      inkscape:window-y="55"
      inkscape:window-maximized="1"
@@ -1889,6 +1889,7 @@
 
 
 
+
 <text
    id="text154"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1901,6 +1902,7 @@
      x="263.81"><tspan
    id="tspan9943"
    style="font-style:italic">Thiomonas</tspan> sp. FB−Cd (WP_051849522.1)</tspan></text>
+
 
 
 
@@ -1919,6 +1921,7 @@
 
 
 
+
 <text
    id="text162"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1931,6 +1934,7 @@
      x="184.34"><tspan
    id="tspan9939"
    style="font-style:italic">Acidithiobacillus ferrooxidans </tspan>ATCC 53993 (WP_012537628.1)</tspan></text>
+
 
 
 
@@ -1949,6 +1953,7 @@
 
 
 
+
 <text
    id="text170"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1961,6 +1966,7 @@
      x="232.39999"><tspan
    id="tspan9935"
    style="font-style:italic">Mariprofundus ferrooxydans</tspan> PV−1 (A0A0H3ZGZ2)</tspan></text>
+
 
 
 
@@ -1979,6 +1985,7 @@
 
 
 
+
 <text
    id="text178"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1991,6 +1998,7 @@
      x="218.74001"><tspan
    id="tspan9931"
    style="font-style:italic">Sideroxydans lithotrophicus</tspan> ES−1 (WP_013028406.1)</tspan></text>
+
 
 
 
@@ -2009,6 +2017,7 @@
 
 
 
+
 <text
    id="text186"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2021,6 +2030,7 @@
      x="218.74001"><tspan
    id="tspan9927"
    style="font-style:italic">Sideroxydans lithotrophicus</tspan> ES−1 (WP_013028405.1)</tspan></text>
+
 
 
 
@@ -2039,6 +2049,7 @@
 
 
 
+
 <text
    id="text194"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2051,6 +2062,7 @@
      x="265.45001"><tspan
    id="tspan9923"
    style="font-style:italic">Ferriphaselus</tspan> sp. R−1 (WP_035382865.1)</tspan></text>
+
 
 
 
@@ -2069,6 +2081,7 @@
 
 
 
+
 <text
    id="text202"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2080,6 +2093,7 @@
      sodipodi:role="line"
      y="-280.17001"
      x="363.82574">L227 2013 bin 56</tspan></text>
+
 
 
 
@@ -2099,6 +2113,7 @@
 
 
 
+
 <text
    id="text210"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2111,6 +2126,7 @@
      x="260.75"><tspan
    id="tspan9919"
    style="font-style:italic">Chl. luteolum </tspan>DSM 273 (WP_011358173.1)</tspan></text>
+
 
 
 
@@ -2129,6 +2145,7 @@
 
 
 
+
 <text
    id="text218"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2143,6 +2160,7 @@
 
 
 
+
 <text
    id="text222"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2154,6 +2172,7 @@
      sodipodi:role="line"
      y="-350.64001"
      x="338.69342">L227 enrichment S−6D</tspan></text>
+
 
 
 
@@ -2172,6 +2191,7 @@
 
 
 
+
 <text
    id="text230"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2184,6 +2204,7 @@
      x="236.27"><tspan
    id="tspan9913"
    style="font-style:italic">Chl. phaeoferrooxidans</tspan> KB01 (WP_076792910.1)</tspan></text>
+
 
 
 
@@ -2345,6 +2366,7 @@
 
 
 
+
 <text
    transform="matrix(0,1,1,0,415.93,23.11)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2353,6 +2375,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan454">(BLOSUM62)</tspan></text>
+
 
 
 
@@ -2834,6 +2857,7 @@
 
 
 
+
 <path
    d="M 362.64727,283.4 H 184.94"
    style="fill:none;stroke:#000000;stroke-width:1.07000005;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:1.07, 3.2;stroke-dashoffset:0;stroke-opacity:1"
@@ -2952,6 +2976,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2962,6 +2987,7 @@
      y="-178.13037"
      sodipodi:role="line"
      id="tspan1022">100</tspan></text>
+
 
 
 
@@ -2978,6 +3004,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2988,6 +3015,7 @@
      y="-335.98831"
      sodipodi:role="line"
      id="tspan1030">61</tspan></text>
+
 
 
 
@@ -3004,6 +3032,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -3014,6 +3043,7 @@
      y="-315.22424"
      sodipodi:role="line"
      id="tspan1038">95</tspan></text>
+
 
 
 
@@ -3030,6 +3060,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -3040,6 +3071,7 @@
      y="-342.9693"
      sodipodi:role="line"
      id="tspan1046">87</tspan></text>
+
 
 
 
@@ -3056,6 +3088,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -3066,6 +3099,7 @@
      y="-203.57668"
      sodipodi:role="line"
      id="tspan1054">51</tspan></text>
+
 
 
 
@@ -3082,6 +3116,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -3092,6 +3127,7 @@
      y="-242.31169"
      sodipodi:role="line"
      id="tspan1062">94</tspan></text>
+
 
 
 
@@ -3108,6 +3144,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -3118,6 +3155,7 @@
      y="-124.41"
      sodipodi:role="line"
      id="tspan1070">100</tspan></text>
+
 
 
 
@@ -3134,6 +3172,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -3144,6 +3183,7 @@
      y="-138.50999"
      sodipodi:role="line"
      id="tspan1078">74</tspan></text>
+
 
 
 
@@ -9975,6 +10015,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -9982,6 +10023,7 @@
      x="0"
      y="0"
      id="tspan4516">A</tspan></text>
+
 
 
 
@@ -9995,6 +10037,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10002,6 +10045,7 @@
      x="0"
      y="0"
      id="tspan4524">P</tspan></text>
+
 
 
 
@@ -10015,6 +10059,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10022,6 +10067,7 @@
      x="0"
      y="0"
      id="tspan4532">F</tspan></text>
+
 
 
 
@@ -10035,6 +10081,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10042,6 +10089,7 @@
      x="0"
      y="0"
      id="tspan4540">R</tspan></text>
+
 
 
 
@@ -10055,6 +10103,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10062,6 +10111,7 @@
      x="0"
      y="0"
      id="tspan4548">T</tspan></text>
+
 
 
 
@@ -10075,6 +10125,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.87,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10082,6 +10133,7 @@
      x="0"
      y="0"
      id="tspan4556">Y</tspan></text>
+
 
 
 
@@ -10095,6 +10147,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10102,6 +10155,7 @@
      x="0"
      y="0"
      id="tspan4564">C</tspan></text>
+
 
 
 
@@ -10115,6 +10169,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10122,6 +10177,7 @@
      x="0"
      y="0"
      id="tspan4572">V</tspan></text>
+
 
 
 
@@ -10135,6 +10191,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10142,6 +10199,7 @@
      x="0"
      y="0"
      id="tspan4580">H</tspan></text>
+
 
 
 
@@ -10155,6 +10213,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10162,6 +10221,7 @@
      x="0"
      y="0"
      id="tspan4588">Q</tspan></text>
+
 
 
 
@@ -10175,6 +10235,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10182,6 +10243,7 @@
      x="0"
      y="0"
      id="tspan4596">F</tspan></text>
+
 
 
 
@@ -10195,6 +10257,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,683.37,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10202,6 +10265,7 @@
      x="0"
      y="0"
      id="tspan4604">L</tspan></text>
+
 
 
 
@@ -10215,6 +10279,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10222,6 +10287,7 @@
      x="0"
      y="0"
      id="tspan4612">N</tspan></text>
+
 
 
 
@@ -10235,6 +10301,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10242,6 +10309,7 @@
      x="0"
      y="0"
      id="tspan4620">F</tspan></text>
+
 
 
 
@@ -10255,6 +10323,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10262,6 +10331,7 @@
      x="0"
      y="0"
      id="tspan4628">R</tspan></text>
+
 
 
 
@@ -10275,6 +10345,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10282,6 +10353,7 @@
      x="0"
      y="0"
      id="tspan4636">F</tspan></text>
+
 
 
 
@@ -10295,6 +10367,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,776.44,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10302,6 +10375,7 @@
      x="0"
      y="0"
      id="tspan4644">L</tspan></text>
+
 
 
 
@@ -10315,6 +10389,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.56,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10322,6 +10397,7 @@
      x="0"
      y="0"
      id="tspan4652">A</tspan></text>
+
 
 
 
@@ -10335,6 +10411,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10342,6 +10419,7 @@
      x="0"
      y="0"
      id="tspan4660">T</tspan></text>
+
 
 
 
@@ -10355,6 +10433,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,832.04,280.17)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10362,6 +10441,7 @@
      x="0"
      y="0"
      id="tspan4668">T</tspan></text>
+
 
 
 
@@ -10375,6 +10455,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10382,6 +10463,7 @@
      x="0"
      y="0"
      id="tspan4676">A</tspan></text>
+
 
 
 
@@ -10395,6 +10477,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10402,6 +10485,7 @@
      x="0"
      y="0"
      id="tspan4684">P</tspan></text>
+
 
 
 
@@ -10415,6 +10499,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10422,6 +10507,7 @@
      x="0"
      y="0"
      id="tspan4692">F</tspan></text>
+
 
 
 
@@ -10435,6 +10521,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10442,6 +10529,7 @@
      x="0"
      y="0"
      id="tspan4700">R</tspan></text>
+
 
 
 
@@ -10455,6 +10543,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10462,6 +10551,7 @@
      x="0"
      y="0"
      id="tspan4708">T</tspan></text>
+
 
 
 
@@ -10475,6 +10565,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.37,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10482,6 +10573,7 @@
      x="0"
      y="0"
      id="tspan4716">Q</tspan></text>
+
 
 
 
@@ -10495,6 +10587,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10502,6 +10595,7 @@
      x="0"
      y="0"
      id="tspan4724">C</tspan></text>
+
 
 
 
@@ -10515,6 +10609,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10522,6 +10617,7 @@
      x="0"
      y="0"
      id="tspan4732">A</tspan></text>
+
 
 
 
@@ -10535,6 +10631,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10542,6 +10639,7 @@
      x="0"
      y="0"
      id="tspan4740">H</tspan></text>
+
 
 
 
@@ -10555,6 +10653,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10562,6 +10661,7 @@
      x="0"
      y="0"
      id="tspan4748">Q</tspan></text>
+
 
 
 
@@ -10575,6 +10675,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10582,6 +10683,7 @@
      x="0"
      y="0"
      id="tspan4756">F</tspan></text>
+
 
 
 
@@ -10595,6 +10697,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,683.37,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10602,6 +10705,7 @@
      x="0"
      y="0"
      id="tspan4764">L</tspan></text>
+
 
 
 
@@ -10615,6 +10719,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10622,6 +10727,7 @@
      x="0"
      y="0"
      id="tspan4772">N</tspan></text>
+
 
 
 
@@ -10635,6 +10741,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.1,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10642,6 +10749,7 @@
      x="0"
      y="0"
      id="tspan4780">Y</tspan></text>
+
 
 
 
@@ -10655,6 +10763,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10662,6 +10771,7 @@
      x="0"
      y="0"
      id="tspan4788">R</tspan></text>
+
 
 
 
@@ -10675,6 +10785,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10682,6 +10793,7 @@
      x="0"
      y="0"
      id="tspan4796">F</tspan></text>
+
 
 
 
@@ -10695,6 +10807,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.94,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10702,6 +10815,7 @@
      x="0"
      y="0"
      id="tspan4804">E</tspan></text>
+
 
 
 
@@ -10715,6 +10829,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10722,6 +10837,7 @@
      x="0"
      y="0"
      id="tspan4812">G</tspan></text>
+
 
 
 
@@ -10735,6 +10851,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10742,6 +10859,7 @@
      x="0"
      y="0"
      id="tspan4820">T</tspan></text>
+
 
 
 
@@ -10755,6 +10873,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,831.79,336.55)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10762,6 +10881,7 @@
      x="0"
      y="0"
      id="tspan4828">V</tspan></text>
+
 
 
 
@@ -10775,6 +10895,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10782,6 +10903,7 @@
      x="0"
      y="0"
      id="tspan4836">A</tspan></text>
+
 
 
 
@@ -10795,6 +10917,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10802,6 +10925,7 @@
      x="0"
      y="0"
      id="tspan4844">P</tspan></text>
+
 
 
 
@@ -10815,6 +10939,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10822,6 +10947,7 @@
      x="0"
      y="0"
      id="tspan4852">F</tspan></text>
+
 
 
 
@@ -10835,6 +10961,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10842,6 +10969,7 @@
      x="0"
      y="0"
      id="tspan4860">R</tspan></text>
+
 
 
 
@@ -10855,6 +10983,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10862,6 +10991,7 @@
      x="0"
      y="0"
      id="tspan4868">T</tspan></text>
+
 
 
 
@@ -10875,6 +11005,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.37,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10882,6 +11013,7 @@
      x="0"
      y="0"
      id="tspan4876">Q</tspan></text>
+
 
 
 
@@ -10895,6 +11027,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10902,6 +11035,7 @@
      x="0"
      y="0"
      id="tspan4884">C</tspan></text>
+
 
 
 
@@ -10915,6 +11049,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10922,6 +11057,7 @@
      x="0"
      y="0"
      id="tspan4892">A</tspan></text>
+
 
 
 
@@ -10935,6 +11071,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10942,6 +11079,7 @@
      x="0"
      y="0"
      id="tspan4900">H</tspan></text>
+
 
 
 
@@ -10955,6 +11093,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10962,6 +11101,7 @@
      x="0"
      y="0"
      id="tspan4908">Q</tspan></text>
+
 
 
 
@@ -10975,6 +11115,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.25,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -10982,6 +11123,7 @@
      x="0"
      y="0"
      id="tspan4916">Y</tspan></text>
+
 
 
 
@@ -10995,6 +11137,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,683.37,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11002,6 +11145,7 @@
      x="0"
      y="0"
      id="tspan4924">L</tspan></text>
+
 
 
 
@@ -11015,6 +11159,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11022,6 +11167,7 @@
      x="0"
      y="0"
      id="tspan4932">N</tspan></text>
+
 
 
 
@@ -11035,6 +11181,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.1,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11042,6 +11189,7 @@
      x="0"
      y="0"
      id="tspan4940">Y</tspan></text>
+
 
 
 
@@ -11055,6 +11203,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11062,6 +11211,7 @@
      x="0"
      y="0"
      id="tspan4948">R</tspan></text>
+
 
 
 
@@ -11075,6 +11225,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11082,6 +11233,7 @@
      x="0"
      y="0"
      id="tspan4956">F</tspan></text>
+
 
 
 
@@ -11095,6 +11247,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.94,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11102,6 +11255,7 @@
      x="0"
      y="0"
      id="tspan4964">A</tspan></text>
+
 
 
 
@@ -11115,6 +11269,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11122,6 +11277,7 @@
      x="0"
      y="0"
      id="tspan4972">G</tspan></text>
+
 
 
 
@@ -11135,6 +11291,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11142,6 +11299,7 @@
      x="0"
      y="0"
      id="tspan4980">T</tspan></text>
+
 
 
 
@@ -11155,6 +11313,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,832.04,350.64)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11162,6 +11321,7 @@
      x="0"
      y="0"
      id="tspan4988">T</tspan></text>
+
 
 
 
@@ -11175,6 +11335,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11182,6 +11343,7 @@
      x="0"
      y="0"
      id="tspan4996">A</tspan></text>
+
 
 
 
@@ -11195,6 +11357,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11202,6 +11365,7 @@
      x="0"
      y="0"
      id="tspan5004">P</tspan></text>
+
 
 
 
@@ -11215,6 +11379,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11222,6 +11387,7 @@
      x="0"
      y="0"
      id="tspan5012">F</tspan></text>
+
 
 
 
@@ -11235,6 +11401,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11242,6 +11409,7 @@
      x="0"
      y="0"
      id="tspan5020">R</tspan></text>
+
 
 
 
@@ -11255,6 +11423,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11262,6 +11431,7 @@
      x="0"
      y="0"
      id="tspan5028">T</tspan></text>
+
 
 
 
@@ -11275,6 +11445,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,562.12,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11282,6 +11453,7 @@
      x="0"
      y="0"
      id="tspan5036">F</tspan></text>
+
 
 
 
@@ -11295,6 +11467,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11302,6 +11475,7 @@
      x="0"
      y="0"
      id="tspan5044">C</tspan></text>
+
 
 
 
@@ -11315,6 +11489,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11322,6 +11497,7 @@
      x="0"
      y="0"
      id="tspan5052">A</tspan></text>
+
 
 
 
@@ -11335,6 +11511,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11342,6 +11519,7 @@
      x="0"
      y="0"
      id="tspan5060">H</tspan></text>
+
 
 
 
@@ -11355,6 +11533,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,636.33,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11362,6 +11541,7 @@
      x="0"
      y="0"
      id="tspan5068">E</tspan></text>
+
 
 
 
@@ -11375,6 +11555,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.25,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11382,6 +11563,7 @@
      x="0"
      y="0"
      id="tspan5076">Y</tspan></text>
+
 
 
 
@@ -11395,6 +11577,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,682.12,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11402,6 +11585,7 @@
      x="0"
      y="0"
      id="tspan5084">M</tspan></text>
+
 
 
 
@@ -11415,6 +11599,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11422,6 +11607,7 @@
      x="0"
      y="0"
      id="tspan5092">N</tspan></text>
+
 
 
 
@@ -11435,6 +11621,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11442,6 +11629,7 @@
      x="0"
      y="0"
      id="tspan5100">F</tspan></text>
+
 
 
 
@@ -11455,6 +11643,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11462,6 +11651,7 @@
      x="0"
      y="0"
      id="tspan5108">R</tspan></text>
+
 
 
 
@@ -11475,6 +11665,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11482,6 +11673,7 @@
      x="0"
      y="0"
      id="tspan5116">F</tspan></text>
+
 
 
 
@@ -11495,6 +11687,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.94,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11502,6 +11695,7 @@
      x="0"
      y="0"
      id="tspan5124">A</tspan></text>
+
 
 
 
@@ -11515,6 +11709,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11522,6 +11717,7 @@
      x="0"
      y="0"
      id="tspan5132">G</tspan></text>
+
 
 
 
@@ -11535,6 +11731,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11542,6 +11739,7 @@
      x="0"
      y="0"
      id="tspan5140">T</tspan></text>
+
 
 
 
@@ -11555,6 +11753,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,832.04,294.26)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11562,6 +11761,7 @@
      x="0"
      y="0"
      id="tspan5148">T</tspan></text>
+
 
 
 
@@ -11575,6 +11775,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11582,6 +11783,7 @@
      x="0"
      y="0"
      id="tspan5156">A</tspan></text>
+
 
 
 
@@ -11595,6 +11797,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11602,6 +11805,7 @@
      x="0"
      y="0"
      id="tspan5164">P</tspan></text>
+
 
 
 
@@ -11615,6 +11819,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11622,6 +11827,7 @@
      x="0"
      y="0"
      id="tspan5172">F</tspan></text>
+
 
 
 
@@ -11635,6 +11841,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11642,6 +11849,7 @@
      x="0"
      y="0"
      id="tspan5180">R</tspan></text>
+
 
 
 
@@ -11655,6 +11863,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11662,6 +11871,7 @@
      x="0"
      y="0"
      id="tspan5188">T</tspan></text>
+
 
 
 
@@ -11675,6 +11885,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.37,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11682,6 +11893,7 @@
      x="0"
      y="0"
      id="tspan5196">Q</tspan></text>
+
 
 
 
@@ -11695,6 +11907,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11702,6 +11915,7 @@
      x="0"
      y="0"
      id="tspan5204">C</tspan></text>
+
 
 
 
@@ -11715,6 +11929,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11722,6 +11937,7 @@
      x="0"
      y="0"
      id="tspan5212">A</tspan></text>
+
 
 
 
@@ -11735,6 +11951,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11742,6 +11959,7 @@
      x="0"
      y="0"
      id="tspan5220">H</tspan></text>
+
 
 
 
@@ -11755,6 +11973,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11762,6 +11981,7 @@
      x="0"
      y="0"
      id="tspan5228">Q</tspan></text>
+
 
 
 
@@ -11775,6 +11995,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11782,6 +12003,7 @@
      x="0"
      y="0"
      id="tspan5236">F</tspan></text>
+
 
 
 
@@ -11795,6 +12017,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,682.12,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11802,6 +12025,7 @@
      x="0"
      y="0"
      id="tspan5244">M</tspan></text>
+
 
 
 
@@ -11815,6 +12039,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11822,6 +12047,7 @@
      x="0"
      y="0"
      id="tspan5252">N</tspan></text>
+
 
 
 
@@ -11835,6 +12061,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.1,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11842,6 +12069,7 @@
      x="0"
      y="0"
      id="tspan5260">Y</tspan></text>
+
 
 
 
@@ -11855,6 +12083,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11862,6 +12091,7 @@
      x="0"
      y="0"
      id="tspan5268">R</tspan></text>
+
 
 
 
@@ -11875,6 +12105,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11882,6 +12113,7 @@
      x="0"
      y="0"
      id="tspan5276">F</tspan></text>
+
 
 
 
@@ -11895,6 +12127,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.94,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11902,6 +12135,7 @@
      x="0"
      y="0"
      id="tspan5284">A</tspan></text>
+
 
 
 
@@ -11915,6 +12149,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11922,6 +12157,7 @@
      x="0"
      y="0"
      id="tspan5292">G</tspan></text>
+
 
 
 
@@ -11935,6 +12171,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11942,6 +12179,7 @@
      x="0"
      y="0"
      id="tspan5300">T</tspan></text>
+
 
 
 
@@ -11955,6 +12193,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,831.79,364.74)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11962,6 +12201,7 @@
      x="0"
      y="0"
      id="tspan5308">V</tspan></text>
+
 
 
 
@@ -11975,6 +12215,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -11982,6 +12223,7 @@
      x="0"
      y="0"
      id="tspan5316">A</tspan></text>
+
 
 
 
@@ -11995,6 +12237,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12002,6 +12245,7 @@
      x="0"
      y="0"
      id="tspan5324">P</tspan></text>
+
 
 
 
@@ -12015,6 +12259,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12022,6 +12267,7 @@
      x="0"
      y="0"
      id="tspan5332">F</tspan></text>
+
 
 
 
@@ -12035,6 +12281,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12042,6 +12289,7 @@
      x="0"
      y="0"
      id="tspan5340">R</tspan></text>
+
 
 
 
@@ -12055,6 +12303,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12062,6 +12311,7 @@
      x="0"
      y="0"
      id="tspan5348">T</tspan></text>
+
 
 
 
@@ -12075,6 +12325,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.37,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12082,6 +12333,7 @@
      x="0"
      y="0"
      id="tspan5356">Q</tspan></text>
+
 
 
 
@@ -12095,6 +12347,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12102,6 +12355,7 @@
      x="0"
      y="0"
      id="tspan5364">C</tspan></text>
+
 
 
 
@@ -12115,6 +12369,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12122,6 +12377,7 @@
      x="0"
      y="0"
      id="tspan5372">A</tspan></text>
+
 
 
 
@@ -12135,6 +12391,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12142,6 +12399,7 @@
      x="0"
      y="0"
      id="tspan5380">H</tspan></text>
+
 
 
 
@@ -12155,6 +12413,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12162,6 +12421,7 @@
      x="0"
      y="0"
      id="tspan5388">Q</tspan></text>
+
 
 
 
@@ -12175,6 +12435,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12182,6 +12443,7 @@
      x="0"
      y="0"
      id="tspan5396">F</tspan></text>
+
 
 
 
@@ -12195,6 +12457,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,683.37,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12202,6 +12465,7 @@
      x="0"
      y="0"
      id="tspan5404">L</tspan></text>
+
 
 
 
@@ -12215,6 +12479,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12222,6 +12487,7 @@
      x="0"
      y="0"
      id="tspan5412">N</tspan></text>
+
 
 
 
@@ -12235,6 +12501,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.1,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12242,6 +12509,7 @@
      x="0"
      y="0"
      id="tspan5420">Y</tspan></text>
+
 
 
 
@@ -12255,6 +12523,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12262,6 +12531,7 @@
      x="0"
      y="0"
      id="tspan5428">R</tspan></text>
+
 
 
 
@@ -12275,6 +12545,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12282,6 +12553,7 @@
      x="0"
      y="0"
      id="tspan5436">F</tspan></text>
+
 
 
 
@@ -12295,6 +12567,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.94,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12302,6 +12575,7 @@
      x="0"
      y="0"
      id="tspan5444">A</tspan></text>
+
 
 
 
@@ -12315,6 +12589,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12322,6 +12597,7 @@
      x="0"
      y="0"
      id="tspan5452">G</tspan></text>
+
 
 
 
@@ -12335,6 +12611,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12342,6 +12619,7 @@
      x="0"
      y="0"
      id="tspan5460">T</tspan></text>
+
 
 
 
@@ -12355,6 +12633,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,831.79,378.83)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12362,6 +12641,7 @@
      x="0"
      y="0"
      id="tspan5468">V</tspan></text>
+
 
 
 
@@ -12375,6 +12655,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12382,6 +12663,7 @@
      x="0"
      y="0"
      id="tspan5476">A</tspan></text>
+
 
 
 
@@ -12395,6 +12677,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12402,6 +12685,7 @@
      x="0"
      y="0"
      id="tspan5484">P</tspan></text>
+
 
 
 
@@ -12415,6 +12699,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12422,6 +12707,7 @@
      x="0"
      y="0"
      id="tspan5492">F</tspan></text>
+
 
 
 
@@ -12435,6 +12721,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12442,6 +12729,7 @@
      x="0"
      y="0"
      id="tspan5500">R</tspan></text>
+
 
 
 
@@ -12455,6 +12743,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12462,6 +12751,7 @@
      x="0"
      y="0"
      id="tspan5508">T</tspan></text>
+
 
 
 
@@ -12475,6 +12765,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.12,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12482,6 +12773,7 @@
      x="0"
      y="0"
      id="tspan5516">M</tspan></text>
+
 
 
 
@@ -12495,6 +12787,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12502,6 +12795,7 @@
      x="0"
      y="0"
      id="tspan5524">C</tspan></text>
+
 
 
 
@@ -12515,6 +12809,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12522,6 +12817,7 @@
      x="0"
      y="0"
      id="tspan5532">A</tspan></text>
+
 
 
 
@@ -12535,6 +12831,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12542,6 +12839,7 @@
      x="0"
      y="0"
      id="tspan5540">H</tspan></text>
+
 
 
 
@@ -12555,6 +12853,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12562,6 +12861,7 @@
      x="0"
      y="0"
      id="tspan5548">Q</tspan></text>
+
 
 
 
@@ -12575,6 +12875,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12582,6 +12883,7 @@
      x="0"
      y="0"
      id="tspan5556">F</tspan></text>
+
 
 
 
@@ -12595,6 +12897,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,682.12,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12602,6 +12905,7 @@
      x="0"
      y="0"
      id="tspan5564">M</tspan></text>
+
 
 
 
@@ -12615,6 +12919,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12622,6 +12927,7 @@
      x="0"
      y="0"
      id="tspan5572">N</tspan></text>
+
 
 
 
@@ -12635,6 +12941,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12642,6 +12949,7 @@
      x="0"
      y="0"
      id="tspan5580">F</tspan></text>
+
 
 
 
@@ -12655,6 +12963,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12662,6 +12971,7 @@
      x="0"
      y="0"
      id="tspan5588">R</tspan></text>
+
 
 
 
@@ -12675,6 +12985,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12682,6 +12993,7 @@
      x="0"
      y="0"
      id="tspan5596">F</tspan></text>
+
 
 
 
@@ -12695,6 +13007,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.94,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12702,6 +13015,7 @@
      x="0"
      y="0"
      id="tspan5604">A</tspan></text>
+
 
 
 
@@ -12715,6 +13029,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12722,6 +13037,7 @@
      x="0"
      y="0"
      id="tspan5612">G</tspan></text>
+
 
 
 
@@ -12735,6 +13051,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.17,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12742,6 +13059,7 @@
      x="0"
      y="0"
      id="tspan5620">V</tspan></text>
+
 
 
 
@@ -12755,6 +13073,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,831.79,308.36)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12762,6 +13081,7 @@
      x="0"
      y="0"
      id="tspan5628">K</tspan></text>
+
 
 
 
@@ -12775,6 +13095,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12782,6 +13103,7 @@
      x="0"
      y="0"
      id="tspan5636">A</tspan></text>
+
 
 
 
@@ -12795,6 +13117,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12802,6 +13125,7 @@
      x="0"
      y="0"
      id="tspan5644">P</tspan></text>
+
 
 
 
@@ -12815,6 +13139,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12822,6 +13147,7 @@
      x="0"
      y="0"
      id="tspan5652">F</tspan></text>
+
 
 
 
@@ -12835,6 +13161,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12842,6 +13169,7 @@
      x="0"
      y="0"
      id="tspan5660">R</tspan></text>
+
 
 
 
@@ -12855,6 +13183,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12862,6 +13191,7 @@
      x="0"
      y="0"
      id="tspan5668">T</tspan></text>
+
 
 
 
@@ -12875,6 +13205,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.12,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12882,6 +13213,7 @@
      x="0"
      y="0"
      id="tspan5676">M</tspan></text>
+
 
 
 
@@ -12895,6 +13227,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12902,6 +13235,7 @@
      x="0"
      y="0"
      id="tspan5684">C</tspan></text>
+
 
 
 
@@ -12915,6 +13249,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12922,6 +13257,7 @@
      x="0"
      y="0"
      id="tspan5692">A</tspan></text>
+
 
 
 
@@ -12935,6 +13271,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12942,6 +13279,7 @@
      x="0"
      y="0"
      id="tspan5700">H</tspan></text>
+
 
 
 
@@ -12955,6 +13293,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12962,6 +13301,7 @@
      x="0"
      y="0"
      id="tspan5708">Q</tspan></text>
+
 
 
 
@@ -12975,6 +13315,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.25,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -12982,6 +13323,7 @@
      x="0"
      y="0"
      id="tspan5716">Y</tspan></text>
+
 
 
 
@@ -12995,6 +13337,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,682.12,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13002,6 +13345,7 @@
      x="0"
      y="0"
      id="tspan5724">M</tspan></text>
+
 
 
 
@@ -13015,6 +13359,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13022,6 +13367,7 @@
      x="0"
      y="0"
      id="tspan5732">N</tspan></text>
+
 
 
 
@@ -13035,6 +13381,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13042,6 +13389,7 @@
      x="0"
      y="0"
      id="tspan5740">F</tspan></text>
+
 
 
 
@@ -13055,6 +13403,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13062,6 +13411,7 @@
      x="0"
      y="0"
      id="tspan5748">R</tspan></text>
+
 
 
 
@@ -13075,6 +13425,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13082,6 +13433,7 @@
      x="0"
      y="0"
      id="tspan5756">F</tspan></text>
+
 
 
 
@@ -13095,6 +13447,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.94,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13102,6 +13455,7 @@
      x="0"
      y="0"
      id="tspan5764">V</tspan></text>
+
 
 
 
@@ -13115,6 +13469,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13122,6 +13477,7 @@
      x="0"
      y="0"
      id="tspan5772">G</tspan></text>
+
 
 
 
@@ -13135,6 +13491,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13142,6 +13499,7 @@
      x="0"
      y="0"
      id="tspan5780">T</tspan></text>
+
 
 
 
@@ -13155,6 +13513,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,831.79,322.45)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13162,6 +13521,7 @@
      x="0"
      y="0"
      id="tspan5788">K</tspan></text>
+
 
 
 
@@ -13175,6 +13535,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13182,6 +13543,7 @@
      x="0"
      y="0"
      id="tspan5796">A</tspan></text>
+
 
 
 
@@ -13195,6 +13557,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13202,6 +13565,7 @@
      x="0"
      y="0"
      id="tspan5804">P</tspan></text>
+
 
 
 
@@ -13215,6 +13579,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13222,6 +13587,7 @@
      x="0"
      y="0"
      id="tspan5812">F</tspan></text>
+
 
 
 
@@ -13235,6 +13601,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13242,6 +13609,7 @@
      x="0"
      y="0"
      id="tspan5820">R</tspan></text>
+
 
 
 
@@ -13255,6 +13623,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13262,6 +13631,7 @@
      x="0"
      y="0"
      id="tspan5828">T</tspan></text>
+
 
 
 
@@ -13275,6 +13645,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.37,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13282,6 +13653,7 @@
      x="0"
      y="0"
      id="tspan5836">Q</tspan></text>
+
 
 
 
@@ -13295,6 +13667,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13302,6 +13675,7 @@
      x="0"
      y="0"
      id="tspan5844">C</tspan></text>
+
 
 
 
@@ -13315,6 +13689,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13322,6 +13697,7 @@
      x="0"
      y="0"
      id="tspan5852">A</tspan></text>
+
 
 
 
@@ -13335,6 +13711,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13342,6 +13719,7 @@
      x="0"
      y="0"
      id="tspan5860">H</tspan></text>
+
 
 
 
@@ -13355,6 +13733,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13362,6 +13741,7 @@
      x="0"
      y="0"
      id="tspan5868">G</tspan></text>
+
 
 
 
@@ -13375,6 +13755,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,655.2,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13382,6 +13763,7 @@
      x="0"
      y="0"
      id="tspan5876">F</tspan></text>
+
 
 
 
@@ -13395,6 +13777,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,673.56,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13402,6 +13785,7 @@
      x="0"
      y="0"
      id="tspan5884">P</tspan></text>
+
 
 
 
@@ -13415,6 +13799,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,692.67,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13422,6 +13807,7 @@
      x="0"
      y="0"
      id="tspan5892">L</tspan></text>
+
 
 
 
@@ -13435,6 +13821,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,710.79,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13442,6 +13829,7 @@
      x="0"
      y="0"
      id="tspan5900">P</tspan></text>
+
 
 
 
@@ -13455,6 +13843,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,728.9,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13462,6 +13851,7 @@
      x="0"
      y="0"
      id="tspan5908">G</tspan></text>
+
 
 
 
@@ -13475,6 +13865,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,748.02,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13482,6 +13873,7 @@
      x="0"
      y="0"
      id="tspan5916">A</tspan></text>
+
 
 
 
@@ -13495,6 +13887,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,766.63,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13502,6 +13895,7 @@
      x="0"
      y="0"
      id="tspan5924">K</tspan></text>
+
 
 
 
@@ -13515,6 +13909,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,784.75,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13522,6 +13917,7 @@
      x="0"
      y="0"
      id="tspan5932">G</tspan></text>
+
 
 
 
@@ -13535,6 +13931,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,803.86,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13542,6 +13939,7 @@
      x="0"
      y="0"
      id="tspan5940">Y</tspan></text>
+
 
 
 
@@ -13555,6 +13953,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,822.98,96.93)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13562,6 +13961,7 @@
      x="0"
      y="0"
      id="tspan5948">L</tspan></text>
+
 
 
 
@@ -13575,6 +13975,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,458.99,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13582,6 +13983,7 @@
      x="0"
      y="0"
      id="tspan5956">Q</tspan></text>
+
 
 
 
@@ -13595,6 +13997,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,478.1,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13602,6 +14005,7 @@
      x="0"
      y="0"
      id="tspan5964">V</tspan></text>
+
 
 
 
@@ -13615,6 +14019,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,496.72,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13622,6 +14027,7 @@
      x="0"
      y="0"
      id="tspan5972">A</tspan></text>
+
 
 
 
@@ -13635,6 +14041,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,515.33,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13642,6 +14049,7 @@
      x="0"
      y="0"
      id="tspan5980">A</tspan></text>
+
 
 
 
@@ -13655,6 +14063,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,533.45,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13662,6 +14071,7 @@
      x="0"
      y="0"
      id="tspan5988">Q</tspan></text>
+
 
 
 
@@ -13675,6 +14085,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,552.06,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13682,6 +14093,7 @@
      x="0"
      y="0"
      id="tspan5996">G</tspan></text>
+
 
 
 
@@ -13695,6 +14107,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,571.18,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13702,6 +14115,7 @@
      x="0"
      y="0"
      id="tspan6004">A</tspan></text>
+
 
 
 
@@ -13715,6 +14129,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,591.54,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13722,6 +14137,7 @@
      x="0"
      y="0"
      id="tspan6012">I</tspan></text>
+
 
 
 
@@ -13735,6 +14151,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,608.16,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13742,6 +14159,7 @@
      x="0"
      y="0"
      id="tspan6020">C</tspan></text>
+
 
 
 
@@ -13755,6 +14173,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,627.02,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13762,6 +14181,7 @@
      x="0"
      y="0"
      id="tspan6028">V</tspan></text>
+
 
 
 
@@ -13775,6 +14195,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,645.14,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13782,6 +14203,7 @@
      x="0"
      y="0"
      id="tspan6036">G</tspan></text>
+
 
 
 
@@ -13795,6 +14217,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,663.75,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13802,6 +14225,7 @@
      x="0"
      y="0"
      id="tspan6044">G</tspan></text>
+
 
 
 
@@ -13815,6 +14239,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,682.37,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13822,6 +14247,7 @@
      x="0"
      y="0"
      id="tspan6052">Q</tspan></text>
+
 
 
 
@@ -13835,6 +14261,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.73,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13842,6 +14269,7 @@
      x="0"
      y="0"
      id="tspan6060">T</tspan></text>
+
 
 
 
@@ -13855,6 +14283,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13862,6 +14291,7 @@
      x="0"
      y="0"
      id="tspan6068">F</tspan></text>
+
 
 
 
@@ -13875,6 +14305,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13882,6 +14313,7 @@
      x="0"
      y="0"
      id="tspan6076">R</tspan></text>
+
 
 
 
@@ -13895,6 +14327,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13902,6 +14335,7 @@
      x="0"
      y="0"
      id="tspan6084">F</tspan></text>
+
 
 
 
@@ -13915,6 +14349,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,776.44,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13922,6 +14357,7 @@
      x="0"
      y="0"
      id="tspan6092">L</tspan></text>
+
 
 
 
@@ -13935,6 +14371,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13942,6 +14379,7 @@
      x="0"
      y="0"
      id="tspan6100">G</tspan></text>
+
 
 
 
@@ -13955,6 +14393,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13962,6 +14401,7 @@
      x="0"
      y="0"
      id="tspan6108">T</tspan></text>
+
 
 
 
@@ -13975,6 +14415,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,832.04,111.02)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -13982,6 +14423,7 @@
      x="0"
      y="0"
      id="tspan6116">T</tspan></text>
+
 
 
 
@@ -13995,6 +14437,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14002,6 +14445,7 @@
      x="0"
      y="0"
      id="tspan6124">A</tspan></text>
+
 
 
 
@@ -14015,6 +14459,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14022,6 +14467,7 @@
      x="0"
      y="0"
      id="tspan6132">P</tspan></text>
+
 
 
 
@@ -14035,6 +14481,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14042,6 +14489,7 @@
      x="0"
      y="0"
      id="tspan6140">F</tspan></text>
+
 
 
 
@@ -14055,6 +14503,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14062,6 +14511,7 @@
      x="0"
      y="0"
      id="tspan6148">R</tspan></text>
+
 
 
 
@@ -14075,6 +14525,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14082,6 +14533,7 @@
      x="0"
      y="0"
      id="tspan6156">T</tspan></text>
+
 
 
 
@@ -14095,6 +14547,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.12,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14102,6 +14555,7 @@
      x="0"
      y="0"
      id="tspan6164">M</tspan></text>
+
 
 
 
@@ -14115,6 +14569,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14122,6 +14577,7 @@
      x="0"
      y="0"
      id="tspan6172">C</tspan></text>
+
 
 
 
@@ -14135,6 +14591,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14142,6 +14599,7 @@
      x="0"
      y="0"
      id="tspan6180">A</tspan></text>
+
 
 
 
@@ -14155,6 +14613,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14162,6 +14621,7 @@
      x="0"
      y="0"
      id="tspan6188">H</tspan></text>
+
 
 
 
@@ -14175,6 +14635,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14182,6 +14643,7 @@
      x="0"
      y="0"
      id="tspan6196">Q</tspan></text>
+
 
 
 
@@ -14195,6 +14657,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14202,6 +14665,7 @@
      x="0"
      y="0"
      id="tspan6204">F</tspan></text>
+
 
 
 
@@ -14215,6 +14679,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,683.37,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14222,6 +14687,7 @@
      x="0"
      y="0"
      id="tspan6212">L</tspan></text>
+
 
 
 
@@ -14235,6 +14701,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14242,6 +14709,7 @@
      x="0"
      y="0"
      id="tspan6220">N</tspan></text>
+
 
 
 
@@ -14255,6 +14723,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14262,6 +14731,7 @@
      x="0"
      y="0"
      id="tspan6228">F</tspan></text>
+
 
 
 
@@ -14275,6 +14745,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14282,6 +14753,7 @@
      x="0"
      y="0"
      id="tspan6236">R</tspan></text>
+
 
 
 
@@ -14295,6 +14767,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14302,6 +14775,7 @@
      x="0"
      y="0"
      id="tspan6244">F</tspan></text>
+
 
 
 
@@ -14315,6 +14789,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.94,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14322,6 +14797,7 @@
      x="0"
      y="0"
      id="tspan6252">S</tspan></text>
+
 
 
 
@@ -14335,6 +14811,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14342,6 +14819,7 @@
      x="0"
      y="0"
      id="tspan6260">G</tspan></text>
+
 
 
 
@@ -14355,6 +14833,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14362,6 +14841,7 @@
      x="0"
      y="0"
      id="tspan6268">T</tspan></text>
+
 
 
 
@@ -14375,6 +14855,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,831.04,237.88)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14382,6 +14863,7 @@
      x="0"
      y="0"
      id="tspan6276">M</tspan></text>
+
 
 
 
@@ -14395,6 +14877,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14402,6 +14885,7 @@
      x="0"
      y="0"
      id="tspan6284">A</tspan></text>
+
 
 
 
@@ -14415,6 +14899,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14422,6 +14907,7 @@
      x="0"
      y="0"
      id="tspan6292">P</tspan></text>
+
 
 
 
@@ -14435,6 +14921,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14442,6 +14929,7 @@
      x="0"
      y="0"
      id="tspan6300">F</tspan></text>
+
 
 
 
@@ -14455,6 +14943,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14462,6 +14951,7 @@
      x="0"
      y="0"
      id="tspan6308">R</tspan></text>
+
 
 
 
@@ -14475,6 +14965,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14482,6 +14973,7 @@
      x="0"
      y="0"
      id="tspan6316">T</tspan></text>
+
 
 
 
@@ -14495,6 +14987,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.87,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14502,6 +14995,7 @@
      x="0"
      y="0"
      id="tspan6324">A</tspan></text>
+
 
 
 
@@ -14515,6 +15009,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14522,6 +15017,7 @@
      x="0"
      y="0"
      id="tspan6332">C</tspan></text>
+
 
 
 
@@ -14535,6 +15031,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14542,6 +15039,7 @@
      x="0"
      y="0"
      id="tspan6340">A</tspan></text>
+
 
 
 
@@ -14555,6 +15053,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14562,6 +15061,7 @@
      x="0"
      y="0"
      id="tspan6348">H</tspan></text>
+
 
 
 
@@ -14575,6 +15075,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14582,6 +15083,7 @@
      x="0"
      y="0"
      id="tspan6356">Q</tspan></text>
+
 
 
 
@@ -14595,6 +15097,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14602,6 +15105,7 @@
      x="0"
      y="0"
      id="tspan6364">F</tspan></text>
+
 
 
 
@@ -14615,6 +15119,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,683.37,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14622,6 +15127,7 @@
      x="0"
      y="0"
      id="tspan6372">L</tspan></text>
+
 
 
 
@@ -14635,6 +15141,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14642,6 +15149,7 @@
      x="0"
      y="0"
      id="tspan6380">N</tspan></text>
+
 
 
 
@@ -14655,6 +15163,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14662,6 +15171,7 @@
      x="0"
      y="0"
      id="tspan6388">F</tspan></text>
+
 
 
 
@@ -14675,6 +15185,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14682,6 +15193,7 @@
      x="0"
      y="0"
      id="tspan6396">R</tspan></text>
+
 
 
 
@@ -14695,6 +15207,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14702,6 +15215,7 @@
      x="0"
      y="0"
      id="tspan6404">F</tspan></text>
+
 
 
 
@@ -14715,6 +15229,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.94,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14722,6 +15237,7 @@
      x="0"
      y="0"
      id="tspan6412">S</tspan></text>
+
 
 
 
@@ -14735,6 +15251,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14742,6 +15259,7 @@
      x="0"
      y="0"
      id="tspan6420">G</tspan></text>
+
 
 
 
@@ -14755,6 +15273,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14762,6 +15281,7 @@
      x="0"
      y="0"
      id="tspan6428">T</tspan></text>
+
 
 
 
@@ -14775,6 +15295,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,833.54,251.98)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14782,6 +15303,7 @@
      x="0"
      y="0"
      id="tspan6436">I</tspan></text>
+
 
 
 
@@ -14795,6 +15317,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14802,6 +15325,7 @@
      x="0"
      y="0"
      id="tspan6444">A</tspan></text>
+
 
 
 
@@ -14815,6 +15339,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14822,6 +15347,7 @@
      x="0"
      y="0"
      id="tspan6452">P</tspan></text>
+
 
 
 
@@ -14835,6 +15361,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14842,6 +15369,7 @@
      x="0"
      y="0"
      id="tspan6460">F</tspan></text>
+
 
 
 
@@ -14855,6 +15383,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14862,6 +15391,7 @@
      x="0"
      y="0"
      id="tspan6468">R</tspan></text>
+
 
 
 
@@ -14875,6 +15405,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14882,6 +15413,7 @@
      x="0"
      y="0"
      id="tspan6476">T</tspan></text>
+
 
 
 
@@ -14895,6 +15427,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.87,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14902,6 +15435,7 @@
      x="0"
      y="0"
      id="tspan6484">A</tspan></text>
+
 
 
 
@@ -14915,6 +15449,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14922,6 +15457,7 @@
      x="0"
      y="0"
      id="tspan6492">C</tspan></text>
+
 
 
 
@@ -14935,6 +15471,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14942,6 +15479,7 @@
      x="0"
      y="0"
      id="tspan6500">A</tspan></text>
+
 
 
 
@@ -14955,6 +15493,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14962,6 +15501,7 @@
      x="0"
      y="0"
      id="tspan6508">H</tspan></text>
+
 
 
 
@@ -14975,6 +15515,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -14982,6 +15523,7 @@
      x="0"
      y="0"
      id="tspan6516">Q</tspan></text>
+
 
 
 
@@ -14995,6 +15537,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15002,6 +15545,7 @@
      x="0"
      y="0"
      id="tspan6524">F</tspan></text>
+
 
 
 
@@ -15015,6 +15559,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,683.37,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15022,6 +15567,7 @@
      x="0"
      y="0"
      id="tspan6532">L</tspan></text>
+
 
 
 
@@ -15035,6 +15581,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15042,6 +15589,7 @@
      x="0"
      y="0"
      id="tspan6540">N</tspan></text>
+
 
 
 
@@ -15055,6 +15603,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15062,6 +15611,7 @@
      x="0"
      y="0"
      id="tspan6548">F</tspan></text>
+
 
 
 
@@ -15075,6 +15625,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15082,6 +15633,7 @@
      x="0"
      y="0"
      id="tspan6556">R</tspan></text>
+
 
 
 
@@ -15095,6 +15647,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15102,6 +15655,7 @@
      x="0"
      y="0"
      id="tspan6564">F</tspan></text>
+
 
 
 
@@ -15115,6 +15669,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.94,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15122,6 +15677,7 @@
      x="0"
      y="0"
      id="tspan6572">A</tspan></text>
+
 
 
 
@@ -15135,6 +15691,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15142,6 +15699,7 @@
      x="0"
      y="0"
      id="tspan6580">G</tspan></text>
+
 
 
 
@@ -15155,6 +15713,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15162,6 +15721,7 @@
      x="0"
      y="0"
      id="tspan6588">T</tspan></text>
+
 
 
 
@@ -15175,6 +15735,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,833.54,266.07)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15182,6 +15743,7 @@
      x="0"
      y="0"
      id="tspan6596">I</tspan></text>
+
 
 
 
@@ -15195,6 +15757,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15202,6 +15765,7 @@
      x="0"
      y="0"
      id="tspan6604">A</tspan></text>
+
 
 
 
@@ -15215,6 +15779,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15222,6 +15787,7 @@
      x="0"
      y="0"
      id="tspan6612">P</tspan></text>
+
 
 
 
@@ -15235,6 +15801,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15242,6 +15809,7 @@
      x="0"
      y="0"
      id="tspan6620">F</tspan></text>
+
 
 
 
@@ -15255,6 +15823,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15262,6 +15831,7 @@
      x="0"
      y="0"
      id="tspan6628">R</tspan></text>
+
 
 
 
@@ -15275,6 +15845,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15282,6 +15853,7 @@
      x="0"
      y="0"
      id="tspan6636">T</tspan></text>
+
 
 
 
@@ -15295,6 +15867,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.12,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15302,6 +15875,7 @@
      x="0"
      y="0"
      id="tspan6644">M</tspan></text>
+
 
 
 
@@ -15315,6 +15889,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15322,6 +15897,7 @@
      x="0"
      y="0"
      id="tspan6652">C</tspan></text>
+
 
 
 
@@ -15335,6 +15911,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15342,6 +15919,7 @@
      x="0"
      y="0"
      id="tspan6660">A</tspan></text>
+
 
 
 
@@ -15355,6 +15933,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15362,6 +15941,7 @@
      x="0"
      y="0"
      id="tspan6668">H</tspan></text>
+
 
 
 
@@ -15375,6 +15955,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15382,6 +15963,7 @@
      x="0"
      y="0"
      id="tspan6676">Q</tspan></text>
+
 
 
 
@@ -15395,6 +15977,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15402,6 +15985,7 @@
      x="0"
      y="0"
      id="tspan6684">F</tspan></text>
+
 
 
 
@@ -15415,6 +15999,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,682.12,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15422,6 +16007,7 @@
      x="0"
      y="0"
      id="tspan6692">M</tspan></text>
+
 
 
 
@@ -15435,6 +16021,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15442,6 +16029,7 @@
      x="0"
      y="0"
      id="tspan6700">N</tspan></text>
+
 
 
 
@@ -15455,6 +16043,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15462,6 +16051,7 @@
      x="0"
      y="0"
      id="tspan6708">F</tspan></text>
+
 
 
 
@@ -15475,6 +16065,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15482,6 +16073,7 @@
      x="0"
      y="0"
      id="tspan6716">R</tspan></text>
+
 
 
 
@@ -15495,6 +16087,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15502,6 +16095,7 @@
      x="0"
      y="0"
      id="tspan6724">F</tspan></text>
+
 
 
 
@@ -15515,6 +16109,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.94,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15522,6 +16117,7 @@
      x="0"
      y="0"
      id="tspan6732">A</tspan></text>
+
 
 
 
@@ -15535,6 +16131,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15542,6 +16139,7 @@
      x="0"
      y="0"
      id="tspan6740">G</tspan></text>
+
 
 
 
@@ -15555,6 +16153,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15562,6 +16161,7 @@
      x="0"
      y="0"
      id="tspan6748">T</tspan></text>
+
 
 
 
@@ -15575,6 +16175,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,831.79,209.69)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15582,6 +16183,7 @@
      x="0"
      y="0"
      id="tspan6756">V</tspan></text>
+
 
 
 
@@ -15595,6 +16197,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15602,6 +16205,7 @@
      x="0"
      y="0"
      id="tspan6764">A</tspan></text>
+
 
 
 
@@ -15615,6 +16219,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15622,6 +16227,7 @@
      x="0"
      y="0"
      id="tspan6772">P</tspan></text>
+
 
 
 
@@ -15635,6 +16241,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15642,6 +16249,7 @@
      x="0"
      y="0"
      id="tspan6780">F</tspan></text>
+
 
 
 
@@ -15655,6 +16263,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15662,6 +16271,7 @@
      x="0"
      y="0"
      id="tspan6788">R</tspan></text>
+
 
 
 
@@ -15675,6 +16285,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15682,6 +16293,7 @@
      x="0"
      y="0"
      id="tspan6796">T</tspan></text>
+
 
 
 
@@ -15695,6 +16307,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.12,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15702,6 +16315,7 @@
      x="0"
      y="0"
      id="tspan6804">M</tspan></text>
+
 
 
 
@@ -15715,6 +16329,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15722,6 +16337,7 @@
      x="0"
      y="0"
      id="tspan6812">C</tspan></text>
+
 
 
 
@@ -15735,6 +16351,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15742,6 +16359,7 @@
      x="0"
      y="0"
      id="tspan6820">A</tspan></text>
+
 
 
 
@@ -15755,6 +16373,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15762,6 +16381,7 @@
      x="0"
      y="0"
      id="tspan6828">H</tspan></text>
+
 
 
 
@@ -15775,6 +16395,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15782,6 +16403,7 @@
      x="0"
      y="0"
      id="tspan6836">Q</tspan></text>
+
 
 
 
@@ -15795,6 +16417,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15802,6 +16425,7 @@
      x="0"
      y="0"
      id="tspan6844">F</tspan></text>
+
 
 
 
@@ -15815,6 +16439,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,683.37,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15822,6 +16447,7 @@
      x="0"
      y="0"
      id="tspan6852">L</tspan></text>
+
 
 
 
@@ -15835,6 +16461,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15842,6 +16469,7 @@
      x="0"
      y="0"
      id="tspan6860">N</tspan></text>
+
 
 
 
@@ -15855,6 +16483,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15862,6 +16491,7 @@
      x="0"
      y="0"
      id="tspan6868">F</tspan></text>
+
 
 
 
@@ -15875,6 +16505,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15882,6 +16513,7 @@
      x="0"
      y="0"
      id="tspan6876">R</tspan></text>
+
 
 
 
@@ -15895,6 +16527,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15902,6 +16535,7 @@
      x="0"
      y="0"
      id="tspan6884">F</tspan></text>
+
 
 
 
@@ -15915,6 +16549,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.94,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15922,6 +16557,7 @@
      x="0"
      y="0"
      id="tspan6892">S</tspan></text>
+
 
 
 
@@ -15935,6 +16571,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.56,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15942,6 +16579,7 @@
      x="0"
      y="0"
      id="tspan6900">A</tspan></text>
+
 
 
 
@@ -15955,6 +16593,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.17,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15962,6 +16601,7 @@
      x="0"
      y="0"
      id="tspan6908">S</tspan></text>
+
 
 
 
@@ -15975,6 +16615,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,831.04,223.79)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -15982,6 +16623,7 @@
      x="0"
      y="0"
      id="tspan6916">M</tspan></text>
+
 
 
 
@@ -15995,6 +16637,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16002,6 +16645,7 @@
      x="0"
      y="0"
      id="tspan6924">A</tspan></text>
+
 
 
 
@@ -16015,6 +16659,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16022,6 +16667,7 @@
      x="0"
      y="0"
      id="tspan6932">P</tspan></text>
+
 
 
 
@@ -16035,6 +16681,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16042,6 +16689,7 @@
      x="0"
      y="0"
      id="tspan6940">F</tspan></text>
+
 
 
 
@@ -16055,6 +16703,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16062,6 +16711,7 @@
      x="0"
      y="0"
      id="tspan6948">R</tspan></text>
+
 
 
 
@@ -16075,6 +16725,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16082,6 +16733,7 @@
      x="0"
      y="0"
      id="tspan6956">T</tspan></text>
+
 
 
 
@@ -16095,6 +16747,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.12,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16102,6 +16755,7 @@
      x="0"
      y="0"
      id="tspan6964">M</tspan></text>
+
 
 
 
@@ -16115,6 +16769,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16122,6 +16777,7 @@
      x="0"
      y="0"
      id="tspan6972">C</tspan></text>
+
 
 
 
@@ -16135,6 +16791,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16142,6 +16799,7 @@
      x="0"
      y="0"
      id="tspan6980">A</tspan></text>
+
 
 
 
@@ -16155,6 +16813,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16162,6 +16821,7 @@
      x="0"
      y="0"
      id="tspan6988">H</tspan></text>
+
 
 
 
@@ -16175,6 +16835,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16182,6 +16843,7 @@
      x="0"
      y="0"
      id="tspan6996">Q</tspan></text>
+
 
 
 
@@ -16195,6 +16857,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16202,6 +16865,7 @@
      x="0"
      y="0"
      id="tspan7004">F</tspan></text>
+
 
 
 
@@ -16215,6 +16879,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,682.87,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16222,6 +16887,7 @@
      x="0"
      y="0"
      id="tspan7012">V</tspan></text>
+
 
 
 
@@ -16235,6 +16901,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16242,6 +16909,7 @@
      x="0"
      y="0"
      id="tspan7020">N</tspan></text>
+
 
 
 
@@ -16255,6 +16923,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16262,6 +16931,7 @@
      x="0"
      y="0"
      id="tspan7028">F</tspan></text>
+
 
 
 
@@ -16275,6 +16945,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16282,6 +16953,7 @@
      x="0"
      y="0"
      id="tspan7036">R</tspan></text>
+
 
 
 
@@ -16295,6 +16967,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16302,6 +16975,7 @@
      x="0"
      y="0"
      id="tspan7044">F</tspan></text>
+
 
 
 
@@ -16315,6 +16989,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.94,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16322,6 +16997,7 @@
      x="0"
      y="0"
      id="tspan7052">A</tspan></text>
+
 
 
 
@@ -16335,6 +17011,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16342,6 +17019,7 @@
      x="0"
      y="0"
      id="tspan7060">G</tspan></text>
+
 
 
 
@@ -16355,6 +17033,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16362,6 +17041,7 @@
      x="0"
      y="0"
      id="tspan7068">T</tspan></text>
+
 
 
 
@@ -16375,6 +17055,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,831.04,195.6)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16382,6 +17063,7 @@
      x="0"
      y="0"
      id="tspan7076">M</tspan></text>
+
 
 
 
@@ -16395,6 +17077,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16402,6 +17085,7 @@
      x="0"
      y="0"
      id="tspan7084">A</tspan></text>
+
 
 
 
@@ -16415,6 +17099,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16422,6 +17107,7 @@
      x="0"
      y="0"
      id="tspan7092">P</tspan></text>
+
 
 
 
@@ -16435,6 +17121,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16442,6 +17129,7 @@
      x="0"
      y="0"
      id="tspan7100">F</tspan></text>
+
 
 
 
@@ -16455,6 +17143,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16462,6 +17151,7 @@
      x="0"
      y="0"
      id="tspan7108">R</tspan></text>
+
 
 
 
@@ -16475,6 +17165,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16482,6 +17173,7 @@
      x="0"
      y="0"
      id="tspan7116">T</tspan></text>
+
 
 
 
@@ -16495,6 +17187,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.87,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16502,6 +17195,7 @@
      x="0"
      y="0"
      id="tspan7124">A</tspan></text>
+
 
 
 
@@ -16515,6 +17209,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16522,6 +17217,7 @@
      x="0"
      y="0"
      id="tspan7132">C</tspan></text>
+
 
 
 
@@ -16535,6 +17231,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16542,6 +17239,7 @@
      x="0"
      y="0"
      id="tspan7140">S</tspan></text>
+
 
 
 
@@ -16555,6 +17253,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16562,6 +17261,7 @@
      x="0"
      y="0"
      id="tspan7148">H</tspan></text>
+
 
 
 
@@ -16575,6 +17275,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16582,6 +17283,7 @@
      x="0"
      y="0"
      id="tspan7156">Q</tspan></text>
+
 
 
 
@@ -16595,6 +17297,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16602,6 +17305,7 @@
      x="0"
      y="0"
      id="tspan7164">F</tspan></text>
+
 
 
 
@@ -16615,6 +17319,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,682.87,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16622,6 +17327,7 @@
      x="0"
      y="0"
      id="tspan7172">A</tspan></text>
+
 
 
 
@@ -16635,6 +17341,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16642,6 +17349,7 @@
      x="0"
      y="0"
      id="tspan7180">N</tspan></text>
+
 
 
 
@@ -16655,6 +17363,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16662,6 +17371,7 @@
      x="0"
      y="0"
      id="tspan7188">F</tspan></text>
+
 
 
 
@@ -16675,6 +17385,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16682,6 +17393,7 @@
      x="0"
      y="0"
      id="tspan7196">R</tspan></text>
+
 
 
 
@@ -16695,6 +17407,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16702,6 +17415,7 @@
      x="0"
      y="0"
      id="tspan7204">F</tspan></text>
+
 
 
 
@@ -16715,6 +17429,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.19,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16722,6 +17437,7 @@
      x="0"
      y="0"
      id="tspan7212">M</tspan></text>
+
 
 
 
@@ -16735,6 +17451,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.56,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16742,6 +17459,7 @@
      x="0"
      y="0"
      id="tspan7220">S</tspan></text>
+
 
 
 
@@ -16755,6 +17473,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16762,6 +17481,7 @@
      x="0"
      y="0"
      id="tspan7228">T</tspan></text>
+
 
 
 
@@ -16775,6 +17495,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,831.79,167.4)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16782,6 +17503,7 @@
      x="0"
      y="0"
      id="tspan7236">V</tspan></text>
+
 
 
 
@@ -16795,6 +17517,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16802,6 +17525,7 @@
      x="0"
      y="0"
      id="tspan7244">A</tspan></text>
+
 
 
 
@@ -16815,6 +17539,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16822,6 +17547,7 @@
      x="0"
      y="0"
      id="tspan7252">P</tspan></text>
+
 
 
 
@@ -16835,6 +17561,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16842,6 +17569,7 @@
      x="0"
      y="0"
      id="tspan7260">F</tspan></text>
+
 
 
 
@@ -16855,6 +17583,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16862,6 +17591,7 @@
      x="0"
      y="0"
      id="tspan7268">R</tspan></text>
+
 
 
 
@@ -16875,6 +17605,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16882,6 +17613,7 @@
      x="0"
      y="0"
      id="tspan7276">T</tspan></text>
+
 
 
 
@@ -16895,6 +17627,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.87,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16902,6 +17635,7 @@
      x="0"
      y="0"
      id="tspan7284">A</tspan></text>
+
 
 
 
@@ -16915,6 +17649,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16922,6 +17657,7 @@
      x="0"
      y="0"
      id="tspan7292">C</tspan></text>
+
 
 
 
@@ -16935,6 +17671,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16942,6 +17679,7 @@
      x="0"
      y="0"
      id="tspan7300">S</tspan></text>
+
 
 
 
@@ -16955,6 +17693,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16962,6 +17701,7 @@
      x="0"
      y="0"
      id="tspan7308">H</tspan></text>
+
 
 
 
@@ -16975,6 +17715,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -16982,6 +17723,7 @@
      x="0"
      y="0"
      id="tspan7316">Q</tspan></text>
+
 
 
 
@@ -16995,6 +17737,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17002,6 +17745,7 @@
      x="0"
      y="0"
      id="tspan7324">F</tspan></text>
+
 
 
 
@@ -17015,6 +17759,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,682.87,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17022,6 +17767,7 @@
      x="0"
      y="0"
      id="tspan7332">A</tspan></text>
+
 
 
 
@@ -17035,6 +17781,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17042,6 +17789,7 @@
      x="0"
      y="0"
      id="tspan7340">N</tspan></text>
+
 
 
 
@@ -17055,6 +17803,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17062,6 +17811,7 @@
      x="0"
      y="0"
      id="tspan7348">F</tspan></text>
+
 
 
 
@@ -17075,6 +17825,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17082,6 +17833,7 @@
      x="0"
      y="0"
      id="tspan7356">R</tspan></text>
+
 
 
 
@@ -17095,6 +17847,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17102,6 +17855,7 @@
      x="0"
      y="0"
      id="tspan7364">F</tspan></text>
+
 
 
 
@@ -17115,6 +17869,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.19,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17122,6 +17877,7 @@
      x="0"
      y="0"
      id="tspan7372">M</tspan></text>
+
 
 
 
@@ -17135,6 +17891,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.56,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17142,6 +17899,7 @@
      x="0"
      y="0"
      id="tspan7380">S</tspan></text>
+
 
 
 
@@ -17155,6 +17913,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17162,6 +17921,7 @@
      x="0"
      y="0"
      id="tspan7388">T</tspan></text>
+
 
 
 
@@ -17175,6 +17935,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,831.79,153.31)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17182,6 +17943,7 @@
      x="0"
      y="0"
      id="tspan7396">V</tspan></text>
+
 
 
 
@@ -17195,6 +17957,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17202,6 +17965,7 @@
      x="0"
      y="0"
      id="tspan7404">A</tspan></text>
+
 
 
 
@@ -17215,6 +17979,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17222,6 +17987,7 @@
      x="0"
      y="0"
      id="tspan7412">P</tspan></text>
+
 
 
 
@@ -17235,6 +18001,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17242,6 +18009,7 @@
      x="0"
      y="0"
      id="tspan7420">F</tspan></text>
+
 
 
 
@@ -17255,6 +18023,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17262,6 +18031,7 @@
      x="0"
      y="0"
      id="tspan7428">R</tspan></text>
+
 
 
 
@@ -17275,6 +18045,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17282,6 +18053,7 @@
      x="0"
      y="0"
      id="tspan7436">T</tspan></text>
+
 
 
 
@@ -17295,6 +18067,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,561.87,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17302,6 +18075,7 @@
      x="0"
      y="0"
      id="tspan7444">A</tspan></text>
+
 
 
 
@@ -17315,6 +18089,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17322,6 +18097,7 @@
      x="0"
      y="0"
      id="tspan7452">C</tspan></text>
+
 
 
 
@@ -17335,6 +18111,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.1,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17342,6 +18119,7 @@
      x="0"
      y="0"
      id="tspan7460">S</tspan></text>
+
 
 
 
@@ -17355,6 +18133,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17362,6 +18141,7 @@
      x="0"
      y="0"
      id="tspan7468">H</tspan></text>
+
 
 
 
@@ -17375,6 +18155,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,635.83,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17382,6 +18163,7 @@
      x="0"
      y="0"
      id="tspan7476">Q</tspan></text>
+
 
 
 
@@ -17395,6 +18177,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.5,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17402,6 +18185,7 @@
      x="0"
      y="0"
      id="tspan7484">F</tspan></text>
+
 
 
 
@@ -17415,6 +18199,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,682.87,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17422,6 +18207,7 @@
      x="0"
      y="0"
      id="tspan7492">A</tspan></text>
+
 
 
 
@@ -17435,6 +18221,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.23,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17442,6 +18229,7 @@
      x="0"
      y="0"
      id="tspan7500">N</tspan></text>
+
 
 
 
@@ -17455,6 +18243,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,720.35,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17462,6 +18251,7 @@
      x="0"
      y="0"
      id="tspan7508">F</tspan></text>
+
 
 
 
@@ -17475,6 +18265,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17482,6 +18273,7 @@
      x="0"
      y="0"
      id="tspan7516">R</tspan></text>
+
 
 
 
@@ -17495,6 +18287,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17502,6 +18295,7 @@
      x="0"
      y="0"
      id="tspan7524">F</tspan></text>
+
 
 
 
@@ -17515,6 +18309,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,775.19,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17522,6 +18317,7 @@
      x="0"
      y="0"
      id="tspan7532">M</tspan></text>
+
 
 
 
@@ -17535,6 +18331,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.56,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17542,6 +18339,7 @@
      x="0"
      y="0"
      id="tspan7540">S</tspan></text>
+
 
 
 
@@ -17555,6 +18353,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17562,6 +18361,7 @@
      x="0"
      y="0"
      id="tspan7548">T</tspan></text>
+
 
 
 
@@ -17575,6 +18375,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,831.79,181.5)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17582,6 +18383,7 @@
      x="0"
      y="0"
      id="tspan7556">V</tspan></text>
+
 
 
 
@@ -17595,6 +18397,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,468.8,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17602,6 +18405,7 @@
      x="0"
      y="0"
      id="tspan7564">A</tspan></text>
+
 
 
 
@@ -17615,6 +18419,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,487.41,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17622,6 +18427,7 @@
      x="0"
      y="0"
      id="tspan7572">P</tspan></text>
+
 
 
 
@@ -17635,6 +18441,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,506.28,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17642,6 +18449,7 @@
      x="0"
      y="0"
      id="tspan7580">F</tspan></text>
+
 
 
 
@@ -17655,6 +18463,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,524.39,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17662,6 +18471,7 @@
      x="0"
      y="0"
      id="tspan7588">R</tspan></text>
+
 
 
 
@@ -17675,6 +18485,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,543.51,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17682,6 +18493,7 @@
      x="0"
      y="0"
      id="tspan7596">T</tspan></text>
+
 
 
 
@@ -17695,6 +18507,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,560.62,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17702,6 +18515,7 @@
      x="0"
      y="0"
      id="tspan7604">W</tspan></text>
+
 
 
 
@@ -17715,6 +18529,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,580.24,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17722,6 +18537,7 @@
      x="0"
      y="0"
      id="tspan7612">C</tspan></text>
+
 
 
 
@@ -17735,6 +18551,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,599.35,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17742,6 +18559,7 @@
      x="0"
      y="0"
      id="tspan7620">T</tspan></text>
+
 
 
 
@@ -17755,6 +18573,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,617.47,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17762,6 +18581,7 @@
      x="0"
      y="0"
      id="tspan7628">H</tspan></text>
+
 
 
 
@@ -17775,6 +18595,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,636.33,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17782,6 +18603,7 @@
      x="0"
      y="0"
      id="tspan7636">S</tspan></text>
+
 
 
 
@@ -17795,6 +18617,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,673.56,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17802,6 +18625,7 @@
      x="0"
      y="0"
      id="tspan7644">P</tspan></text>
+
 
 
 
@@ -17815,6 +18639,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,692.67,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17822,6 +18647,7 @@
      x="0"
      y="0"
      id="tspan7652">L</tspan></text>
+
 
 
 
@@ -17835,6 +18661,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,710.79,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17842,6 +18669,7 @@
      x="0"
      y="0"
      id="tspan7660">P</tspan></text>
+
 
 
 
@@ -17855,6 +18683,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,728.9,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17862,6 +18691,7 @@
      x="0"
      y="0"
      id="tspan7668">G</tspan></text>
+
 
 
 
@@ -17875,6 +18705,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,747.27,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17882,6 +18713,7 @@
      x="0"
      y="0"
      id="tspan7676">M</tspan></text>
+
 
 
 
@@ -17895,6 +18727,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,766.63,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17902,6 +18735,7 @@
      x="0"
      y="0"
      id="tspan7684">K</tspan></text>
+
 
 
 
@@ -17915,6 +18749,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,785.75,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17922,6 +18757,7 @@
      x="0"
      y="0"
      id="tspan7692">L</tspan></text>
+
 
 
 
@@ -17935,6 +18771,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,803.86,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17942,6 +18779,7 @@
      x="0"
      y="0"
      id="tspan7700">Y</tspan></text>
+
 
 
 
@@ -17955,6 +18793,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,822.48,125.12)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17962,6 +18801,7 @@
      x="0"
      y="0"
      id="tspan7708">S</tspan></text>
+
 
 
 
@@ -17975,6 +18815,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,458.24,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -17982,6 +18823,7 @@
      x="0"
      y="0"
      id="tspan7716">W</tspan></text>
+
 
 
 
@@ -17995,6 +18837,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,478.6,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18002,6 +18845,7 @@
      x="0"
      y="0"
      id="tspan7724">L</tspan></text>
+
 
 
 
@@ -18015,6 +18859,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,496.72,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18022,6 +18867,7 @@
      x="0"
      y="0"
      id="tspan7732">S</tspan></text>
+
 
 
 
@@ -18035,6 +18881,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,515.33,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18042,6 +18889,7 @@
      x="0"
      y="0"
      id="tspan7740">A</tspan></text>
+
 
 
 
@@ -18055,6 +18903,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,533.45,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18062,6 +18911,7 @@
      x="0"
      y="0"
      id="tspan7748">Q</tspan></text>
+
 
 
 
@@ -18075,6 +18925,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,552.06,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18082,6 +18933,7 @@
      x="0"
      y="0"
      id="tspan7756">G</tspan></text>
+
 
 
 
@@ -18095,6 +18947,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,571.18,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18102,6 +18955,7 @@
      x="0"
      y="0"
      id="tspan7764">S</tspan></text>
+
 
 
 
@@ -18115,6 +18969,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,589.79,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18122,6 +18977,7 @@
      x="0"
      y="0"
      id="tspan7772">A</tspan></text>
+
 
 
 
@@ -18135,6 +18991,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,608.16,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18142,6 +18999,7 @@
      x="0"
      y="0"
      id="tspan7780">C</tspan></text>
+
 
 
 
@@ -18155,6 +19013,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,627.27,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18162,6 +19021,7 @@
      x="0"
      y="0"
      id="tspan7788">T</tspan></text>
+
 
 
 
@@ -18175,6 +19035,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,664.25,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18182,6 +19043,7 @@
      x="0"
      y="0"
      id="tspan7796">Y</tspan></text>
+
 
 
 
@@ -18195,6 +19057,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,682.37,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18202,6 +19065,7 @@
      x="0"
      y="0"
      id="tspan7804">Q</tspan></text>
+
 
 
 
@@ -18215,6 +19079,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,701.73,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18222,6 +19087,7 @@
      x="0"
      y="0"
      id="tspan7812">T</tspan></text>
+
 
 
 
@@ -18235,6 +19101,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,719.35,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18242,6 +19109,7 @@
      x="0"
      y="0"
      id="tspan7820">M</tspan></text>
+
 
 
 
@@ -18255,6 +19123,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,738.46,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18262,6 +19131,7 @@
      x="0"
      y="0"
      id="tspan7828">R</tspan></text>
+
 
 
 
@@ -18275,6 +19145,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,757.58,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18282,6 +19153,7 @@
      x="0"
      y="0"
      id="tspan7836">F</tspan></text>
+
 
 
 
@@ -18295,6 +19167,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,776.44,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18302,6 +19175,7 @@
      x="0"
      y="0"
      id="tspan7844">L</tspan></text>
+
 
 
 
@@ -18315,6 +19189,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,794.06,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18322,6 +19197,7 @@
      x="0"
      y="0"
      id="tspan7852">G</tspan></text>
+
 
 
 
@@ -18335,6 +19211,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,813.42,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18342,6 +19219,7 @@
      x="0"
      y="0"
      id="tspan7860">T</tspan></text>
+
 
 
 
@@ -18355,6 +19233,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,832.04,139.21)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18362,6 +19241,7 @@
      x="0"
      y="0"
      id="tspan7868">T</tspan></text>
+
 
 
 
@@ -18524,6 +19404,7 @@
 
 
 
+
 <text
    id="text420"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18535,6 +19416,7 @@
 
 
 
+
 <text
    id="text424"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18543,6 +19425,7 @@
      sodipodi:role="line"
      y="0"
      x="0">1.0</tspan></text>
+
 
 
 
@@ -18744,6 +19627,7 @@
 
 
 
+
 <text
    id="text8020"
    style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18751,6 +19635,7 @@
      id="tspan8018"
      y="0"
      x="0">*</tspan></text>
+
 
 
 
@@ -18764,6 +19649,7 @@
 
 
 
+
 <text
    id="text8028"
    style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18771,6 +19657,7 @@
      id="tspan8026"
      y="0"
      x="0">*</tspan></text>
+
 
 
 
@@ -18784,6 +19671,7 @@
 
 
 
+
 <text
    id="text8036"
    style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18791,6 +19679,7 @@
      id="tspan8034"
      y="0"
      x="0">*</tspan></text>
+
 
 
 
@@ -18804,6 +19693,7 @@
 
 
 
+
 <text
    id="text8044"
    style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18811,6 +19701,7 @@
      id="tspan8042"
      y="0"
      x="0">*</tspan></text>
+
 
 
 
@@ -18824,6 +19715,7 @@
 
 
 
+
 <text
    id="text8052"
    style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18831,6 +19723,7 @@
      id="tspan8050"
      y="0"
      x="0">*</tspan></text>
+
 
 
 
@@ -18844,6 +19737,7 @@
 
 
 
+
 <text
    id="text8060"
    style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18851,6 +19745,7 @@
      id="tspan8058"
      y="0"
      x="0">*</tspan></text>
+
 
 
 
@@ -18864,6 +19759,7 @@
 
 
 
+
 <text
    id="text8068"
    style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18874,6 +19770,7 @@
 
 
 
+
 <text
    id="text8072"
    style="font-variant:normal;font-weight:normal;font-size:20px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18881,6 +19778,7 @@
      id="tspan8070"
      y="0"
      x="0">*</tspan></text>
+
 
 
 
@@ -18921,6 +19819,7 @@
 
 
 
+
 <text
    id="text8380"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18929,6 +19828,7 @@
      sodipodi:role="line"
      y="0"
      x="0">50</tspan></text>
+
 
 
 
@@ -18943,6 +19843,7 @@
 
 
 
+
 <text
    id="text8388"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -18951,6 +19852,7 @@
      sodipodi:role="line"
      y="0"
      x="0">70</tspan></text>
+
 
 
 
@@ -18965,6 +19867,7 @@
 
 
 
+
 </g><g
      id="g8406"><text
    id="text8410"
@@ -18974,6 +19877,7 @@
      sodipodi:role="line"
      y="0"
      x="0">Alignment position (amino acid)</tspan></text>
+
 
 
 
@@ -22408,6 +23312,7 @@
      id="tspan3048">−6 kb</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,169.84,11.69)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -22416,6 +23321,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan3052">−5 kb</tspan></text>
+
 
 
 <text
@@ -22428,6 +23334,7 @@
      id="tspan3056">−4 kb</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,220.57,11.69)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -22436,6 +23343,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan3060">−3 kb</tspan></text>
+
 
 
 <text
@@ -22448,6 +23356,7 @@
      id="tspan3064">−2 kb</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,271.3,11.69)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -22456,6 +23365,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan3068">−1 kb</tspan></text>
+
 
 
 <text
@@ -22468,6 +23378,7 @@
      id="tspan3072">0 kb</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,324.95,11.69)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -22476,6 +23387,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan3076">1 kb</tspan></text>
+
 
 
 <text
@@ -22488,6 +23400,7 @@
      id="tspan3080">2 kb</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,375.67,11.69)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -22496,6 +23409,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan3084">3 kb</tspan></text>
+
 
 
 <text
@@ -22508,6 +23422,7 @@
      id="tspan3088">4 kb</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,426.4,11.69)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -22518,6 +23433,7 @@
      id="tspan3092">5 kb</tspan></text>
 
 
+
 <text
    transform="matrix(1,0,0,-1,451.77,34.59)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -22526,6 +23442,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan3096">6 kb</tspan></text>
+
 
 
 </g></g><g
@@ -22559,6 +23476,7 @@
    style="font-style:italic">Chl. ferrooxidans</tspan> KoFox</tspan></text>
 
 
+
 </g><g
      transform="translate(324.78713,327.82745)"
      id="g988-0"><text
@@ -22572,6 +23490,7 @@
      sodipodi:role="line"><tspan
    id="tspan4013"
    style="font-style:italic">Chl. phaeoferrooxidans</tspan> KB01</tspan></text>
+
 
 
 </g><g
@@ -22589,6 +23508,7 @@
    style="font-style:italic">Chl. luteolum</tspan> DSM 273</tspan></text>
 
 
+
 </g><g
      transform="translate(391.18276,340.38621)"
      id="g1526-6"><text
@@ -22600,6 +23520,7 @@
      x="0"
      id="tspan1528-1"
      sodipodi:role="line">L227 2013 bin 56</tspan></text>
+
 
 
 </g><g
@@ -22615,6 +23536,7 @@
      sodipodi:role="line">L227 2014 bin 92*</tspan></text>
 
 
+
 </g><g
      transform="translate(342.90803,392.41469)"
      id="g2048-6"><text
@@ -22626,6 +23548,7 @@
      x="0"
      id="tspan2050-1"
      sodipodi:role="line">L227 enrichment S-6D</tspan></text>
+
 
 
 </g><g
@@ -22645,6 +23568,7 @@
    id="tspan6959">Ca.</tspan> Chl. canadensis L304-6D</tspan></text>
 
 
+
 </g><g
      transform="translate(419.92229,353.88668)"
      id="g1262-4-8"><text
@@ -22658,6 +23582,7 @@
      sodipodi:role="line"><tspan
    id="tspan4009"
    style="font-style:italic">Chl.</tspan> sp. N1</tspan></text>
+
 
 
 </g></g><rect
@@ -22699,6 +23624,7 @@
    id="tspan3170">cyc2</tspan> homologue</tspan></text>
 
 
+
 <text
    transform="scale(1,-1)"
    id="text3716-8"
@@ -22711,6 +23637,7 @@
      x="9.5202255"
      id="tspan3714-0"
      sodipodi:role="line">Cyt. c5 family</tspan></text>
+
 
 
 </g><g
@@ -22743,6 +23670,7 @@
      sodipodi:role="line">Other (annotated)</tspan></text>
 
 
+
 <text
    transform="scale(1,-1)"
    id="text3716-0"
@@ -22755,6 +23683,7 @@
      x="9.5202255"
      id="tspan3714-5"
      sodipodi:role="line">Other (hypothetical)</tspan></text>
+
 
 
 </g><g
@@ -22811,6 +23740,7 @@
      style="font-size:10px;stroke-width:0.75">End of contig</tspan></text>
 
 
+
 <text
    transform="scale(1,-1)"
    xml:space="preserve"
@@ -22823,6 +23753,7 @@
      x="401.427"
      y="23.890152"
      style="font-size:10px;stroke-width:0.75">Ongoing contig</tspan></text>
+
 
 
 </g><g
@@ -22855,6 +23786,7 @@
      sodipodi:role="line">Other shared gene</tspan></text>
 
 
+
 <text
    transform="scale(1,-1)"
    id="text3716-8-1"
@@ -22871,6 +23803,7 @@
    id="tspan3208">Chlorobia</tspan> gene</tspan></text>
 
 
+
 </g><text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -22883,6 +23816,7 @@
      x="601.85089"
      y="-497.7843"
      style="font-style:italic;font-size:5px;stroke-width:0.75">trpB</tspan></text>
+
 
 
 <text
@@ -22899,6 +23833,7 @@
      sodipodi:role="line">SAM-</tspan></text>
 
 
+
 <text
    id="text3072-2"
    y="-498.07336"
@@ -22911,6 +23846,7 @@
      x="718.00244"
      id="tspan3070-8"
      sodipodi:role="line">depend.</tspan></text>
+
 
 
 <text
@@ -22927,6 +23863,7 @@
      sodipodi:role="line">_MTases</tspan></text>
 
 
+
 <text
    transform="matrix(0,-1,-1,0,0,0)"
    id="text2276"
@@ -22939,6 +23876,7 @@
      x="-772.25342"
      id="tspan2274"
      sodipodi:role="line">rpsF</tspan></text>
+
 
 
 <text
@@ -22955,6 +23893,7 @@
      sodipodi:role="line">rpsR</tspan></text>
 
 
+
 <text
    transform="matrix(0,-1,-1,0,0,0)"
    id="text2298"
@@ -22967,6 +23906,7 @@
      x="-770.84595"
      id="tspan2296"
      sodipodi:role="line">rplI</tspan></text>
+
 
 
 <text
@@ -22983,6 +23923,7 @@
      sodipodi:role="line">ssDNA</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -22995,6 +23936,7 @@
      y="-768.4707"
      style="font-style:italic;font-size:5px;stroke-width:0.75"
      id="tspan2352">Glyco_</tspan></text>
+
 
 
 <text
@@ -23011,6 +23953,7 @@
      style="font-style:italic;font-size:5px;stroke-width:0.75">trans_9</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -23023,6 +23966,7 @@
      x="-770.77557"
      y="-600.62885"
      style="font-style:italic;font-size:5px;stroke-width:0.75">-bd</tspan></text>
+
 
 
 <text
@@ -23039,6 +23983,7 @@
      sodipodi:role="line">Acyl_</tspan></text>
 
 
+
 <text
    id="text2268-3"
    y="-773.80603"
@@ -23051,6 +23996,7 @@
      x="516.74414"
      id="tspan2266-1"
      sodipodi:role="line">CoA_</tspan></text>
+
 
 
 <text
@@ -23067,6 +24013,7 @@
      sodipodi:role="line">thio</tspan></text>
 
 
+
 <text
    transform="matrix(0,-1,-1,0,0,0)"
    id="text2276-6"
@@ -23079,6 +24026,7 @@
      x="-734.25616"
      id="tspan2274-2"
      sodipodi:role="line">rpsF</tspan></text>
+
 
 
 <text
@@ -23095,6 +24043,7 @@
      sodipodi:role="line">rpsR</tspan></text>
 
 
+
 <text
    transform="matrix(0,-1,-1,0,0,0)"
    id="text2298-8"
@@ -23107,6 +24056,7 @@
      x="-732.84869"
      id="tspan2296-5"
      sodipodi:role="line">rplI</tspan></text>
+
 
 
 <text
@@ -23123,6 +24073,7 @@
      sodipodi:role="line">ssDNA</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -23135,6 +24086,7 @@
      y="-730.47351"
      style="font-style:italic;font-size:5px;stroke-width:0.75"
      id="tspan2352-5">glyco_</tspan></text>
+
 
 
 <text
@@ -23151,6 +24103,7 @@
      style="font-style:italic;font-size:5px;stroke-width:0.75">trans_9</tspan></text>
 
 
+
 <text
    id="text2276-6-5"
    y="-744.83496"
@@ -23163,6 +24116,7 @@
      x="704.42377"
      id="tspan2274-2-3"
      sodipodi:role="line">tlpA_fam</tspan></text>
+
 
 
 <text
@@ -23179,6 +24133,7 @@
      sodipodi:role="line">rplT</tspan></text>
 
 
+
 <text
    id="text2298-8-3"
    y="-744.36237"
@@ -23191,6 +24146,7 @@
      x="821.60956"
      id="tspan2296-5-1"
      sodipodi:role="line">rpmI</tspan></text>
+
 
 
 <text
@@ -23207,6 +24163,7 @@
      sodipodi:role="line">_small</tspan></text>
 
 
+
 <text
    id="text2572-3"
    y="-653.04449"
@@ -23219,6 +24176,7 @@
      x="551.97968"
      id="tspan2570-8"
      sodipodi:role="line">NiFe-Hase</tspan></text>
+
 
 
 <text
@@ -23235,6 +24193,7 @@
      id="tspan2352-5-48">cstA</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -23247,6 +24206,7 @@
      y="-792.927"
      style="font-style:italic;font-size:5px;stroke-width:0.75"
      id="tspan2352-5-97">queD</tspan></text>
+
 
 
 <text
@@ -23263,6 +24223,7 @@
      sodipodi:role="line">Cation_</tspan></text>
 
 
+
 <text
    id="text2641-7"
    y="-647.38135"
@@ -23275,6 +24236,7 @@
      y="-647.38135"
      x="763.62695"
      sodipodi:role="line">efflux</tspan></text>
+
 
 
 <text
@@ -23291,6 +24253,7 @@
      sodipodi:role="line">alpha_</tspan></text>
 
 
+
 <text
    id="text2272-8-6"
    y="-729.24622"
@@ -23303,6 +24266,7 @@
      y="-729.24622"
      x="794.05988"
      sodipodi:role="line">ligase_</tspan></text>
+
 
 
 <text
@@ -23319,6 +24283,7 @@
      sodipodi:role="line">Phe_tRNA</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -23331,6 +24296,7 @@
      y="-721.76251"
      style="font-style:italic;font-size:4px;stroke-width:0.75"
      id="tspan2352-5-9-3">bac/arc</tspan></text>
+
 
 
 <text
@@ -23347,6 +24313,7 @@
      id="tspan2643-3">Cation_</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -23359,6 +24326,7 @@
      y="-571.41748"
      style="font-style:italic;font-size:5px;stroke-width:0.75"
      id="tspan2643-6-9">efflux</tspan></text>
+
 
 
 <text
@@ -23375,6 +24343,7 @@
      style="font-style:italic;font-size:5px;stroke-width:0.75">rsmE</tspan></text>
 
 
+
 <text
    transform="matrix(0,-1,-1,0,0,0)"
    id="text2836"
@@ -23387,6 +24356,7 @@
      x="-621.12396"
      id="tspan2834"
      sodipodi:role="line">comF</tspan></text>
+
 
 
 <text
@@ -23403,6 +24373,7 @@
      sodipodi:role="line">_fam</tspan></text>
 
 
+
 <text
    id="text2844"
    y="-615.57501"
@@ -23415,6 +24386,7 @@
      x="583.51404"
      id="tspan2842"
      sodipodi:role="line">perM_</tspan></text>
+
 
 
 <text
@@ -23431,6 +24403,7 @@
      sodipodi:role="line">putative</tspan></text>
 
 
+
 <text
    id="text2848"
    y="-633.29974"
@@ -23443,6 +24416,7 @@
      x="622.7832"
      id="tspan2846"
      sodipodi:role="line">NDK-</tspan></text>
+
 
 
 <text
@@ -23459,6 +24433,7 @@
      sodipodi:role="line">like_</tspan></text>
 
 
+
 <text
    id="text2848-9"
    y="-624.5069"
@@ -23471,6 +24446,7 @@
      x="622.68799"
      id="tspan2846-2"
      sodipodi:role="line">dom</tspan></text>
+
 
 
 <text
@@ -23487,6 +24463,7 @@
      sodipodi:role="line">cztS_silS</tspan></text>
 
 
+
 <text
    id="text2852-2"
    y="-610.04443"
@@ -23499,6 +24476,7 @@
      x="710.09497"
      id="tspan2850-4"
      sodipodi:role="line">_copS</tspan></text>
+
 
 
 <text
@@ -23515,6 +24493,7 @@
      sodipodi:role="line">tlpA_fam</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -23529,6 +24508,7 @@
      style="font-style:italic;font-size:5px;stroke-width:0.75">SWM_rpt</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -23541,6 +24521,7 @@
      y="-534.2309"
      style="font-style:italic;font-size:5px;stroke-width:0.75"
      id="tspan3022">*Comamona-</tspan></text>
+
 
 
 <text
@@ -23559,6 +24540,7 @@
    id="tspan3030">(52%)</tspan></tspan></text>
 
 
+
 <text
    id="text3034"
    y="-538.3078"
@@ -23571,6 +24553,7 @@
      x="819.81946"
      id="tspan3032"
      sodipodi:role="line">apbE_</tspan></text>
+
 
 
 <text
@@ -23587,6 +24570,7 @@
      sodipodi:role="line">fam</tspan></text>
 
 
+
 <text
    id="text2742"
    y="-591.66064"
@@ -23599,6 +24583,7 @@
      x="610.03955"
      id="tspan2740"
      sodipodi:role="line">IS630_</tspan></text>
+
 
 
 <text
@@ -23615,6 +24600,7 @@
      sodipodi:role="line">transposase</tspan></text>
 
 
+
 <text
    id="text2797"
    y="-595.50171"
@@ -23627,6 +24613,7 @@
      x="723.27258"
      id="tspan2795"
      sodipodi:role="line">phosphatase</tspan></text>
+
 
 
 <text
@@ -23643,6 +24630,7 @@
      sodipodi:role="line">_PAP2_fam</tspan></text>
 
 
+
 <text
    id="text2572-3-3"
    y="-691.82855"
@@ -23655,6 +24643,7 @@
      x="548.12421"
      id="tspan2570-8-7"
      sodipodi:role="line">DHQ_</tspan></text>
+
 
 
 <text
@@ -23671,6 +24660,7 @@
      sodipodi:role="line">synth</tspan></text>
 
 
+
 <text
    transform="matrix(0,-1,-1,0,0,0)"
    id="text2276-6-6"
@@ -23683,6 +24673,7 @@
      x="-696.0282"
      id="tspan2274-2-0"
      sodipodi:role="line">aroK</tspan></text>
+
 
 
 <text
@@ -23699,6 +24690,7 @@
      id="tspan2352-5-48-1">rimO</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -23711,6 +24703,7 @@
      y="-689.77356"
      style="font-style:italic;font-size:5px;stroke-width:0.75"
      id="tspan2352-5-48-7">tgt</tspan></text>
+
 
 
 <text
@@ -23727,6 +24720,7 @@
      id="tspan5111">Transglutaminase</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -23739,6 +24733,7 @@
      y="-701.06323"
      style="font-style:italic;font-size:5px;stroke-width:0.75"
      id="tspan5111-2">-like</tspan></text>
+
 
 
 <text
@@ -23755,6 +24750,7 @@
      id="tspan5111-7">CP_ATP-</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -23767,6 +24763,7 @@
      y="-686.88312"
      style="font-style:italic;font-size:5px;stroke-width:0.75"
      id="tspan5111-3">grasp_2</tspan></text>
+
 
 
 <text
@@ -23783,6 +24780,7 @@
      id="tspan5111-7-2">Epimerase_</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -23795,6 +24793,7 @@
      y="-697.29327"
      style="font-style:italic;font-size:5px;stroke-width:0.75"
      id="tspan5111-7-3">deHydtase</tspan></text>
+
 
 
 <text
@@ -23811,6 +24810,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:1.25;font-family:sans-serif, Arial;-inkscape-font-specification:'sans-serif, Arial';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">B</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -23823,6 +24823,7 @@
      x="60.870789"
      y="-366.45795"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:sans-serif, Arial;-inkscape-font-specification:'sans-serif, Arial';stroke-width:0.75">C</tspan></text>
+
 
 
 <path
@@ -23844,6 +24845,7 @@
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;font-family:sans-serif, Arial;-inkscape-font-specification:'sans-serif, Arial';fill:#000000;fill-opacity:1;stroke-width:0.75">CXXCH</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:1.25;font-family:sans-serif, Arial;-inkscape-font-specification:'sans-serif, Arial';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -23856,6 +24858,7 @@
      x="62.408875"
      y="-754.52386"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:1.25;font-family:sans-serif, Arial;-inkscape-font-specification:'sans-serif, Arial';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">A</tspan></text>
+
 
 
 </g></svg>
