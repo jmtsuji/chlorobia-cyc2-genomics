@@ -1,0 +1,40 @@
+Warning message:
+As of rlang 0.4.0, dplyr must be at least version 0.8.0.
+✖ dplyr 0.7.6 is too old for rlang 0.4.2.
+ℹ Please update dplyr with `install.packages("dplyr")`. 
+INFO [2019-12-14 23:01:15] Running BackBLAST_generate_heatmap.R
+INFO [2019-12-14 23:01:15] ######### Settings #########
+INFO [2019-12-14 23:01:15] Input phylogenetic tree filepath (ignored if 'NA'): /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/03_chlorobia_phylogeny/phylogeny/summary/Universal_Hug_et_al_phylogeny.treefile
+INFO [2019-12-14 23:01:15] Input BLAST table filepath: 02_combined/blast_tables_combined.csv
+INFO [2019-12-14 23:01:15] Output PDF filepath: 02_combined/BackBLAST_heatmap_combined.pdf
+INFO [2019-12-14 23:01:15] Bootstrap display cutoff (%; ignored if 'NA'): NA
+INFO [2019-12-14 23:01:15] Root name (ignored if 'NA'): Ignavibacterium_album_JCM_16511_outgroup
+INFO [2019-12-14 23:01:15] Input genome metadata filepath (ignored if 'NA'): genome_metadata_vs2.tsv
+INFO [2019-12-14 23:01:15] Input gene metadata filepath (ignored if 'NA'): gene_metadata_vs1.tsv
+INFO [2019-12-14 23:01:15] Plot width (mm): 400
+INFO [2019-12-14 23:01:15] Plot height (mm): 130
+INFO [2019-12-14 23:01:15] ############################
+INFO [2019-12-14 23:01:15] Reading input phylogenetic tree
+INFO [2019-12-14 23:01:15] Re-rooting tree to 'Ignavibacterium_album_JCM_16511_outgroup'
+INFO [2019-12-14 23:01:15] Generating ggtree plot
+INFO [2019-12-14 23:01:15] Loading the BLAST table
+INFO [2019-12-14 23:01:15] Overlaying genome naming and ordering onto the BLAST table
+INFO [2019-12-14 23:01:15] Loading genome metadata
+INFO [2019-12-14 23:01:15] Overlaying gene naming and ordering onto the BLAST table
+INFO [2019-12-14 23:01:16] Plotting BLAST heatmap
+INFO [2019-12-14 23:01:16] Combining the ggtree and the heatmap
+INFO [2019-12-14 23:01:16] Saving to PDF
+INFO [2019-12-14 23:01:16] BackBLAST_generate_heatmap.R: done.
+Warning messages:
+1: `chr_along()` is deprecated as of rlang 0.2.0.
+This warning is displayed once per session. 
+2: Duplicated aesthetics after name standardisation: size 
+3: `lang()` is deprecated as of rlang 0.2.0.
+Please use `call2()` instead.
+This warning is displayed once per session. 
+4: `new_overscope()` is deprecated as of rlang 0.2.0.
+Please use `new_data_mask()` instead.
+This warning is displayed once per session. 
+5: `overscope_eval_next()` is deprecated as of rlang 0.2.0.
+Please use `eval_tidy()` with a data mask instead.
+This warning is displayed once per session. 

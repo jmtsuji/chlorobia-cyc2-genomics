@@ -1,0 +1,41 @@
+Warning messages:
+1: package ‘getopt’ was built under R version 3.5.2 
+2: package ‘glue’ was built under R version 3.5.2 
+3: package ‘dplyr’ was built under R version 3.5.2 
+4: package ‘ggplot2’ was built under R version 3.5.2 
+Running 96_well_spec_analysis.R, version: v0.3-dev
+
+Plate data filename: 191212_measurement/191212_Chl1_photoferrotrophy_t8_t9_final.txt 
+Metadata filename: 191212_measurement/191212_Chl1_photoferrotrophy_t8_t9_final_metadata_vs2.tsv 
+Pre-parsed plate data filename: NOT APPLICABLE 
+Prefix for output files: 191212_measurement/analyzed/191212_FeZ 
+Force standard curves through zero?: TRUE 
+
+Parsing plate data...
+File 191212_measurement/191212_Chl1_photoferrotrophy_t8_t9_final.txt: found 2 plates' worth of plate data.
+Calculating concentrations...
+Detected  2  blanking groups.
+One set of standards detected in entire input file.
+Summarizing output...
+Printing summary files...
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.poi.util.SAXHelper (file:/Users/JTsuji/.R_libs/xlsxjars/java/poi-ooxml-3.10.1-20140818.jar) to method com.sun.org.apache.xerces.internal.util.SecurityManager.setEntityExpansionLimit(int)
+WARNING: Please consider reporting this to the maintainers of org.apache.poi.util.SAXHelper
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+$`1`
+
+$`1`
+
+$`1`
+
+$`2`
+
+
+96_well_spec_analysis.R: finished.
+
+Warning messages:
+1: In summarize_blanks(plate_table) :
+  Plate 1: Fe2: standard deviation is > 10% of mean of replicate blanks. Data could be fishy...Plate 2: Fe2: standard deviation is > 10% of mean of replicate blanks. Data could be fishy...
+2: In summarize_blanks(plate_table) :
+  Plate 1: FeTot: standard deviation is > 10% of mean of replicate blanks. Data could be fishy...Plate 2: FeTot: standard deviation is > 10% of mean of replicate blanks. Data could be fishy...

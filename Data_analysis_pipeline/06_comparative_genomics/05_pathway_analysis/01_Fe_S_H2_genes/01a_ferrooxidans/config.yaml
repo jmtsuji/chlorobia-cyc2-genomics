@@ -1,0 +1,82 @@
+# Config file for running the BackBLAST pipeline
+
+## Execution settings
+# Total threads to be used for all processes
+threads: 1
+
+
+## Phylogenetic tree
+# Path to the phylogenetic tree file (newick format) corresponding to the subject genomes
+  # Subject names in the tree must match subject names provided under 'subjects' below
+  # OR specify 'subjects' to auto-generate a phylogenetic tree using the subject genomes via GToTree (see GToTree params below)
+  # OR specify 'NA' to skip tree generation and plot the heatmap only
+phylogenetic_tree_newick: 'subjects'
+# Optional: set the cutoff for displayed bootstrap values. Anything greater than to equal to the cutoff will be shown.
+bootstrap_cutoff: NA
+# Optional: if you want to re-root your tree, then give the exact name of the tip you want to re-root by. Otherwise, 'NA'.
+root_name: 'NA'
+
+
+## Options for GToTree, if you want to generate the phylogenetic tree within the BackBLAST pipeline
+## For these options to be used, set 'phylogenetic_tree_newick' above to 'subjects'
+# Gene marker set to use for making the tree
+gtotree_phylogenetic_model: "Universal_Hug_et_al.hmm"
+# Keeps gene hits within this proportional threshold of the median sequence length
+gtotree_sequence_length_threshold: 0.2
+# Keeps genomes with this proportion of hits from the gene marker set
+gtotree_minimum_hit_fraction: 0.5
+
+
+## Plot settings
+# Optional: Tab-separated file containing the 'subject_name' of each plotted genome, plus the 'plotting_name' that you desire to appear
+  # on the final plot.
+  # See ExampleData/Example_configs/genome_naming.tsv
+genome_metadata_tsv: NA
+# Optional: Tab-separated file containing the accession of each query gene and its corresponding gene name.
+  # Should have two columns: 'qseqid' with the accession and 'gene_name' with the corresponding gene name.
+  # Genes will be plotted in the order specified in this TSV file.
+  # See ExampleData/Example_configs/gene_naming.tsv
+gene_metadata_tsv: NA
+plot_width_mm: 400
+plot_height_mm: 200
+
+
+## BLAST settings
+# Only hits with an e-value below this number will be kept
+e_value_cutoff: 1e-40
+# Only hits with percent amino acid identity above this number will be kept
+minimum_percent_identity: 20
+
+
+## BLAST input files
+# Query files
+  # query_genes contains the genes you want to do a reciprocal BLAST search with.
+  # query_genome_orfs contains all predicted ORFs from the query genome (for reciprocal BLAST purposes)
+query_genes: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/02_queries/Chl_ferrooxidans_KoFox_gene_targets.faa'
+query_genome_orfs: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Chl_ferrooxidans_KoFox.faa'
+
+# Subject files for BLAST (the name you specify will be plotted).
+  # These should be ORF predictions from the genomes of the organisms of interest.
+  # If you want to plot the query genome as well, then include it here.
+subjects:
+  Cba_parvum_NCIB_8327: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Cba_parvum_NCIB_8327.faa'
+  Che_thalassium_ATCC_35110: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Che_thalassium_ATCC_35110.faa'
+  Chl_chlorochromatii_CaD3: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Chl_chlorochromatii_CaD3.faa'
+  Chl_clathratiforme_BU_1: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Chl_clathratiforme_BU_1.faa'
+  Chl_ferrooxidans_KoFox: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Chl_ferrooxidans_KoFox.faa'
+  Chl_limicola_DSM_245: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Chl_limicola_DSM_245.faa'
+  Chl_luteolum_DSM_273: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Chl_luteolum_DSM_273.faa'
+  Chl_phaeobacteroides_BS1: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Chl_phaeobacteroides_BS1.faa'
+  Chl_phaeobacteroides_DSM_266: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Chl_phaeobacteroides_DSM_266.faa'
+  Chl_phaeoferrooxidans_KB01: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Chl_phaeoferrooxidans_KB01.faa'
+  Chl_phaeovibrioides_DSM_265: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Chl_phaeovibrioides_DSM_265.faa'
+  Chl_sp_N1: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Chl_sp_N1.faa'
+  Chl_tepidum_TLS: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Chl_tepidum_TLS.faa'
+  Ignavibacterium_album_JCM_16511_outgroup: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Ignavibacterium_album_JCM_16511_outgroup.faa'
+  L227_2013_bin22: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/L227_2013_bin22.faa'
+  L227_2013_bin55: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/L227_2013_bin55.faa'
+  L227_2013_bin56: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/L227_2013_bin56.faa'
+  L227_enr_S_6D_bin01: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/L227_enr_S_6D_bin01.faa'
+  L304_enr_S_6D_bin01: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/L304_enr_S_6D_bin01.faa'
+  L442_2011_2014_bin64: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/L442_2011_2014_bin64.faa'
+  Ptc_aestuarii_DSM_271: '/Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/01_genomes/Ptc_aestuarii_DSM_271.faa'

@@ -1,0 +1,6 @@
+[ 2019-12-16 07:00:59,220 UTC ]: DEBUG: BackBLAST_create_blank_results: Running BackBLAST_create_blank_results.py
+[ 2019-12-16 07:00:59,220 UTC ]: DEBUG: BackBLAST_create_blank_results: Settings: Input BLAST CSV table: blast/intermediate/remove_duplicates/L227_2013_bin55.csv
+[ 2019-12-16 07:00:59,220 UTC ]: DEBUG: BackBLAST_create_blank_results: Settings: Query protein FastA file: /Analysis/jmtsuji/Hippodrome_legacy/180123_ELA111314_atlas_r1.0.22_plus_full/post-analysis/16_190513_re_analysis_with_Chl_N1/chlorobia-cyc2-genomics/Data_analysis_pipeline/06_comparative_genomics/05c_pathway_analysis_vs2/02_queries/Chl_ferrooxidans_KoFox_gene_targets.faa
+[ 2019-12-16 07:00:59,220 UTC ]: DEBUG: BackBLAST_create_blank_results: Settings: Output BLAST CSV table: blast/intermediate/fix_blank_results/L227_2013_bin55.csv
+[ 2019-12-16 07:00:59,220 UTC ]: DEBUG: BackBLAST_create_blank_results: Provided BLAST file has content - no need to replace. Copying to output file.
+[ 2019-12-16 07:00:59,221 UTC ]: DEBUG: BackBLAST_create_blank_results: Done

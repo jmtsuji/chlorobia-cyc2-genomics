@@ -239,10 +239,10 @@ phylogeny_builder_whole_genome.sh -@ ${threads} -b ${bootstrap_replicates} \
     ${genome_dir} ${output_dir} 2>&1 | tee ${log_name}
 
 ```
-The output file `*.treefile` can now be used in generating Figure 2 and Supplementary Figure S1.
+The output file `*.treefile` can now be used in generating Figure 2, Supplementary Figure 1, and Supplementary Figure S3.
 
 ## Make subsetted *cyc2* and riboprotein phylogenies for phylogenetic comparison
-This is for Supplementary Figure 3. Subsetting to shared entries between the two sequence sets and then re-aligning and making trees. Procedure is basically the same as above with fewer sequences.
+This is for Supplementary Figure 4. Subsetting to shared entries between the two sequence sets and then re-aligning and making trees. Procedure is basically the same as above with fewer sequences.
 
 Working in `04_subset_phylogenies`
 
@@ -336,36 +336,41 @@ phylogeny_builder_whole_genome.sh -@ ${threads} -b ${bootstrap_replicates} \
     ${genome_dir} ${output_dir} 2>&1 | tee ${log_name}
 ```
 
-Now, the tree files output by these two analyses can be cross-compared -- see the Supplementary Figure 3 folder.
+Now, the tree files output by these two analyses can be cross-compared -- see the Supplementary Figure 4 folder.
 
 ## *Chlorobia* gene pathway analysis
-Used for the Figure 2 heatmap
+Made two separate gene heatmaps -- one showing Fe/S/H2 metabolic potential (Fig. 2), and the other showing photosynthesis/C fixation metabolic potential (Fig. S3). Both gene heatmaps were made following a reciprocal BLASTP approach using the BackBLAST pipeline.
 
-Installed BackBLAST development commit `cdaddc4`
-```
-work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/05_pathway_analysis"
+Before starting, installed BackBLAST, version 2.0.0-alpha2
+```bash
+base_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/05_pathway_analysis"
+work_dir="${base_dir}/03_backblast"
 
 mkdir -p ${work_dir}
 cd ${work_dir}
 
-# First installed the dependencies via conda
-conda create -y -n backblast_core -c bioconda python=2.7 biopython=1.72 blast=2.6.0
-
-# Then got the script from the repo
+# Download the repo at the desired version tag
 git clone https://github.com/LeeBergstrand/BackBLAST_Reciprocal_BLAST.git
 cd BackBLAST_Reciprocal_BLAST
-git checkout cdaddc4
-chmod 755 BackBLAST.py
-cd ..
-# Script can now be run locally via BackBLAST_Reciprocal_BLAST/BackBLAST.py
-```
-Run via `conda activate backblast_core`
+git checkout v2.0.0-alpha2
 
-Collected input .faa files
+# Install dependencies
+conda env create --name backblast_2.0.0-alpha2 --file="envs/conda_requirements.yaml"
+
+# Activate
+conda activate backblast_2.0.0-alpha2
+
+# Add the repo scripts to your PATH temporarily in the current Bash session
+# NOTE: you MUST run BackBLAST in the same Bash session where you did this install. Otherwise, install globally for your user.
+PATH=${PATH}:${PWD}:${PWD}/scripts
+```
+Run via `conda activate backblast_2.0.0-alpha2`
+
+Also collected input .faa files for both heatmaps
 ```
 work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/05_pathway_analysis"
 source_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/01_Chlorobia_genomes"
-genome_dir="${work_dir}/01_genomes"
+genome_dir="${work_dir}/subject_genomes"
 
 mkdir -p ${genome_dir}
 cd ${work_dir}
@@ -384,86 +389,133 @@ for faa_file in ${faa_files[@]}; do
 done
 ```
 
-The manually determined query sequences are already available in this repo in the folder `02_queries`:
-- `Chl_ferrooxidans_KoFox_gene_targets`: query genes selected from `Chl_ferrooxidans_KoFox.faa`
+### Part 1: Fe/S/H2 metabolism genes
+Used for the Figure 2 heatmap. In subfolder `01_Fe_S_H2_genes`
+
+Manually determined query sequences are already available in this repo in the folder `queries`:
+- `Chl_ferrooxidans_KoFox_gene_targets.faa`: query genes selected from `Chl_ferrooxidans_KoFox.faa`
 - `Chl_clathratiforme_BU_1_gene_targets.faa`: query genes selected from `Chl_clathratiforme_BU_1_gene_targets.faa`
 
-Ran the core BackBLAST module against all inputs
+Ran BackBLAST for both query sets, then combined the results:
 ```bash
-work_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/05_pathway_analysis"
-genome_dir="${work_dir}/01_genomes"
-query_dir="${work_dir}/02_queries"
-output_dir="${work_dir}/03_backblast"
-log_name="${work_dir}/backblast.log"
-e_value=1e-40 # maximum e-value allowable
-identity=20 # minimum percent identity of hits
+base_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/05_pathway_analysis"
+work_dir="${base_dir}/01_Fe_S_H2_genes"
+tree_filepath="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/03_chlorobia_phylogeny/summary/Universal_Hug_et_al_phylogeny.treefile"
+query_prefix="${work_dir}/queries"
+subject_dir="${base_dir}/subject_genomes"
+jobs=60
+evalue=1e-40
+pident=20
 
-mkdir -p ${output_dir}/logs
+mkdir -p ${work_dir}
 cd ${work_dir}
-printf "" > ${log_name}
 
-# Find relevant files
-query_files=($(find ${query_dir} -iname "*.faa" | sort -h))
-ORF_files=($(find ${genome_dir} -iname "*.faa" | sort -h))
+# FYI, Make sure you are in the conda env. To activate:
+# conda activate backblast_2.0.0-alpha2
 
-# Run BackBLAST
-echo "[ $(date -u) ]: Running BackBLAST core module" | tee -a ${log_name}
-echo "[ $(date -u) ]: Settings: e value cutoff = '${e_value}'; percent identity cutoff = ${identity}" | tee -a ${log_name}
+# Chl. ferrooxidans
+output_dir="01a_ferrooxidans"
+genome_prefix="Chl_ferrooxidans_KoFox"
+mkdir -p ${output_dir}
+BackBLAST auto -j ${jobs} -e ${evalue} -p ${pident} \
+  ${query_prefix}/${genome_prefix}_gene_targets.faa \
+  ${subject_dir}/${genome_prefix}.faa ${subject_dir} \
+  ${output_dir} --until finished_blast 2>&1 | \
+  tee ${output_dir}/backblast_vs1a.log
 
-for query in ${query_files[@]}; do
-	query_basename=${query##*/}
-	query_basename=${query_basename%.faa}
+# Chl. clathratiforme
+output_dir="01b_clathratiforme"
+genome_prefix="Chl_clathratiforme_BU_1"
+mkdir -p ${output_dir}
+BackBLAST auto -j ${jobs} -e ${evalue} -p ${pident} \
+  ${query_prefix}/${genome_prefix}_gene_targets.faa \
+  ${subject_dir}/${genome_prefix}.faa ${subject_dir} \
+  ${output_dir} --until finished_blast 2>&1 | \
+  tee ${output_dir}/backblast_vs1b.log
 
-	# Get the name of the corresponding whole genome .faa file (HARD-CODED method based on file naming structure)
-	query_genome_basename=${query_basename%_gene_targets}
-	query_genome="${genome_dir}/${query_genome_basename}.faa"
+### Combine blast tables
+output_dir="02_combined"
+mkdir -p ${output_dir}
+cp 01a_ferrooxidans/blast/blast_tables_combined.csv ${output_dir}/blast_tables_combined.csv
+tail -n +2 01b_clathratiforme/blast/blast_tables_combined.csv >> ${output_dir}/blast_tables_combined.csv
 
-	echo "[ $(date -u) ]: Searching for '${query_basename}' among the subjects. Using '${query_genome_basename}' as the reference predicted proteome." | tee -a ${log_name}
-
-	for subject in ${ORF_files[@]}; do
-		subject_basename=${subject##*/}
-		subject_basename=${subject_basename%.faa}
-
-		output_filename="${output_dir}/${query_genome_basename}__to__${subject_basename}.csv"
-		output_logname="${output_dir}/logs/${query_genome_basename}__to__${subject_basename}.log"
-
-		echo "[ $(date -u) ]: 'BackBLAST.py -q ${query##*/} -r ${query_genome##*/} -s ${subject##*/} -e ${e_value} -i ${identity} -o ${output_filename##*/} 2>&1 | tee ${output_logname##*/}'" | tee -a ${log_name}
-
-		${work_dir}/BackBLAST_Reciprocal_BLAST/BackBLAST.py -q ${query} -r ${query_genome} -s ${subject} -e ${e_value} \
-		    -i ${identity} -o ${output_filename} 2>&1 | tee ${output_logname}
-
-	done
-done
-echo "[ $(date -u) ]: Finished." | tee -a ${log_name}
-rm tempQuery.faa
+### Make final viz
+# Metadata files are already provided in the Github repo in this folder
+BackBLAST_generate_heatmap.R \
+  -m genome_metadata.tsv \
+  -g gene_metadata.tsv \
+  -r "Ignavibacterium_album_JCM_16511_outgroup" \
+  -w 400 -z 120 \
+  ${tree_filepath} \
+  ${output_dir}/blast_tables_combined.csv \
+  ${output_dir}/BackBLAST_heatmap_combined.pdf 2>&1 | \
+  tee ${output_dir}/generate_backblast_heatmap.log
 ```
+The `BackBLAST_heatmap_combined.pdf` output file in the `02_combined` folder is the raw version of Figure 2 -- see the Figure 2 folder.
 
-Replaced *C. ferro* and *C. clathratiforme* with one-way BLAST due to issue with BackBLAST when BLAST'ing to self
-When comparing a query to its own genome, BackBLAST currently seems to omit hits to the original gene -- maybe because of how the graph is constructed. This means that special measures are needed to compare a genome to itself. Should be pretty rudimentary; all hits should return 100% to self. No need to do reciprocal blast if the table looks normal.
+### Part 2: photosynthesis/C fixation genes
+Used for the Supplementary Figure 3 heatmap. In subfolder `02_photosynthesis_C_fixation_genes`
 
-Ran one-way BLAST on both queries to themselves
+Manually determined query sequences are already available in this repo in the folder `queries`:
+- `Chl_tepidum_TLS_gene_targets.faa`: query genes selected from `Chl_tepidum_TLS.faa`
+- `Chl_ferrooxidans_KoFox_gene_targets.faa`: query genes selected from `Chl_ferrooxidans_KoFox.faa`
+
+Ran BackBLAST for both query sets, then combined the results:
 ```bash
-mkdir -p ${output_dir}/unused
+base_dir="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/05_pathway_analysis"
+work_dir="${base_dir}/02_photosynthesis_C_fixation_genes"
+tree_filepath="${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/03_chlorobia_phylogeny/summary/Universal_Hug_et_al_phylogeny.treefile"
+query_prefix="${work_dir}/queries"
+subject_dir="${base_dir}/subject_genomes"
+jobs=60
+evalue=1e-40
+pident=20
 
-query_file=${query_dir}/Chl_ferrooxidans_KoFox_gene_targets.faa
-ORF_file=${genome_dir}/Chl_ferrooxidans_KoFox.faa
-output_filepath="${output_dir}/Chl_ferrooxidans_KoFox__to__Chl_ferrooxidans_KoFox.csv" # same name as the current file; will replace.
-e_value=1e-40
-identity=20 # Not actually needed here, but I kept this so I would remember to set the pident threshold later
+mkdir -p ${work_dir}
+cd ${work_dir}
 
-mv ${output_filepath} ${output_dir}/unused
-blastp -query ${query_file} -subject ${ORF_file} -evalue ${e_value} -outfmt "10 qseqid sseqid pident evalue qcovhsp bitscore" > ${output_filepath}
+# FYI, Make sure you are in the conda env. To activate:
+# conda activate backblast_2.0.0-alpha2
 
-query_file=${query_dir}/Chl_clathratiforme_BU_1_gene_targets.faa
-ORF_file=${genome_dir}/Chl_clathratiforme_BU_1.faa
-output_filepath="${output_dir}/Chl_clathratiforme_BU_1__to__Chl_clathratiforme_BU_1.csv" # same name as the current file; will replace.
-e_value=1e-40
-identity=20 # Not actually needed here, but I kept this so I would remember to set the pident threshold later
+# Chl. tepidum
+output_dir="01a_tepidum"
+genome_prefix="Chl_tepidum_TLS"
+mkdir -p ${output_dir}
+BackBLAST auto -j ${jobs} -e ${evalue} -p ${pident} \
+  ${query_prefix}/${genome_prefix}_gene_targets.faa \
+  ${subject_dir}/${genome_prefix}.faa ${subject_dir} \
+  ${output_dir} --until finished_blast 2>&1 | \
+  tee ${output_dir}/backblast_vs1a.log
 
-mv ${output_filepath} ${output_dir}/unused
-blastp -query ${query_file} -subject ${ORF_file} -evalue ${e_value} -outfmt "10 qseqid sseqid pident evalue qcovhsp bitscore" > ${output_filepath}
+# Chl. ferrooxidans
+output_dir="01b_ferrooxidans"
+genome_prefix="Chl_ferrooxidans_KoFox"
+mkdir -p ${output_dir}
+BackBLAST auto -j ${jobs} -e ${evalue} -p ${pident} \
+  ${query_prefix}/${genome_prefix}_gene_targets.faa \
+  ${subject_dir}/${genome_prefix}.faa ${subject_dir} \
+  ${output_dir} --until finished_blast 2>&1 | \
+  tee ${output_dir}/backblast_vs1b.log
+
+### Combine blast tables
+output_dir="02_combined"
+mkdir -p ${output_dir}
+cp 01a_tepidum/blast/blast_tables_combined.csv ${output_dir}/blast_tables_combined.csv
+tail -n +2 01b_ferrooxidans/blast/blast_tables_combined.csv >> ${output_dir}/blast_tables_combined.csv
+
+### Make final viz
+# **Copy the metadata files into this folder first
+BackBLAST_generate_heatmap.R \
+  -m genome_metadata.tsv \
+  -g gene_metadata.tsv \
+  -r "Ignavibacterium_album_JCM_16511_outgroup" \
+  -w 400 -z 130 \
+  ${tree_filepath} \
+  ${output_dir}/blast_tables_combined.csv \
+  ${output_dir}/BackBLAST_heatmap_combined.pdf 2>&1 | \
+  tee ${output_dir}/generate_backblast_heatmap.log
 ```
-The `.csv` output files in the main folder of `03_backblast` are summarized and combined with the *Chlorobi* phylogenetic tree generated above to produce Figure 2 -- see the Figure 2 folder.
+The `BackBLAST_heatmap_combined.pdf` output file in the `02_combined` folder is the raw version of Supplementary Figure 3 -- see the Figure_S3 folder.
 
 ## ANI calculation for *Chlorobia* genomes
 Used for Supplementary Figure 1
@@ -495,7 +547,7 @@ The output file `Chlorobia_FastANI_results.txt` is used in Supplementary Figure 
 
 
 ## Alignment of cytochrome c5 primary sequences
-The *cyc2* gene in *Chlorobia* appears to consistently be adjacent to a c5 family cytochrome in the genome. I gathered and aligned these sequences to include in Supplementary File 5.
+The *cyc2* gene in *Chlorobia* appears to consistently be adjacent to a c5 family cytochrome in the genome. I gathered and aligned these sequences to include in Supplementary File 6.
 
 Obtained reference sequences manually based on the info in `reference_Chlorobia_c5_protein_info.tsv`. **MANUALLY** added sequences from this study. (Didn't code this - just a quick side analysis. Looked for c5 genes immediately adjacent to the cyc2 genes, as I already knew were there based on Figure 1B.) This resulted in `c5_family_Chlorobia_unaligned.faa`
 
@@ -505,7 +557,7 @@ cd "${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/07_c5
 
 clustalo -i c5_family_Chlorobia_unaligned.faa --full --percent-id --distmat-out=c5_family_Chlorobia_aligned_distmat.txt -o c5_family_Chlorobia_aligned.faa --threads=2 --verbose 2>&1 | tee c5_family_Chlorobia_aligned.log
 ```
-A copy of `c5_family_Chlorobia_aligned.faa` is included in Supplementary File 5.
+A copy of `c5_family_Chlorobia_aligned.faa` is included in Supplementary File 6.
 
 
 ## Obtaining subsets of GFF files around cyc2

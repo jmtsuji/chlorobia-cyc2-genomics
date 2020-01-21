@@ -12,7 +12,7 @@ The `input_files` directory contains the data used to create the plot:
 - `Chlorobia_naming_guide.tsv` - guide file specifying the final name of each genome and the desired order in the final table
 
 ## 2. Creating the table
-Ran `plot/Table_01_generator.R` in interactive mode (e.g., in RStudio) to produce `table/Table_01.tsv`. Note that you'll need to install all libraries loaded at the top of the script. Formatting was cleaned up to make the final Excel version of the table, `table/Table_01.xlsx`.
+Ran `plot/Table_01_generator.R` in interactive mode (e.g., in RStudio) to produce `table/Table_01.tsv`. Note that you'll need to install all libraries loaded at the top of the script. Formatting was cleaned up to make the final Excel version of the table, `table/Table_01.xlsx`. Also note that the name of the Lake 304 enrichment was manually changed to "Ca. Chl. canadensis" due to this enrichment culture later being assigned a name.
 
 See R package versions in `R_session_info.log`. Log was generated after running the above script by:
 ```R

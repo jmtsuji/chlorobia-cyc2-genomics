@@ -1,0 +1,26 @@
+Running 96_well_spec_analysis.R, version: v0.3-dev
+
+Plate data filename: 191122_measurement/191122_Chl1_photoferrotrophy_t3_t4_final.txt 
+Metadata filename: 191122_measurement/191122_Chl1_photoferrotrophy_t3_t4_final_metadata_vs2.tsv 
+Pre-parsed plate data filename: NOT APPLICABLE 
+Prefix for output files: 191122_measurement/analyzed/191122_FeZ 
+Force standard curves through zero?: TRUE 
+
+Parsing plate data...
+File 191122_measurement/191122_Chl1_photoferrotrophy_t3_t4_final.txt: found 2 plates' worth of plate data.
+Calculating concentrations...
+Detected  2  blanking groups.
+One set of standards detected in entire input file.
+Summarizing output...
+Printing summary files...
+$`1`
+
+$`1`
+
+$`1`
+
+$`2`
+
+
+96_well_spec_analysis.R: finished.
+
