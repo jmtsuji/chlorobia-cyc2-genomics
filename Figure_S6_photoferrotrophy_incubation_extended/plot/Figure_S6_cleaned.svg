@@ -16,8 +16,8 @@
    height="505.94577"
    viewBox="0 0 517.93091 505.94577"
    sodipodi:docname="Figure_S6_cleaned.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   inkscape:export-filename="/home/jmtsuji/Research_General/PhD/06 Manuscripts/02_S2018_L227_111314_metagenomes/09_ready_to_resubmit/chlorobia-cyc2-genomics/Figure_S6_photoferrotrophy_incubation_extended/plot/Figure_S6_cleaned.png"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="C:\Users\JTsuji\Downloads\chlorobia-cyc2-genomics\Figure_S6_photoferrotrophy_incubation_extended\plot\Figure_S6_cleaned.png"
    inkscape:export-xdpi="400"
    inkscape:export-ydpi="400"><metadata
      id="metadata16"><rdf:RDF><cc:Work
@@ -448,14 +448,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="3200"
-     inkscape:window-height="1689"
+     inkscape:window-height="1644"
      id="namedview12"
      showgrid="false"
-     inkscape:zoom="1.8196883"
-     inkscape:cx="183.65125"
-     inkscape:cy="308.90979"
-     inkscape:window-x="0"
-     inkscape:window-y="55"
+     inkscape:zoom="2.5734279"
+     inkscape:cx="161.66946"
+     inkscape:cy="299.02354"
+     inkscape:window-x="-16"
+     inkscape:window-y="-16"
      inkscape:window-maximized="1"
      inkscape:current-layer="g18"
      fit-margin-top="0"
@@ -507,6 +507,7 @@
      y="-270.91443"
      id="tspan36">0</tspan></text>
 
+
 <path
    d="M 41.55,304.83393 H 38.8"
    style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
@@ -522,6 +523,7 @@
      sodipodi:role="line"
      id="tspan42">50</tspan></text>
 
+
 <path
    d="M 41.55,336.48 H 38.8"
    style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
@@ -536,6 +538,7 @@
      y="-334.20657"
      sodipodi:role="line"
      id="tspan48">100</tspan></text>
+
 
 <path
    d="M 41.55,257.36485 H 40.175"
@@ -563,6 +566,7 @@
      y="16.715626"
      sodipodi:role="line"
      id="tspan60">Fe concentration (μM)</tspan></text>
+
 
 <path
    d="m 46.613619,311.47227 1.583157,2.14978 2.141918,-2.33274 2.514426,-4.12387 4.423527,-3.31938 4.423527,-2.08766 9.126435,-1.6536 18.252869,0.82449 22.350452,4.9419 31.53897,-5.30873"
@@ -1564,14 +1568,15 @@
    id="text648"
    style="font-variant:normal;font-weight:normal;font-size:8.80000019px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
    transform="scale(1,-1)"
-   x="55.167629"
+   x="55.913136"
    y="-367.20312"><tspan
      id="tspan646"
      sodipodi:role="line"
      y="-367.20312"
-     x="55.167629"><tspan
+     x="55.913136"><tspan
    id="tspan5082"
-   style="font-style:italic">Ca. </tspan>Chl. canadensis</tspan></text>
+   style="font-style:italic">Ca. </tspan>Chl. canadense</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"
@@ -2621,6 +2626,7 @@
      y="-367.20312"
      x="173.06378">Chl. ferrooxidans</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path1352"
@@ -2659,6 +2665,7 @@
      y="-160.10059"
      x="31.709375">0</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path1370"
@@ -2674,6 +2681,7 @@
      y="-191.74664"
      x="26.81875">50</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path1376"
@@ -2688,6 +2696,7 @@
      sodipodi:role="line"
      y="-223.3927"
      x="21.928125">100</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"
@@ -5776,6 +5785,7 @@
      y="-375.94632"
      x="-223.67265">Light + Fe(II)</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path3176"
@@ -5794,6 +5804,7 @@
      y="-23.678125"
      x="44.168308">0</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path3184"
@@ -5807,6 +5818,7 @@
      id="tspan3186"
      y="-23.678125"
      x="66.518761">5</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"
@@ -5823,6 +5835,7 @@
      y="-23.678125"
      x="86.423897">10</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path3196"
@@ -5838,6 +5851,7 @@
      y="-23.678125"
      x="108.77435">15</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path3202"
@@ -5852,6 +5866,7 @@
      sodipodi:role="line"
      y="-23.678125"
      x="131.1248">20</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"
@@ -5887,6 +5902,7 @@
      y="-49.28672"
      x="31.709375">0</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path3224"
@@ -5902,6 +5918,7 @@
      y="-80.932777"
      x="26.81875">50</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path3230"
@@ -5916,6 +5933,7 @@
      sodipodi:role="line"
      y="-112.57884"
      x="21.928125">100</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"
@@ -6943,6 +6961,7 @@
      y="-23.678125"
      x="155.69083">0</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path3832"
@@ -6956,6 +6975,7 @@
      id="tspan3834"
      y="-23.678125"
      x="178.04128">5</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"
@@ -6972,6 +6992,7 @@
      y="-23.678125"
      x="197.94643">10</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path3844"
@@ -6987,6 +7008,7 @@
      y="-23.678125"
      x="220.29688">15</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path3850"
@@ -7001,6 +7023,7 @@
      sodipodi:role="line"
      y="-23.678125"
      x="242.64732">20</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"
@@ -8024,6 +8047,7 @@
      y="-23.678125"
      x="267.21335">0</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path4450"
@@ -8037,6 +8061,7 @@
      id="tspan4452"
      y="-23.678125"
      x="289.56381">5</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"
@@ -8053,6 +8078,7 @@
      y="-23.678125"
      x="309.46893">10</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path4462"
@@ -8068,6 +8094,7 @@
      y="-23.678125"
      x="331.8194">15</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path4468"
@@ -8082,6 +8109,7 @@
      sodipodi:role="line"
      y="-23.678125"
      x="354.16983">20</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"
@@ -8113,6 +8141,7 @@
      sodipodi:role="line"
      y="-11.0125"
      x="146.83476">Incubation time (days)</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"
@@ -9137,6 +9166,7 @@
      y="-375.94632"
      x="-129.6088">Light + Fe(II) + EDTA</tspan></text>
 
+
 <g
    transform="matrix(1,0,0,-1,7.22704,381.47072)"
    id="g16787"><text
@@ -9148,6 +9178,7 @@
      y="54.154091"
      sodipodi:role="line"
      id="tspan5960">Fe fraction</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"
@@ -9171,6 +9202,7 @@
      sodipodi:role="line"
      id="tspan5974">Fe(II)</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path5980"
@@ -9192,6 +9224,7 @@
      y="76.556007"
      sodipodi:role="line"
      id="tspan5988">Fe(III)</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"
@@ -9215,6 +9248,7 @@
      x="312.60217"
      y="88.138008">Total Fe</tspan></text>
 
+
 <g
    id="g16759"><path
    d="m 252.328,19.145 h 14.301 v 105.773 h -14.301 z"
@@ -9231,6 +9265,7 @@
      y="-257.19836"
      x="32.05518 37.42318 42.315979 45.24638 47.683979 50.121582 53.051979 55.489582 60.61998 63.057579 68.918381 75.27198 80.015182 85.40078 87.838379 90.768784 95.661583 100.55438 103.48479 107.88478">Fe(II) + EDTA (dark)</tspan></text>
 
+
 <path
    d="m 257.371,115.66 h 106.48 v 14.297 h -106.48 z"
    style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:#7f7f7f;stroke-width:0.99975002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
@@ -9244,6 +9279,7 @@
      sodipodi:role="line"
      y="125.08209"
      x="284.21243 291.54282 296.43561 301.32843 303.28201 308.20123 310.63882 315.03882 319.93161 324.82443 327.26202 330.19241 335.08521">Media control</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"

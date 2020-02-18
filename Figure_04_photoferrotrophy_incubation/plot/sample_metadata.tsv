@@ -3,12 +3,12 @@ Sample_code	Sample_ID	Organism	Treatment	Rep_group	Rep
 2	Media-U-B	Media control	Light + Fe(II)	Media-U	B
 3	Media-E-A	Media control	Light + Fe(II) + EDTA	Media-E	A
 4	Media-E-B	Media control	Light + Fe(II) + EDTA	Media-E	B
-5	Chl1-DE-A	Ca. Chl. canadensis	Fe(II) + EDTA (dark)	Chl1-DE	A
-6	Chl1-DE-B	Ca. Chl. canadensis	Fe(II) + EDTA (dark)	Chl1-DE	B
-7	Chl1-LU-A	Ca. Chl. canadensis	Light + Fe(II)	Chl1-LU	A
-8	Chl1-LU-B	Ca. Chl. canadensis	Light + Fe(II)	Chl1-LU	B
-9	Chl1-LE-A	Ca. Chl. canadensis	Light + Fe(II) + EDTA	Chl1-LE	A
-10	Chl1-LE-B	Ca. Chl. canadensis	Light + Fe(II) + EDTA	Chl1-LE	B
+5	Chl1-DE-A	Ca. Chl. canadense	Fe(II) + EDTA (dark)	Chl1-DE	A
+6	Chl1-DE-B	Ca. Chl. canadense	Fe(II) + EDTA (dark)	Chl1-DE	B
+7	Chl1-LU-A	Ca. Chl. canadense	Light + Fe(II)	Chl1-LU	A
+8	Chl1-LU-B	Ca. Chl. canadense	Light + Fe(II)	Chl1-LU	B
+9	Chl1-LE-A	Ca. Chl. canadense	Light + Fe(II) + EDTA	Chl1-LE	A
+10	Chl1-LE-B	Ca. Chl. canadense	Light + Fe(II) + EDTA	Chl1-LE	B
 11	Cferro-DE-A	Chl. ferrooxidans	Fe(II) + EDTA (dark)	Cferro-DE	A
 12	Cferro-DE-B	Chl. ferrooxidans	Fe(II) + EDTA (dark)	Cferro-DE	B
 13	Cferro-LU-A	Chl. ferrooxidans	Light + Fe(II)	Cferro-LU	A
