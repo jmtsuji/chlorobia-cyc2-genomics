@@ -16,13 +16,13 @@
    height="1542.8195"
    viewBox="0 0 1102.0596 1542.8193"
    sodipodi:docname="Figure_03_cleaned.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   inkscape:export-filename="/home/jmtsuji/Research_General/PhD/06 Manuscripts/02_S2018_L227_111314_metagenomes/09_ready_to_resubmit/chlorobia-cyc2-genomics/Figure_03_environmental_abundances/plot/Figure_03_cleaned.png"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="C:\Users\JTsuji\Downloads\chlorobia-cyc2-genomics\Figure_03_environmental_abundances\plot\Figure_03_cleaned.png"
    inkscape:export-xdpi="199.98711"
    inkscape:export-ydpi="199.98711"><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
      id="defs6"><clipPath
    clipPathUnits="userSpaceOnUse"
    id="clipPath32"><path
@@ -636,16 +636,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="3200"
-     inkscape:window-height="1689"
+     inkscape:window-height="1644"
      id="namedview4"
      showgrid="false"
      inkscape:zoom="2.4995585"
-     inkscape:cx="16.418104"
+     inkscape:cx="552.51278"
      inkscape:cy="1269.5281"
-     inkscape:window-x="0"
-     inkscape:window-y="55"
+     inkscape:window-x="-16"
+     inkscape:window-y="-16"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer4"
      inkscape:lockguides="false"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
@@ -724,6 +724,7 @@
 
 
 
+
 <text
    id="text164"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -734,6 +735,7 @@
      sodipodi:role="line"
      y="-711.5"
      x="245.24332">L442 Bin 63 (78.47/4.12/54.17)</tspan></text>
+
 
 
 
@@ -758,6 +760,7 @@
 
 
 
+
 <text
    id="text172"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -768,6 +771,7 @@
      sodipodi:role="line"
      y="-752.70001"
      x="228.56363">L227 2014 6m Bin 6 (93.23/0.65/0)</tspan></text>
+
 
 
 
@@ -792,6 +796,7 @@
 
 
 
+
 <text
    id="text180"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -802,6 +807,7 @@
      sodipodi:role="line"
      y="-793.89001"
      x="264.71597">L442 Bin 75 (94.44/3.33/0)</tspan></text>
+
 
 
 
@@ -826,6 +832,7 @@
 
 
 
+
 <text
    id="text188"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -836,6 +843,7 @@
      sodipodi:role="line"
      y="-835.08002"
      x="209.83316">L442 2011 16.5m Bin 7 (87.04/2.88/50)</tspan></text>
+
 
 
 
@@ -860,6 +868,7 @@
 
 
 
+
 <text
    id="text196"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -870,6 +879,7 @@
      sodipodi:role="line"
      y="-876.27002"
      x="215.39957">L442 2011 16.5m Bin 5 (89.62/1.3/25)</tspan></text>
+
 
 
 
@@ -894,6 +904,7 @@
 
 
 
+
 <text
    id="text204"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -911,6 +922,7 @@
 
 
 
+
 <text
    id="text208"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -921,6 +933,7 @@
      sodipodi:role="line"
      y="-938.06"
      x="284.18863">L442 Bin 2 (85.93/0/0)</tspan></text>
+
 
 
 
@@ -1046,6 +1059,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,332.36,147.51)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1054,6 +1068,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan500">20,000,000</tspan></text>
+
 
 
 
@@ -1076,6 +1091,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,332.36,182.87)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1091,6 +1107,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,332.36,200.55)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1099,6 +1116,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan512">80,000,000</tspan></text>
+
 
 
 
@@ -1145,6 +1163,7 @@
      sodipodi:role="line"
      id="tspan544"
      style="font-size:14px">Read count</tspan></text>
+
 
 
 
@@ -1502,6 +1521,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,592.77,939.5)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1510,6 +1530,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1070">2.3</tspan></text>
+
 
 
 
@@ -1532,6 +1553,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,410.5,898.31)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1540,6 +1562,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1078">9.4</tspan></text>
+
 
 
 
@@ -1562,6 +1585,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,545.54,898.31)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1570,6 +1594,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1086">15.1</tspan></text>
+
 
 
 
@@ -1592,6 +1617,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,410.5,877.71)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1600,6 +1626,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1094">0.4</tspan></text>
+
 
 
 
@@ -1622,6 +1649,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,456.07,877.71)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1630,6 +1658,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1102">0.4</tspan></text>
+
 
 
 
@@ -1652,6 +1681,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,595.27,877.71)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1659,6 +1689,7 @@
      x="0"
      y="0"
      id="tspan1110">3</tspan></text>
+
 
 
 
@@ -1681,6 +1712,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,456.07,857.11)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1689,6 +1721,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1118">0.5</tspan></text>
+
 
 
 
@@ -1711,6 +1744,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,504.14,857.11)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1718,6 +1752,7 @@
      x="0"
      y="0"
      id="tspan1126">2</tspan></text>
+
 
 
 
@@ -1740,6 +1775,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,592.77,836.52)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1748,6 +1784,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1134">2.3</tspan></text>
+
 
 
 
@@ -1770,6 +1807,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,410.5,795.32)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1778,6 +1816,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1142">0.2</tspan></text>
+
 
 
 
@@ -1800,6 +1839,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,501.64,795.32)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1808,6 +1848,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1150">0.1</tspan></text>
+
 
 
 
@@ -1830,6 +1871,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,410.5,774.73)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1838,6 +1880,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1158">0.4</tspan></text>
+
 
 
 
@@ -1860,6 +1903,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,456.07,774.73)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1868,6 +1912,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1166">0.3</tspan></text>
+
 
 
 
@@ -1890,6 +1935,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,413,754.13)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1897,6 +1943,7 @@
      x="0"
      y="0"
      id="tspan1174">2</tspan></text>
+
 
 
 
@@ -1919,6 +1966,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,501.64,754.13)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1927,6 +1975,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1182">2.6</tspan></text>
+
 
 
 
@@ -1949,6 +1998,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,456.07,733.54)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1957,6 +2007,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1190">0.6</tspan></text>
+
 
 
 
@@ -1979,6 +2030,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,501.64,733.54)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1994,6 +2046,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,640.84,712.94)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2001,6 +2054,7 @@
      x="0"
      y="0"
      id="tspan1202">1</tspan></text>
+
 
 
 
@@ -2023,6 +2077,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,410.5,692.34)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2031,6 +2086,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1210">0.4</tspan></text>
+
 
 
 
@@ -2053,6 +2109,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,456.07,692.34)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2061,6 +2118,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1218">0.3</tspan></text>
+
 
 
 
@@ -2083,6 +2141,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,501.64,692.34)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2098,6 +2157,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,592.77,692.34)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2106,6 +2166,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1230">3.4</tspan></text>
+
 
 
 
@@ -2310,6 +2371,7 @@
 
 
 
+
 </g><g
    id="g1894"><g
      id="g1896"
@@ -2418,6 +2480,7 @@
 
 
 
+
 </g><g
      id="g2074"><path
        inkscape:connector-curvature="0"
@@ -2478,6 +2541,7 @@
 
 
 
+
 </g><g
      id="g2140"><text
    id="text2144"
@@ -2488,6 +2552,7 @@
      sodipodi:role="line"
      y="0"
      x="0">cyc2</tspan></text>
+
 
 
 
@@ -2512,6 +2577,7 @@
 
 
 
+
 </g><g
      id="g2168"><text
    id="text2172"
@@ -2521,6 +2587,7 @@
      sodipodi:role="line"
      y="0"
      x="0">Not applicable</tspan></text>
+
 
 
 
@@ -2569,6 +2636,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan2254">Metagenomic reads</tspan></text>
+
 
 
 
@@ -2625,6 +2693,7 @@
 
 
 
+
 </g><g
    id="g2296" /><g
    id="g2298" /><g
@@ -2639,6 +2708,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan2306">Assembled</tspan></text>
+
 
 
 
@@ -2689,6 +2759,7 @@
 
 
 
+
 <text
    id="text164-5"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2703,6 +2774,7 @@
    id="tspan3405">Burkholderiaceae</tspan>; g__<tspan
    style="font-style:italic"
    id="tspan3407">Rhodoferax</tspan></tspan></text>
+
 
 
 
@@ -2729,6 +2801,7 @@
 
 
 
+
 <text
    id="text172-3"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2741,6 +2814,7 @@
      x="766.37152">f__<tspan
    style="font-style:italic"
    id="tspan3411">Desulfatirhabdiaceae</tspan>; g__RAAP−1</tspan></text>
+
 
 
 
@@ -2767,6 +2841,7 @@
 
 
 
+
 <text
    id="text180-6"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2779,6 +2854,7 @@
      x="766.37152">f__<tspan
    style="font-style:italic"
    id="tspan3415">Steroidobacteraceae</tspan>; g__Unresolved</tspan></text>
+
 
 
 
@@ -2805,6 +2881,7 @@
 
 
 
+
 <text
    id="text188-3"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2817,6 +2894,7 @@
      x="766.37152">f__<tspan
    style="font-style:italic"
    id="tspan3419">Methylomonadaceae</tspan>; g__UBA10906</tspan></text>
+
 
 
 
@@ -2843,6 +2921,7 @@
 
 
 
+
 <text
    id="text196-4"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2862,6 +2941,7 @@
 
 
 
+
 <text
    id="text200-8"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2874,6 +2954,7 @@
      x="766.37152">f__<tspan
    style="font-style:italic"
    id="tspan3425">Methylomonadaceae</tspan>; g__KS41</tspan></text>
+
 
 
 
@@ -2902,6 +2983,7 @@
 
 
 
+
 <text
    id="text208-7"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2916,6 +2998,7 @@
    id="tspan3431">Burkholderiaceae</tspan>; g__<tspan
    style="font-style:italic"
    id="tspan3433">Rhodoferax</tspan></tspan></text>
+
 
 
 
@@ -2995,6 +3078,7 @@
 
 
 
+
 </g><text
    id="text160-9-2"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -3015,6 +3099,7 @@
 
 
 
+
 <text
    id="text160-9-5"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -3026,6 +3111,7 @@
      sodipodi:role="line"
      y="-629.31769"
      x="766.37152" /></text>
+
 
 
 
@@ -3053,6 +3139,7 @@
 
 
 
+
 <text
    id="text160-9-25"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -3066,6 +3153,7 @@
      x="775.37152"><tspan
    style="font-style:normal"
    id="tspan7054">p__</tspan>Bacteroidota</tspan></text>
+
 
 
 
@@ -3093,6 +3181,7 @@
 
 
 
+
 <text
    id="text160-9-2-3"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -3106,6 +3195,7 @@
      x="766.79456">p__<tspan
    style="font-style:italic"
    id="tspan7058">Desulfobacterota</tspan></tspan></text>
+
 
 
 
@@ -3133,6 +3223,7 @@
 
 
 
+
 <text
    id="text160-9-2-2-0"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -3146,6 +3237,7 @@
      x="766.79456">p__<tspan
    style="font-style:italic"
    id="tspan7062">Myxococcota</tspan></tspan></text>
+
 
 
 
@@ -3173,6 +3265,7 @@
 
 
 
+
 <text
    id="text160-9-2-2-9"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -3193,6 +3286,7 @@
 
 
 
+
 <text
    id="text160-9-2-2-1"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -3206,6 +3300,7 @@
      x="775.37152">p__<tspan
    style="font-style:italic"
    id="tspan7068">Verrucomicrobiota</tspan></tspan></text>
+
 
 
 
@@ -3252,6 +3347,7 @@
 
 
 
+
 <text
    id="text416-7-6"
    style="font-variant:normal;font-weight:normal;font-size:15.99999905px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -3265,6 +3361,7 @@
      style="font-size:20px;stroke-width:0.99999994">(<tspan
    id="tspan3203-0"
    style="font-style:italic;font-size:20px;stroke-width:0.99999994">Chlorobia</tspan> )</tspan></text>
+
 
 
 
@@ -3292,6 +3389,7 @@
 
 
 
+
 <text
    id="text416-7-6-0"
    style="font-variant:normal;font-weight:normal;font-size:15.99999905px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -3303,6 +3401,7 @@
      y="191.82463"
      x="980.20355"
      style="font-size:20px;stroke-width:0.99999994">(other )</tspan></text>
+
 
 
 
@@ -3329,6 +3428,7 @@
 
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -3348,6 +3448,7 @@
 
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -3360,6 +3461,7 @@
      x="133.48891"
      y="-183.37709"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.75">D</tspan></text>
+
 
 
 
@@ -3411,6 +3513,7 @@
 
 
 
+
 </g><g
      inkscape:groupmode="layer"
      id="layer3"
@@ -3426,6 +3529,7 @@
      x="626.82642"
      y="1421.4399"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:arial;-inkscape-font-specification:arial">L227</tspan></text>
+
 
 
 
@@ -3451,6 +3555,7 @@
 
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3462,6 +3567,7 @@
      x="902.98907"
      y="1421.3931"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:arial;-inkscape-font-specification:arial">Enrichments</tspan></text>
+
 
 
 
@@ -3488,6 +3594,7 @@
 
 
 
+
 <text
    id="text7181-9-9"
    y="1360.0806"
@@ -3499,6 +3606,7 @@
      x="600.50879"
      id="tspan7179-4-9"
      sodipodi:role="line">8 m</tspan></text>
+
 
 
 
@@ -3525,6 +3633,7 @@
 
 
 
+
 <text
    id="text7181-9-99"
    y="1360.0806"
@@ -3536,6 +3645,7 @@
      x="722.01544"
      id="tspan7179-4-1"
      sodipodi:role="line">8 m</tspan></text>
+
 
 
 
@@ -3562,6 +3672,7 @@
 
 
 
+
 <text
    id="text7181-9-5"
    y="1360.0806"
@@ -3573,6 +3684,7 @@
      x="838.53546"
      id="tspan7179-4-8"
      sodipodi:role="line">13 m</tspan></text>
+
 
 
 
@@ -3601,6 +3713,7 @@
 
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3612,6 +3725,7 @@
      x="899.854"
      y="1391.3575"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:arial;-inkscape-font-specification:arial">S-6D</tspan></text>
+
 
 
 
@@ -3639,6 +3753,7 @@
 
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3650,6 +3765,7 @@
      x="969.24286"
      y="1391.3575"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:arial;-inkscape-font-specification:arial">S-6D</tspan></text>
+
 
 
 
@@ -3675,6 +3791,7 @@
 
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -3686,6 +3803,7 @@
      x="687.11151"
      y="1389.4941"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:arial;-inkscape-font-specification:arial">2014</tspan></text>
+
 
 
 
@@ -3711,6 +3829,7 @@
 
 
 
+
 <text
    id="text7181-9-3-5"
    y="1379.0605"
@@ -3722,6 +3841,7 @@
      x="833.33624"
      id="tspan7179-4-4-8"
      sodipodi:role="line">(2014)</tspan></text>
+
 
 
 
@@ -3759,6 +3879,7 @@
 
 
 
+
 <text
    y="-248.78999"
    x="287.45001"
@@ -3770,6 +3891,7 @@
      sodipodi:role="line"
      id="tspan268"
      style="font-style:italic">Chthoniobacteraceae</tspan></text>
+
 
 
 
@@ -3796,6 +3918,7 @@
 
 
 
+
 <text
    y="-289.98001"
    x="290.23001"
@@ -3807,6 +3930,7 @@
      sodipodi:role="line"
      id="tspan276"
      style="font-style:italic">Steroidobacteraceae</tspan></text>
+
 
 
 
@@ -3832,6 +3956,7 @@
 
 
 
+
 <text
    y="-331.17001"
    x="308.48001"
@@ -3843,6 +3968,7 @@
      sodipodi:role="line"
      id="tspan284"
      style="font-style:italic">Rhodocyclaceae</tspan></text>
+
 
 
 
@@ -3868,6 +3994,7 @@
 
 
 
+
 <text
    y="-372.37"
    x="304.29001"
@@ -3886,6 +4013,7 @@
 
 
 
+
 <text
    y="-392.95999"
    x="315.16"
@@ -3897,6 +4025,7 @@
      sodipodi:role="line"
      id="tspan296"
      style="font-style:italic">Azospirillaceae</tspan></text>
+
 
 
 
@@ -3923,6 +4052,7 @@
 
 
 
+
 <text
    y="-434.14999"
    x="271.48999"
@@ -3934,6 +4064,7 @@
      sodipodi:role="line"
      id="tspan304"
      style="font-style:italic">Anaeromyxobacteraceae</tspan></text>
+
 
 
 
@@ -3960,6 +4091,7 @@
 
 
 
+
 <text
    y="-475.35001"
    x="288.76999"
@@ -3971,6 +4103,7 @@
      sodipodi:role="line"
      id="tspan312"
      style="font-style:italic">Desulfatirhabdiaceae</tspan></text>
+
 
 
 
@@ -3996,6 +4129,7 @@
 
 
 
+
 <text
    y="-516.53998"
    x="317.92999"
@@ -4014,6 +4148,7 @@
 
 
 
+
 <text
    y="-537.14001"
    x="223.46378"
@@ -4024,6 +4159,7 @@
      y="-537.14001"
      sodipodi:role="line"
      id="tspan324">Unresolved (RFP12; Kiritimatiellae)</tspan></text>
+
 
 
 
@@ -4049,6 +4185,7 @@
 
 
 
+
 <text
    y="-578.33002"
    x="301.26001"
@@ -4060,6 +4197,7 @@
      sodipodi:role="line"
      id="tspan332"
      style="font-style:italic">Lentimicrobiaceae</tspan></text>
+
 
 
 
@@ -4086,6 +4224,7 @@
 
 
 
+
 <text
    y="-619.52002"
    x="312.35999"
@@ -4097,6 +4236,7 @@
      sodipodi:role="line"
      id="tspan340"
      style="font-style:italic">Holophagaceae</tspan></text>
+
 
 
 
@@ -4122,6 +4262,7 @@
 
 
 
+
 <text
    y="-660.71002"
    x="294.01999"
@@ -4133,6 +4274,7 @@
      sodipodi:role="line"
      id="tspan348"
      style="font-style:italic">Methanoregulaceae</tspan></text>
+
 
 
 
@@ -4587,6 +4729,7 @@
 
 
 
+
 <text
    id="text1428"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4595,6 +4738,7 @@
      sodipodi:role="line"
      y="0"
      x="0">1.1</tspan></text>
+
 
 
 
@@ -4617,6 +4761,7 @@
 
 
 
+
 <text
    id="text1436"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4625,6 +4770,7 @@
      sodipodi:role="line"
      y="0"
      x="0">2.7</tspan></text>
+
 
 
 
@@ -4647,6 +4793,7 @@
 
 
 
+
 <text
    id="text1444"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4655,6 +4802,7 @@
      sodipodi:role="line"
      y="0"
      x="0">1.3</tspan></text>
+
 
 
 
@@ -4677,6 +4825,7 @@
 
 
 
+
 <text
    id="text1452"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4685,6 +4834,7 @@
      sodipodi:role="line"
      y="0"
      x="0">1.5</tspan></text>
+
 
 
 
@@ -4707,6 +4857,7 @@
 
 
 
+
 <text
    id="text1460"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4715,6 +4866,7 @@
      sodipodi:role="line"
      y="0"
      x="0">1.1</tspan></text>
+
 
 
 
@@ -4737,6 +4889,7 @@
 
 
 
+
 <text
    id="text1468"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4745,6 +4898,7 @@
      sodipodi:role="line"
      y="0"
      x="0">2.1</tspan></text>
+
 
 
 
@@ -4767,6 +4921,7 @@
 
 
 
+
 <text
    id="text1476"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4782,6 +4937,7 @@
 
 
 
+
 <text
    id="text1480"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4789,6 +4945,7 @@
      id="tspan1478"
      y="0"
      x="0">4</tspan></text>
+
 
 
 
@@ -4811,6 +4968,7 @@
 
 
 
+
 <text
    id="text1488"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4819,6 +4977,7 @@
      sodipodi:role="line"
      y="0"
      x="0">2.4</tspan></text>
+
 
 
 
@@ -4841,6 +5000,7 @@
 
 
 
+
 <text
    id="text1496"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4849,6 +5009,7 @@
      sodipodi:role="line"
      y="0"
      x="0">47.5</tspan></text>
+
 
 
 
@@ -4871,6 +5032,7 @@
 
 
 
+
 <text
    id="text1504"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4886,6 +5048,7 @@
 
 
 
+
 <text
    id="text1508"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4893,6 +5056,7 @@
      id="tspan1506"
      y="0"
      x="0">2</tspan></text>
+
 
 
 
@@ -4915,6 +5079,7 @@
 
 
 
+
 <text
    id="text1516"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4923,6 +5088,7 @@
      sodipodi:role="line"
      y="0"
      x="0">1.4</tspan></text>
+
 
 
 
@@ -4945,6 +5111,7 @@
 
 
 
+
 <text
    id="text1524"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4953,6 +5120,7 @@
      sodipodi:role="line"
      y="0"
      x="0">1.7</tspan></text>
+
 
 
 
@@ -4975,6 +5143,7 @@
 
 
 
+
 <text
    id="text1532"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -4983,6 +5152,7 @@
      sodipodi:role="line"
      y="0"
      x="0">2.2</tspan></text>
+
 
 
 
@@ -5005,6 +5175,7 @@
 
 
 
+
 <text
    id="text1540"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5013,6 +5184,7 @@
      sodipodi:role="line"
      y="0"
      x="0">1.2</tspan></text>
+
 
 
 
@@ -5035,6 +5207,7 @@
 
 
 
+
 <text
    id="text1548"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5043,6 +5216,7 @@
      sodipodi:role="line"
      y="0"
      x="0">2.3</tspan></text>
+
 
 
 
@@ -5065,6 +5239,7 @@
 
 
 
+
 <text
    id="text1556"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5073,6 +5248,7 @@
      sodipodi:role="line"
      y="0"
      x="0">2.9</tspan></text>
+
 
 
 
@@ -5095,6 +5271,7 @@
 
 
 
+
 <text
    id="text1564"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5103,6 +5280,7 @@
      sodipodi:role="line"
      y="0"
      x="0">3.4</tspan></text>
+
 
 
 
@@ -5125,6 +5303,7 @@
 
 
 
+
 <text
    id="text1572"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5133,6 +5312,7 @@
      sodipodi:role="line"
      y="0"
      x="0">13.3</tspan></text>
+
 
 
 
@@ -5155,6 +5335,7 @@
 
 
 
+
 <text
    id="text1580"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5163,6 +5344,7 @@
      sodipodi:role="line"
      y="0"
      x="0">5.1</tspan></text>
+
 
 
 
@@ -5185,6 +5367,7 @@
 
 
 
+
 <text
    id="text1588"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5193,6 +5376,7 @@
      sodipodi:role="line"
      y="0"
      x="0">5.3</tspan></text>
+
 
 
 
@@ -5215,6 +5399,7 @@
 
 
 
+
 <text
    id="text1596"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5223,6 +5408,7 @@
      sodipodi:role="line"
      y="0"
      x="0">1.7</tspan></text>
+
 
 
 
@@ -5245,6 +5431,7 @@
 
 
 
+
 <text
    id="text1604"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5253,6 +5440,7 @@
      sodipodi:role="line"
      y="0"
      x="0">2.3</tspan></text>
+
 
 
 
@@ -5275,6 +5463,7 @@
 
 
 
+
 <text
    id="text1612"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5283,6 +5472,7 @@
      sodipodi:role="line"
      y="0"
      x="0">3.6</tspan></text>
+
 
 
 
@@ -5305,6 +5495,7 @@
 
 
 
+
 <text
    id="text1620"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5313,6 +5504,7 @@
      sodipodi:role="line"
      y="0"
      x="0">1.1</tspan></text>
+
 
 
 
@@ -5335,6 +5527,7 @@
 
 
 
+
 <text
    id="text1628"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5343,6 +5536,7 @@
      sodipodi:role="line"
      y="0"
      x="0">4.2</tspan></text>
+
 
 
 
@@ -5365,6 +5559,7 @@
 
 
 
+
 <text
    id="text1636"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5373,6 +5568,7 @@
      sodipodi:role="line"
      y="0"
      x="0">3.6</tspan></text>
+
 
 
 
@@ -5406,6 +5602,7 @@
 
 
 
+
 <text
    transform="matrix(0,1,1,0,463.83,61.12)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5414,6 +5611,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1848">L227 2013 8m</tspan></text>
+
 
 
 
@@ -5436,6 +5634,7 @@
 
 
 
+
 <text
    transform="matrix(0,1,1,0,554.96,61.12)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5444,6 +5643,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1856">L227 2014 8m</tspan></text>
+
 
 
 
@@ -5466,6 +5666,7 @@
 
 
 
+
 <text
    transform="matrix(0,1,1,0,646.1,55.56)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5474,6 +5675,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1864">L442 2014 15m</tspan></text>
+
 
 
 
@@ -5496,6 +5698,7 @@
 
 
 
+
 <text
    transform="matrix(0,1,1,0,737.23,22.35)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5504,6 +5707,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan1872">L304 enrichment S−6D</tspan></text>
+
 
 
 
@@ -5536,6 +5740,7 @@
 
 
 
+
 <text
    id="text88"
    style="font-variant:normal;font-weight:normal;font-size:13.33333302px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
@@ -5553,6 +5758,7 @@
 
 
 
+
 <text
    id="text92"
    style="font-variant:normal;font-weight:normal;font-size:13.33333302px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
@@ -5563,6 +5769,7 @@
      y="164.73338"
      x="278.7619"
      style="stroke-width:1.33333325">L227 2014 Bin 106 (91.14/67.16/79.37)</tspan></text>
+
 
 
 
@@ -5589,6 +5796,7 @@
 
 
 
+
 <text
    id="text100"
    style="font-variant:normal;font-weight:normal;font-size:13.33333302px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
@@ -5599,6 +5807,7 @@
      y="109.81339"
      x="286.18378"
      style="stroke-width:1.33333325">L227 2014 Bin 92 (77.45/27.64/79.73)</tspan></text>
+
 
 
 
@@ -5625,6 +5834,7 @@
 
 
 
+
 <text
    id="text108"
    style="font-variant:normal;font-weight:normal;font-size:13.33333302px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
@@ -5644,6 +5854,7 @@
 
 
 
+
 <text
    id="text112"
    style="font-variant:normal;font-weight:normal;font-size:13.33333302px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
@@ -5656,6 +5867,7 @@
      style="stroke-width:1.33333325"><tspan
    style="font-weight:bold;stroke-width:1.33333325"
    id="tspan7545">L227 enrichment S−6D GSB</tspan> (99.45/0.27/100)</tspan></text>
+
 
 
 
@@ -5880,6 +6092,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,727.81,1093.27)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5888,6 +6101,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan828">77.9</tspan></text>
+
 
 
 
@@ -5910,6 +6124,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,456.07,1072.67)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5918,6 +6133,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan836">0.4</tspan></text>
+
 
 
 
@@ -5940,6 +6156,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,501.64,1072.67)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5948,6 +6165,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan844">0.9</tspan></text>
+
 
 
 
@@ -5970,6 +6188,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,547.2,1052.08)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5978,6 +6197,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan852">0.3</tspan></text>
+
 
 
 
@@ -6000,6 +6220,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,410.5,1031.48)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -6008,6 +6229,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan860">2.2</tspan></text>
+
 
 
 
@@ -6030,6 +6252,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,547.2,1031.48)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -6038,6 +6261,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan868">0.6</tspan></text>
+
 
 
 
@@ -6060,6 +6284,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,410.5,1010.89)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -6068,6 +6293,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan876">0.2</tspan></text>
+
 
 
 
@@ -6090,6 +6316,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,549.71,1010.89)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -6097,6 +6324,7 @@
      x="0"
      y="0"
      id="tspan884">1</tspan></text>
+
 
 
 
@@ -6119,6 +6347,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,410.5,990.29)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -6127,6 +6356,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan892">0.1</tspan></text>
+
 
 
 
@@ -6149,6 +6379,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,456.07,990.29)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -6157,6 +6388,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan900">0.1</tspan></text>
+
 
 
 
@@ -6179,6 +6411,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,501.64,990.29)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -6187,6 +6420,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan908">0.2</tspan></text>
+
 
 
 
@@ -6209,6 +6443,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,638.34,969.69)"
    style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -6217,6 +6452,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan916">4.9</tspan></text>
+
 
 
 
@@ -6257,6 +6493,7 @@
 
 
 
+
 <text
    y="1193.1067"
    x="383.14642"
@@ -6267,6 +6504,7 @@
      y="1193.1067"
      sodipodi:role="line"
      id="tspan268-8">Chthoniobacteraceae</tspan></text>
+
 
 
 
@@ -6293,6 +6531,7 @@
 
 
 
+
 <text
    y="1139.4133"
    x="312.11127"
@@ -6305,6 +6544,7 @@
      id="tspan276-6">UBA1067 (RFP12; <tspan
    id="tspan6806"
    style="font-style:italic">Kiritimatiellae</tspan>)</tspan></text>
+
 
 
 
@@ -6330,6 +6570,7 @@
 
 
 
+
 <text
    y="1085.72"
    x="386.11517"
@@ -6340,6 +6581,7 @@
      y="1085.72"
      sodipodi:role="line"
      id="tspan284-9">Methylomonadaceae</tspan></text>
+
 
 
 
@@ -6364,6 +6606,7 @@
 
 
 
+
 <text
    y="1032.0267"
    x="418.74539"
@@ -6374,6 +6617,7 @@
      y="1032.0267"
      sodipodi:role="line"
      id="tspan292-7">Gallionellaceae</tspan></text>
+
 
 
 
@@ -6398,6 +6642,7 @@
 
 
 
+
 <text
    y="978.34668"
    x="420.22977"
@@ -6408,6 +6653,7 @@
      y="978.34668"
      sodipodi:role="line"
      id="tspan300-3">Azospirillaceae</tspan></text>
+
 
 
 
@@ -6434,6 +6680,7 @@
 
 
 
+
 <text
    id="text310-7"
    style="font-variant:normal;font-weight:normal;font-size:13.33333302px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
@@ -6444,6 +6691,7 @@
      y="924.65332"
      x="361.63602"
      style="font-style:italic;stroke-width:1.33333325">Anaeromyxobacteraceae</tspan></text>
+
 
 
 
@@ -6470,6 +6718,7 @@
 
 
 
+
 <text
    id="text318-8"
    style="font-variant:normal;font-weight:normal;font-size:13.33333302px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
@@ -6480,6 +6729,7 @@
      y="870.96002"
      x="384.6308"
      style="font-style:italic;stroke-width:1.33333325">Desulfatirhabdiaceae</tspan></text>
+
 
 
 
@@ -6504,6 +6754,7 @@
 
 
 
+
 <g
    id="g6992"><text
    y="817.26666"
@@ -6515,6 +6766,7 @@
      y="817.26666"
      sodipodi:role="line"
      id="tspan324-0">Chlorobiaceae</tspan></text>
+
 
 
 
@@ -6541,6 +6793,7 @@
 
 
 
+
 <text
    y="763.57336"
    x="399.44852"
@@ -6558,6 +6811,7 @@
 
 
 
+
 <text
    y="736.73334"
    x="401.68811"
@@ -6568,6 +6822,7 @@
      y="736.73334"
      sodipodi:role="line"
      id="tspan336-4">Lentimicrobiaceae</tspan></text>
+
 
 
 
@@ -6594,6 +6849,7 @@
 
 
 
+
 </g><text
    id="text346-1"
    style="font-variant:normal;font-weight:normal;font-size:13.33333302px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
@@ -6604,6 +6860,7 @@
      y="683.04004"
      x="416.5058"
      style="font-style:italic;stroke-width:1.33333325">Holophagaceae</tspan></text>
+
 
 
 
@@ -6629,6 +6886,7 @@
 
 
 
+
 <text
    y="629.34668"
    x="392.02664"
@@ -6639,6 +6897,7 @@
      x="392.02664"
      sodipodi:role="line"
      id="tspan352">Methanoregulaceae</tspan></text>
+
 
 
 
@@ -7099,6 +7358,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1436-7"
@@ -7109,6 +7369,7 @@
      sodipodi:role="line"
      id="tspan1434-6"
      style="stroke-width:1.33333325">1.1</tspan></text>
+
 
 
 
@@ -7129,6 +7390,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1444-1"
@@ -7139,6 +7401,7 @@
      sodipodi:role="line"
      id="tspan1442-3"
      style="stroke-width:1.33333325">2.7</tspan></text>
+
 
 
 
@@ -7159,6 +7422,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1452-8"
@@ -7169,6 +7433,7 @@
      sodipodi:role="line"
      id="tspan1450-5"
      style="stroke-width:1.33333325">1.3</tspan></text>
+
 
 
 
@@ -7189,6 +7454,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1460-8"
@@ -7199,6 +7465,7 @@
      sodipodi:role="line"
      id="tspan1458-7"
      style="stroke-width:1.33333325">1.5</tspan></text>
+
 
 
 
@@ -7219,6 +7486,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1468-5"
@@ -7229,6 +7497,7 @@
      sodipodi:role="line"
      id="tspan1466-0"
      style="stroke-width:1.33333325">1.1</tspan></text>
+
 
 
 
@@ -7249,6 +7518,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1476-4"
@@ -7259,6 +7529,7 @@
      sodipodi:role="line"
      id="tspan1474-1"
      style="stroke-width:1.33333325">2.1</tspan></text>
+
 
 
 
@@ -7279,6 +7550,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1484-5"
@@ -7294,6 +7566,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1488-3"
@@ -7303,6 +7576,7 @@
      y="815.34668"
      id="tspan1486-4"
      style="stroke-width:1.33333325">4</tspan></text>
+
 
 
 
@@ -7323,6 +7597,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1496-0"
@@ -7333,6 +7608,7 @@
      sodipodi:role="line"
      id="tspan1494-8"
      style="stroke-width:1.33333325">2.4</tspan></text>
+
 
 
 
@@ -7353,6 +7629,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1504-6"
@@ -7363,6 +7640,7 @@
      sodipodi:role="line"
      id="tspan1502-5"
      style="stroke-width:1.33333325">47.5</tspan></text>
+
 
 
 
@@ -7383,6 +7661,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1512-0"
@@ -7398,6 +7677,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1516-6"
@@ -7407,6 +7687,7 @@
      y="869.04004"
      id="tspan1514-3"
      style="stroke-width:1.33333325">2</tspan></text>
+
 
 
 
@@ -7427,6 +7708,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1524-1"
@@ -7437,6 +7719,7 @@
      sodipodi:role="line"
      id="tspan1522-5"
      style="stroke-width:1.33333325">1.4</tspan></text>
+
 
 
 
@@ -7457,6 +7740,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1532-5"
@@ -7467,6 +7751,7 @@
      sodipodi:role="line"
      id="tspan1530-0"
      style="stroke-width:1.33333325">1.7</tspan></text>
+
 
 
 
@@ -7487,6 +7772,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1540-2"
@@ -7497,6 +7783,7 @@
      sodipodi:role="line"
      id="tspan1538-2"
      style="stroke-width:1.33333325">2.2</tspan></text>
+
 
 
 
@@ -7517,6 +7804,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1548-1"
@@ -7527,6 +7815,7 @@
      sodipodi:role="line"
      id="tspan1546-0"
      style="stroke-width:1.33333325">1.2</tspan></text>
+
 
 
 
@@ -7547,6 +7836,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1556-7"
@@ -7557,6 +7847,7 @@
      sodipodi:role="line"
      id="tspan1554-4"
      style="stroke-width:1.33333325">2.3</tspan></text>
+
 
 
 
@@ -7577,6 +7868,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1564-2"
@@ -7587,6 +7879,7 @@
      sodipodi:role="line"
      id="tspan1562-8"
      style="stroke-width:1.33333325">2.9</tspan></text>
+
 
 
 
@@ -7607,6 +7900,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1572-7"
@@ -7617,6 +7911,7 @@
      sodipodi:role="line"
      id="tspan1570-0"
      style="stroke-width:1.33333325">3.4</tspan></text>
+
 
 
 
@@ -7637,6 +7932,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1580-4"
@@ -7647,6 +7943,7 @@
      sodipodi:role="line"
      id="tspan1578-9"
      style="stroke-width:1.33333325">13.3</tspan></text>
+
 
 
 
@@ -7667,6 +7964,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1588-4"
@@ -7677,6 +7975,7 @@
      sodipodi:role="line"
      id="tspan1586-2"
      style="stroke-width:1.33333325">5.1</tspan></text>
+
 
 
 
@@ -7697,6 +7996,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1596-4"
@@ -7707,6 +8007,7 @@
      sodipodi:role="line"
      id="tspan1594-4"
      style="stroke-width:1.33333325">5.3</tspan></text>
+
 
 
 
@@ -7727,6 +8028,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1604-6"
@@ -7737,6 +8039,7 @@
      sodipodi:role="line"
      id="tspan1602-0"
      style="stroke-width:1.33333325">1.7</tspan></text>
+
 
 
 
@@ -7757,6 +8060,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1612-2"
@@ -7767,6 +8071,7 @@
      sodipodi:role="line"
      id="tspan1610-2"
      style="stroke-width:1.33333325">2.3</tspan></text>
+
 
 
 
@@ -7787,6 +8092,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1620-8"
@@ -7797,6 +8103,7 @@
      sodipodi:role="line"
      id="tspan1618-3"
      style="stroke-width:1.33333325">3.6</tspan></text>
+
 
 
 
@@ -7817,6 +8124,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1628-2"
@@ -7827,6 +8135,7 @@
      sodipodi:role="line"
      id="tspan1626-4"
      style="stroke-width:1.33333325">1.1</tspan></text>
+
 
 
 
@@ -7847,6 +8156,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1636-7"
@@ -7857,6 +8167,7 @@
      sodipodi:role="line"
      id="tspan1634-5"
      style="stroke-width:1.33333325">4.2</tspan></text>
+
 
 
 
@@ -7877,6 +8188,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text1644"
@@ -7887,6 +8199,7 @@
      sodipodi:role="line"
      id="tspan1642"
      style="stroke-width:1.33333325">3.6</tspan></text>
+
 
 
 
@@ -7919,6 +8232,7 @@
 
 
 
+
 <text
    id="text88-2"
    style="font-variant:normal;font-weight:normal;font-size:13.33333302px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
@@ -7931,6 +8245,7 @@
      style="stroke-width:1.33333325"><tspan
    style="font-weight:bold"
    id="tspan8713">L227 2013 Bin 22</tspan> (98.5/2.75/0)</tspan></text>
+
 
 
 
@@ -8189,6 +8504,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text864"
@@ -8199,6 +8515,7 @@
      sodipodi:role="line"
      id="tspan862"
      style="stroke-width:1.33333325">77.9</tspan></text>
+
 
 
 
@@ -8219,6 +8536,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text872"
@@ -8229,6 +8547,7 @@
      sodipodi:role="line"
      id="tspan870"
      style="stroke-width:1.33333325">0.4</tspan></text>
+
 
 
 
@@ -8249,6 +8568,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text880"
@@ -8259,6 +8579,7 @@
      sodipodi:role="line"
      id="tspan878"
      style="stroke-width:1.33333325">0.9</tspan></text>
+
 
 
 
@@ -8279,6 +8600,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text888"
@@ -8289,6 +8611,7 @@
      sodipodi:role="line"
      id="tspan886"
      style="stroke-width:1.33333325">0.3</tspan></text>
+
 
 
 
@@ -8309,6 +8632,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text896"
@@ -8319,6 +8643,7 @@
      sodipodi:role="line"
      id="tspan894"
      style="stroke-width:1.33333325">2.2</tspan></text>
+
 
 
 
@@ -8339,6 +8664,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text904"
@@ -8349,6 +8675,7 @@
      sodipodi:role="line"
      id="tspan902"
      style="stroke-width:1.33333325">0.6</tspan></text>
+
 
 
 
@@ -8369,6 +8696,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text912"
@@ -8379,6 +8707,7 @@
      sodipodi:role="line"
      id="tspan910"
      style="stroke-width:1.33333325">0.2</tspan></text>
+
 
 
 
@@ -8399,6 +8728,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text920"
@@ -8408,6 +8738,7 @@
      y="114.30667"
      id="tspan918"
      style="stroke-width:1.33333325">1</tspan></text>
+
 
 
 
@@ -8428,6 +8759,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text928"
@@ -8438,6 +8770,7 @@
      sodipodi:role="line"
      id="tspan926"
      style="stroke-width:1.33333325">0.1</tspan></text>
+
 
 
 
@@ -8458,6 +8791,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text936"
@@ -8468,6 +8802,7 @@
      sodipodi:role="line"
      id="tspan934"
      style="stroke-width:1.33333325">0.1</tspan></text>
+
 
 
 
@@ -8488,6 +8823,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text944"
@@ -8498,6 +8834,7 @@
      sodipodi:role="line"
      id="tspan942"
      style="stroke-width:1.33333325">0.2</tspan></text>
+
 
 
 
@@ -8518,6 +8855,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text952"
@@ -8528,6 +8866,7 @@
      sodipodi:role="line"
      id="tspan950"
      style="stroke-width:1.33333325">4.9</tspan></text>
+
 
 
 
@@ -8548,6 +8887,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text960"
@@ -8558,6 +8898,7 @@
      sodipodi:role="line"
      id="tspan958"
      style="stroke-width:1.33333325">0.3</tspan></text>
+
 
 
 
@@ -8578,6 +8919,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text968"
@@ -8588,6 +8930,7 @@
      sodipodi:role="line"
      id="tspan966"
      style="stroke-width:1.33333325">4.3</tspan></text>
+
 
 
 
@@ -8608,6 +8951,7 @@
 
 
 
+
 <text
    style="font-variant:normal;font-weight:normal;font-size:8px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
    id="text976"
@@ -8618,6 +8962,7 @@
      sodipodi:role="line"
      id="tspan974"
      style="stroke-width:1.33333325">0.6</tspan></text>
+
 
 
 
@@ -8646,6 +8991,7 @@
 
 
 
+
 <text
    id="text88-4"
    style="font-variant:normal;font-weight:normal;font-size:13.33333302px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
@@ -8663,6 +9009,7 @@
 
 
 
+
 <text
    id="text92-2"
    style="font-variant:normal;font-weight:normal;font-size:13.33333302px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
@@ -8673,6 +9020,7 @@
      y="114.87719"
      x="278.7619"
      style="stroke-width:1.33333325">L227 2014 Bin 106 (91.14/67.16/79.37)</tspan></text>
+
 
 
 
@@ -8699,6 +9047,7 @@
 
 
 
+
 <text
    id="text100-6"
    style="font-variant:normal;font-weight:normal;font-size:13.33333302px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
@@ -8709,6 +9058,7 @@
      y="62.743858"
      x="286.18378"
      style="stroke-width:1.33333325">L227 2014 Bin 92 (77.45/27.64/79.73)</tspan></text>
+
 
 
 
@@ -8735,20 +9085,22 @@
 
 
 
+
 <text
    id="text108-1"
    style="font-variant:normal;font-weight:normal;font-size:13.33333302px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333325"
-   x="261.07962"
+   x="264.77753"
    y="10.610524"><tspan
      id="tspan106-5"
      sodipodi:role="line"
      y="10.610524"
-     x="261.07962"
+     x="264.77753"
      style="stroke-width:1.33333325"><tspan
    style="font-weight:bold"
    id="tspan2584"><tspan
    style="font-style:italic"
-   id="tspan2586">Ca.</tspan> Chl. canadensis L304-6D</tspan> (99.43/0/0)</tspan></text>
+   id="tspan2586">Ca.</tspan> Chl. canadense L304-6D</tspan> (99.43/0/0)</tspan></text>
+
 
 
 
@@ -8768,6 +9120,7 @@
      style="stroke-width:1.33333325"><tspan
    style="font-weight:bold;stroke-width:1.33333325"
    id="tspan7545-6">L227 enrichment S−6D GSB</tspan> (99.45/1.01/33.33)</tspan></text>
+
 
 
 

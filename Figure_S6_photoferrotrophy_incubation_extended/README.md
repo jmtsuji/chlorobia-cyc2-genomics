@@ -17,7 +17,7 @@ Along with the `Fe_incubation_plotting_data_191212_Fig_S6.tsv` data file in `inp
 - `sample_metadata.tsv` - information about each bottle run in the experiment
 - `timepoint_metadata.tsv` - information about each experiment time point
 
-Ran `plot/Figure_S6_plotter.ipynb` in a Jupyter notebook (using Python 3) to produce `plot/Figure_S6_raw.pdf` (note: "Ca. Chl. canadensis" is accidentally named "Ca. Chl. borealis" here). Note that you'll need to install all libraries loaded at the top of the script. After running the script, I then cleaned up the raw figure in Inkscape to make `plot/Figure_S6_cleaned.pdf`, the final figure.
+Ran `plot/Figure_S6_plotter.ipynb` in a Jupyter notebook (using Python 3) to produce `plot/Figure_S6_raw.pdf` (note: "Ca. Chl. canadense" is accidentally named "Ca. Chl. borealis" here). Note that you'll need to install all libraries loaded at the top of the script. After running the script, I then cleaned up the raw figure in Inkscape to make `plot/Figure_S6_cleaned.pdf`, the final figure.
 
 This results in the following figure:
 ![Figure_S6](plot/Figure_S6_cleaned.png)
