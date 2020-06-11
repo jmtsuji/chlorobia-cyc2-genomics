@@ -17,7 +17,7 @@
    viewBox="0 0 1082.8642 479.64395"
    sodipodi:docname="Figure_02_cleaned.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   inkscape:export-filename="C:\Users\JTsuji\Downloads\chlorobia-cyc2-genomics\Figure_02_Fe_S_gene_pathways\Figure_02_cleaned.png"
+   inkscape:export-filename="D:\share\work_copied\02_S2018_L227_111314_metagenomes\11_resubmission_round2\chlorobia-cyc2-genomics\Figure_02_Fe_S_gene_pathways\Figure_02_cleaned.png"
    inkscape:export-xdpi="400.09677"
    inkscape:export-ydpi="400.09677"><metadata
      id="metadata8"><rdf:RDF><cc:Work
@@ -516,9 +516,9 @@
      inkscape:window-height="1644"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="1.4323124"
-     inkscape:cx="319.08235"
-     inkscape:cy="319.39768"
+     inkscape:zoom="2.8646248"
+     inkscape:cx="430.78982"
+     inkscape:cy="235.61707"
      inkscape:window-x="-16"
      inkscape:window-y="-16"
      inkscape:window-maximized="1"
@@ -626,6 +626,7 @@
    id="tspan4912"
    style="font-style:italic">Ignavibacterium album </tspan>JCM 16511 (outgroup)</tspan></text>
 
+
 <path
    d="m 421.95387,98.998003 125.305,0.07001 c 1.816,0 3.285,-1.465005 3.285,-3.285 v -2.535001 c 0,-1.820002 -1.461,-3.285 -3.281,-3.285 l -125.301,-0.07102 c -1.82,-0.003 -3.285,1.461 -3.289,3.282 v 2.535001 c 0,1.820002 1.465,3.285 3.281,3.288997 z"
    style="fill:#00afda;fill-opacity:0.35686298;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -642,6 +643,7 @@
      x="418.62497"><tspan
    id="tspan4910"
    style="font-style:italic">Che. thalassium </tspan>ATCC 35110</tspan></text>
+
 
 <path
    d="m 443.32087,111.8045 103.934,0.058 c 1.82,0 3.285,-1.465 3.289,-3.281 v -3.641 c 0,-1.816 -1.461,-3.285 -3.281,-3.285 l -103.938,-0.058 c -1.82,0 -3.285,1.464 -3.285,3.281 l -0.004,3.64 c 0,1.821 1.465,3.28601 3.285,3.28601 z"
@@ -660,6 +662,7 @@
    id="tspan4908"
    style="font-style:italic">Cba. parvum </tspan>NCIB 8327</tspan></text>
 
+
 <path
    d="m 474.85587,123.8415 72.399,0.043 c 1.82,0 3.285,-1.465 3.289,-3.286 v -3.175 c 0,-1.821 -1.461,-3.285 -3.281,-3.285 l -72.399,-0.043 c -1.82,0 -3.285,1.464 -3.289,3.285 v 3.175 c 0,1.821 1.461,3.28601 3.281,3.28601 z"
    style="fill:#38af5c;fill-opacity:0.35686298;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -676,6 +679,7 @@
      x="472.24802"><tspan
    id="tspan4906"
    style="font-style:italic">Chl. tepidum </tspan>TLS</tspan></text>
+
 
 <path
    d="m 432.20387,136.207 115.051,0.066 c 1.82,0 3.285,-1.46499 3.289,-3.285 v -3.43399 c 0,-1.81601 -1.461,-3.285 -3.281,-3.285 l -115.055,-0.062 c -1.82,-0.004 -3.285,1.46 -3.285,3.281 l -0.004,3.433 c 0,1.821 1.465,3.286 3.285,3.286 z"
@@ -694,6 +698,7 @@
    id="tspan4904"
    style="font-style:italic">Chl. phaeobacteroides</tspan> BS1</tspan></text>
 
+
 <path
    d="m 450.13387,148.025 97.125,0.055 c 1.816,0 3.285,-1.465 3.285,-3.285 v -2.535 c 0,-1.821 -1.461,-3.285 -3.281,-3.285 l -97.121,-0.055 c -1.821,-0.004 -3.286,1.461 -3.286,3.28101 l -0.004,2.535 c 0,1.821 1.465,3.285 3.282,3.289 z"
    style="fill:#00afda;fill-opacity:0.35686298;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -711,6 +716,7 @@
    id="tspan4902"
    style="font-style:italic">Ptc. aestuarii </tspan>DSM 271</tspan></text>
 
+
 <path
    d="m 417.56143,160.717 129.6766,0.07 c 1.82932,0.004 3.30182,-1.461 3.30584,-3.281 v -3.434 c 0,-1.82 -1.46848,-3.285 -3.2978,-3.285 l -129.68062,-0.074 c -1.8253,0 -3.30182,1.465 -3.30182,3.285 v 3.434 c -0.004,1.816 1.46848,3.285 3.2978,3.285 z"
    style="fill:#38af5c;fill-opacity:0.35686298;fill-rule:nonzero;stroke:none;stroke-width:1.0025568"
@@ -727,6 +733,7 @@
      x="414.24997"><tspan
    id="tspan4900"
    style="font-style:italic">Chl. phaeovibrioides </tspan>DSM 265</tspan></text>
+
 
 <g
    transform="matrix(0.95700601,0,0,-1,279.70733,203.377)"
@@ -769,6 +776,7 @@
    id="tspan4898"
    style="font-style:italic">Chl. luteolum</tspan> DSM 273*</tspan></text>
 
+
 <g
    transform="matrix(0.43566628,0,0,-1,427.24857,215.627)"
    id="g2318-3-1-9"><g
@@ -810,6 +818,7 @@
    id="tspan4896"
    style="font-style:italic">Chl. </tspan>sp. N1</tspan></text>
 
+
 <path
    d="m 453.46587,197.0475 93.793,0.051 c 1.816,0 3.285,-1.461 3.285,-3.282 v -2.539 c 0,-1.816 -1.461,-3.285 -3.281,-3.285 l -93.793,-0.051 c -1.821,-0.004 -3.285,1.461 -3.285,3.282 v 2.535 c -0.004,1.82 1.46,3.285 3.281,3.289 z"
    style="fill:#00afda;fill-opacity:0.35686298;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -826,6 +835,7 @@
      x="450.98825"><tspan
    id="tspan4894"
    style="font-style:italic">Chl. limicola </tspan>DSM 245</tspan></text>
+
 
 <path
    d="m 408.50487,209.5395 138.75,0.078 c 1.82,0.004 3.285,-1.461 3.289,-3.281 v -3.051 c 0,-1.816 -1.461,-3.285 -3.281,-3.285 l -138.75,-0.078 c -1.821,0 -3.285,1.465 -3.289,3.285 v 3.047 c 0,1.82 1.464,3.285 3.281,3.285 z"
@@ -844,6 +854,7 @@
    id="tspan4892"
    style="font-style:italic">Chl. phaeobacteroides</tspan> DSM 266</tspan></text>
 
+
 <path
    d="m 435.53187,221.553 111.727,0.063 c 1.816,0 3.285,-1.465 3.285,-3.286 v -2.535 c 0,-1.82 -1.461,-3.285 -3.281,-3.285 l -111.727,-0.066 c -1.816,0 -3.285,1.465 -3.285,3.285 v 2.535 c -0.004,1.82 1.461,3.285 3.281,3.289 z"
    style="fill:#00afda;fill-opacity:0.35686298;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -860,6 +871,7 @@
      x="432.68259"><tspan
    id="tspan4890"
    style="font-style:italic">Chl. chlorochromatii </tspan>CaD3</tspan></text>
+
 
 <g
    transform="matrix(1.2526034,0,0,-1.0064514,196.05207,347.17672)"
@@ -903,6 +915,7 @@
    id="tspan4914"
    style="font-style:italic;font-weight:bold">Ca. </tspan>Chl. canadense L304−6D*</tspan></text>
 
+
 <path
    d="m 444.24287,246.063 103.016,0.059 c 1.816,0 3.285,-1.465 3.285,-3.285 v -2.535 c 0,-1.821 -1.461,-3.285 -3.281,-3.285 l -103.016,-0.059 c -1.816,0 -3.285,1.461 -3.285,3.281 v 2.539 c -0.004,1.817 1.461,3.285 3.281,3.285 z"
    style="fill:#e16e1a;fill-opacity:0.35686298;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -919,6 +932,7 @@
      x="441.74997"><tspan
    id="tspan4888"
    style="font-style:italic">Chl. ferrooxidans </tspan>KoFox</tspan></text>
+
 
 <path
    d="m 423.10587,258.755 124.149,0.07 c 1.82,0.004 3.285,-1.461 3.289,-3.281 v -3.434 c 0,-1.82 -1.461,-3.285 -3.281,-3.285 l -124.149,-0.07 c -1.82,0 -3.285,1.461 -3.285,3.28101 l -0.004,3.434 c 0,1.82 1.465,3.285 3.281,3.285 z"
@@ -937,6 +951,7 @@
    id="tspan4886"
    style="font-style:italic">Chl. phaeoferrooxidans</tspan> KB01</tspan></text>
 
+
 <path
    d="m 467.99358,270.5815 79.28769,0.043 c 1.80362,0 3.2626,-1.461 3.2626,-3.282 v -2.539 c 0,-1.816 -1.45104,-3.285 -3.25863,-3.285 l -79.28769,-0.043 c -1.80461,-0.004 -3.2636,1.461 -3.2636,3.281 v 2.536 c 0,1.82 1.45104,3.285 3.25963,3.289 z"
    style="fill:#00afda;fill-opacity:0.35686298;fill-rule:nonzero;stroke:none;stroke-width:0.99658501"
@@ -953,6 +968,7 @@
      y="-262.45999"
      x="465.81247">L227 2013 bin 55*</tspan></text>
 
+
 <text
    id="text190"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -964,6 +980,7 @@
      sodipodi:role="line"
      y="-274.70999"
      x="465.81247">L227 2013 bin 22*</tspan></text>
+
 
 <path
    d="m 468.11951,295.0895 79.16673,0.047 c 1.80087,0 3.25763,-1.465 3.25763,-3.282 v -2.539 c 0,-1.82 -1.44883,-3.285 -3.25366,-3.285 l -79.16673,-0.047 c -1.80186,0 -3.25862,1.465 -3.25862,3.285 v 2.536 c 0,1.82 1.44882,3.285 3.25465,3.285 z"
@@ -980,6 +997,7 @@
      sodipodi:role="line"
      y="-286.97"
      x="465.81247">L227 2013 bin 56*</tspan></text>
+
 
 <path
    d="m 444.24287,307.334 103.016,0.058 c 1.816,0 3.285,-1.465 3.285,-3.285 v -2.535 c 0,-1.82 -1.461,-3.285 -3.281,-3.285 l -103.016,-0.059 c -1.816,0 -3.285,1.461 -3.285,3.281 v 2.539 c -0.004,1.817 1.461,3.286 3.281,3.286 z"
@@ -998,6 +1016,7 @@
    id="tspan4884"
    style="font-style:italic">Chl. clathratiforme</tspan> BU−1</tspan></text>
 
+
 <text
    id="text202"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1009,6 +1028,7 @@
      sodipodi:role="line"
      y="-311.48001"
      x="437.74606">L227 enrichment S−6D*</tspan></text>
+
 
 <path
    d="m 492.34887,331.8575 55.171,0.031 c 1.672,0 3.024,-1.348 3.024,-3.024 v -3.058 c 0,-1.676 -1.344,-3.024 -3.02,-3.027 l -55.172,-0.028 c -1.675,-0.004 -3.023,1.344 -3.023,3.02 v 3.062 c -0.004,1.672 1.344,3.02 3.02,3.024 z"
@@ -1025,6 +1045,7 @@
      sodipodi:role="line"
      y="-323.73001"
      x="490.85153">L442 bin 64*</tspan></text>
+
 
 <g
    id="g208" /><g
@@ -1526,6 +1547,7 @@
      sodipodi:role="line"
      id="tspan628">100</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1536,6 +1558,7 @@
      y="-167.8909"
      sodipodi:role="line"
      id="tspan632">49</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -1548,6 +1571,7 @@
      sodipodi:role="line"
      id="tspan636">100</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1558,6 +1582,7 @@
      y="-223.83997"
      sodipodi:role="line"
      id="tspan640">73</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -1570,6 +1595,7 @@
      sodipodi:role="line"
      id="tspan644">100</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1580,6 +1606,7 @@
      y="-219.63824"
      sodipodi:role="line"
      id="tspan648">99</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -1592,6 +1619,7 @@
      sodipodi:role="line"
      id="tspan652">87</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1602,6 +1630,7 @@
      y="-284.76089"
      sodipodi:role="line"
      id="tspan656">97</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -1614,6 +1643,7 @@
      sodipodi:role="line"
      id="tspan660">99</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1624,6 +1654,7 @@
      y="-314.36908"
      sodipodi:role="line"
      id="tspan664">54</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -1636,6 +1667,7 @@
      sodipodi:role="line"
      id="tspan668">98</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1646,6 +1678,7 @@
      y="-281.03915"
      sodipodi:role="line"
      id="tspan672">98</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -1658,6 +1691,7 @@
      sodipodi:role="line"
      id="tspan676">100</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1668,6 +1702,7 @@
      y="-195.25916"
      sodipodi:role="line"
      id="tspan680">81</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -1680,6 +1715,7 @@
      sodipodi:role="line"
      id="tspan684">100</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1690,6 +1726,7 @@
      y="-176.90179"
      sodipodi:role="line"
      id="tspan688">100</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -1702,6 +1739,7 @@
      sodipodi:role="line"
      id="tspan692">100</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -1712,6 +1750,7 @@
      y="-113.24825"
      sodipodi:role="line"
      id="tspan696">100</tspan></text>
+
 
 <path
    d="M 438.77121,106.73 H 375.34"
@@ -1834,6 +1873,7 @@
      sodipodi:role="line"
      y="-91.936333"
      x="152.73001">0.08</tspan></text>
+
 
 </g><g
    id="g748"><g
@@ -5441,6 +5481,7 @@
    style="font-style:italic"
    id="tspan5261">cyt. c5</tspan>)</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,577.93,5.48)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5449,6 +5490,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan2650">Bacterioferritin</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,590.24,47.72)"
@@ -5460,6 +5502,7 @@
      id="tspan2654"
      style="font-style:italic">cysH</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,602.56,47.72)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5469,6 +5512,7 @@
      sodipodi:role="line"
      id="tspan2658"
      style="font-style:italic">cysD</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,614.88,47.72)"
@@ -5480,6 +5524,7 @@
      id="tspan2662"
      style="font-style:italic">cysN</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,627.2,48.27)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5489,6 +5534,7 @@
      sodipodi:role="line"
      id="tspan2666"
      style="font-style:italic">cysP</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,639.51,48.83)"
@@ -5500,6 +5546,7 @@
      id="tspan2670"
      style="font-style:italic">cysT</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,651.83,45.5)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5509,6 +5556,7 @@
      sodipodi:role="line"
      id="tspan2674"
      style="font-style:italic">cysW</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,664.15,56.05)"
@@ -5520,6 +5568,7 @@
      id="tspan2678"
      style="font-style:italic">sqr</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,676.47,49.38)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5529,6 +5578,7 @@
      sodipodi:role="line"
      id="tspan2682"
      style="font-style:italic">dsrA</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,688.78,49.38)"
@@ -5540,6 +5590,7 @@
      id="tspan2686"
      style="font-style:italic">dsrB</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,701.1,48.83)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5549,6 +5600,7 @@
      sodipodi:role="line"
      id="tspan2690"
      style="font-style:italic">dsrC</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,713.42,49.38)"
@@ -5560,6 +5612,7 @@
      id="tspan2694"
      style="font-style:italic">dsrE</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,725.73,49.94)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5569,6 +5622,7 @@
      sodipodi:role="line"
      id="tspan2698"
      style="font-style:italic">dsrF</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,738.05,48.83)"
@@ -5580,6 +5634,7 @@
      id="tspan2702"
      style="font-style:italic">dsrH</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,750.37,50.49)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5589,6 +5644,7 @@
      sodipodi:role="line"
      id="tspan2706"
      style="font-style:italic">dsrL</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,762.69,48.83)"
@@ -5600,6 +5656,7 @@
      id="tspan2710"
      style="font-style:italic">dsrN</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,775,47.72)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5609,6 +5666,7 @@
      sodipodi:role="line"
      id="tspan2714"
      style="font-style:italic">dsrM</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,787.32,49.38)"
@@ -5620,6 +5678,7 @@
      id="tspan2718"
      style="font-style:italic">dsrK</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,799.64,48.27)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5629,6 +5688,7 @@
      sodipodi:role="line"
      id="tspan2722"
      style="font-style:italic">dsrO</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,811.95,49.38)"
@@ -5640,6 +5700,7 @@
      id="tspan2726"
      style="font-style:italic">dsrP</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,824.27,49.93)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5649,6 +5710,7 @@
      sodipodi:role="line"
      id="tspan2730"
      style="font-style:italic">tusA</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,836.59,50.49)"
@@ -5660,6 +5722,7 @@
      id="tspan2734"
      style="font-style:italic">fccA</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,848.91,50.49)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5669,6 +5732,7 @@
      sodipodi:role="line"
      id="tspan2738"
      style="font-style:italic">fccB</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,861.22,48.82)"
@@ -5680,6 +5744,7 @@
      id="tspan2742"
      style="font-style:italic">aprA</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,873.54,48.82)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5689,6 +5754,7 @@
      sodipodi:role="line"
      id="tspan2746"
      style="font-style:italic">aprB</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,885.86,56.6)"
@@ -5700,6 +5766,7 @@
      id="tspan2750"
      style="font-style:italic">sat</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,898.17,43.82)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5709,6 +5776,7 @@
      sodipodi:role="line"
      id="tspan2754"
      style="font-style:italic">qmoB</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,910.49,43.27)"
@@ -5720,6 +5788,7 @@
      id="tspan2758"
      style="font-style:italic">qmoC</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,922.81,48.01)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5729,6 +5798,7 @@
      sodipodi:role="line"
      id="tspan2762"
      style="font-style:italic">soxX</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,935.13,48.01)"
@@ -5740,6 +5810,7 @@
      id="tspan2766"
      style="font-style:italic">soxY</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,947.44,48.57)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5749,6 +5820,7 @@
      sodipodi:role="line"
      id="tspan2770"
      style="font-style:italic">soxZ</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,959.76,48.01)"
@@ -5760,6 +5832,7 @@
      id="tspan2774"
      style="font-style:italic">soxA</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,972.08,48.01)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5769,6 +5842,7 @@
      sodipodi:role="line"
      id="tspan2778"
      style="font-style:italic">soxB</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,984.39,48.01)"
@@ -5780,6 +5854,7 @@
      id="tspan2782"
      style="font-style:italic">soyY</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,996.71,48.57)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5789,6 +5864,7 @@
      sodipodi:role="line"
      id="tspan2786"
      style="font-style:italic">soyZ</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,1009.03,46.59)"
@@ -5800,6 +5876,7 @@
      id="tspan2790"
      style="font-style:italic">hupS</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,1021.35,47.7)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5809,6 +5886,7 @@
      sodipodi:role="line"
      id="tspan2794"
      style="font-style:italic">hupL</tspan></text>
+
 
 <text
    transform="matrix(0,1,1,0,1033.66,46.04)"
@@ -5820,6 +5898,7 @@
      id="tspan2798"
      style="font-style:italic">hupC</tspan></text>
 
+
 <text
    transform="matrix(0,1,1,0,1045.98,46.04)"
    style="font-variant:normal;font-weight:normal;font-size:10px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -5829,6 +5908,7 @@
      sodipodi:role="line"
      id="tspan2802"
      style="font-style:italic">hupD</tspan></text>
+
 
 </g><g
    id="g2806" /><g
@@ -5959,6 +6039,7 @@
      x="1007.0499"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'">Amino acid </tspan></text>
 
+
 <text
    y="-187.80792"
    x="1007.0499"
@@ -5970,6 +6051,7 @@
      y="-187.80792"
      x="1007.0499"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'">identity (%)</tspan></text>
+
 
 </g></g><g
        id="g5479"><g
@@ -6031,6 +6113,7 @@
      y="0"
      x="0">40</tspan></text>
 
+
 </g><g
          transform="translate(-578.07889,-184.77138)"
          id="g3048"><text
@@ -6041,6 +6124,7 @@
      sodipodi:role="line"
      y="0"
      x="0">60</tspan></text>
+
 
 </g><g
          transform="translate(-578.07889,-184.77138)"
@@ -6053,6 +6137,7 @@
      y="0"
      x="0">80</tspan></text>
 
+
 </g><g
          transform="translate(-578.07889,-184.77138)"
          id="g3076"><text
@@ -6063,6 +6148,7 @@
      sodipodi:role="line"
      y="0"
      x="0">100</tspan></text>
+
 
 </g></g></g><g
      transform="translate(44.654656,17.126383)"
@@ -6082,6 +6168,7 @@
      y="-10.881722"
      x="240.15094">Iron(II)</tspan></text>
 
+
 <path
    inkscape:connector-curvature="0"
    id="path2220-2"
@@ -6098,6 +6185,7 @@
      y="13.023489"
      x="240.34236">Sulfide/thiosulfate</tspan></text>
 
+
 <text
    id="text2228"
    style="font-variant:normal;font-weight:bold;font-size:10.00000095px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -6110,6 +6198,7 @@
      y="-23.463251"
      x="224.78296">Photosynthesis electron donor</tspan></text>
 
+
 <text
    id="text2232"
    style="font-variant:normal;font-weight:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
@@ -6121,6 +6210,7 @@
      sodipodi:role="line"
      y="25.024817"
      x="225.51971"> *Not experimentally validated</tspan></text>
+
 
 <path
    inkscape:connector-curvature="0"
@@ -6137,6 +6227,7 @@
      sodipodi:role="line"
      y="1.5664891"
      x="240.34238">Sulfide</tspan></text>
+
 
 </g></g><g
    id="g5377"
@@ -6177,17 +6268,18 @@
        inkscape:connector-curvature="0" /></g></g><text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
-   x="550.32281"
+   x="542.46149"
    y="18.203074"
    id="text5874"
    transform="scale(1,-1)"><tspan
      sodipodi:role="line"
-     x="550.32281"
+     x="542.46149"
      y="18.203074"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.75"
      id="tspan5878">Fe<tspan
    style="font-size:8px;baseline-shift:super"
-   id="tspan5924">2+</tspan> ox.</tspan></text>
+   id="tspan5924">2+</tspan> ox. (?)</tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -6206,6 +6298,7 @@
    style="font-size:8px;baseline-shift:super"
    id="tspan5932">2-</tspan> uptake</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -6220,6 +6313,7 @@
      id="tspan5878-9">S<tspan
    style="font-size:8px;baseline-shift:super"
    id="tspan5936">2-</tspan> oxidation</tspan></text>
+
 
 <text
    xml:space="preserve"
@@ -6240,6 +6334,7 @@
    style="font-size:8px;baseline-shift:super"
    id="tspan5948">2-</tspan> ox.</tspan></text>
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-weight:normal;font-size:10px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -6254,6 +6349,7 @@
      id="tspan5878-4">H<tspan
    style="font-size:8px;baseline-shift:sub"
    id="tspan5952">2</tspan> ox.</tspan></text>
+
 
 <path
    style="fill:none;stroke:#000000;stroke-width:1.6500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
