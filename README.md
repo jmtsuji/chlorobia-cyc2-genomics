@@ -1,8 +1,8 @@
 # ABOUT IISD-ELA _Chlorobia_ _cyc2_ genomics project
-Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
+Copyright Jackson M. Tsuji, Neufeld Research Group, 2020  
 [![Github repo DOI](https://zenodo.org/badge/168807016.svg)](https://zenodo.org/badge/latestdoi/168807016)
 
-This Github repository describes the steps/code used to perform bioinformatics analysis for the paper by Tsuji and colleagues, "Genomic potential for photoferrotrophy in a seasonally anoxic Boreal Shield lake" (2019; [biorxiv pre-print available here](https://doi.org/10.1101/653014). Descriptor files in this repo are in the Markdown (`.md`) format and begin with `README`. Other files include scripts and raw data files.
+This Github repository describes the steps/code used to perform bioinformatics analysis for the paper by Tsuji and colleagues, "Anoxygenic photosynthesis and iron-sulfur metabolic potential of _Chlorobia_ populations from seasonally anoxic Boreal Shield lakes" (2020; [biorxiv pre-print available here](https://doi.org/10.1101/653014). Descriptor files in this repo are in the Markdown (`.md`) format and begin with `README`. Other files include scripts and raw data files.
 
 ## The information is organized as follows:
 ### `Data_analysis_pipeline`
@@ -14,7 +14,7 @@ Describes the protocol used to produce assembled contigs and genome bins from th
 A unique folder exists for most main or supplementary tables/figures in the publication, e.g., `Figure_01_cyc2_genes`. These describe the steps required to analyze the data for the figure and to generate a raw version of the figure for downstream editing.
 
 ### `Other`
-Some supplementary material did not warrant having its own folder, so it is grouped in the `Other` folder exactly as it would appear in the Supplementary Information on the journal website.
+Some supplementary material did not warrant having its own folder, so it is grouped in the `Other` folder in the same way that it would appear in the Supplementary Information on the journal website.
 
 ## Additional information about this repo
 ### Zenodo
