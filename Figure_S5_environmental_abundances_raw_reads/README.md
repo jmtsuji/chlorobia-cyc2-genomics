@@ -2,7 +2,7 @@
 Copyright Jackson M. Tsuji, Neufeld Research Group, 2019  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
-This figure was build as a validation for Figure 3. Figure 3 relies on read mapping to genomic bins. For Figure S5, meanwhile, unassembled reads were scanned directly using HMMs, and taxonomic affiliations of each hit were determined (via MetAnnotate). The correspondance between the data in Figures 3 and S5 are fairly reasonable (within ~2x; see the manuscript text), implying that the methods are fairly robist.
+This figure was built as a validation for Figure 3. Figure 3 relies on read mapping to genomic bins. For Figure S5, meanwhile, unassembled reads were scanned directly using HMMs, and taxonomic affiliations of each hit were determined (via MetAnnotate). The correspondance between the data in Figures 3 and S5 are fairly reasonable (within ~2x; see the manuscript text), implying that the methods are fairly robist.
 
 ## 1. Data collection
 The `input_files` directory contains the data used to create the plot:

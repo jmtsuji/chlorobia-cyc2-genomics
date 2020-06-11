@@ -1,0 +1,16 @@
+raw_name	new_name
+Cyc2_repCluster1	cyc2_group1
+Cyc1	cyc1
+Cyc2_repCluster2	cyc2_group2
+Cyc2_repCluster3	cyc2_group3
+CymA	cymA
+MtrA	mtrA
+MtrB_TIGR03509	mtrB
+MtrC_TIGR03507	mtrC
+643596352 YP_002493935 {pc} hypothetical protein [Anaeromyxobacter dehalogenans 2CP-1: NC_011891]	A. dehalogenans PCC-1
+637864946 YP_466595 {porin} hypothetical protein [Anaeromyxobacter dehalogenans 2CP-C: NC_007760]	A. dehalogenans PCC-2
+642557020 CAJ74788 {pc} hypothetical multiheme cytochrome c protein [Kuenenia stuttgartiensis genome fragment KUST_E (5 of 5).: CT573071]	K. stuttgartiensis PCC-1
+642557019 CAJ74787 {porin} unknown protein [Kuenenia stuttgartiensis genome fragment KUST_E (5 of 5).: CT573071]	K. stuttgartiensis PCC-2
+637778105 YP_383794 {pc} cytochrome c family protein [Geobacter metallireducens GS-15: NC_007517]	G. metallireducens PCC-1
+637127334 NP_953689 {porin} (extB) hypothetical protein [Geobacter sulfurreducens PCA: NC_002939]	G. metallireducens PCC-2
+MtoA	mtoA
