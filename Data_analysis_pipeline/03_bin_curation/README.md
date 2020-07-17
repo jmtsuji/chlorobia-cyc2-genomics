@@ -124,7 +124,7 @@ tbls_joined <- tbls_joined[,c(2,3,1,4:ncol(tbls_joined))]
 write.table(tbls_joined, file = "output/dRep_summary.csv", sep = ",", row.names = F, col.names = T, quote = F)
 quit(save = "no")
 ```
-The output table here was cleaned up to produce `File_S5.csv`, a copy of which is included in the `01_dereplication` subfolder. Note that the enrichment bins had to be added manually.
+The output table here was cleaned up to produce `File_S4.csv`, a copy of which is included in the `01_dereplication` subfolder. Note that the enrichment bins had to be added manually.
 
 
 ## Manual cleanup of selected bins

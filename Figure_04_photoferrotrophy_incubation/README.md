@@ -39,7 +39,7 @@ cd "${work_dir}"
 "${script_dir}/96_well_spec_analysis.R" --spec_file 191212_measurement/191212_Chl1_photoferrotrophy_t8_t9_final.txt --metadata_file 191212_measurement/191212_Chl1_photoferrotrophy_t8_t9_final_metadata_vs2.tsv --run_name 191212_measurement/analyzed/191212_FeZ 2>&1 | tee 191212_measurement/analyzed/191212_FeZ.log
 ```
 
-Pasted together the `*_unknowns.tsv` files (from 191121 until 191125) into a single TSV file in the `summary` folder, `Fe_incubation_plotting_data_191125_Fig_4.tsv`. Also pasted together all of the above `*_unknowns.tsv` files (from 191121 until 191212) into another TSV file in the `summary` folder, `Fe_incubation_plotting_data_191212_Fig_S7.tsv`, which will be used for Supplementary Figure 7.
+Pasted together the `*_unknowns.tsv` files (from 191121 until 191125) into a single TSV file in the `summary` folder, `Fe_incubation_plotting_data_191125_Fig_4.tsv`. Also pasted together all of the above `*_unknowns.tsv` files (from 191121 until 191212) into another TSV file in the `summary` folder, `Fe_incubation_plotting_data_191212_Fig_S9.tsv`, which will be used for Supplementary Figure 9.
 
 ## 2. Plotted the figure
 Along with the `Fe_incubation_plotting_data_191125_Fig_4.tsv` data file in `input_data/summary`, used the following metadata files in the `plot` folder to guide plotting:
