@@ -10,6 +10,7 @@ Describes the protocol used to produce assembled contigs and genome bins from th
 
 Includes (some highlights):
 - `01_data_acquisition` - contains instructions for how to download the online sequencing data associated with this paper, including raw read data and genome bins
+- `04_HMM_development/02_alignment` - contains an alignment of primary sequences of the *Chlorobia*-associated *cyc2* genes identified in this study, plus reference *cyc2* sequences
 - `04_HMM_development/03_HMMs` - contains the custom HMMs developed in this study
 - `05_bin_analysis/03_metannotate/genome_bins` - contains primary sequences of non-*Chlorobia* *cyc2* genes detected in the lake metagenomes
 
