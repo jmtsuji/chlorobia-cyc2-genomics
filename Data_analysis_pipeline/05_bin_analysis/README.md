@@ -156,12 +156,15 @@ curl -LOJ http://fungene.cme.msu.edu/hmm_download.spr?hmm_id=8
 curl -LOJ http://fungene.cme.msu.edu/hmm_download.spr?hmm_id=31
 ```
 
-The *cyc2* HMM was developed in this study and is available in Supplementary File 2 (`cyc2_all_references.hmm`; see also the `04_HMM_development` folder in `Data_analysis_pipeline`). Added both the *Chlorobia*-specific version and the general version. Will use the general version for the paper figures, but the specific version is interesting to test alongside it for reference.
+The *cyc2* HMM was developed in this study and is available in Supplementary File 2. 
+(That HMM is named `cyc2_all_references.hmm` in the `04_HMM_development` folder in `Data_analysis_pipeline`). 
+Although only that general version of the *cyc2* HMM was used in the paper, the HMM development folder also contains a 
+*Chlorobia*-specific version of the *cyc2* HMM for interest.
 ```bash
 cd ${download_dir}
 
-cp "${github_repo_location}/Other/File_S2/cyc2_all_references.hmm" .
-cp "${github_repo_location}/Other/File_S2/cyc2_Chlorobia.hmm" .
+cp "${github_repo_location}/Data_analysis_pipeline/04_HMM_development/04_HMMs/cyc2_all_references.hmm" .
+cp "${github_repo_location}/Data_analysis_pipeline/04_HMM_development/04_HMMs/cyc2_Chlorobia.hmm" .
 ```
 
 Got prodigal `v2.6.3` amino acid predictions from the GTDBTk intermediate files (from the above GTDBTk step)
@@ -273,6 +276,8 @@ for hmm_name in ${hmm_names[@]}; do
 
 done
 ```
+
+Note: *cyc2* genes were also detected in some non-*Chlorobia* genome bins using MetAnnotate. An aligned summary of all of those hits is available as `cyc2_Fig3_other_hits_L227_L442.faa` in the `03_metannotate/genome_bins` folder. They are presented in the bubble plot in Figure 3.
 
 ## Relative abundance profiling using read mapping
 (This requires you to have run ATLAS. Otherwise, the output file from this analysis is provided in the repo.)  
@@ -472,7 +477,7 @@ sudo chown -R $ref_UID /home/linuxbrew/output
 exit
 ```
 
-The output file `all_annotations`[random_code]`.tsv` shows the hits of the HMMs on all datsets, along with the e-value score. This was renamed (and gzipped) to `metannotate_annotations_unassembled_reads.tsv.gz` for clarity. This file is used in the code for Supplementary Figure 5. Because of its size, it is available for download on Zenodo -- see the Supplementary Figure 5 folder.
+The output file `all_annotations`[random_code]`.tsv` shows the hits of the HMMs on all datsets, along with the e-value score. This was renamed (and gzipped) to `metannotate_annotations_unassembled_reads.tsv.gz` for clarity. This file is used in the code for Supplementary Figure 7. Because of its size, it is available for download on Zenodo -- see the Supplementary Figure 7 folder.
 
 ## Searching for additional genes potentially involved in Fe and S cycling
 Searched the entire genome bin set from this study to get a sense of the Fe/S cycling genomic potential in the lake metagenomes.
@@ -543,7 +548,7 @@ cd "${work_dir}"
 
 FeGenie.py -bin_dir 01_all_genome_bins -bin_ext fa -t 16 -out output 2>&1 | tee FeGenie.log
 ```
-The output file `FeGenie-geneSummary.csv` shows the Fe-cycling related gene hits (and bitscores etc.) for each genome bin. This file is used in the code for Supplementary Figure 6.
+The output file `FeGenie-geneSummary.csv` shows the Fe-cycling related gene hits (and bitscores etc.) for each genome bin. This file is used in the code for Supplementary Figure 8.
 
 ### S cycling genes
 Got HMMs
@@ -636,6 +641,6 @@ hmmsearch --tblout /dev/stdout -o /dev/null -E ${evalue} --cpu ${threads} "${hmm
 done
 done
 ```
-The output file `S_cycling_hmm_search_results_raw.tsv` shows the S-cycling related gene hits (and evalue etc.) for each genome bin. This file is used in the code for Supplementary Figure 6.
+The output file `S_cycling_hmm_search_results_raw.tsv` shows the S-cycling related gene hits (and evalue etc.) for each genome bin. This file is used in the code for Supplementary Figure 8.
 
 All done!

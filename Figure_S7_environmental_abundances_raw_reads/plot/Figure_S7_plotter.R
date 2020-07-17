@@ -1,5 +1,5 @@
-# Plotting MetAnnotate raw read data for the Chlorobia cyc2 paper (supplementary figure S5)
-# Copyright Jackson M. Tsuji, 2019
+# Plotting MetAnnotate raw read data for the Chlorobia cyc2 paper (supplementary figure S7)
+# Copyright Jackson M. Tsuji, 2020
 # Relies on the metannotate-analysis library, version 0.9.5 (see link below)
 
 # Load the library and dependencies
@@ -11,7 +11,7 @@ source("https://github.com/jmtsuji/metannotate-analysis/releases/download/v0.9.5
 metannotate_table_filename <- here::here("input_data", "metannotate_annotations_unassembled_reads.tsv.gz")
 hmm_naming_info_filename <- here::here("input_data", "hmm_info.tsv")
 dataset_naming_info_filename <- here::here("input_data", "dataset_info.tsv")
-output_basename <- here::here("plot", "Figure_S5")
+output_basename <- here::here("plot", "Figure_S7")
 abundance_threshold <- 0.01 # Expressed as a proportion; any taxon under this will not be plotted
 plotting_taxon <- "Family"
 evalue <- 1e-10

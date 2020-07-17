@@ -1,4 +1,4 @@
-# ABOUT Supplementary Figure S6 - additional iron/sulfur cycling genes among genome bins from this study
+# ABOUT Supplementary Figure S8 - additional iron/sulfur cycling genes among genome bins from this study
 Copyright Jackson M. Tsuji, Neufeld Research Group, 2020  
 Part of the larger *IISD-ELA Chlorobia cyc2 project*.
 
@@ -12,7 +12,7 @@ In addition to the files above, used the following metadata files in the `plot` 
 - `S_cycling_hmm_naming.tsv` - information about each experiment time point
 
 ## 2. Plotted the figure
-Ran `plot/Figure_S6_plotter.ipynb` in a Jupyter notebook (using Python 3) to produce `plot/Figure_S6a_raw.pdf` and `plot/Figure_S6b_raw.pdf`. Note that you'll need to install all libraries loaded at the top of the script. After running the script, I then cleaned up the raw figures in Inkscape and pasted them together to make `plot/Figure_S6_cleaned.pdf`, the final figure.
+Ran `plot/Figure_S8_plotter.ipynb` in a Jupyter notebook (using Python 3) to produce `plot/Figure_S8a_raw.pdf` and `plot/Figure_S8b_raw.pdf`. Note that you'll need to install all libraries loaded at the top of the script. After running the script, I then cleaned up the raw figures in Inkscape and pasted them together to make `plot/Figure_S8_cleaned.pdf`, the final figure.
 
 This results in the following figure:
-![Figure_S6](plot/Figure_S6_cleaned.png)
+![Figure_S8](plot/Figure_S8_cleaned.png)

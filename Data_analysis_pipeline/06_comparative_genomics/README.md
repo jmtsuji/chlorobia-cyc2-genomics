@@ -239,10 +239,10 @@ phylogeny_builder_whole_genome.sh -@ ${threads} -b ${bootstrap_replicates} \
     ${genome_dir} ${output_dir} 2>&1 | tee ${log_name}
 
 ```
-The output file `*.treefile` can now be used in generating Figure 2, Supplementary Figure 1, and Supplementary Figure S3.
+The output file `*.treefile` can now be used in generating Figure 2, Supplementary Figure 1, and Supplementary Figure 5.
 
 ## Make subsetted *cyc2* and riboprotein phylogenies for phylogenetic comparison
-This is for Supplementary Figure 4. Subsetting to shared entries between the two sequence sets and then re-aligning and making trees. Procedure is basically the same as above with fewer sequences.
+This is for Supplementary Figure 6. Subsetting to shared entries between the two sequence sets and then re-aligning and making trees. Procedure is basically the same as above with fewer sequences.
 
 Working in `04_subset_phylogenies`
 
@@ -336,10 +336,10 @@ phylogeny_builder_whole_genome.sh -@ ${threads} -b ${bootstrap_replicates} \
     ${genome_dir} ${output_dir} 2>&1 | tee ${log_name}
 ```
 
-Now, the tree files output by these two analyses can be cross-compared -- see the Supplementary Figure 4 folder.
+Now, the tree files output by these two analyses can be cross-compared -- see the Supplementary Figure 6 folder.
 
 ## *Chlorobia* gene pathway analysis
-Made two separate gene heatmaps -- one showing Fe/S/H2 metabolic potential (Fig. 2), and the other showing photosynthesis/C fixation metabolic potential (Fig. S3). Both gene heatmaps were made following a reciprocal BLASTP approach using the BackBLAST pipeline.
+Made two separate gene heatmaps -- one showing Fe/S/H2 metabolic potential (Fig. 2), and the other showing photosynthesis/C fixation metabolic potential (Fig. S5). Both gene heatmaps were made following a reciprocal BLASTP approach using the BackBLAST pipeline.
 
 Before starting, installed BackBLAST, version 2.0.0-alpha2
 ```bash
@@ -454,7 +454,7 @@ BackBLAST_generate_heatmap.R \
 The `BackBLAST_heatmap_combined.pdf` output file in the `02_combined` folder is the raw version of Figure 2 -- see the Figure 2 folder.
 
 ### Part 2: photosynthesis/C fixation genes
-Used for the Supplementary Figure 3 heatmap. In subfolder `02_photosynthesis_C_fixation_genes`
+Used for the Supplementary Figure 5 heatmap. In subfolder `02_photosynthesis_C_fixation_genes`
 
 Manually determined query sequences are already available in this repo in the folder `queries`:
 - `Chl_tepidum_TLS_gene_targets.faa`: query genes selected from `Chl_tepidum_TLS.faa`
@@ -515,7 +515,7 @@ BackBLAST_generate_heatmap.R \
   ${output_dir}/BackBLAST_heatmap_combined.pdf 2>&1 | \
   tee ${output_dir}/generate_backblast_heatmap.log
 ```
-The `BackBLAST_heatmap_combined.pdf` output file in the `02_combined` folder is the raw version of Supplementary Figure 3 -- see the Figure_S3 folder.
+The `BackBLAST_heatmap_combined.pdf` output file in the `02_combined` folder is the raw version of Supplementary Figure 5 -- see the `Figure_S5` folder.
 
 ## ANI calculation for *Chlorobia* genomes
 Used for Supplementary Figure 1
@@ -547,7 +547,7 @@ The output file `Chlorobia_FastANI_results.txt` is used in Supplementary Figure 
 
 
 ## Alignment of cytochrome c5 primary sequences
-The *cyc2* gene in *Chlorobia* appears to consistently be adjacent to a c5 family cytochrome in the genome. I gathered and aligned these sequences to include in Supplementary File 6.
+The *cyc2* gene in *Chlorobia* appears to consistently be adjacent to a c5 family cytochrome in the genome. I gathered and aligned these sequences to include in Supplementary Figure 2.
 
 Obtained reference sequences manually based on the info in `reference_Chlorobia_c5_protein_info.tsv`. **MANUALLY** added sequences from this study. (Didn't code this - just a quick side analysis. Looked for c5 genes immediately adjacent to the cyc2 genes, as I already knew were there based on Figure 1B.) This resulted in `c5_family_Chlorobia_unaligned.faa`
 
@@ -557,7 +557,7 @@ cd "${github_repo_location}/Data_analysis_pipeline/06_comparative_genomics/07_c5
 
 clustalo -i c5_family_Chlorobia_unaligned.faa --full --percent-id --distmat-out=c5_family_Chlorobia_aligned_distmat.txt -o c5_family_Chlorobia_aligned.faa --threads=2 --verbose 2>&1 | tee c5_family_Chlorobia_aligned.log
 ```
-A copy of `c5_family_Chlorobia_aligned.faa` is included in Supplementary File 6.
+The contents of `c5_family_Chlorobia_aligned.faa` are plotted in Supplementary Figure 2.
 
 
 ## Obtaining subsets of GFF files around cyc2
