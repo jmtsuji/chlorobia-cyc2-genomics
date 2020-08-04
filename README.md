@@ -1,8 +1,10 @@
 # ABOUT IISD-ELA _Chlorobia_ _cyc2_ genomics project
 Copyright Jackson M. Tsuji, Neufeld Research Group, 2020  
 [![Github repo DOI](https://zenodo.org/badge/168807016.svg)](https://zenodo.org/badge/latestdoi/168807016)
+[![ISME J publication DOI](https://img.shields.io/badge/ISME%20J-10.1038%2Fs41396--020--0725--0-brightgreen)](https://doi.org/10.1038/s41396-020-0725-0)
+[![biorxiv preprint DOI](https://img.shields.io/badge/biorxiv-10.1101%2F653014-orange)](https://doi.org/10.1101/653014)
 
-This Github repository describes the steps/code used to perform bioinformatics analysis for the paper by Tsuji and colleagues, "Genomic potential for photoferrotrophy in a seasonally anoxic Boreal Shield lake" (2019; [biorxiv pre-print available here](https://doi.org/10.1101/653014). Descriptor files in this repo are in the Markdown (`.md`) format and begin with `README`. Other files include scripts and raw data files.
+This Github repository describes the steps/code used to perform bioinformatics analysis for the paper by Tsuji and colleagues, "Anoxygenic photosynthesis and iron–sulfur metabolic potential of _Chlorobia_ populations from seasonally anoxic Boreal Shield lakes" (2020; [ISME J article available here](https://doi.org/10.1038/s41396-020-0725-0) or 2019 biorxiv pre-print, titled "Genomic potential for photoferrotrophy in a seasonally anoxic Boreal Shield lake", [available here](https://doi.org/10.1101/653014)). Descriptor files in this repo are in the Markdown (`.md`) format and begin with `README`. Other files include scripts and raw data files.
 
 ## The information is organized as follows:
 ### `Data_analysis_pipeline`
@@ -33,7 +35,9 @@ It's likely that there are some typo's in the code. I did not perform all of the
 If you want to try to use something here and are having problems (or have other questions/concerns about the analysis), feel free to post a [Github issue](https://github.com/jmtsuji/chlorobia-cyc2-genomics/issues).
 
 ### Citation
-If you'd like to cite this repo, then please cite the [biorxiv preprint](https://doi.org/10.1101/653014).
+If you'd like to cite this repo, then please cite the [ISME J article](https://doi.org/10.1038/s41396-020-0725-0):
+
+> Tsuji JM, Tran N, Schiff SL, Venkiteswaran JJ, Molot LA, Tank M, Hanada S, Neufeld JD. Anoxygenic photosynthesis and iron–sulfur metabolic potential of _Chlorobia_ populations from seasonally anoxic Boreal Shield lakes. _ISME J_ 2020:1-16.
 
 ## Final remarks
 I hope this is a helpful resource for the scientific community, both in the critique of my work and in further development of bioinformatics. Feel free to post an issue if you have any questions or concerns. Enjoy!  
